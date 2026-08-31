@@ -1,0 +1,2143 @@
+
+
+Sample: 25,025 U.S. adults (Connect/Prime panel, 2023-24) who reached the outcome block, out of 31,324 post-exclusion randomised respondents (22,374 of them finished the whole survey). Each was randomly assigned to one of 17 climate-advocacy interventions or a neutral control video. Interventions are long and heterogeneous in modality: reading tasks, Twitter-feed and magazine-article stimuli, writing tasks, and videos (3-12 minutes; median condition duration 150-390 s). Outcomes are measured immediately after, in a randomised DV order, and mix 0-100 sliders, real 0/1 behaviours (petition signature, newsletter sign-up, letter written), and a real $0-10 donation.
+
+- belief_1 | 0-100 | belief in climate change (0-100 slider; BeliefandPolicySupport block; item wording NOT in the codebook)
+- policy_1 | 0-100 | climate policy support (0-100 slider; BeliefandPolicySupport block; item wording NOT in the codebook)
+- pol_campaign | 0-100 | stated commitment to support a climate-focused political campaign (0-100 slider)
+- pol_candidate | 0-100 | stated commitment to vote for a climate-focused candidate (0-100 slider; asked only of respondents eligible to vote)
+- march | 0-100 | stated commitment to attend a climate march (0-100 slider)
+- conversation | 0-100 | stated commitment to have a conversation about climate change (0-100 slider)
+- petition | 0-1 | BEHAVIOUR: signed a real climate petition (0/1)
+- newsletter1 | 0-1 | BEHAVIOUR: signed up for climate organisation newsletter #1 (0/1) - closest analogue of the target's newsletter_signup
+- newsletter2 | 0-1 | BEHAVIOUR: signed up for climate organisation newsletter #2 (0/1)
+- newsletter | 0-1 | BEHAVIOUR: signed up for at least one of the two newsletters (0/1, = newsletter1 OR newsletter2) [de-zero-filled: 0 for people who never reached the block, so masked to NaN unless a real-NaN DV column is present]
+- letter | 0-1 | BEHAVIOUR: wrote a letter to an elected representative (0/1, completion coded by GPT and manually checked) [de-zero-filled: 0 for people who never reached the block, so masked to NaN unless a real-NaN DV column is present]
+- donation | 0-10 | BEHAVIOUR: dollars of a $10 bonus donated to an environmental organisation ($0-10; 99.7% whole dollars) - same units as the target's donation_ams
+
+CONDITIONS (17 interventions, each vs control):
+
+### ActivistPerspective
+[VIDEO STIMULUS -- content not on disk] The substantive content of this arm is a video that is NOT available in the released materials. Everything below is only the surrounding on-screen instructions and comprehension items.
+
+Climate Activist Perspective Taking
+
+Start of Block: Default Question Block
+
+Q642 Please carefully watch the following video (you may be asked about it in the following pages).
+
+ You will be able to advance the page once this video is over.
+
+Q263
+
+Page Break
+
+Q261 Take the next 3 minutes to reflect and write about a time when you had a negative experience due to environmental pollution and degradation, or due to a climate disaster (hurricane, wildfire, flood, drought), or simply due to the realization that your future and your children's future is in danger because of climate change.
+
+In writing about your experience, please consider the following questions:
+
+	What was the context in which this experience happened?
+	How did you feel?
+	What did you do about it?
+	What did you wish you could do about it?
+
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+End of Block: Default Question Block
+
+### BindingMorals
+Binding Moral Foundations
+
+Start of Block: Default Question Block
+
+Q126
+Protecting the Purity of Our Land
+
+America is a land of pure beauty and pristine nature. Millions of domestic and international tourists visit our nation each year to experience our sacred wonders for themselves. From the mighty trees of Sequoia National Park to the untouched natural sculptures of Arches National Park to the pristine waterfalls and mountains of Yosemite, God has certainly blessed our land. We are the envy of the natural world.
+
+Q127 What do you think? How much do you believe America’s treasures, should be kept pure, pristine, and sacred?
+
+Please answer the prompt in at least 2 sentences using the text box below.
+
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q128 Unfortunately, we’re now at risk of losing it all. Our pristine nature and national parks –God’s gift to us – are descending into a shell of what they once were.
+
+Click forward to see some examples.
+
+Page Break
+
+Q129 Look at the Great Smoky Mountains in the picture below. On the left is what visitors used to see – a spectacular view. But, on the right is what visitors see now because of the polluted air. It’s disgusting how much this natural wonder has been desecrated.
+
+Q130
+
+ The Great Smoky Mountains National Park, rated the worst among National Parks for air quality, seen here on a clear day and a polluted one. 
+
+ 
+
+Q132 Do you agree?
+
+How impure do you think the Great Smoky Mountains look to you in the picture on the right above? 
+
+Not impure at all
+Extremely impure
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (8)
+
+Q133 How disgusting do you find this picture on the right of the Great Smoky Mountains to be?
+
+Not disgusting at all
+Completely disgusting
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (8)
+
+Page Break
+
+Q131 Or look at Old Faithful. The geyser that has come to symbolize natural purity here on God’s green earth. As the climate warms in Yellowstone, Old Faithful has become less reliable and it is now feared that it may dry up forever. The desecration of this great symbol of America’s exceptional natural wonders is sacrilegious.
+
+Q134
+
+Q136 Do you agree?
+
+How impure do you think it would be for Old Faithful to dry up forever due to pollution and a warming climate?
+
+Not impure at all
+Extremely impure
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (8)
+
+Q137 How disgusted would you feel if Old Faithful dried up entirely?
+
+Not disgusted at all
+Completely disgusted
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (8)
+
+Page Break
+
+Q138 Or look at what is happening at Sequoia National Park – the home of the worlds largest and most majestic trees. Only America has been blessed with these symbols of God’s greatness. Yet, rising temperatures and increased draught due to a warming climate has resulted in 85% of these giants being burned. They had lived on God’s green earth for thousands of years. It’s a sin to let this happen.
+
+Q140
+
+Q141 What do you think?
+
+How sinful do you think it would be to let the Sequoia trees die off?
+
+Not sinful at all
+Extremely sinful
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (8)
+
+Q142 How disgusted would you feel if all of our precious Sequoia trees burned down?
+
+Not disgusted at all
+Completely disgusted
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (8)
+
+Page Break
+
+Q143 In all, how much do you feel like we, as Americans, are failing to keep our American treasures, like the Smoky Mountains, Old Faithful, and the Sequoia Trees pure, pristine, and sacred?
+
+Please answer the prompt in at least 2 sentences using the text box below.
+
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q139 There’s much to be done. America’s pristine nature, our sacred natural monuments and symbols must be preserved. We must fight against what is tainting our lands before it is too late. We must stop polluting the air. We must stop emitting unsustainable amounts of carbon into the air. We are causing the earth to warm and the warming is spoiling the purity of our national parks. If we don’t fight climate change’s effects on our nation’s greatest wonders, it will be a blemish on our history.
+
+End of Block: Default Question Block
+
+### BipartisanEliteCues
+[VIDEO STIMULUS -- content not on disk] Part of this arm's content is a video that is NOT available in the released materials; the readable text below is the rest of the stimulus.
+
+Bipartisan Elite Cues
+
+Start of Block: Default Question Block
+
+biparty_experts With support from both Democratic and Republican legislators, as well as non-partisan scientists and policy analysts, the United States recently passed the Bipartisan Infrastructure Law.
+
+The law includes several aspects specifically aimed at addressing climate change. This includes funding for clean energy projects, such as solar, wind, and other renewable energy sources, to both reduce the reliance on fossil fuels and guarantee energy security for the country. Additionally, the law seeks to enhance public transportation through the investment in zero-emission and more modern transit buses and ferries, while also establishing a comprehensive electric vehicle charging network across the nation. Furthermore, the plan involves investments in infrastructure to make it more resilient against flooding, wildfires, and extreme weather events, as well as in ecosystem conservation and restoration efforts and improvements of water management systems, ensuring the delivery of clean water.
+
+Page Break
+
+Q2 In the White House ceremony for the Bipartisan Bill, speakers from both the Republican and Democratic parties, including President Joe Biden (D), Vice-President Kamala Harris (D), Senator Mitch McConnell (R), and Senator Rob Portman (R) celebrated the bipartisan nature of the bill and highlighted some of its initiatives.
+
+End of Block: Default Question Block
+
+Start of Block: Block 1
+
+Q11 In his speech, Senator Rob Portman (Republican Party) emphasized landmark permitting reforms, which will speed up infrastructure investments and respect environmental protection standards.
+
+See part of his speech in the video below. It may take a few seconds to load. After you see it, you will be able to proceed.
+
+ 
+
+End of Block: Block 1
+
+Start of Block: Block 2
+
+Q16 President Joe Biden (Democratic Party) emphasized the wide range of projects that will help make the U.S. population more resilient to extreme climate events. 
+
+See part of his speech in the video below. It may take a few seconds to load. After you see it, you will be able to proceed.
+
+ 
+
+End of Block: Block 2
+
+Start of Block: Block 3
+
+Q18 This coalition of bi-partisan individuals and non-partisan experts is encouraging American citizens to join them to actively advocate for the climate.
+
+End of Block: Block 3
+
+### ClimatePolicyLiteracy
+[VIDEO STIMULUS -- content not on disk] The substantive content of this arm is a video that is NOT available in the released materials. Everything below is only the surrounding on-screen instructions and comprehension items.
+
+Climate Policy Literacy
+
+Start of Block: Default Question Block
+
+Q638 Please carefully watch the following video (you may be asked about it in the following pages).
+
+ You will be able to advance the page once this video is over.
+
+policy_video
+
+policy_completion Were you able to watch and listen to the video until the end?
+Yes  (1)
+No, there was a technical problem  (2)
+No, I skipped part of the video  (3)
+
+policy_attncheck1 From what was said in the video, with a green infrastructure program, how many people could find a job in green sectors in the U.S.?
+500,000 people  (1)
+1.5 million people  (3)
+2.5 million people  (4)
+3.5 million people  (5)
+Don't know  (6)
+
+policy_attncheck2 What is the emission limit described in the video?
+A limit on national CO2 emissions  (1)
+A limit on the CO2 emissions of each person  (3)
+A limit on CO2 emissions from cars  (2)
+A limit on CO2 emissions from the electricity sector  (6)
+Don't know  (5)
+
+End of Block: Default Question Block
+
+### CoBenefits
+Co-Benefits
+
+Start of Block: 3. Call to Action
+
+Q2 Please read the following Twitter-Feed carefully that discusses the co-benefits of climate action.
+
+ 
+
+Page Break
+
+Q3 Did you personally already experience co-benefits of climate change mitigation?
+Financially (e.g., I have installed solar panels and benefit from savings on my energy bills.)  (1)
+Improved health (e.g., I walk/cycle more.)  (2)
+Environment (e.g., My neighborhood has become greener since more trees have been planted in the neighborhood.)  (3)
+Social networks (e.g., I experience community through certain actions I take.)  (4)
+Personally (e.g., I am less scared about energy supply shortages because we rely more on renewable energy sources like solar or wind energy.)  (5)
+Other, specify:  (6) __________________________________________________
+No, I haven’t had any experience with co-benefits yet  (7)
+
+Display This Question:
+If Did you personally already experience co-benefits of climate change mitigation? != No, I haven’t had any experience with co-benefits yet
+
+Q4 Please briefly describe your experienced co-benefit you specified in the question above.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Display This Question:
+If Did you personally already experience co-benefits of climate change mitigation? = No, I haven’t had any experience with co-benefits yet
+
+Q6 If you have not yet had any experience with the co-benefits of climate protection, please think of the benefits you could most easily imagine?
+Financially (e.g., I have a PV installation and benefit from the revenues.)  (1)
+Improved health (e.g., I walk/cycle more.)  (2)
+Environment (e.g., My neighborhood has become greener through afforestation.)  (3)
+Social networks (e.g., I experience community through certain actions I take.)  (4)
+Personally (e.g., I am less scared about energy supply shortages because we rely more on renewable energy sources.)  (5)
+Other, specify:  (6) __________________________________________________
+
+Display This Question:
+If Did you personally already experience co-benefits of climate change mitigation? = No, I haven’t had any experience with co-benefits yet
+
+Q7 Please briefly describe how you personally could profit from these co-benefits in the future.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+End of Block: 3. Call to Action
+
+### CollEfficacyEmoBenefit
+[VIDEO STIMULUS -- content not on disk] Part of this arm's content is a video that is NOT available in the released materials; the readable text below is the rest of the stimulus.
+
+Collective Efficacy and Emotional Benefit
+
+Start of Block: 11. Positive Emotions
+
+Q1 Do you think sharing a video on social media can help fight climate change?
+Yes  (1)
+No  (2)
+
+Page Break
+
+Display This Question:
+If Do you think sharing a video on social media can help fight climate change? = No
+
+Q4 Wrong!
+
+Many people don't realize how deeply Americans care about climate change. Surprisingly, while people assume only 60% of Americans think we should act by adopting climate-friendly behaviors to combat global warming, the reality is that 80% believe in taking such actions!
+
+This misperception leads many to stay silent on the issue, fearing disagreement from others. However, when you share information about climate change on social media, you not only show your concern but also break this silence. Your actions can encourage others to speak up and contribute to climate activism.
+
+Sharing information is impactful!
+
+ 
+
+Page Break
+
+Display This Question:
+If Do you think sharing a video on social media can help fight climate change? = Yes
+
+Q6 You are right!
+
+Many people don't realize how deeply Americans care about climate change. Surprisingly, while people assume only 60% of Americans think we should act by adopting climate-friendly behaviors to combat global warming, the reality is that 80% believe in taking such actions!
+
+This misperception leads many to stay silent on the issue, fearing disagreement from others. However, when you share information about climate change on social media, you not only show your concern but also break this silence. Your actions can encourage others to speak up and contribute to climate activism.
+
+Sharing information is impactful.
+
+ 
+
+Page Break
+
+Q7 According to you, how can writing a letter to an elected official help fight climate change? (Please give at least one reason)
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q9 Have you heard about successful climate campaigns like the Sunrise Movement?
+
+These climate campaigns rely on many tactics, such as encouraging people to contact their public officials to demand climate action. These campaigns can be very successful! For example, a climate activist group called the Sunrise Movement managed to advance climate policies through the IRA (Inflation Reduction Act).
+
+ 
+
+Page Break
+
+Q12 Do you think donating money to climate activists groups is effective to tackle climate change?
+Yes  (1)
+No  (2)
+
+Page Break
+
+Display This Question:
+If Do you think donating money to climate activists groups is effective to tackle climate change? = Yes
+
+Q14 Yes. Indeed!
+
+ 
+By targeting systemic change, like change in laws, climate activists can have a big impact on the fight against climate change.
+
+For example, climate groups like Extinction Rebellion in the United Kingdom successfully raised awareness of climate change within the population and influenced the policy agenda. 
+
+ 
+
+In a recent study, researchers found that donating money to climate activist movements or climate organization is much more effective in terms of tons of CO2 avoided per dollar spent than spending money on carbon offsets. 
+
+ 
+
+Activism works! 
+
+ 
+
+Page Break
+
+Display This Question:
+If Do you think donating money to climate activists groups is effective to tackle climate change? = No
+
+Q16 Wrong!
+
+ 
+By targeting systemic change, like change in laws, climate activists can have a big impact on the fight against climate change.
+
+For example, climate groups like Extinction Rebellion in the United Kingdom successfully raised awareness of climate change within the population and influenced the policy agenda. 
+
+ 
+
+In a recent study, researchers found that donating money to climate activist movements or climate organization is much more effective in terms of tons of CO2 avoided per dollar spent than spending money on carbon offsets. 
+
+ 
+
+Activism works! 
+
+ 
+
+Page Break
+
+Q18 Do you think participating in a climate march can help fight climate change?
+Yes  (1)
+No  (2)
+
+Page Break
+
+Display This Question:
+If Do you think participating in a climate march can help fight climate change? = Yes
+
+Q20 Yes! You are right!
+
+Climate marches are one of the most visible means of communicating appeals to combat climate change. When you engage in this collective action, you will feel your power is enlarged because the power of the whole group is inexhaustible.
+
+The enthusiasm and energy of the climate march will attract bystanders to join and influence the regulations and laws. Some studies have shown that peaceful climate demonstrations can increase climate awareness. 
+
+Watch the following video to feel the zeal and power of climate marches!
+
+Page Break
+
+Display This Question:
+If Do you think participating in a climate march can help fight climate change? = No
+
+Q22 Actually, you are wrong!
+
+Climate marches are one of the most visible means of communicating appeals to combat climate change. When you engage in this collective action, you will feel your power is enlarged because the power of the whole group is inexhaustible.
+
+The enthusiasm and energy of the climate march will attract bystanders to join and influence the regulations and laws. Some studies have shown that peaceful climate demonstrations can increase climate awareness.
+
+Watch the following video to feel the zeal and power of climate marches!
+
+Page Break
+
+Q24 Now, please recall one time that you felt warm feelings in your chest while engaging in an activity to tackle climate change. Write a few sentences in the box below.
+
+If you couldn't recall such an activity, you may imagine how good you would feel if you took action to slow down climate change.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q26 Please also recall one time that you formed a great friendship while engaging in an activity to tackle climate change. Write a few sentences in the box below.
+
+If you couldn't recall such an activity, you may imagine how you would find unbreakable friendships with people with similar values while taking action together to protect our earth.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q28 Indeed, taking action for the climate can make you feel happier! Whether it is signing a petition, donating money, participating in climate marches or writing a letter to an elected official.
+
+In addition, taking action to stop climate change can also create strong friendships with people you share strong environmental values with. 
+
+By taking action today, you can boost your happiness and build deep connections with others!
+
+ 
+
+End of Block: 11. Positive Emotions
+
+### DynamicAngerNorm
+Dynamic Anger Norm
+
+Start of Block: 14. Anger Consensus Dynamic Norm
+
+Q1
+
+Research has found that more and more Americans report feeling angry about climate change. Now, around 57% of Americans are angry about U.S. inaction on climate change.
+
+As many readers might suspect, there are some party based differences in this trend and that number is lower for Republicans. However, in what might come as a surprise, a growing number of Republicans also report feeling angry about U.S. inaction on climate change. In part, this is because a large proportion of both Democrats (86%) and Republicans (73%) report frustration with the political divide on climate change today.
+
+So, while there are some party based differences in the number of Americans who are angry, the general trend is increasing anger about U.S. inaction on climate change.
+
+ 
+
+Page Break
+
+Q3
+Why do more and more Americans report feeling angry?
+
+Many Americans report being angry because they believe we are not doing enough to protect the planet for the next generation. Surveys show that Americans are increasingly demanding that we leave a safe and thriving world for our children and grandchildren.
+
+ 
+
+As one mother put it, "My kids expect me to protect them and I expect the elected leaders at all levels to help me do that. We can solve this, but it will take all of us, raising our voices together to achieve the level of change we need to leave our kids a safe, prosperous future."
+
+ 
+
+ 
+
+Page Break
+
+Q5 In your personal view, what are the reasons for Americans’ growing anger about U.S. inaction on climate change? Please give your answer in a few sentences. 
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q8
+Recent survey findings by non-partisan organizations show that more and more Americans today agree that failing to act on climate change is putting our children’s futures at risk and believe that it is our responsibility to leave behind a world that’s safe and livable for future generations. 
+
+Over two-thirds of Americans, including a majority of Democrats, Republicans, and Independents, all agreed that we should invest in safer, healthier communities with reduced smog and cleaner air by encouraging clean technologies, and two-thirds indicated that all Americans should have access to affordable, reliable, and clean electricity.
+
+Although there is room for individual action, many Americans believe governments and business should be doing much more to reduce the pollution that is causing climate change. Nearly two-thirds of Americans say that people deserve to know the truth about the environmental impacts of companies, and demand that businesses and energy providers be held to higher standards and shift to non-polluting clean energy.
+
+Page Break
+
+Q10 In a few sentences, please describe a time when you or someone you know felt angry or frustrated about climate change. 
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q12 In recent years, growing public pressure has led cities across the country to create new plans to protect communities from extreme weather, like heat waves, floods, hurricanes, and wildfires. These actions reflect growing public sentiment that immediate action on climate change is needed.
+
+Q13  
+
+​​​​​​​
+
+61% of Americans think the US government should do more to address climate change. Although there are some party-based differences, a large proportion of Republicans (50%) and Democrats (90%) want the government to do more. 
+
+Q14
+
+68% of Americans think corporations and industry should do more to address climate change. As many readers might suspect, that number is lower for Republicans. However, a majority of Republicans (63%) and Democrats (92%) want industries and corporations to do more. 
+
+Q15 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+Q16 So, research finds that more and more Americans report feeling angry about climate change, and want more action from corporations and the government. 
+
+While there are some party-based differences, there is a general trend of increasing anger about US inaction on climate change. 
+
+Q17 To the best of your knowledge, what percentage of Americans are angry about U.S. inaction on climate change? 
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+% of Americans (1)
+
+End of Block: 14. Anger Consensus Dynamic Norm
+
+### EcologicalDisruptions
+Connecting to Ecological Disruptions
+
+Start of Block: 7. Moral Identity Frame
+
+Q1 You will now read an excerpt from a magazine article and provide your response to a few related questions. For some of the questions, you will be asked to briefly explain your answer.
+
+Your opinions and thoughts are important to us, because a major goal of our study is to understand how we as people think about issues.
+
+Proceed to the next page to start.
+
+Page Break
+
+Q3 The excerpts below are from an article by Asher Elbein in The Bitter Southerner (April 28, 2020):
+
+ 
+
+----------------------------
+
+“Every spring, birds come streaming up to Key Largo. … The island is the birds’ first port of call, a place to rest from a tremendously difficult and dangerous journey. Many fall from starvation, exhaustion or injury. Sometimes they die. Sometimes, the people living in South Florida pick them up and bring them to the Florida Keys Wild Bird Rehabilitation Center….
+
+The great seasonal migrations come through beginning in October…. Birds from as far north as Canada travel down the Eastern Seaboard and down through the Keys before launching out over open ocean, flying over miles and miles of nothingness, and making a return trip in the spring. You can guess at the hardship of the journey just by looking at the birds that come in on the spring migration. Birds reaching the Keys sometimes literally fall out of the sky, their powerful wing muscles emaciated and drained.
+
+'You’ll come across this bird and it's just got nothing left,' said Jordan Budnik, the director of the Center. 'You'll see it with juveniles a lot…'. "
+ 
+
+Q4 Imagine you are in Key Largo and just picked up a juvenile migrating bird that fell out of the sky. Holding that wild creature in your hand, what thoughts would cross your mind? (180 characters max)
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q6 What other thoughts might you have about the fallen migrating bird?
+
+Below are responses provided by some participants in an earlier study. Do any of these resonate with you? Select each response that you might resonate with:
+A) Amazing how a small creature can take such a long journey! How would it know where its destination is?  (1)
+B) Why would so many birds be unable to make it?  (2)
+C) What if I went on a planned hike with a friend and, to our dismay, found that the hike is quite a bit longer than we had thought, and we ran out of provisions?  (3)
+D) How can I help these poor birds at risk?  (4)
+E) None of the above.  (5)
+
+Page Break
+
+Q8 Why wild birds have been falling
+
+According to staff at the Florida Keys Wild Bird Rehabilitation Center, populations of fish species living on the reefs or in the mangroves at the Keys have declined, likely as a result of coral bleaching due to water-temperature rise. Lack of fish in turn means less food for migrating birds to support them on their journey.
+
+Moreover, the cues that birds have traditionally relied upon to time their migrations — the first nip of cold, the first blush of warmth, the cycles that guarantee food supplies will be ready in summer or winter when they arrive — these are slipping out of joint. Migratory birds are arriving too early or too late, further thinning the margins of survival on an already arduous journey. The warming ocean, the changing of climate, the dissolution of century old cycles — all of it is throwing the ecosystems of South Florida into disarray.
+
+ 
+
+The Florida Keys is not the only place where migrating birds have been falling out of the sky. Thousands of migrating birds have inexplicably died in south-western US in September, 2020. What is throwing the ecosystems of the US South into disarray? In fact, all around the world, why are there more severe heat waves and wildfires, devastating droughts and floods, and sea-level rise? And are there actions that we, as individuals, can take to make a difference? 
+
+Page Break
+
+Q10 The graph below shows how global surface temperature has changed in the past 140 years. What is the most likely cause of the change?
+
+Note: Anomaly refers to how the average temperature for a given year differs from the baseline (see the dotted line at 0.0: it denotes the average temperature between 1961 and 1990). For example, the year 2000 has an average temperature above that baseline.
+
+ 
+
+The four graphs below (taken from a report by the Intergovernmental Panel on Climate Change, 2014) depict how four contributing factors varied over the same time period.
+
+Without knowing what Contributors A to D are, based on the shape/pattern of the graphs alone, which contributor do you think is the strongest contributor to the recent sharp rise in global surface temperature since the early 1980s?
+Contributor A  (1)
+Contributor B  (2)
+Contributor C  (3)
+Contributor D  (4)
+
+Page Break
+
+Q12 Answer: Contributor C.
+
+The four potential contributors respectively are: A) solar activity, B) volcanic activity, C) human activity, and D) internal variability (fluctuations within the Earth’s climate system like weather patterns and El Niño). As can be seen in the graphs above, changes in human activity across time (Contributor C) best match changes in global surface temperature. In contrast, changes in the other components match less well.
+
+Q13 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+Q14 What actions do you think can be taken to mitigate climate change, if we don’t want events such as emaciated juvenile birds falling from the sky, severe heat waves and wildfires, catastrophic droughts and floods, and rising sea levels? (180 characters max)
+
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Q15 You have just read excerpts from a magazine article and graphs from the Intergovernmental Panel on Climate Change. In case you’d like to read more, you may click on the following links and read the full article on another tab after you finish the survey.
+
+Sources:
+- https://bittersoutherner.com/2020/wild-birds-florida-keys-wild-bird-rehabilitation
+
+- https://www.theguardian.com/environment/2020/sep/16/birds-falling-out-of-the-sky-in-mass-die-off-in-south-western-us-aoe
+
+- https://archive.ipcc.ch/report/ar5/syr/
+
+Page Break
+
+Q17 Please indicate your responses to the items below.
+
+Q18 Answering this questionnaire made me more aware that human-caused climate change has broad repercussions on the rest of nature.
+Strongly disagree  (1)
+Somewhat disagree  (2)
+Neither agree nor disagree  (3)
+Somewhat agree  (4)
+Strongly agree  (5)
+
+Q19 Answering this questionnaire made me more aware that living things are interdependent.
+Strongly disagree  (1)
+Somewhat disagree  (2)
+Neither agree nor disagree  (3)
+Somewhat agree  (4)
+Strongly agree  (5)
+
+Q20 Answering this questionnaire and considering the causes and impacts of climate change, I feel ____.
+
+Very Slightly or Not at All (1)
+A Little (2)
+Moderately (3)
+Quite a Bit (4)
+Extremely (5)
+Interested (1)
+
+Distressed (2)
+
+Inspired (3)
+
+Guilty (4)
+
+Scared (5)
+
+Angry (6)
+
+End of Block: 7. Moral Identity Frame
+
+### GlobalHealthThreat
+[VIDEO STIMULUS -- content not on disk] Part of this arm's content is a video that is NOT available in the released materials; the readable text below is the rest of the stimulus.
+
+Global Health Threat
+
+Start of Block: 4. Global Health Frame
+
+Q1 Experts on global health warn that climate change is the biggest global health threat of the 21st century.  
+
+Climate change affects our health. We suffer more from UV (ultraviolet) radiation, heat stress, allergies and air pollution. Climate change also affects our drinking and bathing water, our food and the prevalence of infectious diseases. 
+
+Climate change has the potential to cause more deaths in the long run than the COVID-19 pandemic.
+
+Page Break
+
+Q3 In the next screen, we will show you a short video by The Lancet - a leading medical journal - about the relationship between climate change and health threats.
+
+Please watch it attentively, as we will ask you some questions related to it afterward.
+
+Page Break
+
+Q5 Please carefully watch the following video (you may be asked about it in the following pages).
+
+ You will be able to advance the page once this video is over.
+
+Q6
+
+Page Break
+
+Q8 Based on the video you have just watched, please indicate whether the following statements are true or false.
+
+Choose one option
+
+True (1)
+False (2)
+Heat related deaths of people aged over 65 have increased by more than 50% in the past two decades. (1)
+
+Climate change can increase the spread of infectious diseases and new pandemics. (2)
+
+Reducing carbon emissions brings immediate health benefits. (3)
+
+Page Break
+
+Q10 It is known that burning fossil fuels is a major contributor to climate change.
+
+An article published in one of the leading scientific journals in environmental science has demonstrated that moving away from fossil fuels in production of energy resulted in the prevention of around 1.84 million air-pollution related deaths between the years 1971-2010.
+
+The same article suggests that using fossil fuels as the main source of energy would result in 4.4-7 million deaths in the years 2010-2050. 
+
+Source: Kharecha, Pushker A., and James E. Hansen. "Prevented mortality and greenhouse gas emissions from historical and projected nuclear power." Environmental science & technology 47(9) (2013): 4889-4895.
+
+Page Break
+
+Q12 In 2022, The Economist, a leading world affairs magazine, has published an article on the effect of different means of energy production.
+
+As illustrated in the image below, coal and oil (types of fossil fuels) are currently the main forms of energy production.
+
+At the same time, they are also the deadliest forms of energy production.
+
+                                                                         
+
+Note: TWh=terawatt-hour of electricity
+
+Source: The Economist, Jul 19th 2022 
+
+ 
+
+Page Break
+
+Q14 Hence, climate change imposes risk not only to the environment but directly to our health. 
+
+But the good news is that we, as individuals and collectives, have the power to mitigate those health effects. 
+
+Engaging in behaviors that contribute to climate change is a choice, not a necessity, and we can do something about this.
+
+There are alternatives, and your voice matters. 
+
+End of Block: 4. Global Health Frame
+
+### GuiltCollResponsibility
+Guilt-Based Collective Responsibility
+
+Start of Block: 5. Collective Responsibility
+
+Q2
+
+We Americans are historically responsible for a great amount of emissions, as you can read in the article you will see in the next pages. The data presented in the highlighted graph illustrates that the United States ranks among the highest in terms of CO2 emissions per capita. And right because we are a large emitter, cutting our emissions not only fulfills our obligation to address climate change but also can have a great impact on climate mitigation worldwide!
+
+Page Break
+
+Q4  
+
+Q5 Rich countries are responsible for 12 percent of the global population today but are responsible for 
+20 percent of all the emissions over the past 170 years  (1)
+40 percent of all the emissions over the past 170 years  (2)
+50 percent of all the emissions over the past 170 years  (3)
+
+Page Break
+
+Q7  
+
+Q8 Why did the chairman of the 47 Least Developed Countries argue for more financial support?
+
+To adapt to the severe climate risks these nations face  (1)
+To allow these countries to develop, even if this means polluting  (2)
+To punish the most developed countries  (3)
+
+Page Break
+
+Q10  
+
+Q11 The US has higher per capita CO2 emissions with respect to (check all that apply)
+
+China  (1)
+Russia  (5)
+Saudi Arabia  (2)
+India  (6)
+
+End of Block: 5. Collective Responsibility
+
+### HopeAngerNarratives
+Hope and Anger Narratives
+
+Start of Block: 12. Naturalistic Hope
+
+Q1 In a moment, you will read several short stories. They are based on the experiences of real people who either heard about the described events or experienced them firsthand.
+
+Q2 Read each person's story and consider what emotions you would feel towards this situation. Perhaps a similar story has actually happened to you?
+
+Q3 Your task is simple:
+
+1. Read the stories, one by one.
+
+2. Before reading the next story, notice your emotions related to the story.
+
+3. At the end, rate your general feelings after reading all of the stories.
+
+Q4 You will rate your general feelings with two simple scales:
+
+1. How do you feel after reading the stories? Do you feel rather negative or positive emotions?
+
+2. Do you feel a complete lack of arousal (feeling bored, apathetic) or strong arousal (feeling agitated or excited)?
+
+  
+
+Page Break
+
+Q6 Esther's daughter told her mother that the management of her school was considering the installation of solar panels. Hearing that, Esther asked other members of the Parents Council to support the director's initiative. One parent is an accountant, and he volunteered to help process the purchase of panels for the school, free of charge.
+
+Notice your emotions.
+
+Page Break
+
+Q8 Amara is an engineer and she specialises in fire safety. She has invented a special coating for buildings to protect them from fires, which are increasingly common. What is more, the coating is made of industrial waste, which would normally end up in a landfill.
+
+Notice your emotions.
+
+Page Break
+
+Q10 Christian and Harper are protesting outside the Town Hall, demanding that the burning of low-quality fuel in stoves be banned. Thanks to their protest, the authorities impose the ban and decide to allocate additional subsidies for the replacement of stoves in the homes of residents who cannot afford it on their own.
+
+Notice your emotions.
+
+Page Break
+
+Q12 After a certain international organization published a report on climate change, the government decided to radically change the budget for the coming years. Spendings on the transformation of the energy sector will be increased several fold. Scientists predict that this will allow the country to achieve climate neutrality within 10 years.
+
+Notice your emotions.
+
+Page Break
+
+Q14 Julian is working on a technology to capture carbon dioxide from industrial stacks. His invention – which is many times more effective than any solution currently in use – will soon be available on the market. Julian does not intend to apply for a patent, because he wants the technology to be cheap and widely available.
+
+Notice your emotions.
+
+Page Break
+
+Q16 Emily watched an inspiring lecture on possible solutions to the problem of climate change. She then published a post about it on social media and sent a recording of it to her friends. Emily always thought that hardly anyone among her acquaintances was interested in the climate, but it turns out that the post has been viewed and commented on by hundreds of people.
+
+Notice your emotions.
+
+Page Break
+
+Q18 Yoshida has discovered a new species of bacteria. The bacteria are able to break down plastic that would otherwise be deposited in landfills. Yoshida's discovery gained so much publicity that he was awarded another research grant. There are reasons to hope that his solution can be implemented on a large scale.
+
+Notice your emotions.
+
+Page Break
+
+Q20 Elliah is disappointed with the decision of the local authorities, who, due to the lack of funds, abandoned the plan to remodel the square paved with concrete and plant some trees and shrubs. Elliah organised a group of friends who, acting on their own, removed the paving slabs that covered most of the square. A gardener friend of his donated plants, which they planted in place of the concrete.
+
+Notice your emotions.
+
+Page Break
+
+Q22 A group of activist lawyers has launched an initiative to put environmental harm on the list of crimes against humanity. Many people support this idea. If international law severely punished states and corporations for harming the climate, climate change would be mitigated.
+
+Notice your emotions.
+
+Page Break
+
+Q24 Thanks to the prompt and coordinated action of governments, it was possible to ban the use of substances that deplete the ozone layer in the atmosphere. After some time, it was observed that the ozone layer was recovering. This shows that humanity is capable of dealing with environmental disasters effectively.
+
+Notice your emotions.
+
+Page Break
+
+Q26 After reading the stories, do you feel rather negative or positive emotions?
+
+Extremely negative
+Somewhat negative
+Neither positive nor negative
+Somewhat positive
+Extremely positive
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+I feel... (1)
+
+Q27 After reading the stories do you feel a complete lack of arousal (feeling bored, apathetic) or strong arousal (feeling agitated or excited)?
+
+Not aroused
+Somewhat aroused
+Quite aroused
+Very aroused
+Extremely aroused
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+I feel... (1)
+
+End of Block: 12. Naturalistic Hope
+
+Start of Block: 12. Naturalistic Anger
+
+Q1 In a moment, you will read several short stories. They are based on the experiences of real people who either heard about the described events or experienced them firsthand.
+
+Q2 Read each person's story and consider what emotions you would feel towards this situation. Perhaps a similar story has actually happened to you?
+
+Q3 Your task is simple:
+
+1. Read the stories, one by one.
+
+2. Before reading the next story, notice your emotions related to the story.
+
+3. At the end, rate your general feelings after reading all of the stories.
+
+Q4 You will rate your general feelings with two simple scales:
+
+1. How do you feel after reading the stories? Do you feel rather negative or positive emotions?
+
+2. Do you feel a complete lack of arousal (feeling bored, apathetic) or strong arousal (feeling agitated or excited)?
+
+  
+
+Page Break
+
+Q6 A certain politician downplayed reports about the threat of drought caused by climate change. When the town suddenly ran out of water, he sneaked off to his lakeside summer residence to avoid journalists.
+
+Notice your emotions.
+
+Page Break
+
+Q8 The government of your country has no intention of stopping the imports of fossil fuels from a country that has just invaded its neighbour. Despite public opinion, your country pays the aggressor huge amounts of money each year, and this money is then spent on warfare.
+
+Notice your emotions.
+
+Page Break
+
+Q10 Eila's uncle claims that climate change is a fabrication and an excuse to increase energy prices. When Eila tries to convince him that the situation is serious, her uncle criticizes her for wasting too much time reading nonsense on the Internet and allowing herself to be manipulated by social media.
+
+Notice your emotions.
+
+Page Break
+
+Q12 In a recent media interview, a celebrity criticized people who use plastic shopping bags. The same person travels by private jet several times a week and invests in crude oil extraction.
+
+Notice your emotions.
+
+Page Break
+
+Q14 A certain oil company would like to be viewed more favourably by the public. Therefore, it broadcasts an advertising spot, in which a bear is shown calmly walking across a meadow. At the end of the spot, the company announces that it is environmentally friendly, since it extracts oil in winter when bears are asleep.
+
+Notice your emotions.
+
+Page Break
+
+Q16 For several decades governments of many countries knew what the global climate would look like if greenhouse gas emissions were not reduced. Nevertheless, the short-term interests of the rich were more important than the well-being of future generations.
+
+Notice your emotions.
+
+Page Break
+
+Q18 A corporation commissioned a report on its environmental impact. As the report turned out to embarrass the corporation, the management decided to conceal it. Employees were forbidden to disclose any information on this subject.
+
+Notice your emotions.
+
+Page Break
+
+Q20 An elite organization bringing together the richest people in the world runs a public awareness campaign in a country hit by the first effects of climate change. Poor people are advised on how to live more economically, reducing their water and energy consumption.
+
+Notice your emotions.
+
+Page Break
+
+Q22 August is a senator and his wife works at a state-owned company responsible for heavy environmental pollution. August blocks financial support for climate action to protect his wife's financial interests.
+
+Notice your emotions.
+
+Page Break
+
+Q24 Francesca tosses and turns in bed, unable to sleep in the unbearable heat. Due to climate change and the abundance of concrete in cities, the temperature exceeds 30 degrees even in the middle of the night. Francesca keeps thinking about the fact that none of the local politicians cares about ordinary people who cannot afford air conditioning.
+
+Notice your emotions.
+
+Page Break
+
+Q26 How do you feel after reading the stories? Do you feel rather negative or positive emotions?
+
+Extremely negative
+Somewhat negative
+Neither positive nor negative
+Somewhat positive
+Extremely positive
+
+-100
+-80
+-60
+-40
+-20
+0
+20
+40
+60
+80
+100
+
+I feel... (1)
+
+Q27 Do you feel a complete lack of arousal (feeling bored, apathetic) or strong arousal (feeling agitated or excited)?
+
+Not aroused
+Somewhat aroused
+Quite aroused
+Very aroused
+Extremely aroused
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+I feel... (1)
+
+End of Block: 12. Naturalistic Anger
+
+### IndStructuralChange
+Linking Individual and Structural Change
+
+Start of Block: 9. Linking Individual and Structural Change-- Instruction
+
+instruction
+
+Our society faces many issues that impact the well-being of its members. It is also continuously changing.
+
+We will describe important moments of change in our society, both past and present. We are interested in your views and thoughts about these changes, including how this change came about.
+
+Your views are important to us, so please respond as honestly as possible.
+
+When you are ready, please proceed to the next page.
+
+instr_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+End of Block: 9. Linking Individual and Structural Change-- Instruction
+
+Start of Block: 9. Refutation Task
+
+genderQ Discrimination against women has been an important social issue in the U.S. for several decades.
+
+Based on the results of a recent national poll, what percentage of Americans do you think hold the following view?  
+
+ 
+
+"Men are better suited emotionally for politics than women are."
+Please write a percentage as a whole number here:  (6) __________________________________________________
+
+genderQ_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+Genderans You guessed ${genderQ/ChoiceGroup/AllChoicesTextEntry}% of people believe men are more suited for politics than women are.
+
+According to a 2021 poll, the actual number is 13% — that is, an overwhelming majority of Americans (87%) believe that women are as well-suited for politics as men.
+
+ 
+
+This has not always been the case though. In 1974, only about half of Americans thought this. This dramatic increase in public support for gender equality underscores the large impact that women's rights movements have had, from the 1920s suffrage movement, which secured women the right to vote, to the recent #MeToo campaign.
+
+The efforts of many individuals, through education, grassroots campaigns, protests, and legal actions, have led to key milestones such as Title IX (1972), The Pregnancy Discrimination Act (1978), and The Violence Against Women Act (1994).
+
+Each of these achievements was only possible because of the efforts of individuals to (1) elect or pressure policymakers to pass laws supporting women’s rights, (2) encourage businesses to adopt fair hiring and compensation practices, and (3) educate and influence those in their social networks and communities. Collective action had a powerful impact in shaping a more equal and just society.
+
+Sources:
+
+ Academic Paper- Widespread misperceptions of long-term attitude change
+ NORC Center for Public Affairs Research
+
+Genderans_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+CCQ_inst Now, let’s turn to a contemporary issue that is currently being widely discussed: climate change.
+
+The risks of climate change to our health, economies, infrastructure, businesses and communities has gained substantial attention in recent years. In fact, 97% of scientists agree that humans are contributing to climate change, and should take measures to decrease its impacts. However, despite this agreement, action to address climate change has been slow.
+
+CCworryQ1 What percentage of American adults do you think are ‘somewhat’ or ‘very worried’ about climate change?
+Please write a percentage as a whole number here:  (1) __________________________________________________
+
+CCQ1_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+Q31 You guessed that ${CCworryQ1/ChoiceGroup/AllChoicesTextEntry}% of Americans are worried about climate change. According to a 2023 poll, the actual percentage is 64% — a large majority of Americans.
+
+Source:
+
+Yale Climate Opinion Maps 2023
+
+CCdiscussQ2 Knowing this, what percentage of American adults do you think report speaking with their family and friends about climate change at least ‘occasionally’?
+Please write a percentage as a whole number here:  (1) __________________________________________________
+
+CCQ2_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+CCans1 You guessed ${CCdiscussQ2/ChoiceGroup/AllChoicesTextEntry}%. Despite the majority of Americans feeling worried about climate change, only 36% of Americans discuss climate change at least occasionally with their family and friends.
+
+ 
+
+While most Americans are worried about climate change, they are unwilling to talk about it. This is unfortunate because what people observe or hear from those in their social networks or communities has a strong influence on their choices and beliefs.
+
+  
+
+Source:
+
+Yale Climate Opinions Map, 2023
+
+CCans1_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+End of Block: 9. Refutation Task
+
+Start of Block: 9. Reading1
+
+reading1 Similarly to the women’s rights movement, individual actions are important ingredients for broad social change because of their direct effects, but also through their indirect effects on the people, politicians, and organizations.
+
+In particular, individuals can make significant progress towards mitigating climate change through (1) their lifestyle choices and through the large influence they have on (2) others in their families, networks, and communities, (3) politicians and key decision-makers, and (4) businesses.
+
+reading1_timing Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+reading2 Experts have shown that individual actions can reduce carbon emissions, which increase climate change, by up to 70% (IPCC, 2022) through lifestyle changes, political actions and social influence. Specific actions include:
+
+	political actions like voting, protesting, signing petitions, and making calls
+	pressuring businesses through purchasing choices or by boycotting certain products
+	speaking with family, friends, peers and strangers about climate change
+	public and private lifestyle choices like eating less meat, taking public transit or driving an electric vehicle, purchasing energy efficient appliances or rooftop solar
+	social influence by taking public actions like the ones above, thereby influencing others to do the same
+
+Even seemingly inconsequential actions by a few people can inspire broader changes in a community and act as catalysts for a larger movement.
+
+Source:
+
+IPCC Report
+
+reading2_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+End of Block: 9. Reading1
+
+Start of Block: 9. Open-ended task1
+
+Boycott_quant So, how much impact might this spread of opinions or behaviors through social networks have on important societal issues? Let’s look at an example based on real events:
+
+Consider the following scenario. You find out that an established pharmaceutical company is using cancer causing chemicals in common household products. You also learn that consumers are coming together to boycott these products to pressure the companies and legislators to ban the use of these chemicals.
+
+How much do you agree or disagree with the following statements?
+
+Strongly Disagree (1)
+Disagree (2)
+Neither Disagree nor Agree (3)
+Agree (4)
+Strongly Agree (5)
+I would not buy any products from this company until they stop using this chemical. (1)
+
+I would sign petitions or contact government officials to ask that they monitor the use of this chemical. (2)
+
+I would publicly share my thoughts about this company with those around me. (3)
+
+Boycott_quant_timing Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+Boycott_qual Whether you would continue buying products from this company or not, can you think of up to 5 people who might be influenced by your actions? Please list their initials and relationship to you.
+   (1) __________________________________________________
+   (2) __________________________________________________
+   (3) __________________________________________________
+   (4) __________________________________________________
+   (5) __________________________________________________
+
+Boycott_qual_timing Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+End of Block: 9. Open-ended task1
+
+Start of Block: 9. Reading2
+
+reading1
+
+ 
+
+One of the pathways through which individuals can create broad social change is by publicly sharing their actions and beliefs, which can inspire others to join the cause. Even if you influence only a few people, they may in turn influence others, who may influence others — Your actions and beliefs can spread exponentially, quickly reaching hundreds of people, as shown in the figure.
+
+reading1_Q Now thinking instead of your influence on companies and governments, can you think of up to 3 ways that you can contribute to changing the actions of specific companies, public institutions, or politicians and policymakers? Please list three approaches you might take to have your voice and preferences heard.
+Approach 1  (1) __________________________________________________
+Approach 2  (2) __________________________________________________
+Approach 3  (3) __________________________________________________
+
+reading1_timing Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Page Break
+
+reading2
+
+As we mentioned, people can also influence society by putting pressure on policymakers and businesses to enact important reforms. Boycotting products, joining grassroots movements, signing petitions, and voting for candidates with aligned views can lead to structural changes, such as new investments or policies, that can improve our societies and address challenging problems like climate change, as shown in the figure above. And when you take these actions, you may also inspire others to do so as well!
+
+One example of the large impact that individual and collective action can have was the banning of chlorofluorocarbons (CFCs)—dangerous chemicals responsible for the deterioration of the ozone layer and increased health issues like cancer and cataracts.
+
+In America, citizen-led media campaigning and widespread boycotting of products and companies that used CFCs, led companies to phase out CFCs before the government even acted. Soon after, governments worldwide made an international agreement to completely phase out CFCs.
+
+Source:
+
+Back from the brink: how the world rapidly sealed a deal to save the ozone layer
+
+reading2_timing Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+End of Block: 9. Reading2
+
+Start of Block: 9. Open-ended task2
+
+openQ Now that you have completed our tasks, we would like to know whether you think that you, as an individual, can create broad social change, even for issues that seem at first very large.
+
+We welcome any opinions you might have, so please feel free to share your honest thoughts.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+openQ_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+End of Block: 9. Open-ended task2
+
+Start of Block: 9. Efficacy Qs
+
+efficacyQ Please indicate how much you agree with the following statements.
+
+Strongly Disagree (1)
+Disagree (2)
+Neither Agree nor Disagree (3)
+Agree (4)
+Strongly Agree (5)
+My actions can encourage governments and businesses to take actions to reduce carbon emissions. (1)
+
+My actions to reduce carbon emissions encourage others to reduce their carbon emissions through their own actions. (2)
+
+efficacyQ_time Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+End of Block: 9. Efficacy Qs
+
+### LetterFuture
+Letter to Future Generations
+
+Start of Block: active control: Letter Future Gen
+
+Q1 Please think of a child that is currently less than 5 years old. Perhaps it is your child, a grandchild, niece/nephew, or the child of a close friend. (You can also think about a theoretical child). 
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q3 Now imagine that child is a 30 year old adult. It is approximately the year 2055, they have started a family of their own, and they are finding their own way in the world. Whether they recognize it or not, they live in a world that is powerfully shaped by the decisions we are all making now, in 2024.
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q5 One day, as this person is on a walk with their family, and they find a time capsule which includes a letter written today, in 2024. They open the letter and read it together.
+
+This letter is a message from you. In it, you tell this family about all of the things you have done and want to do in the future to ensure that they will inherit a healthy, inhabitable planet. You tell them about your own personal efforts—however small or large—to confront the complex environmental problems of your time, from habitat loss to water pollution to climate change.
+
+ 
+
+In this letter you also tell this family in 2055 about how you want to be remembered by them and future generations as someone who did their best to ensure a safe, flourishing world. 
+
+ 
+
+On the next page, please write this letter. Describe the personal legacy you want to build and the efforts you are taking to ensure a more stable planet for them.
+
+ 
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q7 Please write your letter below. You will be able to proceed after at least 3 minutes have passed.
+
+To remind you, this letter should describe the efforts you are taking to ensure a more stable planet for this family in 2050, and your personal legacy that you want to build.
+
+ 
+
+Please spend a bit of time on this task and try to write at least 100 words (5 sentences), or more, if possible.
+
+You will be able to advance the page after at least 3 minutes have passed
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+End of Block: active control: Letter Future Gen
+
+### MispCorrectionRisks
+Misperception Correction: Risks
+
+Start of Block: 2. Misperception Correction Intro
+
+Q3 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q2 In this part of the survey, we will ask you some questions about which areas of American life you personally believe climate change is affecting. After each answer, we will give you the correct answer from a recent US Treasury Department study.
+
+Q33 Comprehension Question: After each answer, we will give you the correct answer from a recent US Treasury Department study. Please read the text carefully.
+I understand  (1)
+
+End of Block: 2. Misperception Correction Intro
+
+Start of Block: 2. Employment
+
+Q4 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+employment Question ${e://Field/n} out of ${e://Field/total_questions}:
+
+Is climate change increasing or decreasing employment-related income and benefits?
+Increasing  (0)
+Decreasing  (1)
+
+Page Break
+
+Q26 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q24 ${e://Field/text}
+
+ ${e://Field/employment_text}
+
+(The arrow to continue will appear after ${e://Field/arrowtime} seconds.)
+
+End of Block: 2. Employment
+
+Start of Block: 2. Property Destruction
+
+Q5 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+property Question ${e://Field/n} out of ${e://Field/total_questions}:
+
+Is climate change causing the destruction of property, including homes?
+Yes  (1)
+No  (0)
+
+Page Break
+
+Q27 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q23 ${e://Field/text}
+
+${e://Field/property_text}
+
+(The arrow to continue will appear after ${e://Field/arrowtime} seconds.)
+
+End of Block: 2. Property Destruction
+
+Start of Block: 2. Consumer Goods
+
+Q6 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+consumer_goods Question ${e://Field/n} out of ${e://Field/total_questions}:
+
+Is climate change increasing or decreasing prices of consumer goods, including food?
+Increasing  (1)
+Decreasing  (0)
+
+Page Break
+
+Q28 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q22 ${e://Field/text}
+
+${e://Field/consumer_text}
+
+(The arrow to continue will appear after ${e://Field/arrowtime} seconds.)
+
+End of Block: 2. Consumer Goods
+
+Start of Block: 2. Energy Prices
+
+Q13 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+energy_prices Question ${e://Field/n} out of ${e://Field/total_questions}:
+
+Is climate change increasing or decreasing prices of energy?
+Increasing  (1)
+Decreasing  (0)
+
+Page Break
+
+Q29 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q21 ${e://Field/text}
+
+${e://Field/energy_text}
+
+(The arrow to continue will appear after ${e://Field/arrowtime} seconds.)
+
+End of Block: 2. Energy Prices
+
+Start of Block: 2. Dependent Care
+
+Q7 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+dependent_care Question ${e://Field/n} out of ${e://Field/total_questions}:
+
+Is climate change disrupting dependent care, such as childcare and senior care?
+Yes  (1)
+No  (0)
+
+Page Break
+
+Q30 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q20 ${e://Field/text}
+
+${e://Field/childcare_text}
+
+(The arrow to continue will appear after ${e://Field/arrowtime} seconds.)
+
+End of Block: 2. Dependent Care
+
+Start of Block: 2. Health Care Expenses
+
+Q8 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+healthcare_expenses Question ${e://Field/n} out of ${e://Field/total_questions}:
+
+Is climate change increasing or decreasing healthcare expenses?
+Increasing  (1)
+Decreasing  (0)
+
+Page Break
+
+Q31 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q19 ${e://Field/text}
+
+${e://Field/healthcare_text}
+
+(The arrow to continue will appear after ${e://Field/arrowtime} seconds.)
+
+End of Block: 2. Health Care Expenses
+
+Start of Block: 2. Writing Prompt
+
+Q40 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q34 To review, climate change can:
+
+	Decrease employment-related income and benefits
+	Cause the destruction of households’ property
+	Increase prices of consumer goods
+	Increase prices of energy
+	Disrupt dependent care 
+	Increase healthcare expenses
+
+From the options below, choose the one that you believe would be the most disruptive to your everyday life. 
+▼ decreasing employment-related income and benefits (1) ... increasing healthcare expenses (6)
+
+Page Break
+
+Q39 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q35 ${e://Field/img}
+
+${e://Field/choice_text}
+
+In the box below, please take a moment to write about the issue you indicated would be the most disruptive to your everyday life (${e://Field/option_text}). How has this issue previously affected you or your loved ones, or how might it affect you in the future?
+
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+Page Break
+
+Q41 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q36 In this part of the survey, we will discuss some strategies average Americans can use to combat climate change.
+
+End of Block: 2. Writing Prompt
+
+Start of Block: 2. Final EPA Question
+
+Q9 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+epa Which of the following actions could the average American like you take to help lessen the impacts of climate change? (Select all that apply.)
+Getting involved with your community, local governments, and neighborhood councils.  (1)
+Donating money to environmental protection groups or agencies.  (1)
+Signing petitions for climate action.  (1)
+Staying informed about climate change (e.g., by subscribing to relevant newsletters).  (1)
+Voting for politicians who are committed to fighting climate change.  (1)
+Participating in climate protests.  (1)
+Reducing your personal meat consumption.  (1)
+Sharing information about climate change on social media.  (1)
+
+Page Break
+
+Q32 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q18 All of the previous actions can combat climate change!
+
+Everyday personal choices like eating less meat make a difference! However, larger wins against climate change can only be achieved through when people act together.
+
+Getting involved with community groups, local governments, and neighborhood councils can make a big impact by influencing local projects (like anti-pollution initiatives).
+
+Donating to organizations that protect the environment and signing petitions for climate action can lead to larger changes through the support and creation of new laws and ambitious environmental projects.
+
+Staying informed by reading newsletters about climate change and voting for politicians who focus on environmental issues are key for building a group of voters and pressure to push for crucial changes.
+
+(The arrow to continue will appear after ${e://Field/arrowtime} seconds.)
+
+Page Break
+
+Q38 Timing
+First Click  (1)
+Last Click  (2)
+Page Submit  (3)
+Click Count  (4)
+
+Q37 In the box below, please take a moment to write about some ways in which you would consider getting involved to combat climate change.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+End of Block: 2. Final EPA Question
+
+### ShiftFocusIndColl
+[VIDEO STIMULUS -- content not on disk] The substantive content of this arm is a video that is NOT available in the released materials. Everything below is only the surrounding on-screen instructions and comprehension items.
+
+Shifting Focus from Individual to Collective Action.
+
+Start of Block: 8. External Locus of Control
+
+Q1 On the next page, you are going to watch a short video of a climate policy expert giving a talk on “Making a difference on climate change.” Professor Leah Stokes is currently a Radcliffe Fellow at Harvard University, where the video was recorded.
+
+We will ask a few questions at the end of the video.
+
+Page Break
+
+Q3 Please carefully watch the following video (you may be asked about it in the following pages).
+
+ You will be able to advance the page once this video is over.
+
+Q4
+
+Page Break
+
+Q7 Now we'd like to ask you a few multiple choice questions. Please let us know the answer you think is most correct, based on everything you know.
+
+Q8 The oil company BP popularized the idea of...
+Pressuring governments to create a price on carbon to address climate change  (1)
+The carbon footprint to assess individual’s contribution to climate change  (2)
+
+Page Break
+
+Q10 What is the best way to make a difference around the issue of climate change?
+Organize with others for climate change legislation  (1)
+Recycle your cans and bottles  (2)
+
+Page Break
+
+Q12 Which strategy would lead to more collective reduction of carbon emissions?
+Changing laws collectively to promote green energy as a country  (1)
+Changing your lightbulbs individually to reduce energy consumption  (2)
+
+End of Block: 8. External Locus of Control
+
+### SystemJustification
+System Justification
+
+Start of Block: 6. System Justification
+
+Q2 Life in the United States
+
+
+
+
+
+Chicago, Illinois
+
+
+
+
+It is no coincidence that where you live has very broad effects on your life and wellbeing.
+
+In terms of material wellbeing, where you live affects the job and investment opportunities you have, the affordability of your housing, the taxes you pay, as well as the general state of the economy.
+
+Where you live also affects the accessibility and quality of your social services, such as healthcare, education, or the pension you live off after you retire.
+
+There are many other aspects of your life that might be affected depending on where you live.
+
+
+
+
+
+Grand Canyon, Arizona
+
+
+
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q3 Nature and society
+
+
+
+
+
+Telluride, Colorado
+
+
+
+
+ 
+
+Explorers, philosophers, religious leaders, and scientists have often been interested in the relationship between people and their environment.
+
+Today, researchers are increasingly interested in understanding how people have adapted to their environment, and how many aspects of their culture and way of life have developed because of the natural endowments of their country.
+
+ 
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q5 Many forms of happiness
+
+ 
+
+Nature is balance - what it takes with one hand, it gives back with the other. For example, traveling merchants have long observed the cultural and lifestyle differences between people living by the sea and those living in the mountains.
+
+Folk knowledge suggests that many societies and cultures have developed through adaptations to their local environmental conditions, which are reflected in their folklore, customs, and traditions.
+
+
+
+
+
+Newport Beach, California
+
+
+
+
+ 
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q7 American life - your life
+
+Various social and cultural aspects of your everyday life are also impacted by the country you live in. 
+
+ 
+
+For example, the food you eat, the sports you enjoy, the customs you observe, how you spend your free time, or even how you imagine growing old, all are likely impacted by where you live.
+
+ 
+
+ 
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q9 Change is life - but what life?
+
+Aftermath of Hurricane Harvey, Houston, Texas, 2017
+
+Today, we can already see the consequences of climate change in the United States.
+
+For example, floods are becoming more and more frequent, putting a quarter of Americans at risk of losing their homes. 
+
+Similarly, wildfires are becoming more frequent and more intense, threatening millions of Americans.
+
+Forest Fires & The Golden Gate Bridge, San Francisco, 2020
+
+ 
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q11 Let’s keep the United States as it should be
+
+Yosemite Valley, Nevada
+
+Being pro-environmental allows us to protect and preserve the American way of life.
+
+It is patriotic to conserve the country’s natural resources.
+
+It is important to protect and preserve our environment so that the United States remains the United States.
+
+Redwood National Park, California
+
+ 
+
+You will be able to advance the page shortly
+
+Page Break
+
+Q13 Think about why it is patriotic to conserve the country’s natural resources. Reflect on the importance of protecting and preserving our environment so that the United States remains the United States.
+
+Please write a few sentences detailing your thoughts. You will be able to proceed after at least 2 minutes have passed.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+End of Block: 6. System Justification
+
+### ThreatInjustEfficacy
+Threat-Injustice-and-Efficacy
+
+Start of Block: 13. Fear Messaging Collective Action
+
+Q1 Please rate how much you agree or disagree with the following statements. 
+
+Q2 In an ideal world, justice always prevails over injustice. 
+
+Completely disagree
+Completely agree
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (1)
+
+Q3 In an ideal world, the world is a just and fair place. 
+
+Completely disagree
+Completely agree
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (1)
+
+Q4 In an ideal world, people get what they deserve.
+
+Completely disagree
+Completely agree
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (1)
+
+Q5 In an ideal world, good things happen to good people while bad things happen to bad people.
+
+Completely disagree
+Completely agree
+
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+
+  (1)
+
+Page Break
+
+Q7 In your own words, please explain why it is important for the world to be a just and fair place, where good things happen to good people while bad things happen to bad people.
+
+Please answer the prompt in at least 2 sentences using the text box below.
+
+________________________________________________________________
+
+Page Break
+
+Q9
+1. The Effects of Climate Change Could Be Extreme
+
+Although the world is often a just place, sometimes good and innocent people suffer. For instance, it is now clear that climate change will have dire effects. The sea levels will rise, hurricanes will become stronger, droughts will wreak havoc on food supplies, and there will be incredible heat waves. Although these will affect us all, our most vulnerable people – children, the elderly, and the poor – are likely to suffer the most since they are the least able to avoid all the harmful effects of climate change. This is unfair and unjust. They contributed the least to the problem, yet will suffer the most.
+
+Q10
+
+Q11 What do you think?
+
+Is it fair that many of our most vulnerable people -- children, the elderly, and the poor – are likely to suffer the most?
+Completely unfair  1  (1)
+Unfair  2  (2)
+Somewhat unfair  3  (3)
+Neither fair nor unfair  4  (4)
+Somewhat fair  5  (5)
+Fair  6  (6)
+Completely fair  7  (7)
+
+Page Break
+
+Q13 We can prevent this unfairness and injustice! We can all work together to combat climate change. The good and just forces in the world can conquer the evil threat that is climate change. Together, we can help ensure that the most innocent among us do not suffer. After all, bad things should only happen to bad people.
+
+Page Break
+
+Q15 Sure, climate change is a big problem, but there are millions of solutions. Our country’s great scientists are working every day to make sure that all of the good people of our country will prosper and survive. Through innovation and technological advancement, and through all of us contributing as well, we can conquer any problem we encounter. That includes climate change. By believing in ourselves and believing that we are a righteous people, we can defeat the threats climate change poses to us. And by doing so, we can protect the most innocent and vulnerable among us who need all of us to step up on their behalf.
+
+Q16
+
+Q17 While the most reliable and accurate climate models predict that the effects of climate change could be disastrous, those effects are NOT inevitable. They can be avoided. If we take action now – investing in science and engineering, clean energy, alternative fuels, and cutting back on needless and excessive emissions – we can defeat this formidable opponent. By defeating climate change we can help to ensure the world is a fair and just place.
+
+Page Break
+
+Q19 What do you think?  Will taking action against climate change help lead to a more fair and just place?
+
+Please answer the prompt in at least 2 sentences using the text box below.
+
+________________________________________________________________
+
+End of Block: 13. Fear Messaging Collective Action
+
+CONTROL CONDITION (the comparison every effect is measured against):
+
+### Control (control)
+[VIDEO STIMULUS -- content not on disk] The substantive content of this arm is a video that is NOT available in the released materials. Everything below is only the surrounding on-screen instructions and comprehension items.
+
+Neutral Control Condition
+
+Start of Block: Default Question Block
+
+control_page1 Please carefully watch the following video (you may be asked about it in the following pages).
+
+You will be able to advance the page once this video is over.
+
+Q11.2
+
+End of Block: Default Question Block
+
+Return exactly 204 rows: every condition x every outcome.
+Header: condition,outcome,ate

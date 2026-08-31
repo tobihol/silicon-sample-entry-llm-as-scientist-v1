@@ -1,0 +1,176 @@
+{
+ "dataset": "voelkel2024",
+ "status": "VERIFIED - full-file load (35,252 rows, 27 arms; arm n: Null Control 5,691, Alternative Control 1,133, interventions 1,126-1,147); 26x9 = 234 ATE cells, none NaN, range -10.69..+2.59 pp; per-outcome complete-case n 30,911-31,856; reverse-coding of OppBip/SocDis/SocDistrust proved exactly against the raw items in 'SDC - Data - Anonymized.csv'; Party_Gen coding 1=Republican 2=Democrat 3=Independent proved from the Inparty_Person crosstab (15,009/15,009 and 15,525/15,525); all five moderator recodes have 0.00% unexpected NaN and emit only exact target level strings; weighted-vs-unweighted ATEs r=0.9997; ssb.task.carve builds brief/+sealed/ with real message text for all 26 arms. Known limit: true_ates(moderator='gender') raises on gender='Other' (n=138 over 27 arms -> cells <3).",
+ "file": "/workspace/datasets/voelkel2024/downloads/SDC - Data - Recoded.csv",
+ "reader": "csv",
+ "sample_description": "32,059 U.S. adults after preregistered exclusions (35,252 rows in the file), fielded 2022 by three online panel vendors (Bovitz, Dynata, Luth). DEMOCRACY / PARTISAN-ATTITUDES megastudy, not a climate one; the outcomes are attitudes toward the other party and toward democratic norms. Party leaners are kept but true independents and 'other party' identifiers were screened out at recruitment, so the sample is effectively two-party. The sample is old (mean age ~57) relative to a census quota panel. Each respondent was randomly assigned to one of 25 short interventions, an active/placebo control, or a no-treatment control that is oversampled ~5x. All outcomes are 0-100 sliders measured once, after treatment. Nearly every outcome item is piped with the respondent's own in-party and out-party, so the same column means 'Republicans' for a Republican and 'Democrats' for a Democrat.",
+ "condition_col": "Condition",
+ "arms": {
+  "Null_Control": "Null Control",
+  "Alternative_Control": "Alternative Control",
+  "Befriending_Meditation": "Befriending Meditation",
+  "Chatbot_Quiz": "Correcting Policy Misperceptions Chatbot",
+  "Civity_Storytelling": "Sympathetic Personal Narratives",
+  "Common_Identity": "Common National Identity",
+  "Contact_Project": "Positive Contact Video",
+  "Counterfactual_Selves": "Counterfactual Partisan Selves",
+  "Democratic_Fear": "Democratic Collapse Threat",
+  "Economic_Interests": "Common Economic Interests",
+  "Empathy_Beliefs": "Utility of Outparty Empathy",
+  "Epistemic_Rescue": "Bipartisan Joint Trivia Quiz",
+  "Harmful_Experiences": "Outpartisans’ Experiences of Harm",
+  "Inparty_Elites": "Pro-Democracy Inparty Elite Cues",
+  "Learning_Goals": "Outpartisans' Willingness to Learn",
+  "Media_Trust": "Common Exhausted Majority Identity",
+  "Misperception_Competition": "Correcting Oppositional Misperceptions",
+  "Misperception_Democratic": "Correcting Democracy Misperceptions",
+  "Misperception_Film": "Correcting Division Misperceptions",
+  "Misperception_Suffering": "Correcting Opportunism Misperceptions",
+  "Moral_Differences": "Moral Similarities and Differences",
+  "Outparty_Friendship": "Describing a Likable Outpartisan",
+  "Partisan_Threat": "Reducing Outparty Electoral Threat",
+  "Party_Overlap": "Party Overlap on Policies",
+  "System_Justification": "Democratic System Justification",
+  "Utah_Cues": "Pro-Democracy Bipartisan Elite Cues",
+  "Violence_Efficacy": "Political Violence Inefficacy"
+ },
+ "control_arms": [
+  "Null Control"
+ ],
+ "outcomes": {
+  "PA": {
+   "col": "PA",
+   "lo": 0,
+   "hi": 100,
+   "question": "Partisan Animosity - composite of feeling thermometers toward out-party voters/politicians and a 0-50c dictator game, reverse-scored so HIGHER = MORE animosity"
+  },
+  "ADA": {
+   "col": "ADA",
+   "lo": 0,
+   "hi": 100,
+   "question": "Support for Undemocratic Practices - mean of 4 0-100 agree items (reduce polling stations in out-party areas; governors ignore court rulings; prosecute journalists; do not accept election results)"
+  },
+  "SPV": {
+   "col": "SPV",
+   "lo": 0,
+   "hi": 100,
+   "question": "Support for Partisan Violence - mean of 4 0-100 items on how OK/justified threats, online harassment and political violence by in-partisans are"
+  },
+  "SUC": {
+   "col": "SUC",
+   "lo": 0,
+   "hi": 100,
+   "question": "Support for Undemocratic Candidates - mean of 4 0-100 vote-choice items: would you still vote for your own party's candidate if that candidate endorsed each undemocratic practice"
+  },
+  "OppBip": {
+   "col": "OppBip",
+   "lo": 0,
+   "hi": 100,
+   "question": "Opposition to Bipartisan Cooperation - 100 minus the mean of two 0-100 items on wanting the parties to work together and to compromise (reverse-scoring ALREADY applied in the file; verified exactly)"
+  },
+  "SocDistrust": {
+   "col": "SocDistrust",
+   "lo": 0,
+   "hi": 100,
+   "question": "Social Distrust - 100 minus the single 0-100 generalised-trust item ('most people can be trusted' vs 'you need to be very careful'); reverse-scoring already applied (verified exactly)"
+  },
+  "SocDis": {
+   "col": "SocDis",
+   "lo": 0,
+   "hi": 100,
+   "question": "Social Distance - 100 minus the mean of two 0-100 items on comfort with out-party close friends and neighbours; reverse-scoring already applied (verified exactly)"
+  },
+  "BEPF": {
+   "col": "BEPF",
+   "lo": 0,
+   "hi": 100,
+   "question": "Biased Evaluation of Politicized Facts - composite of 8 0-100 items (4 Republican-favourable, 4 Democrat-favourable factual claims); higher = more partisan-biased evaluation"
+  },
+  "Composite": {
+   "col": "Composite",
+   "lo": 0,
+   "hi": 100,
+   "question": "Composite of Outcomes - the study's own pre-computed overall index of antidemocratic attitudes and partisan animosity, higher = worse"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "Gender",
+   "map": {
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other"
+   }
+  },
+  "age_band": {
+   "col": "Age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "race": {
+   "col": "Race",
+   "map": {
+    "White": "White / Caucasian",
+    "Black": "Black / African American",
+    "Hispanic": "Hispanic / Latino",
+    "Asian": "Asian / Asian American",
+    "Other": "Other"
+   }
+  },
+  "education": {
+   "col": "Education",
+   "map": {
+    "HS or less": "High school diploma / GED",
+    "Some college": "Some college or Associate's degree",
+    "Bachelor": "Bachelor's degree",
+    "Postgraduate": "Master's degree / Professional degree"
+   }
+  },
+  "party": {
+   "col": "Party_Gen",
+   "map": {
+    "1": "Republican",
+    "2": "Democrat",
+    "3": "Independent"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "income": "no income variable in either data file and the questionnaire never asks - impossible",
+  "party:Other": "'Other party' and true independents were screened out at recruitment (EndSurvey branch in the questionnaire survey flow); the target's 'Other' party level has no cases here",
+  "education:Less than high school / Doctorate degree / Ph.D.": "the recoded Education variable has only 4 levels; 'HS or less' is mapped onto 'High school diploma / GED' and 'Postgraduate' onto \"Master's degree / Professional degree\" - a LOSSY collapse, so those two target levels are absent and the two mapped levels are slightly broader than the target's"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/voelkel2024_arms.json",
+ "message_texts_source": "/workspace/datasets/voelkel2024/downloads/SDC - Questionnaire.pdf, blocks keyed by the study's 4-character intervention codes; see the '_note' key in the texts file",
+ "provenance": {
+  "readme_claims": "N = 32,059 after preregistered exclusions; 25 interventions + Null_Control + Alternative_Control; 35,252 rows in both CSVs",
+  "verified_by": "notes/DATA_BBPRIME_VOELKEL2024.md - this session, computed on the full file",
+  "caveats": [
+   "Wrong topic: outcomes are partisan animosity and antidemocratic attitudes, not climate or trust in scientists. Value here is PROCESS practice (how well we rank and scale message effects, and whether alpha/beta calibration is off), not climate priors.",
+   "Alternative_Control is carried as a 26th TREATMENT arm ('Alternative Control'), not as a second control; only Null_Control is the reference. Its true effect is near zero and it is a free honesty check on the predictor.",
+   "Per-outcome survey weights ship with the data (weights_pa, weights_ada, ...), but ssb.task.true_ates takes a single weight column, so this adapter is UNWEIGHTED. Checked: weighted-vs-unweighted ATEs over all 234 cells correlate r = 0.9997, max |difference| 0.19 pp, so the estimand difference is negligible at this scale.",
+   "Attrition is per outcome: Attrited_<Y> == 1 is equivalent to Y being NaN (exact for 8 of 9 outcomes; SUC agrees on 98.8% of rows). true_ates complete-cases each outcome via isfinite, so no global filter is applied and per-outcome n varies (30,911-31,856 of 35,252).",
+   "The README's post-exclusion N = 32,059 is NOT reproducible from a single stored flag on disk; the file has 35,252 rows and the largest per-outcome complete-case n is 31,856. UNVERIFIED which rows the paper drops.",
+   "Reverse scoring is ALREADY applied in the recoded file - verified exactly for OppBip (= 100 - mean(SupBip_1,SupBip_2)), SocDis (= 100 - mean(SocDis_1,SocDis_2)) and SocDistrust (= 100 - SocTru_1): the sums equal 100.000 on every complete row. Do not reverse twice.",
+   "'Composite' is the study's own overall index and overlaps the other 8 outcomes; it is not statistically independent of them. Kept because it is a named study outcome, not an invented composite.",
+   "Every DV is piped with the respondent's in-party/out-party, so any pooled distribution is a two-group mixture.",
+   "Treatment dose is very unequal: some arms are 8-minute videos or interactive chatbot/trivia sessions, others are one page of text.",
+   "Six arms are video or interactive; the questionnaire PDF gives only the wrapper text, not the media - see the '_note' key of inputs/texts/voelkel2024_arms.json.",
+   "Message texts total ~186k characters across 26 arms (largest: Party Overlap 31k, Bipartisan Joint Trivia Quiz 23k, Learning Goals 21k). A brief that inlines all of them is ~46k tokens; truncation is a prompt-budget decision left to the caller, and this file holds the untruncated text."
+  ]
+ },
+ "harness_note": "ssb.task.true_ates does int(np.nan) when a moderator x arm x outcome cell has <=2 observations, so moderator='gender' raises ValueError here (gender='Other', n=138). moderator in {age_band, race, education, party} all work: 936/1170/936/702 cells, 0 NaN. Immediate workaround if a gender-moderated carve is needed: drop the 'Other' entry from moderators.gender.map (loses the target's third gender level)."
+}

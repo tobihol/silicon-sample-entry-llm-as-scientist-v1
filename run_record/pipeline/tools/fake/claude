@@ -1,0 +1,61 @@
+#!/opt/kernel/venv/bin/python
+"""A stand-in for `claude -p` that is argv-compatible with ssb.predict.command().
+
+    PATH="$PWD/tools/fake:$PATH" /opt/kernel/venv/bin/python tools/practice.py --model X --execute --rehearsal
+
+This exists because the ONE path in the whole loop that had never executed is the one that spends
+money: subprocess -> stdout -> json.loads -> `result` -> parse. A credential is not needed to
+rehearse it, only something that answers in the right shape. This answers with
+`ssb.predict.stub_completion` - a scripted function of cell NAMES that has read nothing - wrapped in
+the JSON envelope `--output-format json` produces.
+
+It refuses to run unless SSB_REHEARSAL=1 is set, so it can never be mistaken for the real binary.
+"""
+import argparse, hashlib, json, os, sys, time
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / ".prime/agent/skills/ssb/src"))
+import ssb  # noqa: E402
+
+
+def main():
+    if os.environ.get("SSB_REHEARSAL") != "1":
+        sys.stderr.write("fake_claude: refusing to run without SSB_REHEARSAL=1\n")
+        return 2
+    ap = argparse.ArgumentParser(add_help=False)
+    ap.add_argument("-p", "--print", dest="user", default="")
+    ap.add_argument("--system-prompt", dest="system", default="")
+    ap.add_argument("--model", default="")
+    ap.add_argument("--tools", default=None)
+    ap.add_argument("--settings", default=None)
+    ap.add_argument("--output-format", default="text")
+    ap.add_argument("--no-session-persistence", action="store_true")
+    a, unknown = ap.parse_known_args()
+    if unknown:
+        sys.stderr.write("fake_claude: unexpected argv %r - ssb.predict.command() changed shape\n" % unknown)
+        return 3
+    if a.tools != "":
+        sys.stderr.write("fake_claude: --tools must be empty (blinding is a property of the call)\n")
+        return 4
+
+    # Draws must DISAGREE or the aggregation path is not being rehearsed: ssb.predict.aggregate's
+    # median and spread, and anchor_spread (which has only ever read 0.00 against a name-
+    # deterministic stub, OPEN item 10), both need genuine draw-to-draw variation. Fresh calls
+    # jitter; cache hits never reach this file, so a resume stays bit-identical.
+    seed = int(hashlib.sha256((a.user[:2000] + a.model).encode()).hexdigest()[:6], 16) % 1000
+    seed = (seed + time.time_ns() % 97) % 1000
+    if "RESULTS_KNOWN" in a.system:                      # the stage-3a recognition probe
+        text = ("STUDY: UNKNOWN\nAUTHORS: UNKNOWN\nCONFIDENCE: 15\nRESULTS_KNOWN: NO")
+    else:
+        text = ssb.predict.stub_completion(a.user, a.system, seed=seed)
+    env = {"type": "result", "subtype": "success", "is_error": False, "duration_ms": 1,
+           "num_turns": 1, "result": text, "session_id": "rehearsal",
+           "total_cost_usd": 0.0, "usage": {"input_tokens": len(a.user) // 4,
+                                            "output_tokens": len(text) // 4},
+           "_fake": True, "_produced_by": __file__, "_at": time.strftime("%FT%TZ")}
+    sys.stdout.write(json.dumps(env) if a.output_format == "json" else text)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

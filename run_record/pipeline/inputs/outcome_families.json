@@ -1,0 +1,313 @@
+{
+ "_doc": "Maps each practice-task outcome onto one of the target's four outcome families (ssb.predict.FAMILY: trust / policy / belief / behaviour), or to null where the target has no analogue. WRITTEN AND FROZEN BEFORE ANY FAMILY SLOPE WAS FITTED (run 20260815-practice-01); the justification for every mapped outcome is the adapter's own `question` text, written before the first paid call. An outcome with no honest target analogue is mapped to null and contributes to no family slope - forcing it into the nearest family would be inventing evidence for a number stage 6 multiplies by.",
+ "target_families": {
+  "trust": [
+   "trust_multidimensional",
+   "trust_post",
+   "distrust_post",
+   "inst_trust_mean"
+  ],
+  "policy": [
+   "funding_perceptions",
+   "policy_role_mean",
+   "policy_general",
+   "policy_specific_mean"
+  ],
+  "belief": [
+   "belief_post",
+   "concern_mean"
+  ],
+  "behaviour": [
+   "behavior_mean",
+   "donation_ams",
+   "newsletter_signup"
+  ]
+ },
+ "tasks": {
+  "voelkel2026": {
+   "Belief_Post": [
+    "belief",
+    "belief that human activity causes climate change <-> belief_post"
+   ],
+   "Concern_Post": [
+    "belief",
+    "adapter: 'VERBATIM the target's concern_1..3' <-> concern_mean"
+   ],
+   "Policies_Post": [
+    "policy",
+    "adapter: 'includes the target's policy_general verbatim'"
+   ],
+   "PoliciesSp_Post": [
+    "policy",
+    "specific climate policy support <-> policy_specific_mean"
+   ],
+   "Intent_Post": [
+    "behaviour",
+    "political climate action intentions; the target's behaviour family is intention-and-act"
+   ],
+   "IntentNp_Post": [
+    "behaviour",
+    "adapter: '3 verbatim target behavior_* items' <-> behavior_mean"
+   ],
+   "Donation": [
+    "behaviour",
+    "allocation to climate orgs <-> donation_ams (different unit, same construct)"
+   ],
+   "Candidate_Post": [
+    null,
+    "climate-candidate support: between policy and behaviour, and the target has no candidate item. Not forced."
+   ],
+   "Companies_Post": [
+    null,
+    "attitudes to companies: no target analogue"
+   ]
+  },
+  "bbprime2025": {
+   "concern_risk": [
+    "belief",
+    "'concerned about climate change / poses risks to me' <-> concern_mean"
+   ],
+   "action_intention": [
+    "behaviour",
+    "'do you intend to do this action more or less' <-> behavior_mean"
+   ],
+   "msg_share_broad": [
+    "behaviour",
+    "sharing intention: a stated act"
+   ],
+   "msg_share_narrow": [
+    "behaviour",
+    "sharing intention: a stated act"
+   ],
+   "petition_share_broad": [
+    "behaviour",
+    "sharing intention: a stated act"
+   ],
+   "petition_share_narrow": [
+    "behaviour",
+    "sharing intention: a stated act"
+   ],
+   "petition_sign_intention": [
+    "behaviour",
+    "signing intention: a stated act"
+   ],
+   "petition_sign": [
+    "behaviour",
+    "REAL act, 0/1 per petition <-> newsletter_signup's costly-act shape"
+   ],
+   "petition_link_clicks": [
+    "behaviour",
+    "REAL act, 0-3 clicks"
+   ],
+   "msg_rel_self": [
+    null,
+    "perceived message relevance: no target analogue"
+   ],
+   "msg_rel_social": [
+    null,
+    "perceived message relevance: no target analogue"
+   ],
+   "action_env_impact": [
+    null,
+    "perceived efficacy of actions: closest to a belief, but the target's belief items are about climate change itself, not about action efficacy. Not forced."
+   ],
+   "self_efficacy": [
+    null,
+    "efficacy scale: no target analogue"
+   ],
+   "emo_angry": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "emo_anxious": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "emo_sad": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "emo_hopeful": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "emo_hopeless": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "emo_determined": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "emo_disengaged": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "emo_uncertain": [
+    null,
+    "emotion: no target analogue"
+   ],
+   "distance_geographic": [
+    null,
+    "psychological distance: no target analogue"
+   ],
+   "distance_social": [
+    null,
+    "psychological distance: no target analogue"
+   ],
+   "distance_temporal": [
+    null,
+    "psychological distance: no target analogue"
+   ]
+  },
+  "goldwert2026": {
+   "belief_1": [
+    "belief",
+    "belief in climate change <-> belief_post"
+   ],
+   "policy_1": [
+    "policy",
+    "climate policy support <-> policy_general"
+   ],
+   "pol_campaign": [
+    "behaviour",
+    "stated commitment to act"
+   ],
+   "pol_candidate": [
+    "behaviour",
+    "stated commitment to act"
+   ],
+   "march": [
+    "behaviour",
+    "stated commitment to act"
+   ],
+   "conversation": [
+    "behaviour",
+    "stated commitment to act"
+   ],
+   "petition": [
+    "behaviour",
+    "REAL act 0/1"
+   ],
+   "newsletter1": [
+    "behaviour",
+    "adapter: 'closest analogue of the target's newsletter_signup'"
+   ],
+   "newsletter2": [
+    "behaviour",
+    "REAL act 0/1"
+   ],
+   "newsletter": [
+    "behaviour",
+    "REAL act 0/1"
+   ],
+   "letter": [
+    "behaviour",
+    "REAL act 0/1"
+   ],
+   "donation": [
+    "behaviour",
+    "adapter: 'same units as the target's donation_ams'"
+   ]
+  },
+  "vlasceanu2024": {
+   "Belief1": [
+    "belief",
+    "climate-change belief accuracy items <-> belief_post"
+   ],
+   "Belief2": [
+    "belief",
+    "climate-change belief accuracy items <-> belief_post"
+   ],
+   "Belief3": [
+    "belief",
+    "climate-change belief accuracy items <-> belief_post"
+   ],
+   "Belief4": [
+    "belief",
+    "climate-change belief accuracy items <-> belief_post"
+   ],
+   "Policy1": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy2": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy3": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy4": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy5": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy6": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy7": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy8": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "Policy9": [
+    "policy",
+    "'I support...' climate policy items <-> policy_specific_mean"
+   ],
+   "SHAREcc": [
+    "behaviour",
+    "REAL act: shared on social media"
+   ],
+   "WEPTcc": [
+    "behaviour",
+    "REAL act: effortful task screens completed"
+   ]
+  },
+  "voelkel2024": {},
+  "gligoric2025": {
+   "trust_overall": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ],
+   "credibility": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ],
+   "trustworthiness": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ],
+   "trust_climate_env": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ],
+   "trust_life_medical": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ],
+   "trust_physical_eng": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ],
+   "trust_social": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ],
+   "trust_quant_tech": [
+    "trust",
+    "every outcome of this task is trust in scientists on the same two 7-point bipolar items (credible / trustworthy); the map is forced by the instrument, not chosen"
+   ]
+  }
+ },
+ "voelkel2024_note": "Every voelkel2024 outcome maps to null. It is a DEMOCRACY megastudy - partisan animosity, support for undemocratic practices, partisan violence. None of it shares a construct with any target family. It informs the pooled slope's reference class question (finding 29: it is the fold that breaks the map) and no family slope.",
+ "_gligoric_note": "gligoric2025 was added in session 12, AFTER the family map was frozen. The addition carries no discretion: all eight of its outcomes are the same trust-in-scientists battery, so there is no alternative mapping to choose between, and the task is `exclude_from_slope` in its adapter for two independent reasons (conservatives-only subgroup; negative signal variance), so it cannot enter any fitted slope, pooled or per-family."
+}

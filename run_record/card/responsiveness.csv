@@ -1,0 +1,28 @@
+moderator,level,factor
+gender,Male,1.0
+gender,Female,1.0
+gender,Other,1.0
+age_band,18-29,1.0
+age_band,30-44,1.0
+age_band,45-59,1.0
+age_band,60+,1.0
+race,White / Caucasian,1.0
+race,Black / African American,1.0
+race,Hispanic / Latino,1.0
+race,Asian / Asian American,1.0
+race,Other,1.0
+education,Less than high school,1.0
+education,High school diploma / GED,1.0
+education,Some college or Associate's degree,1.0
+education,Bachelor's degree,1.0
+education,Master's degree / Professional degree,1.0
+education,Doctorate degree / Ph.D.,1.0
+income,"Less than $30,000",1.0
+income,"$30,000 to $55,999",1.0
+income,"$56,000 to $99,999",1.0
+income,"$100,000 to $167,999",1.0
+income,"$168,000 or more",1.0
+party,Republican,1.0
+party,Democrat,1.0
+party,Independent,1.0
+party,Other,1.0

@@ -1,0 +1,352 @@
+moderator,level,outcome,offset,n,source,covered
+gender,Male,trust_multidimensional,0.6224322583815923,5281,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=5281]",True
+gender,Male,trust_post,0.6224322583815923,5281,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=5281]",True
+gender,Male,distrust_post,-0.6224322583815923,5281,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=5281]",True
+gender,Male,funding_perceptions,-1.5719588000276499,3047,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+gender,Male,policy_role_mean,0.6580910367675873,1172,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+gender,Male,inst_trust_mean,0.6224322583815923,5281,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=5281]",True
+gender,Male,belief_post,-1.6583766105139073,6237,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+gender,Male,concern_mean,-3.5836693787563934,6231,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+gender,Male,policy_general,-3.526706426238064,6236,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+gender,Male,policy_specific_mean,-0.455536906914568,6232,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+gender,Male,behavior_mean,-2.8826694763986866,6222,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+gender,Male,donation_ams,-0.3570207395637957,479,"goldwert2026 control arm (finishers), donation",True
+gender,Male,newsletter_signup,-0.028928659238347084,478,"goldwert2026 control arm (finishers), newsletter1",True
+gender,Female,trust_multidimensional,-0.446288514491756,7032,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=7032]",True
+gender,Female,trust_post,-0.446288514491756,7032,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=7032]",True
+gender,Female,distrust_post,0.446288514491756,7032,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=7032]",True
+gender,Female,funding_perceptions,1.0789177280234674,3067,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+gender,Female,policy_role_mean,-1.0016901933657887,1387,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+gender,Female,inst_trust_mean,-0.446288514491756,7032,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=7032]",True
+gender,Female,belief_post,1.245126593824499,7450,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+gender,Female,concern_mean,3.0144074170097537,7444,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+gender,Female,policy_general,2.8988445478445617,7451,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+gender,Female,policy_specific_mean,0.08983058933426843,7438,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+gender,Female,behavior_mean,2.501778614489349,7440,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+gender,Female,donation_ams,0.3288266054764299,649,"goldwert2026 control arm (finishers), donation",True
+gender,Female,newsletter_signup,0.026776609891501855,649,"goldwert2026 control arm (finishers), newsletter1",True
+gender,Other,trust_multidimensional,-7.044296209205022,94,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=94]",True
+gender,Other,trust_post,-7.044296209205022,94,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=94]",True
+gender,Other,distrust_post,7.044296209205022,94,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=94]",True
+gender,Other,funding_perceptions,20.315513144058144,129,"voelkel2026 PRE gender x policy_general offset reused (CCAM and TISP both code gender as a binary and cannot reach this cell), FLAGGED",True
+gender,Other,policy_role_mean,20.31551314405813,129,"voelkel2026 PRE gender x policy_general offset reused (CCAM and TISP both code gender as a binary and cannot reach this cell), FLAGGED",True
+gender,Other,inst_trust_mean,-7.044296209205022,94,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=94]",True
+gender,Other,belief_post,15.830997256120943,129,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+gender,Other,concern_mean,17.245416002041555,129,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+gender,Other,policy_general,20.516083376408233,129,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+gender,Other,policy_specific_mean,17.563448935101142,129,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+gender,Other,behavior_mean,9.836293493209038,129,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+gender,Other,donation_ams,0.22370503123786095,124,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+gender,Other,newsletter_signup,0.011185251561893064,124,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True
+age_band,18-29,trust_multidimensional,-3.1985777521825933,436,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+age_band,18-29,trust_post,-0.6275083020810079,435,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+age_band,18-29,distrust_post,3.1985777521825933,436,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+age_band,18-29,funding_perceptions,3.320203573280423,758,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+age_band,18-29,policy_role_mean,2.192643710850035,436,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+age_band,18-29,inst_trust_mean,-3.1985777521825933,436,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+age_band,18-29,belief_post,6.6017975497634085,2082,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+age_band,18-29,concern_mean,6.872538831156205,2081,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+age_band,18-29,policy_general,9.183378209153227,2082,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+age_band,18-29,policy_specific_mean,4.763888174825812,2079,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+age_band,18-29,behavior_mean,2.035662601226158,2076,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+age_band,18-29,donation_ams,-0.12994399045756827,209,"goldwert2026 control arm (finishers), donation",True
+age_band,18-29,newsletter_signup,0.11603800985730585,210,"goldwert2026 control arm (finishers), newsletter1",True
+age_band,30-44,trust_multidimensional,4.9950064944700046,766,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+age_band,30-44,trust_post,7.964455573318032,766,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+age_band,30-44,distrust_post,-4.9950064944700046,766,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+age_band,30-44,funding_perceptions,1.3945333464769754,1346,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+age_band,30-44,policy_role_mean,7.84596557344351,766,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+age_band,30-44,inst_trust_mean,4.9950064944700046,766,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+age_band,30-44,belief_post,2.016080387619501,3734,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+age_band,30-44,concern_mean,3.4263268035164027,3731,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+age_band,30-44,policy_general,3.2321245875582973,3735,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+age_band,30-44,policy_specific_mean,1.8244150250979736,3730,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+age_band,30-44,behavior_mean,1.0550392466965033,3730,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+age_band,30-44,donation_ams,-0.09002817675761049,395,"goldwert2026 control arm (finishers), donation",True
+age_band,30-44,newsletter_signup,0.051922363598802444,392,"goldwert2026 control arm (finishers), newsletter1",True
+age_band,45-59,trust_multidimensional,-0.7224994302063074,640,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+age_band,45-59,trust_post,-2.3289419688122726,639,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+age_band,45-59,distrust_post,0.7224994302063074,640,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+age_band,45-59,funding_perceptions,-2.02369751139446,1544,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+age_band,45-59,policy_role_mean,-1.106192112804189,640,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+age_band,45-59,inst_trust_mean,-0.7224994302063074,640,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+age_band,45-59,belief_post,-1.502660857537445,3533,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+age_band,45-59,concern_mean,-1.8624129178063034,3529,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+age_band,45-59,policy_general,-1.2919511474034437,3533,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+age_band,45-59,policy_specific_mean,-1.4117572470618107,3526,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+age_band,45-59,behavior_mean,0.030193420551783423,3529,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+age_band,45-59,donation_ams,-0.1588404579318627,282,"goldwert2026 control arm (finishers), donation",True
+age_band,45-59,newsletter_signup,-0.024328808248028168,283,"goldwert2026 control arm (finishers), newsletter1",True
+age_band,60+,trust_multidimensional,-1.468411697691551,717,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+age_band,60+,trust_post,-4.352264841490642,717,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+age_band,60+,distrust_post,1.468411697691551,717,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+age_band,60+,funding_perceptions,-1.6925712161305235,2466,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+age_band,60+,policy_role_mean,-7.204371136122229,717,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+age_band,60+,inst_trust_mean,-1.468411697691551,717,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+age_band,60+,belief_post,-4.883876774080529,4467,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+age_band,60+,concern_mean,-5.9575010622360205,4463,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+age_band,60+,policy_general,-7.84194988618381,4466,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+age_band,60+,policy_specific_mean,-3.5577658655782294,4464,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+age_band,60+,behavior_mean,-2.297718008033697,4456,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+age_band,60+,donation_ams,0.30051690203340004,245,"goldwert2026 control arm (finishers), donation",True
+age_band,60+,newsletter_signup,-0.10164906497262614,245,"goldwert2026 control arm (finishers), newsletter1",True
+race,White / Caucasian,trust_multidimensional,0.2780011598117309,6875,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=6875]",True
+race,White / Caucasian,trust_post,0.2780011598117309,6875,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=6875]",True
+race,White / Caucasian,distrust_post,-0.2780011598117309,6875,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=6875]",True
+race,White / Caucasian,funding_perceptions,-2.344278593803895,4334,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+race,White / Caucasian,policy_role_mean,0.4969750959625334,6886,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with race), further x0.8, FLAGGED",True
+race,White / Caucasian,inst_trust_mean,0.2780011598117309,6875,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=6875]",True
+race,White / Caucasian,belief_post,-2.2132045991945906,9825,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+race,White / Caucasian,concern_mean,-4.7031263913552355,9818,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+race,White / Caucasian,policy_general,-4.859318998046649,9824,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+race,White / Caucasian,policy_specific_mean,-1.8679759907245694,9815,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+race,White / Caucasian,behavior_mean,-2.3602198708280127,9810,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+race,White / Caucasian,donation_ams,-0.10684508680335415,9395,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+race,White / Caucasian,newsletter_signup,-0.005342254340167707,9395,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True
+race,Black / African American,trust_multidimensional,-1.7307503903116757,2102,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=2102]",True
+race,Black / African American,trust_post,-1.7307503903116757,2102,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=2102]",True
+race,Black / African American,distrust_post,1.7307503903116757,2102,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=2102]",True
+race,Black / African American,funding_perceptions,5.019124793693172,575,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+race,Black / African American,policy_role_mean,-1.9440800474353377,2102,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with race), further x0.8, FLAGGED",True
+race,Black / African American,inst_trust_mean,-1.7307503903116757,2102,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=2102]",True
+race,Black / African American,belief_post,2.5792056689658405,1688,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+race,Black / African American,concern_mean,10.161990460300443,1687,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+race,Black / African American,policy_general,11.47787513258248,1687,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+race,Black / African American,policy_specific_mean,2.775750128120568,1686,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+race,Black / African American,behavior_mean,3.7630744788133854,1679,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+race,Black / African American,donation_ams,-0.009938509673515224,1602,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+race,Black / African American,newsletter_signup,-0.0004969254836757604,1602,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True
+race,Hispanic / Latino,trust_multidimensional,-1.3292164576556504,2488,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=2488]",True
+race,Hispanic / Latino,trust_post,-1.3292164576556504,2488,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=2488]",True
+race,Hispanic / Latino,distrust_post,1.3292164576556504,2488,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=2488]",True
+race,Hispanic / Latino,funding_perceptions,2.0300778599668408,741,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+race,Hispanic / Latino,policy_role_mean,-1.6228529013105175,2488,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with race), further x0.8, FLAGGED",True
+race,Hispanic / Latino,inst_trust_mean,-1.3292164576556504,2488,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=2488]",True
+race,Hispanic / Latino,belief_post,3.861163755220232,1242,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+race,Hispanic / Latino,concern_mean,8.451326102192523,1239,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+race,Hispanic / Latino,policy_general,7.952152612917243,1244,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+race,Hispanic / Latino,policy_specific_mean,2.9346304816372113,1239,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+race,Hispanic / Latino,behavior_mean,4.199750483784007,1242,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+race,Hispanic / Latino,donation_ams,0.4377703933925676,1180,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+race,Hispanic / Latino,newsletter_signup,0.02188851966962838,1180,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True
+race,Asian / Asian American,trust_multidimensional,6.012917693839631,376,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=376]",True
+race,Asian / Asian American,trust_post,6.012917693839631,376,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=376]",True
+race,Asian / Asian American,distrust_post,-6.012917693839631,376,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=376]",True
+race,Asian / Asian American,funding_perceptions,7.107048203539634,464,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor ; CCAM has no Asian cell - 'Other, non-Hispanic' reused, FLAGGED",True
+race,Asian / Asian American,policy_role_mean,1.901407205102268,676,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with race), further x0.8, FLAGGED",True
+race,Asian / Asian American,inst_trust_mean,6.012917693839631,376,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=376]",True
+race,Asian / Asian American,belief_post,7.776672431598469,777,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+race,Asian / Asian American,concern_mean,8.8693597813873,776,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+race,Asian / Asian American,policy_general,9.355145408192993,777,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+race,Asian / Asian American,policy_specific_mean,6.421856392231082,775,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+race,Asian / Asian American,behavior_mean,5.94909854505311,776,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+race,Asian / Asian American,donation_ams,0.1416515227994611,737,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+race,Asian / Asian American,newsletter_signup,0.007082576139973057,737,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True
+race,Other,trust_multidimensional,-4.043395004154951,545,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=545]",True
+race,Other,trust_post,-4.043395004154951,545,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=545]",True
+race,Other,distrust_post,4.043395004154951,545,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=545]",True
+race,Other,funding_perceptions,7.107048203539634,464,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+race,Other,policy_role_mean,1.901407205102268,676,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with race), further x0.8, FLAGGED",True
+race,Other,inst_trust_mean,-4.043395004154951,545,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=545]",True
+race,Other,belief_post,2.2188081564197115,283,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+race,Other,concern_mean,-0.06566535430903464,283,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+race,Other,policy_general,0.008769249095988219,283,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+race,Other,policy_specific_mean,1.5760317028431858,283,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+race,Other,behavior_mean,2.5755473386611087,283,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+race,Other,donation_ams,-0.30131861593603637,258,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+race,Other,newsletter_signup,-0.015065930796801817,258,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True
+education,Less than high school,trust_multidimensional,-3.617013774373017,160,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=160]",True
+education,Less than high school,trust_post,-3.617013774373017,160,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=160]",True
+education,Less than high school,distrust_post,3.617013774373017,160,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w114, n=160]",True
+education,Less than high school,funding_perceptions,-2.6615347898476704,377,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+education,Less than high school,policy_role_mean,-2.2275344687005467,2559,"TISP US NORMPERC by DEM_EDU collapsed to higher-education vs not (TISP has only 4 coarse levels); the same offset is given to all three levels within each group, FLAGGED",True
+education,Less than high school,inst_trust_mean,-3.617013774373017,160,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=160]",True
+education,Less than high school,belief_post,-2.337682630044865,499,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+education,Less than high school,concern_mean,-0.07695607769622873,505,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+education,Less than high school,policy_general,0.9615071997522042,502,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+education,Less than high school,policy_specific_mean,-0.43901117075929125,440,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+education,Less than high school,behavior_mean,-5.686593879746568,504,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+education,Less than high school,donation_ams,0.10904913421244322,60,"goldwert2026 control arm (finishers), donation ; Less than high school not observed - High school diploma / GED reused, FLAGGED",True
+education,Less than high school,newsletter_signup,0.02001983606999354,61,"goldwert2026 control arm (finishers), newsletter1 ; Less than high school not observed - High school diploma / GED reused, FLAGGED",True
+education,High school diploma / GED,trust_multidimensional,-4.018544409407259,795,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=795]",True
+education,High school diploma / GED,trust_post,-4.018544409407259,795,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=795]",True
+education,High school diploma / GED,distrust_post,4.018544409407259,795,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w114, n=795]",True
+education,High school diploma / GED,funding_perceptions,-3.769551321552675,1563,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+education,High school diploma / GED,policy_role_mean,-2.2275344687005467,2559,"TISP US NORMPERC by DEM_EDU collapsed to higher-education vs not (TISP has only 4 coarse levels); the same offset is given to all three levels within each group, FLAGGED",True
+education,High school diploma / GED,inst_trust_mean,-4.018544409407259,795,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=795]",True
+education,High school diploma / GED,belief_post,-6.136413295895743,2057,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+education,High school diploma / GED,concern_mean,-4.65178098783254,2111,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+education,High school diploma / GED,policy_general,-3.696469756421736,2103,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+education,High school diploma / GED,policy_specific_mean,-2.706651234290708,1832,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+education,High school diploma / GED,behavior_mean,-6.641083053229355,2112,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+education,High school diploma / GED,donation_ams,0.10904913421244322,60,"goldwert2026 control arm (finishers), donation",True
+education,High school diploma / GED,newsletter_signup,0.02001983606999354,61,"goldwert2026 control arm (finishers), newsletter1",True
+education,Some college or Associate's degree,trust_multidimensional,-0.6571266739755868,1725,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1725]",True
+education,Some college or Associate's degree,trust_post,-0.6571266739755868,1725,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1725]",True
+education,Some college or Associate's degree,distrust_post,0.6571266739755868,1725,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w114, n=1725]",True
+education,Some college or Associate's degree,funding_perceptions,-1.8883770383310352,1703,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+education,Some college or Associate's degree,policy_role_mean,-2.2275344687005467,2559,"TISP US NORMPERC by DEM_EDU collapsed to higher-education vs not (TISP has only 4 coarse levels); the same offset is given to all three levels within each group, FLAGGED",True
+education,Some college or Associate's degree,inst_trust_mean,-0.6571266739755868,1725,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1725]",True
+education,Some college or Associate's degree,belief_post,-2.7728574112053406,2215,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+education,Some college or Associate's degree,concern_mean,-2.5105454536303107,2260,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+education,Some college or Associate's degree,policy_general,-2.356278407057935,2257,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+education,Some college or Associate's degree,policy_specific_mean,-1.7447414556831082,1956,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+education,Some college or Associate's degree,behavior_mean,-0.8847012123490685,2259,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+education,Some college or Associate's degree,donation_ams,-0.45492936041121224,186,"goldwert2026 control arm (finishers), donation",True
+education,Some college or Associate's degree,newsletter_signup,0.02175459190311004,189,"goldwert2026 control arm (finishers), newsletter1",True
+education,Bachelor's degree,trust_multidimensional,2.044726493947461,1423,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1423]",True
+education,Bachelor's degree,trust_post,2.044726493947461,1423,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1423]",True
+education,Bachelor's degree,distrust_post,-2.044726493947461,1423,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w114, n=1423]",True
+education,Bachelor's degree,funding_perceptions,3.2981840003240306,1364,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+education,Bachelor's degree,policy_role_mean,3.709131310705217,2559,"TISP US NORMPERC by DEM_EDU collapsed to higher-education vs not (TISP has only 4 coarse levels); the same offset is given to all three levels within each group, FLAGGED",True
+education,Bachelor's degree,inst_trust_mean,2.044726493947461,1423,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1423]",True
+education,Bachelor's degree,belief_post,5.148155078097854,1840,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+education,Bachelor's degree,concern_mean,3.9308481306713143,1867,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+education,Bachelor's degree,policy_general,2.9914394946191085,1866,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+education,Bachelor's degree,policy_specific_mean,2.5793324753323685,1599,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+education,Bachelor's degree,behavior_mean,4.287683021782208,1866,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+education,Bachelor's degree,donation_ams,0.04787697304028226,182,"goldwert2026 control arm (finishers), donation",True
+education,Bachelor's degree,newsletter_signup,-0.036446466297948156,180,"goldwert2026 control arm (finishers), newsletter1",True
+education,Master's degree / Professional degree,trust_multidimensional,6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1141]",True
+education,Master's degree / Professional degree,trust_post,6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1141]",True
+education,Master's degree / Professional degree,distrust_post,-6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w114, n=1141]",True
+education,Master's degree / Professional degree,funding_perceptions,5.769326049388721,812,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+education,Master's degree / Professional degree,policy_role_mean,3.709131310705217,2559,"TISP US NORMPERC by DEM_EDU collapsed to higher-education vs not (TISP has only 4 coarse levels); the same offset is given to all three levels within each group, FLAGGED",True
+education,Master's degree / Professional degree,inst_trust_mean,6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1141]",True
+education,Master's degree / Professional degree,belief_post,7.945400892339685,1050,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+education,Master's degree / Professional degree,concern_mean,5.6903822872754874,1073,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+education,Master's degree / Professional degree,policy_general,4.696700191880287,1073,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+education,Master's degree / Professional degree,policy_specific_mean,3.6042317408664686,934,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+education,Master's degree / Professional degree,behavior_mean,7.823046278571491,1072,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+education,Master's degree / Professional degree,donation_ams,0.8186982570194609,76,"goldwert2026 control arm (finishers), donation",True
+education,Master's degree / Professional degree,newsletter_signup,-0.03200202185350371,75,"goldwert2026 control arm (finishers), newsletter1",True
+education,Doctorate degree / Ph.D.,trust_multidimensional,6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1141] ; Pew's top band is 'Postgraduate' - Master's cell reused, FLAGGED",True
+education,Doctorate degree / Ph.D.,trust_post,6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1141] ; Pew's top band is 'Postgraduate' - Master's cell reused, FLAGGED",True
+education,Doctorate degree / Ph.D.,distrust_post,-6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor ; SIGN FLIPPED (reverse-valenced) [waves w114, n=1141] ; Pew's top band is 'Postgraduate' - Master's cell reused, FLAGGED",True
+education,Doctorate degree / Ph.D.,funding_perceptions,9.970186304213119,295,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+education,Doctorate degree / Ph.D.,policy_role_mean,3.709131310705217,2559,"TISP US NORMPERC by DEM_EDU collapsed to higher-education vs not (TISP has only 4 coarse levels); the same offset is given to all three levels within each group, FLAGGED",True
+education,Doctorate degree / Ph.D.,inst_trust_mean,6.46512064821752,1141,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w114, n=1141] ; Pew's top band is 'Postgraduate' - Master's cell reused, FLAGGED",True
+education,Doctorate degree / Ph.D.,belief_post,12.193342262490289,409,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+education,Doctorate degree / Ph.D.,concern_mean,10.16878764130314,417,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+education,Doctorate degree / Ph.D.,policy_general,10.710440322257128,417,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+education,Doctorate degree / Ph.D.,policy_specific_mean,7.649401855102466,357,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+education,Doctorate degree / Ph.D.,behavior_mean,12.233419449735022,417,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+education,Doctorate degree / Ph.D.,donation_ams,0.8186982570194609,76,"goldwert2026 control arm (finishers), donation ; Doctorate degree / Ph.D. not observed - Master's degree / Professional degree reused, FLAGGED",True
+education,Doctorate degree / Ph.D.,newsletter_signup,-0.03200202185350371,75,"goldwert2026 control arm (finishers), newsletter1 ; Doctorate degree / Ph.D. not observed - Master's degree / Professional degree reused, FLAGGED",True
+income,"Less than $30,000",trust_multidimensional,-3.19740051809294,841,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+income,"Less than $30,000",trust_post,-3.32083935076463,839,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+income,"Less than $30,000",distrust_post,3.19740051809294,841,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+income,"Less than $30,000",funding_perceptions,0.4154569216694077,769,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+income,"Less than $30,000",policy_role_mean,-2.452558298088168,841,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+income,"Less than $30,000",inst_trust_mean,-3.19740051809294,841,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+income,"Less than $30,000",belief_post,-1.9201206939335675,1010,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+income,"Less than $30,000",concern_mean,0.5156236312819146,1040,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+income,"Less than $30,000",policy_general,3.287118682956138,1037,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+income,"Less than $30,000",policy_specific_mean,0.3762703077720377,899,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+income,"Less than $30,000",behavior_mean,-3.3958660614225833,1040,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+income,"Less than $30,000",donation_ams,0.17434063169513223,97,"goldwert2026 control arm (finishers), donation",True
+income,"Less than $30,000",newsletter_signup,0.09560781675407104,97,"goldwert2026 control arm (finishers), newsletter1",True
+income,"$30,000 to $55,999",trust_multidimensional,-2.8351292031367454,625,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",trust_post,-4.912222691164989,625,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",distrust_post,2.8351292031367454,625,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+income,"$30,000 to $55,999",funding_perceptions,-1.0437666250170887,1024,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",policy_role_mean,-4.426293869603121,625,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",inst_trust_mean,-2.8351292031367454,625,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+income,"$30,000 to $55,999",belief_post,-1.740736550635107,1338,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",concern_mean,-0.8390409343074567,1363,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",policy_general,-1.1703503108252298,1359,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",policy_specific_mean,0.01679847587158486,1170,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",behavior_mean,-1.2711489592642573,1361,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+income,"$30,000 to $55,999",donation_ams,-0.18374769718357467,81,"goldwert2026 control arm (finishers), donation",True
+income,"$30,000 to $55,999",newsletter_signup,0.0011899138121550567,82,"goldwert2026 control arm (finishers), newsletter1",True
+income,"$56,000 to $99,999",trust_multidimensional,-0.6452004892204346,472,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",trust_post,-1.1119305716822008,472,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",distrust_post,0.6452004892204346,472,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+income,"$56,000 to $99,999",funding_perceptions,0.024504168725785827,1608,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",policy_role_mean,-0.6104089999123646,472,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",inst_trust_mean,-0.6452004892204346,472,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+income,"$56,000 to $99,999",belief_post,0.6255760528731017,2107,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",concern_mean,-0.5510666283099285,2145,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",policy_general,-1.3663866029521974,2141,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",policy_specific_mean,-0.00259376741966241,1853,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",behavior_mean,1.417645853305249,2145,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+income,"$56,000 to $99,999",donation_ams,0.22674612997691898,156,"goldwert2026 control arm (finishers), donation",True
+income,"$56,000 to $99,999",newsletter_signup,-0.009746356840874071,155,"goldwert2026 control arm (finishers), newsletter1",True
+income,"$100,000 to $167,999",trust_multidimensional,5.446859199609975,397,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",trust_post,7.95069521005659,397,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",distrust_post,-5.446859199609975,397,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+income,"$100,000 to $167,999",funding_perceptions,-0.4531056466297978,1586,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",policy_role_mean,5.960807233181855,397,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",inst_trust_mean,5.446859199609975,397,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+income,"$100,000 to $167,999",belief_post,1.4723613674730263,2092,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",concern_mean,-0.3677918882981488,2129,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",policy_general,-1.325553994083949,2126,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",policy_specific_mean,-1.159489520255093,1847,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",behavior_mean,1.7658459086830085,2129,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+income,"$100,000 to $167,999",donation_ams,-0.1791678485177041,62,"goldwert2026 control arm (finishers), donation",True
+income,"$100,000 to $167,999",newsletter_signup,-0.09361732458280955,62,"goldwert2026 control arm (finishers), newsletter1",True
+income,"$168,000 or more",trust_multidimensional,7.018284413951955,168,"TISP US (WEIGHT_CNTRY), trust_md rescaled, x0.8 gap factor",True
+income,"$168,000 or more",trust_post,8.99505850372746,168,"TISP US (WEIGHT_CNTRY), CLIM_TRUST rescaled, x0.8 gap factor",True
+income,"$168,000 or more",distrust_post,-7.018284413951955,168,"mirror of the trust_multidimensional offset, SIGN FLIPPED (reverse-valenced)",True
+income,"$168,000 or more",funding_perceptions,2.2013725773809703,1127,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+income,"$168,000 or more",policy_role_mean,7.809567909783833,168,"TISP US (WEIGHT_CNTRY), policy_role rescaled, x0.8 gap factor",True
+income,"$168,000 or more",inst_trust_mean,7.018284413951955,168,"TISP US 12-item trust gradient used for institutional trust (adjacent construct), FLAGGED",True
+income,"$168,000 or more",belief_post,4.807739958542642,1523,"CCAM 2021-2024 weighted, cause_recoded rescaled, x0.8 gap factor",True
+income,"$168,000 or more",concern_mean,2.918870232687954,1556,"CCAM 2021-2024 weighted, worry rescaled, x0.8 gap factor",True
+income,"$168,000 or more",policy_general,0.4226583901296275,1555,"CCAM 2021-2024 weighted, priority rescaled, x0.8 gap factor",True
+income,"$168,000 or more",policy_specific_mean,1.1448323537864413,1349,"CCAM 2021-2024 weighted, reg_CO2_pollutant rescaled, x0.8 gap factor",True
+income,"$168,000 or more",behavior_mean,4.8123353396393,1555,"CCAM 2021-2024 weighted, discuss_GW rescaled, x0.8 gap factor",True
+income,"$168,000 or more",donation_ams,-0.33158720335641373,40,"goldwert2026 control arm (finishers), donation",True
+income,"$168,000 or more",newsletter_signup,-0.05490764716345469,40,"goldwert2026 control arm (finishers), newsletter1",True
+party,Republican,trust_multidimensional,-13.71503000795511,3227,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=3227]",True
+party,Republican,trust_post,-13.71503000795511,3227,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=3227]",True
+party,Republican,distrust_post,13.71503000795511,3227,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=3227]",True
+party,Republican,funding_perceptions,-14.023312936896406,2357,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+party,Republican,policy_role_mean,-4.899621519040415,3403,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with party), further x0.8, FLAGGED",True
+party,Republican,inst_trust_mean,-9.036414329719456,3227,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=3227]",True
+party,Republican,belief_post,-12.555225095178425,4557,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+party,Republican,concern_mean,-18.88697894690955,4553,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+party,Republican,policy_general,-20.043386123191326,4558,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+party,Republican,policy_specific_mean,-13.283192548549298,4552,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+party,Republican,behavior_mean,-8.589152729248312,4552,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+party,Republican,donation_ams,-0.7926421202376361,331,"goldwert2026 control arm (finishers), donation",True
+party,Republican,newsletter_signup,-0.017265252677548658,333,"goldwert2026 control arm (finishers), newsletter1",True
+party,Democrat,trust_multidimensional,13.334055136568994,4684,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=4684]",True
+party,Democrat,trust_post,13.334055136568994,4684,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=4684]",True
+party,Democrat,distrust_post,-13.334055136568994,4684,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=4684]",True
+party,Democrat,funding_perceptions,13.451648349556432,2620,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+party,Democrat,policy_role_mean,5.005311995546542,4517,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with party), further x0.8, FLAGGED",True
+party,Democrat,inst_trust_mean,8.785401624310886,4684,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=4684]",True
+party,Democrat,belief_post,11.042889719405775,4705,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+party,Democrat,concern_mean,18.232915950713668,4702,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+party,Democrat,policy_general,18.685939946420838,4705,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+party,Democrat,policy_specific_mean,12.0155483073932,4699,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+party,Democrat,behavior_mean,7.950398081647265,4699,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+party,Democrat,donation_ams,0.8340356074628241,488,"goldwert2026 control arm (finishers), donation",True
+party,Democrat,newsletter_signup,0.021420126916921862,484,"goldwert2026 control arm (finishers), newsletter1",True
+party,Independent,trust_multidimensional,0.11171284871142192,3193,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=3193]",True
+party,Independent,trust_post,0.11171284871142192,3193,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=3193]",True
+party,Independent,distrust_post,-0.11171284871142192,3193,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=3193]",True
+party,Independent,funding_perceptions,-0.4979267716530227,627,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+party,Independent,policy_role_mean,-0.846473921314945,3193,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with party), further x0.8, FLAGGED",True
+party,Independent,inst_trust_mean,0.07360418360908717,3193,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=3193]",True
+party,Independent,belief_post,0.0970340000530111,4312,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+party,Independent,concern_mean,-1.0514453074125198,4307,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+party,Independent,policy_general,-0.5442190689837425,4311,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+party,Independent,policy_specific_mean,-0.12368750617467167,4309,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+party,Independent,behavior_mean,-0.14005213086117127,4299,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+party,Independent,donation_ams,-0.04245187435354418,4079,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+party,Independent,newsletter_signup,-0.0021225937176772127,4079,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True
+party,Other,trust_multidimensional,-8.354742414622127,1177,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=1177]",True
+party,Other,trust_post,-8.354742414622127,1177,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) [waves w100+w114, n=1177]",True
+party,Other,distrust_post,8.354742414622127,1177,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor, x1.52 climate-referent partisan fan-out (11.16 pp, Pew W42 + TISP pooled) ; SIGN FLIPPED (reverse-valenced) [waves w100+w114, n=1177]",True
+party,Other,funding_perceptions,-1.913518586517024,468,"CCAM 2021-2024 weighted, fund_research rescaled, x0.8 gap factor",True
+party,Other,policy_role_mean,2.43557886262525,299,"GSS consci gap shape as a PROXY for the scientists-policy-role battery (no mounted source has that battery with party), further x0.8, FLAGGED",True
+party,Other,inst_trust_mean,-5.50468457107392,1177,"Pew ATP 4-point confidence in scientists, weighted, rescaled, x0.8 4-point->slider gap factor [waves w100+w114, n=1177]",True
+party,Other,belief_post,2.01348281098235,242,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Belief_Pre",True
+party,Other,concern_mean,-0.3475105250958193,242,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Concern_Pre",True
+party,Other,policy_general,0.3300033219401193,242,"voelkel2026 PRE (pre-treatment, all arms n=13,821), Policies_Pre_3",True
+party,Other,policy_specific_mean,1.2773404095141074,239,"voelkel2026 PRE (pre-treatment, all arms n=13,821), PoliciesSp_Pre",True
+party,Other,behavior_mean,-0.16675347380271408,241,"voelkel2026 PRE (pre-treatment, all arms n=13,821), IntentNp_Pre",True
+party,Other,donation_ams,-0.5976456499064624,229,"voelkel2026 Donation (100-cent allocation) shape, converted pp->$ (/10)",True
+party,Other,newsletter_signup,-0.02988228249532312,229,"voelkel2026 Donation (100-cent allocation) shape, as a signup-rate proxy, halved - DECLARED",True

@@ -1,0 +1,298 @@
+{
+ "policy": {
+  "budget_tokens": 24000,
+  "per_arm_char_cap": 12000,
+  "remedies_in_order": [
+   "send whole",
+   "truncate one over-long arm at a paragraph boundary with a visible marker",
+   "split arms across parts sharing the control text and two anchor arms"
+  ],
+  "rejected": {
+   "summarise": "a second model rewriting the stimulus changes the thing being predicted and the predictor would no longer have read the message it is predicting"
+  },
+  "token_counter": "tiktoken cl100k_base as a proxy for the target tokenizer"
+ },
+ "tasks": {
+  "voelkel2026": {
+   "task_id": "voelkel2026",
+   "n_arms": 10,
+   "tokens_whole": 7626,
+   "budget_tokens": 24000,
+   "truncated_arms": {},
+   "policy": "whole",
+   "parts": 1,
+   "anchors": [],
+   "label": "voelkel2026",
+   "n_outcomes": 9,
+   "n_cells": 90,
+   "system_tokens": 225,
+   "user_chars_untruncated": 34624,
+   "arm_chars": {
+    "Gains Framing": 4835,
+    "System Preservation Framing": 3826,
+    "Free Market Framing": 2910,
+    "Dire But Solvable Framing": 2465,
+    "Warmth Framing": 2454,
+    "Consensus Framing 2": 2422,
+    "Consensus Framing 1": 2012,
+    "Purity Framing": 1940,
+    "High Social Distance Framing": 1918,
+    "Binding Framing": 1650
+   },
+   "arms_with_no_text": [],
+   "prompt_files": [
+    "system.txt",
+    "user.txt"
+   ]
+  },
+  "goldwert2026": {
+   "task_id": "goldwert2026",
+   "n_arms": 17,
+   "tokens_whole": 17036,
+   "budget_tokens": 24000,
+   "truncated_arms": {},
+   "policy": "whole",
+   "parts": 1,
+   "anchors": [],
+   "label": "goldwert2026",
+   "n_outcomes": 12,
+   "n_cells": 204,
+   "system_tokens": 225,
+   "user_chars_untruncated": 81750,
+   "arm_chars": {
+    "IndStructuralChange": 11825,
+    "HopeAngerNarratives": 9483,
+    "MispCorrectionRisks": 7789,
+    "EcologicalDisruptions": 7586,
+    "CollEfficacyEmoBenefit": 7585,
+    "DynamicAngerNorm": 4903,
+    "BindingMorals": 4681,
+    "SystemJustification": 3839,
+    "ThreatInjustEfficacy": 3821,
+    "GlobalHealthThreat": 3221,
+    "CoBenefits": 2886,
+    "BipartisanEliteCues": 2546,
+    "LetterFuture": 2526,
+    "ShiftFocusIndColl": 1646,
+    "ActivistPerspective": 1402,
+    "GuiltCollResponsibility": 1356,
+    "ClimatePolicyLiteracy": 1204
+   },
+   "arms_with_no_text": [],
+   "prompt_files": [
+    "system.txt",
+    "user.txt"
+   ]
+  },
+  "vlasceanu2024": {
+   "task_id": "vlasceanu2024",
+   "n_arms": 11,
+   "tokens_whole": 5880,
+   "budget_tokens": 24000,
+   "truncated_arms": {},
+   "policy": "whole",
+   "parts": 1,
+   "anchors": [],
+   "label": "vlasceanu2024",
+   "n_outcomes": 15,
+   "n_cells": 165,
+   "system_tokens": 225,
+   "user_chars_untruncated": 27533,
+   "arm_chars": {
+    "PsychDistance": 4357,
+    "NegativeEmotions": 3866,
+    "CollectAction": 3597,
+    "SystemJust": 2835,
+    "FutureSelfCont": 1948,
+    "WorkTogetherNorm": 1932,
+    "LetterFutureGen": 1820,
+    "DynamicNorm": 1169,
+    "PluralIgnorance": 736,
+    "SciConsens": 361,
+    "BindingMoral": 342
+   },
+   "arms_with_no_text": [],
+   "prompt_files": [
+    "system.txt",
+    "user.txt"
+   ]
+  },
+  "bbprime2025": {
+   "task_id": "bbprime2025",
+   "n_arms": 17,
+   "tokens_whole": 17442,
+   "budget_tokens": 24000,
+   "truncated_arms": {
+    "Carbon Footprint (Personalized)": {
+     "chars_before": 18772,
+     "chars_after": 11997
+    },
+    "Moral Values": {
+     "chars_before": 16206,
+     "chars_after": 11992
+    }
+   },
+   "policy": "whole",
+   "parts": 1,
+   "anchors": [],
+   "label": "bbprime2025",
+   "n_outcomes": 24,
+   "n_cells": 408,
+   "system_tokens": 225,
+   "user_chars_untruncated": 89058,
+   "arm_chars": {
+    "Carbon Footprint (Personalized)": 18772,
+    "Moral Values": 16206,
+    "Social Norms (Quiz)": 7443,
+    "Impact Information (Quiz)": 4514,
+    "Action Planning (Collective)": 4412,
+    "Social Norms (Text)": 4012,
+    "Action Planning (Individual)": 3654,
+    "Personal Benefits": 3292,
+    "Letter to Future Gen": 3118,
+    "Carbon Footprint (General)": 2882,
+    "Impact Information (Text)": 2784,
+    "News Comments (Social-Rel)": 2565,
+    "News Comments (Self-Rel)": 2561,
+    "Imagination (Prevention-Other)": 1996,
+    "Imagination (Promotion-Other)": 1974,
+    "Imagination (Promotion-Self)": 1915,
+    "Imagination (Prevention-Self)": 1905
+   },
+   "arms_with_no_text": [],
+   "prompt_files": [
+    "system.txt",
+    "user.txt"
+   ]
+  },
+  "voelkel2024": {
+   "task_id": "voelkel2024",
+   "n_arms": 26,
+   "tokens_whole": 34308,
+   "budget_tokens": 24000,
+   "truncated_arms": {
+    "Bipartisan Joint Trivia Quiz": {
+     "chars_before": 23151,
+     "chars_after": 12107
+    },
+    "Common Exhausted Majority Identity": {
+     "chars_before": 12797,
+     "chars_after": 12101
+    },
+    "Common National Identity": {
+     "chars_before": 13390,
+     "chars_after": 12010
+    },
+    "Correcting Opportunism Misperceptions": {
+     "chars_before": 12756,
+     "chars_after": 12068
+    },
+    "Moral Similarities and Differences": {
+     "chars_before": 14509,
+     "chars_after": 11991
+    },
+    "Outpartisans' Willingness to Learn": {
+     "chars_before": 21116,
+     "chars_after": 11993
+    },
+    "Party Overlap on Policies": {
+     "chars_before": 30871,
+     "chars_after": 11987
+    }
+   },
+   "policy": "split",
+   "parts": 2,
+   "anchors": [
+    "Alternative Control",
+    "Utility of Outparty Empathy"
+   ],
+   "tokens_per_part": [
+    18081,
+    18071
+   ],
+   "label": "voelkel2024",
+   "n_outcomes": 9,
+   "n_cells": 234,
+   "system_tokens": 225,
+   "user_chars_untruncated": 188859,
+   "arm_chars": {
+    "Party Overlap on Policies": 30871,
+    "Bipartisan Joint Trivia Quiz": 23151,
+    "Outpartisans' Willingness to Learn": 21116,
+    "Moral Similarities and Differences": 14509,
+    "Common National Identity": 13390,
+    "Common Exhausted Majority Identity": 12797,
+    "Correcting Opportunism Misperceptions": 12756,
+    "Political Violence Inefficacy": 7614,
+    "Reducing Outparty Electoral Threat": 6240,
+    "Counterfactual Partisan Selves": 6188,
+    "Democratic Collapse Threat": 6074,
+    "Correcting Democracy Misperceptions": 5142,
+    "Correcting Oppositional Misperceptions": 4525,
+    "Sympathetic Personal Narratives": 3872,
+    "Utility of Outparty Empathy": 3468,
+    "Outpartisans\u2019 Experiences of Harm": 3382,
+    "Positive Contact Video": 3111,
+    "Alternative Control": 1617,
+    "Describing a Likable Outpartisan": 1528,
+    "Democratic System Justification": 1291,
+    "Pro-Democracy Inparty Elite Cues": 771,
+    "Common Economic Interests": 649,
+    "Befriending Meditation": 419,
+    "Pro-Democracy Bipartisan Elite Cues": 307,
+    "Correcting Policy Misperceptions Chatbot": 205,
+    "Correcting Division Misperceptions": 161
+   },
+   "arms_with_no_text": [],
+   "prompt_files": [
+    "system.txt",
+    "user_part1.txt",
+    "user_part2.txt"
+   ]
+  }
+ },
+ "target": {
+  "task_id": null,
+  "n_arms": 16,
+  "tokens_whole": 9892,
+  "budget_tokens": 24000,
+  "truncated_arms": {},
+  "policy": "whole",
+  "parts": 1,
+  "anchors": [],
+  "label": "target",
+  "n_outcomes": 13,
+  "n_cells": 208,
+  "system_tokens": 225,
+  "user_chars_untruncated": 48716,
+  "arm_chars": {
+   "Extreme weather predictions": 11134,
+   "Oil industry misinformation": 4988,
+   "Funding": 4511,
+   "Consensus": 3556,
+   "Former skeptics": 2865,
+   "Measurement & modeling (1)": 2631,
+   "Model accuracy": 2407,
+   "Scientist community helpers": 2402,
+   "Interview Prof. Maraun": 1841,
+   "Corporate reliance": 1828,
+   "Portrait Prof. Cherry": 1748,
+   "Measurement & modeling (2)": 1540,
+   "Interview Prof. Sebille": 1359,
+   "Social justice": 1354,
+   "Peer-review": 1345,
+   "High public trust": 785
+  },
+  "arms_with_no_text": [],
+  "prompt_files": [
+   "system.txt",
+   "user.txt"
+  ]
+ },
+ "totals": {
+  "practice_prompt_tokens_one_draw": 84136,
+  "target_prompt_tokens_one_draw": 9892,
+  "n_calls_per_draw": 7,
+  "note": "multiply by the number of independent draws, and again by 2 if stage 3a's recognition probe reuses the same briefs"
+ }
+}

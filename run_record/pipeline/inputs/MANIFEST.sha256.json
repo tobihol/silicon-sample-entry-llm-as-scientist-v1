@@ -1,0 +1,294 @@
+{
+ "digest": "b4b37c8ee2621082c757a73743e71a8413a8489622ff5743c0b446b66e19962d",
+ "n_files": 72,
+ "files": {
+  "adapters/_TEMPLATE.json": {
+   "sha256": "c64d89457873cd1e0bbddad714abd075ec5b11466ffe203520078f7892d1211b",
+   "bytes": 4401
+  },
+  "adapters/altenmueller2024.json": {
+   "sha256": "df90e0c9483b878ee9f786487c674f9e7f5a0e2f4f171e6ee0536442511bed69",
+   "bytes": 4970
+  },
+  "adapters/bbprime2025.json": {
+   "sha256": "c4da880ed1fe756e9b3f6131898a90d8a78b18704d7db373ed0381c54ea3beb4",
+   "bytes": 16984
+  },
+  "adapters/dablander2025.json": {
+   "sha256": "443ad9ee764a3c47118ce62f202b00bd8c8c5d6af399039214901dc342d6cf23",
+   "bytes": 5118
+  },
+  "adapters/gligoric2025.json": {
+   "sha256": "50b86eedac2c627fba310e34f36536ff4902b164bf1cefe2d347269584c22176",
+   "bytes": 5971
+  },
+  "adapters/goldwert2026.json": {
+   "sha256": "bcddcbe47ac8d2a78f2232430948f0fe18ce25020af69aed3b299d2a80eb3ce9",
+   "bytes": 14089
+  },
+  "adapters/hackenburg2025.json": {
+   "sha256": "3c04d3a7af119bb8a585b1b9e63df2ce7127c89b787ddac067ad69ce2d72064e",
+   "bytes": 7620
+  },
+  "adapters/kim2024.json": {
+   "sha256": "fd23eff320f2232ab74f8f1eb0c41df2de2803de232ad9aa2cf02018f71f4b57",
+   "bytes": 7067
+  },
+  "adapters/koetke2024.json": {
+   "sha256": "be300b0c0bb4b0c4a244df2bbf7a90f3d385fa4e26a9395855cded3635d87e05",
+   "bytes": 6508
+  },
+  "adapters/orchinik2024.json": {
+   "sha256": "e7f21f7ce097953f7a228df0df867f706e35a6a363845d0740f0e80cb2acc10d",
+   "bytes": 31866
+  },
+  "adapters/tappin2023.json": {
+   "sha256": "2f852c09644841cbdffc1570e8eff58e9d715019d90b2113f0295875bae0f522",
+   "bytes": 9798
+  },
+  "adapters/vlasceanu2024.json": {
+   "sha256": "4d054424d007ea90f3bcd5ae692ec43f5ec6128d6ca91f1e0c61f231585f5003",
+   "bytes": 11741
+  },
+  "adapters/voelkel2024.json": {
+   "sha256": "9070028e97ff114a76b0c3733e9383f090313e0a887536119e5451f56a81ce7a",
+   "bytes": 10836
+  },
+  "adapters/voelkel2026.json": {
+   "sha256": "2fdb1ac757c1ae5a1f4d5236e0a1362a22a4c4d6e8e0928f6fa8b85a7cbb3f61",
+   "bytes": 5241
+  },
+  "baselines/control_levels.csv": {
+   "sha256": "34b8150d8db000ddc51c6e145a7b13fb5b5f849e89371cee7a438ad7439b6f19",
+   "bytes": 3083
+  },
+  "baselines/provenance.json": {
+   "sha256": "c947544b937eae264844815fb0fae887295988067c8a20f8dbd475fa9a7ec00c",
+   "bytes": 12708
+  },
+  "baselines/subgroup_offsets.csv": {
+   "sha256": "534f8c92fce5e4c57b8d0f76ebce898215b5a64fdd3e9c1cd16919d386519766",
+   "bytes": 54726
+  },
+  "derived/altenmueller2024_study4b.csv": {
+   "sha256": "b064d06a2d52b7b48ba270736556be85740d9a20985041caa6d311474a75bfcc",
+   "bytes": 66599
+  },
+  "derived/bbprime2025_analysis.csv": {
+   "sha256": "6a30068ff7dba6b1c4aa6e06b6e1446fc5e631f4fa55a0b8c03e2f621a0ca0a4",
+   "bytes": 1928778
+  },
+  "derived/dablander2025.csv": {
+   "sha256": "0c5a75e8fc359fdc4c5ceebc8d9eee45d039d7cfc7543409efaf4909d3a23306",
+   "bytes": 223630
+  },
+  "derived/dablander2025_checks.json": {
+   "sha256": "8528901f5281530a71082733ae01997f7585b38affbf70a1a8c1114f93ddc610",
+   "bytes": 1179
+  },
+  "derived/gligoric2025_trust.csv": {
+   "sha256": "f91a859a3724471ce4d38dbe4b2ec6ee9d58dc7593a0fa4c3916d914d025a7ef",
+   "bytes": 446830
+  },
+  "derived/hackenburg_confinement.csv": {
+   "sha256": "a0294c6bee2694cc56367c9d6b647015b578ea3d3587844663b29684434b8fd7",
+   "bytes": 424472
+  },
+  "derived/hackenburg_confinement_armmap.json": {
+   "sha256": "9fd9aea83cc43ce650ed81065f006ad373ba2129bbec65021322ad383eb06e83",
+   "bytes": 5050
+  },
+  "derived/kim2024.csv": {
+   "sha256": "283231fd43c99c19a71c4f1f86590fadacb58b6237629e2dd3b427027d962733",
+   "bytes": 322595
+  },
+  "derived/kim2024_checks.json": {
+   "sha256": "90a15792d11f7291b8624fa17a40574dab78fbc11cd9e39478389bbb079a8b50",
+   "bytes": 667
+  },
+  "derived/koetke2024_study5.csv": {
+   "sha256": "32b6445f42c6176240705de55e1248ce60141273fb4b5a0c248368d3c5294ef5",
+   "bytes": 64365
+  },
+  "derived/orchinik2024_bovitz.csv": {
+   "sha256": "724e3a83414faf4ef9ad63bae7211b9b4a0f4ddd41f22e3385f442ff33d8840c",
+   "bytes": 670341
+  },
+  "derived/tappin2023_cells.csv": {
+   "sha256": "88164c465f08af23149a8e99e301e92fa50753d962de390c478bc9f53cdfc009",
+   "bytes": 7701217
+  },
+  "format_params.json": {
+   "sha256": "4af46436c1b77a95590fdecbeda6095de97c910fedde6835af30e2cb1efcbf43",
+   "bytes": 7355
+  },
+  "measured/agency_trust_anchor.json": {
+   "sha256": "a8ef5270a30d706afe261e1e69c5810b6373bd39a5c82e33ea049bde6d9152c6",
+   "bytes": 9789
+  },
+  "measured/gap_transfer_4point.json": {
+   "sha256": "f3b89f07dbd9a250c11a3ff031af16a8b66cccd0ea6103f0f24ac06529e1d345",
+   "bytes": 11094
+  },
+  "measured/goldwert2026_format.json": {
+   "sha256": "532c5a362305f218361760eda5246688dca3b0cddf031d6a1be759147c64fbbe",
+   "bytes": 9716
+  },
+  "measured/party_imputation_validation.json": {
+   "sha256": "771e57a32daeef5b00b85e45899354ebfedf59cde0e4bee10c2376beccc208bf",
+   "bytes": 50326
+  },
+  "measured/pew_atp_trust.json": {
+   "sha256": "ae13ed0ae8fdb9710a940a8a5f4bbb329def88a1920ef5d496ee60e369a5ae41",
+   "bytes": 1407203
+  },
+  "measured/referent_fanout.json": {
+   "sha256": "52bb94ed6ab392e91813a6f01ee2c8143f54b5915d0a4125260d6f5c868cf411",
+   "bytes": 2795
+  },
+  "outcome_families.json": {
+   "sha256": "f153e87417bc6f2a7b18c52ec8b57c47823b064aa295c5cb72d1689f0e29a48c",
+   "bytes": 9224
+  },
+  "pool/joint.csv": {
+   "sha256": "84b10473f7f70cee4bdaae9a0bd38f11523c5cfb1008e60fee5e5fdbcc377994",
+   "bytes": 752118
+  },
+  "pool/joint_marginal_exact.csv": {
+   "sha256": "bbba5d2220f3d082923af614458c07e68add5633efd801558ead8a3b7a650478",
+   "bytes": 752104
+  },
+  "pool/provenance.json": {
+   "sha256": "2c8dca403908e35c686048bf200bb7ccabd4bc1bf2ddd548dd9e205b75340ab8",
+   "bytes": 9517
+  },
+  "prompt_budget.json": {
+   "sha256": "c2e8690b5594f6b0da58e2e9e5475b538e6b817aeb402e8c9b12f7649abea60b",
+   "bytes": 7966
+  },
+  "prompts/bbprime2025/system.txt": {
+   "sha256": "36b9b7181fdec5c8b605b7f76d43fc15195af054e635447dc07e6c3d3962bbd4",
+   "bytes": 937
+  },
+  "prompts/bbprime2025/user.txt": {
+   "sha256": "87b8beabacdd41feebabb7d9779d68ea0c6c547ac7c217428370e70a69f95c15",
+   "bytes": 78122
+  },
+  "prompts/goldwert2026/system.txt": {
+   "sha256": "36b9b7181fdec5c8b605b7f76d43fc15195af054e635447dc07e6c3d3962bbd4",
+   "bytes": 937
+  },
+  "prompts/goldwert2026/user.txt": {
+   "sha256": "ca81e56f2daec28082d9b46db45f416c42d645844574b7903bd658d46967a87d",
+   "bytes": 82076
+  },
+  "prompts/target/system.txt": {
+   "sha256": "36b9b7181fdec5c8b605b7f76d43fc15195af054e635447dc07e6c3d3962bbd4",
+   "bytes": 937
+  },
+  "prompts/target/user.txt": {
+   "sha256": "0ff23363911c4369092c42a5ef6e3d8836700152783a40145461bd2e2fdf1b9f",
+   "bytes": 49144
+  },
+  "prompts/vlasceanu2024/system.txt": {
+   "sha256": "36b9b7181fdec5c8b605b7f76d43fc15195af054e635447dc07e6c3d3962bbd4",
+   "bytes": 937
+  },
+  "prompts/vlasceanu2024/user.txt": {
+   "sha256": "0b850030e0e06602b886eae7dc90fe445393857a9f75ce970eaf3ed74c7c1b30",
+   "bytes": 27622
+  },
+  "prompts/voelkel2024/system.txt": {
+   "sha256": "36b9b7181fdec5c8b605b7f76d43fc15195af054e635447dc07e6c3d3962bbd4",
+   "bytes": 937
+  },
+  "prompts/voelkel2024/user_part1.txt": {
+   "sha256": "61a7053bc4318d4fb8b94b5074669c67172bebca3eb478e8c6a5335b89cd7a83",
+   "bytes": 75057
+  },
+  "prompts/voelkel2024/user_part2.txt": {
+   "sha256": "11597768f990536e4ff1590a49db5b37618974033092283291eb2f0332fcf333",
+   "bytes": 78130
+  },
+  "prompts/voelkel2026/system.txt": {
+   "sha256": "36b9b7181fdec5c8b605b7f76d43fc15195af054e635447dc07e6c3d3962bbd4",
+   "bytes": 937
+  },
+  "prompts/voelkel2026/user.txt": {
+   "sha256": "b554b661e722de8b990aad446318b60bf5fc9351bb148e2bd3636932634a0fda",
+   "bytes": 34766
+  },
+  "recognition_keys.json": {
+   "sha256": "2b30c00f8237f85cbb5b3b0528148fea55a3b9160b8dbb6dba337759041831dd",
+   "bytes": 9507
+  },
+  "stimuli.json": {
+   "sha256": "acb6130157b8e43e21ae6be47574afb6680f9295a0b25d1e93a7f882ce4db4b1",
+   "bytes": 57344
+  },
+  "texts/altenmueller2024_arms.json": {
+   "sha256": "76ad56d3c6d0f57c323fa8e2d08213439de50702cbae1b43c1d10c4622aa201e",
+   "bytes": 1544
+  },
+  "texts/bbprime2025_arms.json": {
+   "sha256": "7e8adcc8a2693ddb1e009b6826a578a6a630cbd8b62d93e51efc256fd2a82d6c",
+   "bytes": 107448
+  },
+  "texts/dablander2025_arms.json": {
+   "sha256": "678464f8241717515218491c64c7ea992a9ea67bda524108b96d945956f80d37",
+   "bytes": 6268
+  },
+  "texts/gligoric2025_arms.json": {
+   "sha256": "60f0905314d0acdf1207ff9ffbab761cd780621f198d3665305a56b5569e316d",
+   "bytes": 2490
+  },
+  "texts/goldwert2026_arms.json": {
+   "sha256": "c448c92178e95f6dacd5150fdc5760ba90b925be26de3000a6291694e6e08b89",
+   "bytes": 82597
+  },
+  "texts/hackenburg2025_arms.json": {
+   "sha256": "3a5395177f9864499141cb2c390f5e3667b756c378f494a35b28c6dc785b462b",
+   "bytes": 95125
+  },
+  "texts/kim2024_arms.json": {
+   "sha256": "aaf2b559621506ea0c197d148da97f550a30702f51e305fe0f371781f5d3d7af",
+   "bytes": 1136
+  },
+  "texts/koetke2024_arms.json": {
+   "sha256": "337fe64ca2b52e83042ed704c70109e9456544a2b9f219e36ebd9a7c4285e11c",
+   "bytes": 6080
+  },
+  "texts/orchinik2024_arms.json": {
+   "sha256": "fd08c59d75b24f212397967990e7bd43f869683e5bd1d2a91b94e4a03ebc2ee1",
+   "bytes": 2156
+  },
+  "texts/orchinik2024_items.json": {
+   "sha256": "444d116e44dbe84882d06f151f81c3ea6f1a75eebfc47a751313c50bb5791b04",
+   "bytes": 1982
+  },
+  "texts/tappin2023_arms.json": {
+   "sha256": "91816dcafcbbb7e6d0bf4e45b11d3c9f64bc306e46d88745860dde0ed6e53286",
+   "bytes": 47101
+  },
+  "texts/tappin2023_arms_provenance.json": {
+   "sha256": "2edc75f7235f278b5f2dd8604eb22f4d6a7d007a6955ac61ce2961f2c81d7599",
+   "bytes": 15470
+  },
+  "texts/tappin2023_brief_arms.json": {
+   "sha256": "987568405c695a0c35dbd59d5b069f04f11ceec1e3c062ad10d0fdae7b072146",
+   "bytes": 58355
+  },
+  "texts/vlasceanu2024_arms.json": {
+   "sha256": "21c197083619238d717928c5a9a0785627552090be7c2a156fccb9a88e16a261",
+   "bytes": 28978
+  },
+  "texts/voelkel2024_arms.json": {
+   "sha256": "1948434ac25539d6dd5840fffe3be4e4ed7a5100eaaea2870ea1361f04303f2f",
+   "bytes": 191928
+  },
+  "texts/voelkel2026_arms.json": {
+   "sha256": "9b7fafdca2274fc798bc53eaf574ac904fba983e84f291af806ce09549286467",
+   "bytes": 34614
+  }
+ }
+}

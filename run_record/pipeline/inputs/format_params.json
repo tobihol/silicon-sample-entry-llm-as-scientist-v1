@@ -1,0 +1,256 @@
+{
+ "_evidence": {
+  "sliders": {
+   "source": "/workspace/datasets/voelkel2026/downloads/CCC - Data - Recoded.csv, the 30 PRE (pre-treatment) 0-100 item columns of the CONTROL arm (n=3,183 respondents, 95,437 item responses); all-arm PRE (414,380 responses) agrees to <0.4 pp on every statistic",
+   "measured": {
+    "n": 95437.0,
+    "frac_integer": 1.0,
+    "p_mult10": 0.31439588419585696,
+    "p_mult5": 0.412198623175498,
+    "p_at_0": 0.059327095361337845,
+    "p_at_50": 0.05160472353489737,
+    "p_at_100": 0.11413812253109382,
+    "p_le4": 0.11573079623206932,
+    "p_ge96": 0.14636880874294037,
+    "mean": 53.568919810974776,
+    "sd": 33.854028819314216
+   },
+   "measured_all_arms": {
+    "n": 414380.0,
+    "frac_integer": 1.0,
+    "p_mult10": 0.31087166369033253,
+    "p_mult5": 0.4093175346300497,
+    "p_at_0": 0.05941165114146436,
+    "p_at_50": 0.05264008880737487,
+    "p_at_100": 0.11161735605000242,
+    "p_le4": 0.1110743761764564,
+    "p_ge96": 0.14468362372701385,
+    "mean": 53.76402336020078,
+    "sd": 33.713262842992435
+   },
+   "by_education_3level": {
+    "Bachelor or Postgraduate": {
+     "n": 35029.0,
+     "frac_integer": 1.0,
+     "p_mult10": 0.3045191127351623,
+     "p_mult5": 0.4062348339946901,
+     "p_at_0": 0.052442262125667306,
+     "p_at_50": 0.04676125496017586,
+     "p_at_100": 0.10596933968997117,
+     "p_le4": 0.10554112306945673,
+     "p_ge96": 0.14005538268291987,
+     "mean": 55.37566016728996,
+     "sd": 33.46843283707997
+    },
+    "HS or less": {
+     "n": 27213.0,
+     "frac_integer": 1.0,
+     "p_mult10": 0.31742182045345974,
+     "p_mult5": 0.4120457134457796,
+     "p_at_0": 0.06732076581045823,
+     "p_at_50": 0.054128541505897916,
+     "p_at_100": 0.11906074302722963,
+     "p_le4": 0.12361738874802485,
+     "p_ge96": 0.1492668944989527,
+     "mean": 51.843016205490024,
+     "sd": 34.048392167014605
+    },
+    "Some college": {
+     "n": 33195.0,
+     "frac_integer": 1.0,
+     "p_mult10": 0.3223377014610634,
+     "p_mult5": 0.4186172616357885,
+     "p_at_0": 0.06003916252447658,
+     "p_at_50": 0.0546467841542401,
+     "p_at_100": 0.118722699201687,
+     "p_le4": 0.12001807501129688,
+     "p_ge96": 0.15065521915951197,
+     "mean": 53.07724054827534,
+     "sd": 34.008969234726514
+    }
+   },
+   "per_item_family": {
+    "Belief_Pre": {
+     "n": 9546,
+     "frac_integer": 1.0,
+     "p_mult10": 0.3268,
+     "p_mult5": 0.4201,
+     "p_at_0": 0.0189,
+     "p_at_50": 0.07,
+     "p_at_100": 0.139,
+     "p_le4": 0.0379,
+     "p_ge96": 0.1827,
+     "mean": 65.0007,
+     "sd": 28.3886
+    },
+    "Concern_Pre": {
+     "n": 9544,
+     "frac_integer": 1.0,
+     "p_mult10": 0.2991,
+     "p_mult5": 0.4146,
+     "p_at_0": 0.0281,
+     "p_at_50": 0.0331,
+     "p_at_100": 0.1302,
+     "p_le4": 0.0809,
+     "p_ge96": 0.1639,
+     "mean": 60.2352,
+     "sd": 32.5266
+    },
+    "Policies_Pre": {
+     "n": 9547,
+     "frac_integer": 1.0,
+     "p_mult10": 0.358,
+     "p_mult5": 0.4491,
+     "p_at_0": 0.0207,
+     "p_at_50": 0.0372,
+     "p_at_100": 0.215,
+     "p_le4": 0.0552,
+     "p_ge96": 0.2562,
+     "mean": 67.5922,
+     "sd": 30.991
+    },
+    "Intent_Pre": {
+     "n": 12717,
+     "frac_integer": 1.0,
+     "p_mult10": 0.2785,
+     "p_mult5": 0.3785,
+     "p_at_0": 0.1066,
+     "p_at_50": 0.0395,
+     "p_at_100": 0.0539,
+     "p_le4": 0.2492,
+     "p_ge96": 0.0668,
+     "mean": 33.8008,
+     "sd": 33.1221
+    },
+    "PoliciesSp_Pre": {
+     "n": 12722,
+     "frac_integer": 1.0,
+     "p_mult10": 0.2823,
+     "p_mult5": 0.3847,
+     "p_at_0": 0.0457,
+     "p_at_50": 0.064,
+     "p_at_100": 0.0794,
+     "p_le4": 0.086,
+     "p_ge96": 0.1064,
+     "mean": 52.6115,
+     "sd": 30.24
+    },
+    "Candidate_Pre": {
+     "n": 12728,
+     "frac_integer": 1.0,
+     "p_mult10": 0.3396,
+     "p_mult5": 0.4381,
+     "p_at_0": 0.1571,
+     "p_at_50": 0.0863,
+     "p_at_100": 0.0115,
+     "p_le4": 0.2084,
+     "p_ge96": 0.0306,
+     "mean": 34.6538,
+     "sd": 28.7193
+    },
+    "Companies_Pre": {
+     "n": 9543,
+     "frac_integer": 1.0,
+     "p_mult10": 0.358,
+     "p_mult5": 0.4466,
+     "p_at_0": 0.0173,
+     "p_at_50": 0.0349,
+     "p_at_100": 0.2203,
+     "p_le4": 0.0386,
+     "p_ge96": 0.2721,
+     "mean": 71.76,
+     "sd": 28.3607
+    },
+    "IntentNp_Pre": {
+     "n": 19090,
+     "frac_integer": 1.0,
+     "p_mult10": 0.3007,
+     "p_mult5": 0.3949,
+     "p_at_0": 0.0479,
+     "p_at_50": 0.0439,
+     "p_at_100": 0.1218,
+     "p_le4": 0.11,
+     "p_ge96": 0.1586,
+     "mean": 54.831,
+     "sd": 34.251
+    }
+   },
+   "how_the_parameters_were_obtained": "simulation calibration, not algebra: the eight item families were simulated at their measured control-arm PRE mean/SD through ssb.synth._draw_composite (k=1) and the five heaping parameters iterated until the pooled simulated shares matched the measured ones",
+   "fit_quality_pooled_vs_measured": {
+    "simulated": {
+     "p_mult5": 0.41659898876110135,
+     "p_mult10": 0.31631343166278064,
+     "p_at_0": 0.06056954232270572,
+     "p_at_50": 0.05142647559665715,
+     "p_at_100": 0.11534934898221162,
+     "mean": 53.56527206518037,
+     "sd": 33.82773792924581
+    },
+    "distribution_metrics": {
+     "ovl": 0.8402192021962132,
+     "ks_d": 0.05185619832978827,
+     "wasserstein1": 2.0665779519473544,
+     "variance_ratio": 0.99807507625153
+    }
+   },
+   "closes": "OPEN.md item 7 - slider heaping is now anchored on climate ATTITUDE items in a census-quota panel, not on probability items. orchinik2024 (42.5% multiples of 5) and sce (75.3%) are retained as the probability-item reference only.",
+   "finding": "a 5.2% spike at the exact midpoint 50 is present on ATTITUDE sliders too (vs 1.3% from smooth rounding). The authoring session's rule 'the 16.8% at 50 is a probability artefact, leave the midpoint alone' was half right: the probability-item spike is 3x larger, but it is not zero on attitude items. Hence slider_atoms."
+  },
+  "donation": {
+   "source": "/workspace/datasets/goldwert2026/downloads/advocacy_data.csv `donation` ($0-10 real donation), CONTROL arm, finishers, n=1,116; measured by child agent A, full file, see inputs/measured/goldwert2026_format.json",
+   "measured_control": {
+    "mean": 4.73,
+    "sd": 3.81,
+    "share_0": 0.297,
+    "share_5": 0.289,
+    "share_10": 0.237,
+    "share_integer": 0.997
+   },
+   "simulated_at_that_mean_sd": {
+    "0": 0.29586666666666667,
+    "5": 0.28918333333333335,
+    "10": 0.23615
+   },
+   "closes": "OPEN.md item 6 - the $0/$5/$10 atoms are measurements now, not the zero-mass placeholders."
+  },
+  "newsletter": {
+   "source": "goldwert2026 newsletter1 / newsletter2, control arm, finishers",
+   "control_base_rate_single_item": 0.247,
+   "note": "a SECOND ask converts only ~8 further points (either-of-two = 32.1%, r = 0.54), so a 0/1 signup rate near 20-25% is the anchor for a single-ask item like the target's newsletter_signup. This is a CARD baseline input, not a format parameter."
+  }
+ },
+ "p_round10": 0.0176,
+ "p_round5": 0.0311,
+ "education_gradient": 0.09,
+ "p_endpoint_lo": 0.5361,
+ "p_endpoint_hi": 0.9259,
+ "endpoint_window": 4.0,
+ "slider_atoms": [
+  [
+   50.0,
+   4.0,
+   0.8467
+  ]
+ ],
+ "donation_atoms": [
+  [
+   0.0,
+   2.5,
+   0.8004
+  ],
+  [
+   5.0,
+   2.5,
+   0.7032
+  ],
+  [
+   10.0,
+   2.5,
+   0.765
+  ]
+ ],
+ "p_donation_zero": 0.0,
+ "p_donation_max": 0.0,
+ "scale_lo": 0.0,
+ "scale_hi": 100.0
+}

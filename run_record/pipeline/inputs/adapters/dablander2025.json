@@ -1,0 +1,99 @@
+{
+ "dataset": "dablander2025",
+ "status": "VERIFIED by tools/build_dablander.py (rebuild to the published n + red paths)",
+ "file": "/workspace/run/inputs/derived/dablander2025.csv",
+ "reader": "csv",
+ "sample_description": "2,856 U.S. adults recruited on Prolific in October 2024, quota-representative on age and sex, who finished the survey, correctly identified which kind of protest they had read about, and gave a coherent free-text description of the article. Each read ONE fictional news article about a climate protest in New York and then answered the items below. There is no no-article control: the reference arm below is the least intense article (a peaceful legal march with no scientist in it). Arms are unequal in size (398-524) because the attention check removed 85% of its failures from the civil-disobedience arms. Item stems are given as the authors describe them; the verbatim stems are not in the public deposit.",
+ "condition_col": "arm",
+ "arms": {
+  "Legal march - no scientist": "Legal march - no scientist",
+  "Legal march - scientist endorses": "Legal march - scientist endorses",
+  "Legal march - scientist joins": "Legal march - scientist joins",
+  "Civil disobedience - no scientist": "Civil disobedience - no scientist",
+  "Civil disobedience - scientist endorses": "Civil disobedience - scientist endorses",
+  "Civil disobedience - scientist joins": "Civil disobedience - scientist joins"
+ },
+ "control_arms": [
+  "Legal march - no scientist"
+ ],
+ "outcomes": {
+  "policy_support": {
+   "col": "policy_support",
+   "lo": 1,
+   "hi": 5,
+   "reverse": true,
+   "question": "Agreement with a statement that offshore oil and gas drilling should be EXPANDED, 5-point 'Strongly disagree' - 'Strongly agree'. Scored REVERSED here, so HIGHER = MORE SUPPORT FOR CLIMATE POLICY. (The authors' own label for this outcome is 'policy support'; the verbatim item stem is not in the public deposit.)"
+  },
+  "activist_support": {
+   "col": "activist_support",
+   "lo": 1,
+   "hi": 5,
+   "question": "Support for the climate activists described in the article, 5-point 'Not at all' - 'A great deal'. HIGHER = MORE SUPPORT."
+  },
+  "science_credibility": {
+   "col": "science_credibility",
+   "lo": 1,
+   "hi": 5,
+   "question": "Credibility of environmental scientists IN GENERAL, 5-point 'Not at all' - 'A great deal'. HIGHER = MORE CREDIBLE. This is the study's trust outcome."
+  },
+  "perceived_radicalness": {
+   "col": "perceived_radicalness",
+   "lo": 1,
+   "hi": 5,
+   "question": "How radical the activists' actions were perceived to be, 5-point 'Not at all radical' - 'Extremely radical'. HIGHER = MORE RADICAL."
+  },
+  "donation": {
+   "col": "donation",
+   "lo": 0,
+   "hi": 100,
+   "question": "Allocation of a potential $100 bonus to one of eight climate NGOs, 0-100 slider in dollars. Ten participants were drawn at random and their allocation was actually paid, so this is a costly act and not a hypothetical. HIGHER = MORE DONATED."
+  }
+ },
+ "moderators": {
+  "party_lean": {
+   "col": "party_lean",
+   "map": {
+    "Democrat": "Democrat",
+    "Independent": "Independent",
+    "Republican": "Republican"
+   }
+  },
+  "gender": {
+   "col": "gender",
+   "map": {
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other"
+   }
+  },
+  "age_band": {
+   "col": "age_band",
+   "map": {
+    "18-29": "18-29",
+    "30-44": "30-44",
+    "45-59": "45-59",
+    "60+": "60+"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "race": "collected by Prolific but not in the survey export",
+  "education": "collected, 7 categories, not carried here",
+  "income": "collected, 13 categories, not carried here"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/dablander2025_arms.json",
+ "exclude_from_slope": "there is no true control arm - every contrast is against another protest article, so an 'ATE' here is a difference between two treatments and its magnitude is not the quantity the pooled slope is fitted on; and the outcomes are 5-point items plus one dollar allocation, not the target's sliders (finding 69).",
+ "provenance": {
+  "verified_by": "tools/build_dablander.py, which reproduces the paper's own n at both exclusion steps (2,875 then 2,856); vignettes verbatim from rsos241001_si_001.pdf pp. 7-9 (CC BY 4.0)",
+  "caveats": [
+   "NO PURE CONTROL: the reference is `Legal march - no scientist`",
+   "2 x 3 factorial, so the five contrasts are not five independent messages",
+   "differential attrition: 85% of the 274 attention-check failures are in the civil-disobedience arms, so the CD arms are smaller AND selected",
+   "the verbatim item stems are not in the deposit; the brief carries the authors' own descriptions and the exact response labels",
+   "`SourceCredibility` is asked only in the four scientist arms and is therefore not an outcome of this carve (no value exists in the reference arm)",
+   "registered report: H8 and H9 (no effect of scientist engagement on source or general science credibility) were PRE-REGISTERED NULLS and the data supported them, so the science_credibility row of this task is a null by design"
+  ]
+ }
+}

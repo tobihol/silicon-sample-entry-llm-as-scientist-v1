@@ -1,0 +1,7 @@
+You are answering a factual question about a research study. Answer ONLY in the
+fixed format below, with no prose before or after it.
+
+STUDY: <the published study's name, or UNKNOWN>
+AUTHORS: <surnames, or UNKNOWN>
+CONFIDENCE: <an integer 0-100>
+RESULTS_KNOWN: <YES if you believe you already know this study's published results, otherwise NO>

@@ -1,0 +1,312 @@
+{
+ "warmth": {
+  "exclude": {
+   "FBI": {
+    "w149_jul2024": 53.17,
+    "w123_mar2023": 52.43
+   },
+   "CIA": {
+    "w149_jul2024": 50.65,
+    "w123_mar2023": 50.83
+   },
+   "CDC": {
+    "w149_jul2024": 54.81,
+    "w123_mar2023": 54.12
+   },
+   "SSA": {
+    "w149_jul2024": 56.08,
+    "w123_mar2023": 60.61
+   },
+   "FED": {
+    "w149_jul2024": 52.63,
+    "w123_mar2023": 50.42
+   },
+   "NPS": {
+    "w149_jul2024": 78.71,
+    "w123_mar2023": 78.93
+   },
+   "ED": {
+    "w149_jul2024": 45.32,
+    "w123_mar2023": 46.74
+   },
+   "TRANS": {
+    "w149_jul2024": 55.82,
+    "w123_mar2023": 51.72
+   },
+   "JSTCE": {
+    "w149_jul2024": 45.98,
+    "w123_mar2023": 48.89
+   },
+   "IRS": {
+    "w149_jul2024": 42.05,
+    "w123_mar2023": 42.75
+   },
+   "EPA": {
+    "w149_jul2024": 54.88,
+    "w123_mar2023": 56.98
+   },
+   "NASA": {
+    "w149_jul2024": 71.31,
+    "w123_mar2023": 74.3
+   },
+   "VA": {
+    "w149_jul2024": 57.38,
+    "w123_mar2023": 58.73
+   },
+   "USPS": {
+    "w149_jul2024": 67.38,
+    "w123_mar2023": 68.38
+   },
+   "HHS": {
+    "w149_jul2024": 55.14,
+    "w123_mar2023": 57.14
+   },
+   "HMLND": {
+    "w149_jul2024": 51.41,
+    "w123_mar2023": 52.49
+   }
+  },
+  "midpoint": {
+   "FBI": {
+    "w149_jul2024": 52.67,
+    "w123_mar2023": 52.15
+   },
+   "CIA": {
+    "w149_jul2024": 50.51,
+    "w123_mar2023": 50.66
+   },
+   "CDC": {
+    "w149_jul2024": 54.33,
+    "w123_mar2023": 53.87
+   },
+   "SSA": {
+    "w149_jul2024": 55.17,
+    "w123_mar2023": 59.33
+   },
+   "FED": {
+    "w149_jul2024": 52.02,
+    "w123_mar2023": 50.33
+   },
+   "NPS": {
+    "w149_jul2024": 73.83,
+    "w123_mar2023": 75.42
+   },
+   "ED": {
+    "w149_jul2024": 45.83,
+    "w123_mar2023": 47.0
+   },
+   "TRANS": {
+    "w149_jul2024": 54.83,
+    "w123_mar2023": 51.52
+   },
+   "JSTCE": {
+    "w149_jul2024": 46.5,
+    "w123_mar2023": 49.0
+   },
+   "IRS": {
+    "w149_jul2024": 43.0,
+    "w123_mar2023": 43.27
+   },
+   "EPA": {
+    "w149_jul2024": 54.04,
+    "w123_mar2023": 56.0
+   },
+   "NASA": {
+    "w149_jul2024": 67.0,
+    "w123_mar2023": 70.17
+   },
+   "VA": {
+    "w149_jul2024": 55.95,
+    "w123_mar2023": 57.33
+   },
+   "USPS": {
+    "w149_jul2024": 66.33,
+    "w123_mar2023": 67.83
+   },
+   "HHS": {
+    "w149_jul2024": 54.21,
+    "w123_mar2023": 56.06
+   },
+   "HMLND": {
+    "w149_jul2024": 51.19,
+    "w123_mar2023": 52.17
+   }
+  }
+ },
+ "bridges": {
+  "w149_jul2024|not_sure=exclude": {
+   "gov_comparators_mean": 46.48,
+   "cdc_cross_check_form1": 54.81,
+   "agencies": {
+    "EPA": 54.88,
+    "NASA": 71.31,
+    "NOAA(bracketed)": 63.09
+   },
+   "agencies_mean": 63.09,
+   "sci_endpoint_pew_conf": 66.91,
+   "B_additive_agency_off": -3.82,
+   "B_additive_per_agency": {
+    "EPA": -12.03,
+    "NASA": 4.4,
+    "NOAA(bracketed)": -3.82
+   },
+   "theta_agencies": 0.187,
+   "theta_per_agency": {
+    "EPA": 0.589,
+    "NASA": -0.215,
+    "NOAA(bracketed)": 0.187
+   },
+   "gov_cluster_off_vs_sci": -20.43
+  },
+  "w123_mar2023|not_sure=exclude": {
+   "gov_comparators_mean": 48.04,
+   "cdc_cross_check_form1": 54.12,
+   "agencies": {
+    "EPA": 56.98,
+    "NASA": 74.3,
+    "NOAA(bracketed)": 65.64
+   },
+   "agencies_mean": 65.64,
+   "sci_endpoint_pew_conf": 66.91,
+   "B_additive_agency_off": -1.27,
+   "B_additive_per_agency": {
+    "EPA": -9.93,
+    "NASA": 7.39,
+    "NOAA(bracketed)": -1.27
+   },
+   "theta_agencies": 0.067,
+   "theta_per_agency": {
+    "EPA": 0.526,
+    "NASA": -0.392,
+    "NOAA(bracketed)": 0.067
+   },
+   "gov_cluster_off_vs_sci": -18.87
+  },
+  "w149_jul2024|not_sure=midpoint": {
+   "gov_comparators_mean": 46.9,
+   "cdc_cross_check_form1": 54.33,
+   "agencies": {
+    "EPA": 54.04,
+    "NASA": 67.0,
+    "NOAA(bracketed)": 60.52
+   },
+   "agencies_mean": 60.52,
+   "sci_endpoint_pew_conf": 66.91,
+   "B_additive_agency_off": -6.39,
+   "B_additive_per_agency": {
+    "EPA": -12.87,
+    "NASA": 0.09,
+    "NOAA(bracketed)": -6.39
+   },
+   "theta_agencies": 0.319,
+   "theta_per_agency": {
+    "EPA": 0.643,
+    "NASA": -0.004,
+    "NOAA(bracketed)": 0.319
+   },
+   "gov_cluster_off_vs_sci": -20.02
+  },
+  "w123_mar2023|not_sure=midpoint": {
+   "gov_comparators_mean": 48.15,
+   "cdc_cross_check_form1": 53.87,
+   "agencies": {
+    "EPA": 56.0,
+    "NASA": 70.17,
+    "NOAA(bracketed)": 63.09
+   },
+   "agencies_mean": 63.09,
+   "sci_endpoint_pew_conf": 66.91,
+   "B_additive_agency_off": -3.83,
+   "B_additive_per_agency": {
+    "EPA": -10.91,
+    "NASA": 3.26,
+    "NOAA(bracketed)": -3.83
+   },
+   "theta_agencies": 0.204,
+   "theta_per_agency": {
+    "EPA": 0.581,
+    "NASA": -0.174,
+    "NOAA(bracketed)": 0.204
+   },
+   "gov_cluster_off_vs_sci": -18.77
+  }
+ },
+ "adopted": {
+  "primary_spec": "w149_jul2024|not_sure=midpoint",
+  "bridge": "B_span",
+  "theta_agencies": 0.319,
+  "theta_bracket_over_wave_x_notsure": [
+   0.067,
+   0.319
+  ],
+  "agency_off_formula": "agency_off = theta * fed_off, fed_off measured in GSS by build_baselines.py",
+  "prior_assumption_replaced": "theta = 0.500 (the unmeasured midpoint of [scientific community, federal government]) adopted in run 20260815-dryrun-05",
+  "b_additive_reading_same_spec": -6.39,
+  "headline": "the three agencies sit 32% of the way from the scientific community to the federal government, not 50%: NASA is ABOVE the science endpoint on every spec and EPA below it, and the published margins put the whole bracket [0.067, 0.319] strictly below the adopted midpoint",
+  "what_the_W149_MICRODATA_will_replace": [
+   "theta itself, computed from respondent-level EPA/NASA favourability instead of a published margin (and with a proper SE, which a topline cannot give)",
+   "the agency x PARTY table, which the topline does NOT contain (checked in both the txt and the pdf) - this is the whole party half of OPEN item 14 and none of it is settled here",
+   "the `not sure` treatment, which is a 10-23 pp share here and is currently a declared map (exclude vs midpoint moves theta from 0.187 to 0.319 on the primary wave)",
+   "the gov-comparator set, which can then be a within-respondent contrast instead of a mean of margins",
+   "whether W149 carries ANY science/scientist referent in-wave; if it does, the favourability->confidence bridge stops being declared and becomes fitted, which is the single largest remaining assumption"
+  ],
+  "what_W149_will_NOT_fix": [
+   "NOAA, which is in no Pew battery at all (nearest: NWS 76% favourable, Aug 2025 topline)",
+   "universities/colleges, whose card component is still GSS `coneduc` (education broadly, not higher education specifically)"
+  ],
+  "microdata_status": "ABSENT: every number in this file is a PUBLISHED AGGREGATE MARGIN. Drop ATP_W149.sav into /workspace/datasets/pew_atp/downloads/w149 and rerun; the microdata path is already written and discovers its own column names."
+ },
+ "provenance": {
+  "agency_margins": {
+   "source": "Pew Research Center, American Trends Panel Wave 149 FINAL TOPLINE, Jul 1-7 2024, N=9,424 (AGNCYFAV, Form 2 N=4,677 for EPA/NASA/DOJ/IRS/DHS; Form 1 N=4,747 for CDC), with the Mar 13-19 2023 (W123) replicate printed in the same table",
+   "file": "/workspace/datasets/pew_atp/downloads/toplines/w149_topline.txt",
+   "kind": "PUBLISHED AGGREGATE MARGIN, not microdata",
+   "item_text": "What is your overall opinion of each of the following agencies and departments of the federal government? [very/somewhat favorable, somewhat/very unfavorable, not sure]",
+   "party_crosstab_present": false,
+   "party_note": "the vendored topline (txt AND pdf) carries only the PARTY marginal (Rep 27 / Dem 26 / Ind 30 / else 14 / no answer 2, leaners 19/20). There is NO agency x party table in it."
+  },
+  "science_endpoint": {
+   "source": "Pew ATP W100 (Sep 2021) + W114 (Mar 2022) CONF_G 'How much confidence, if any, do you have in each of the following to act in the best interests of the public? Scientists'",
+   "levels_0_100": {
+    "w100": 67.03,
+    "w114": 66.8
+   },
+   "adopted": 66.91,
+   "kind": "MICRODATA (mounted), rescaled (4-x)/3*100 - the same map applied to AGNCYFAV above"
+  },
+  "the_bridge_is_declared": "No institution is measured in BOTH families on the mounted data - W149's 16 agencies and W100/W114's 9 confidence referents do not intersect - so the favourability->confidence map CANNOT be fitted here. It is declared, and the two bridges below bracket it.",
+  "noaa": "no favourability, confidence or trust measurement of NOAA exists on any mounted source or in any vendored topline. Nearest published: the National Weather Service at 76% favourable (Pew, Aug 2025 topline; microdata post-lock). NOAA is bracketed by EPA and NASA and taken at their midpoint; the bracket is reported."
+ },
+ "microdata": {
+  "w149_jul2024": {
+   "status": "ABSENT",
+   "expected_at": "/workspace/datasets/pew_atp/downloads/w149/ATP_W149.sav",
+   "blocks": [
+    "theta with an SE",
+    "the agency x PARTY table (OPEN item 14's party half)",
+    "a within-respondent gov-comparator contrast",
+    "whether the wave carries any science referent (the bridge test)"
+   ]
+  },
+  "w123_mar2023": {
+   "status": "ABSENT",
+   "expected_at": "/workspace/datasets/pew_atp/downloads/w123/ATP_W123.sav",
+   "blocks": [
+    "theta with an SE",
+    "the agency x PARTY table (OPEN item 14's party half)",
+    "a within-respondent gov-comparator contrast",
+    "whether the wave carries any science referent (the bridge test)"
+   ]
+  },
+  "_selftest": {
+   "status": "PASS",
+   "weight_chosen": "WEIGHT_W114",
+   "mean_delta": 0.0005,
+   "se_delta": 0.0002,
+   "kish_delta": 0.05,
+   "party_gap_dem_minus_rep_pp": 21.54,
+   "cross_check": "OPEN item 2 records W114's Dem-Rep trust gap as 21.6 pp",
+   "what_it_proves": "the reader, the 4-point rescale, the weighting, the linearised SE and the party cut all reproduce a number measured by a different route; only the battery's own column names are still unverified"
+  }
+ }
+}

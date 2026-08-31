@@ -1,0 +1,285 @@
+{
+ "dataset": "bbprime2025",
+ "status": "VERIFIED - derived file built and reloaded through ssb.task (7,624 rows, 18 arms; Control n=850, interventions n=370-428, matching the README exactly); 17x24 = 408 ATE cells, none NaN, range -4.53..+15.93 pp; per-outcome missingness 0-111 of 7,624; every moderator recode emits only exact target level strings with unmapped share gender 0.34% / age_band 0.01% / race 0.46% / education 0.00% / party 4.53% (all deliberate: 'Prefer not to say', 'Not registered', 'Not eligible', one missing age, 35 race-blank); education mapping covers all 6 target levels and sums to 7,624; ssb.task.carve builds brief/+sealed/ (408 cells). Known limit: true_ates(moderator='education') raises on 'Less than high school' (n=52 over 18 arms -> cells <3); the other four moderators give 1224/1632/2040/1632 cells, 0 NaN.",
+ "file": "/workspace/run/inputs/derived/bbprime2025_analysis.csv",
+ "reader": "csv",
+ "sample_description": "7,624 U.S. adults recruited on Prolific (>=95% approval, >=50 prior tasks), gender-balanced by design and deliberately skewed young (quota 40% 18-35, 40% 36-54, 20% 55-90), and SCREENED TO CLIMATE-CHANGE BELIEVERS at recruitment - so base rates are far more pro-climate and more Democratic (56% Democrat, 13% Republican) than a census-quota panel. A climate intervention tournament: 17 theory-driven interventions plus a no-intervention control (n = 850; interventions n = 370-428). Each respondent then rated 5 climate news headlines drawn from a pool of 26 New York Times articles, 3 petitions drawn from a pool of 10 adapted from Change.org, 12 everyday pro-environmental actions, 8 climate emotions, and several 1-5 attitude scales. All outcomes below are collapsed to ONE value per respondent (mean over the stimuli/items that person saw).",
+ "condition_col": "group",
+ "arms": {
+  "control": "Control",
+  "self_relevance": "News Comments (Self-Rel)",
+  "social_relevance": "News Comments (Social-Rel)",
+  "norm_text": "Social Norms (Text)",
+  "norm_quiz": "Social Norms (Quiz)",
+  "moral_values": "Moral Values",
+  "ES_prevention_self": "Imagination (Prevention-Self)",
+  "ES_prevention_other": "Imagination (Prevention-Other)",
+  "ES_promotion_self": "Imagination (Promotion-Self)",
+  "ES_promotion_other": "Imagination (Promotion-Other)",
+  "MCII_individual": "Action Planning (Individual)",
+  "MCII_collective": "Action Planning (Collective)",
+  "letter": "Letter to Future Gen",
+  "impact_text": "Impact Information (Text)",
+  "impact_quiz": "Impact Information (Quiz)",
+  "CF_general": "Carbon Footprint (General)",
+  "CF_personalized": "Carbon Footprint (Personalized)",
+  "STPB": "Personal Benefits"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "outcomes": {
+  "msg_share_broad": {
+   "col": "msg_share_broad",
+   "lo": 0,
+   "hi": 100,
+   "question": "Broadcast sharing intention for climate news headlines, mean over the 5 headlines the respondent saw: 'I would share this message by posting on social media (on Facebook, Twitter/X, etc).' 0 = strongly disagree, 100 = strongly agree"
+  },
+  "msg_share_narrow": {
+   "col": "msg_share_narrow",
+   "lo": 0,
+   "hi": 100,
+   "question": "Narrowcast sharing intention for climate news headlines: 'I would share this message directly with someone I know (via email, direct message, etc).' 0-100"
+  },
+  "msg_rel_self": {
+   "col": "msg_rel_self",
+   "lo": 0,
+   "hi": 100,
+   "question": "Perceived self-relevance of the climate news headlines: 'This message is relevant to me.' 0-100"
+  },
+  "msg_rel_social": {
+   "col": "msg_rel_social",
+   "lo": 0,
+   "hi": 100,
+   "question": "Perceived social relevance of the climate news headlines: 'This message is relevant to people I know.' 0-100"
+  },
+  "petition_sign_intention": {
+   "col": "petition_sign_intention",
+   "lo": 0,
+   "hi": 100,
+   "question": "Petition signing intention, mean over the 3 petitions shown: 'I would sign this petition.' 0-100"
+  },
+  "petition_share_broad": {
+   "col": "petition_share_broad",
+   "lo": 0,
+   "hi": 100,
+   "question": "Broadcast sharing intention for the petitions: 'I would share this petition by posting on social media.' 0-100"
+  },
+  "petition_share_narrow": {
+   "col": "petition_share_narrow",
+   "lo": 0,
+   "hi": 100,
+   "question": "Narrowcast sharing intention for the petitions: 'I would share this petition directly with someone I know.' 0-100"
+  },
+  "petition_sign": {
+   "col": "petition_sign",
+   "lo": 0,
+   "hi": 1,
+   "question": "Actual petition signing: proportion of the 3 petitions the respondent chose to sign ('yes' vs no / not now / unsure). 0-1, so 1 pp = 1 percentage point of petitions signed"
+  },
+  "petition_link_clicks": {
+   "col": "petition_link_clicks",
+   "lo": 0,
+   "hi": 3,
+   "question": "Number of petition links (0-3) the respondent actually clicked through to"
+  },
+  "action_intention": {
+   "col": "action_intention",
+   "lo": 1,
+   "hi": 7,
+   "question": "Pro-environmental behaviour intentions, mean over 12 actions: 'In the future, do you intend to do this action more or less than you currently do?' 1 = a lot less, 7 = a lot more; harmful actions (driving, flying, beef/lamb) already reverse-scored"
+  },
+  "action_env_impact": {
+   "col": "action_env_impact",
+   "lo": 1,
+   "hi": 7,
+   "question": "Perceived environmental impact, mean over 12 actions: 'If many people did this action more/less often, how much would it help to reduce the negative effects of climate change?' 1 = no impact, 7 = very large impact"
+  },
+  "self_efficacy": {
+   "col": "self_efficacy",
+   "lo": 1,
+   "hi": 5,
+   "question": "Self-efficacy scale, mean of 4 items (two reverse-scored, already applied): individuals can make a difference / we cannot do anything* / there are actions I can take / it is a waste of time*. 1-5 agreement"
+  },
+  "concern_risk": {
+   "col": "concern_risk",
+   "lo": 1,
+   "hi": 5,
+   "question": "Concern and perceived risk, mean of 4 items: concerned about climate change / important to take action / poses risks to me / poses risks to society. 1-5 agreement"
+  },
+  "emo_angry": {
+   "col": "emo_angry",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Angry' 1 = strongly disagree, 5 = strongly agree"
+  },
+  "emo_anxious": {
+   "col": "emo_anxious",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Anxious' 1-5"
+  },
+  "emo_sad": {
+   "col": "emo_sad",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Sad' 1-5"
+  },
+  "emo_hopeful": {
+   "col": "emo_hopeful",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Hopeful' 1-5"
+  },
+  "emo_hopeless": {
+   "col": "emo_hopeless",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Hopeless' 1-5"
+  },
+  "emo_determined": {
+   "col": "emo_determined",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Determined' 1-5"
+  },
+  "emo_disengaged": {
+   "col": "emo_disengaged",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Disengaged' 1-5"
+  },
+  "emo_uncertain": {
+   "col": "emo_uncertain",
+   "lo": 1,
+   "hi": 5,
+   "question": "'When I think about climate change, I feel... Uncertain' 1-5"
+  },
+  "distance_geographic": {
+   "col": "distance_geographic",
+   "lo": 1,
+   "hi": 5,
+   "question": "Geographic/self psychological distance from climate change, mean of 4 items (two reverse-scored, already applied); HIGHER = MORE DISTANT. 1-5"
+  },
+  "distance_social": {
+   "col": "distance_social",
+   "lo": 1,
+   "hi": 5,
+   "question": "Social psychological distance from climate change; HIGHER = MORE DISTANT. 1-5"
+  },
+  "distance_temporal": {
+   "col": "distance_temporal",
+   "lo": 1,
+   "hi": 7,
+   "question": "Temporal distance: 'When, if at all, do you think the United States will start feeling the effects of climate change?' 1 = we are already feeling the effects, 7 = never"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "gender",
+   "map": {
+    "Man": "Male",
+    "Woman": "Female",
+    "Non-binary": "Other",
+    "Agender": "Other",
+    "Genderqueer": "Other",
+    "Gender fluid": "Other",
+    "Gender identity not listed": "Other"
+   }
+  },
+  "age_band": {
+   "col": "age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "race": {
+   "col": "race_target",
+   "map": {
+    "White / Caucasian": "White / Caucasian",
+    "Black / African American": "Black / African American",
+    "Hispanic / Latino": "Hispanic / Latino",
+    "Asian / Asian American": "Asian / Asian American",
+    "Other": "Other"
+   }
+  },
+  "education": {
+   "col": "ses_degree",
+   "map": {
+    "No formal education": "Less than high school",
+    "Did not complete high school": "Less than high school",
+    "High school graduate (GED)": "High school diploma / GED",
+    "High school graduate (diploma)": "High school diploma / GED",
+    "Some college (1-4 years, no degree)": "Some college or Associate's degree",
+    "Associate's degree (including occupational or academic degrees)": "Some college or Associate's degree",
+    "Bachelor's degree (BA, BS, etc)": "Bachelor's degree",
+    "Master's degree (MA, MS, MENG, MSW, etc)": "Master's degree / Professional degree",
+    "Professional school degree (MD, DDC, JD, etc)": "Master's degree / Professional degree",
+    "Doctorate degree (PhD, EdD, etc)": "Doctorate degree / Ph.D."
+   }
+  },
+  "party": {
+   "col": "party_raw",
+   "map": {
+    "Democratic Party": "Democrat",
+    "Republican Party": "Republican",
+    "Independent": "Independent",
+    "Other": "Other",
+    "Libertarian Party": "Other",
+    "Green Party": "Other"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "income": "ses_income_household has 10 brackets whose edges straddle three of the target's four cut points: '$25,000 through $34,999' (n=654) straddles $30,000, '$50,000 through $74,999' (n=1,520) straddles $56,000, and '$150,000 and greater' (n=808) straddles $168,000. Only the $100,000 edge aligns. No sub-bracket information is on disk, so any mapping would be a guess - LEFT OUT.",
+  "unmapped_levels": "gender 'Prefer not to say' (n=26) and party 'Not registered' (n=330) / 'Not eligible' (n=11) are deliberately left unmapped (NaN) rather than forced onto a target level."
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/bbprime2025_arms.json",
+ "message_texts_source": "NONE ON DISK for the interventions. SOP_and_measures.docx documents procedure, exclusions and every OUTCOME item verbatim but contains no intervention content; the intervention materials live in seven per-intervention OSF pre-registrations that were not downloaded. The texts file therefore carries empty strings for all 17 arms plus a '_note', and - under '_rated_stimuli' - the 26 headline/snippet pairs and 10 petition texts that participants RATED (identical across arms, so they describe the outcome measure, not the treatment).",
+ "provenance": {
+  "readme_claims": "N = 7,624 after main exclusions; 18 conditions; control n = 850, interventions n = 370-428; long format, join key SID",
+  "derived_file_recipe": {
+   "output": "/workspace/run/inputs/derived/bbprime2025_analysis.csv (7,624 rows x 32 cols, one row per SID: SID, group, 24 outcomes, age, gender, hispanic_latinx, ses_degree, race_target, party_raw)",
+   "key": "SID",
+   "inputs": [
+    "messages_data.csv (266,787 rows): dropped exclude_item == 1 (980 rows = 140 person-headline pairs x 7 scales; exclude_item is NaN on 41,332 rows and those were KEPT), then mean of `value` per SID x scale_name for msg_share_broad/msg_share_narrow/msg_rel_self/msg_rel_social -> 7,623 SIDs",
+    "petitions_data.csv (106,169 rows): mean per SID for petition_sign_intention/petition_share_broad/petition_share_narrow; petition_sign recoded yes=1 else 0 and averaged over the 3 petitions; petition_link_clicks taken as-is (already one row per SID) -> 7,622 SIDs",
+    "actions_data.csv (517,214 rows): mean over the 12 actions per SID for action_intention and action_env_impact -> 7,624 SIDs. value_z was NOT used (it is a within-item z-score and cannot go in a pp table)",
+    "emotions_data.csv (60,991 rows): one row per SID x emotion, 8 emotions -> 7,624 SIDs",
+    "other_dvs_data.csv (84,039 rows): self_efficacy and concern_risk (item == 'mean'); distance items geographic/social/temporal; politics/affiliation as the party moderator -> 7,624 SIDs",
+    "demographics_data.csv (85,449 rows): age, gender, ses_degree, hispanic_latinx; race_ethnicity is MULTI-SELECT (8,122 rows for 7,624 SIDs) and was collapsed to race_target"
+   ],
+   "race_target_rule": "hispanic_latinx == 'Yes' -> 'Hispanic / Latino'; else drop any 'Prefer not to say' entries; if more than one race remains -> 'Other'; single White -> 'White / Caucasian'; single Black or African American -> 'Black / African American'; single East/South/Southeast Asian -> 'Asian / Asian American'; American Indian or Alaskan Native, Native Hawaiian or Other Pacific Islander, 'Racial/ethnic identity not listed' -> 'Other'; nothing left -> NaN (35 respondents).",
+   "n_before_after": "outer-joined on SID; 7,624 SIDs in, 7,624 rows out; group non-missing for all of them and constant per SID",
+   "not_copied": "no raw long-format rows were copied; only the 24 collapsed outcomes, group, and 6 demographic/moderator columns"
+  },
+  "verified_by": "notes/DATA_BBPRIME_VOELKEL2024.md - this session, computed on the full files",
+  "caveats": [
+   "NO INTERVENTION TEXT EXISTS ON DISK. A blind predictor sees only the 17 manuscript arm titles plus the sample and outcome descriptions. This makes bbprime2025 a task about priors over intervention FAMILIES, not about reading message copy.",
+   "Arm display names are the Rmd's own manuscript labels, taken POSITIONALLY from tournament_analysis_OSF.Rmd (factor levels c('self_relevance',...,'STPB') relabelled to c('News Comments (Self-Rel)',...,'Personal Benefits')). notes/DATA_experiments.md sec 4.2 lists that label list in the REVERSE order; the mapping used here is the Rmd's and is confirmed semantically (self_relevance->Self-Rel, STPB->Personal Benefits, CF_general->Carbon Footprint (General)).",
+   "Non-independence is structural and is NOT modelled here: 5 headlines, 3 petitions and 12 actions per person, each a separate row. The authors fit lmer/brm with random intercepts for people AND stimuli; this adapter collapses to one value per SID first, so these ATEs are person-level means, not the paper's model-based contrasts, and the SEs ignore stimulus sampling.",
+   "The sample is Prolific, screened to climate-change believers, gender-balanced by design and deliberately young-skewed (mean age 39.5), and 56% Democrat / 13% Republican. Base rates and effect sizes should NOT be ported to a census-quota panel.",
+   "Tournament-wide comparisons were not preregistered (SOP says so explicitly); only the per-intervention analyses were.",
+   "Outcome set = exactly the 24 dependent variables that tournament_analysis_OSF.Rmd runs a condition contrast on. Deliberately excluded: msg_read, msg_emo_pos, msg_emo_neg, action_ease, action_approval, action_person_impact, climate_knowledge, uncertainty, climate_change_cause, action_current* (no Rmd contrast, or no fixed scale). uncertainty is additionally truncated by design because a mean > 4 on it was an EXCLUSION criterion.",
+   "Main exclusion variant used (N = 7,624). The *_few_excl variants (N = 7,767, which re-admit climate-change deniers) were NOT used and were not needed: the party/ideology moderators ship in the MAIN other_dvs_data.csv under scale_name == 'politics' (7,620 of 7,624 have an affiliation), contradicting notes/DATA_experiments.md sec 4.4 which says they exist only in indiv_diffs_data_few_excl.csv.",
+   "petition_sign is labelled 'Post-Hoc' in the Rmd, and it is a proportion of 3 petitions (0-1), so 1 pp = 1 percentage point of petitions signed. petition_link_clicks is a 0-3 count.",
+   "distance_temporal is 1-7 while the other two distance scales are 1-5; it has 111 missing values (1.5%).",
+   "value_z was never used: it is a within-item z-score and has no percentage-point interpretation.",
+   "No survey weights exist for this study, so all ATEs are unweighted (as in the source paper).",
+   "The four 'News Comments' / relevance-targeting effects on the message-rating outcomes are large (13-16 pp) because those interventions manipulate exactly what the message items ask about; the rest of the 408-cell table is in the -4.5 to +9 pp range."
+  ]
+ },
+ "harness_note": "ssb.task.true_ates does int(np.nan) when a moderator x arm x outcome cell has <=2 observations, so moderator='education' raises ValueError here. Workaround if an education-moderated carve is needed: fold 'No formal education'/'Did not complete high school' into 'High school diploma / GED' (loses the target's 'Less than high school' level)."
+}

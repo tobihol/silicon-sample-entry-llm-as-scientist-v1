@@ -1,0 +1,1731 @@
+
+
+Sample: 32,059 U.S. adults after preregistered exclusions (35,252 rows in the file), fielded 2022 by three online panel vendors (Bovitz, Dynata, Luth). DEMOCRACY / PARTISAN-ATTITUDES megastudy, not a climate one; the outcomes are attitudes toward the other party and toward democratic norms. Party leaners are kept but true independents and 'other party' identifiers were screened out at recruitment, so the sample is effectively two-party. The sample is old (mean age ~57) relative to a census quota panel. Each respondent was randomly assigned to one of 25 short interventions, an active/placebo control, or a no-treatment control that is oversampled ~5x. All outcomes are 0-100 sliders measured once, after treatment. Nearly every outcome item is piped with the respondent's own in-party and out-party, so the same column means 'Republicans' for a Republican and 'Democrats' for a Democrat.
+
+- PA | 0-100 | Partisan Animosity - composite of feeling thermometers toward out-party voters/politicians and a 0-50c dictator game, reverse-scored so HIGHER = MORE animosity
+- ADA | 0-100 | Support for Undemocratic Practices - mean of 4 0-100 agree items (reduce polling stations in out-party areas; governors ignore court rulings; prosecute journalists; do not accept election results)
+- SPV | 0-100 | Support for Partisan Violence - mean of 4 0-100 items on how OK/justified threats, online harassment and political violence by in-partisans are
+- SUC | 0-100 | Support for Undemocratic Candidates - mean of 4 0-100 vote-choice items: would you still vote for your own party's candidate if that candidate endorsed each undemocratic practice
+- OppBip | 0-100 | Opposition to Bipartisan Cooperation - 100 minus the mean of two 0-100 items on wanting the parties to work together and to compromise (reverse-scoring ALREADY applied in the file; verified exactly)
+- SocDistrust | 0-100 | Social Distrust - 100 minus the single 0-100 generalised-trust item ('most people can be trusted' vs 'you need to be very careful'); reverse-scoring already applied (verified exactly)
+- SocDis | 0-100 | Social Distance - 100 minus the mean of two 0-100 items on comfort with out-party close friends and neighbours; reverse-scoring already applied (verified exactly)
+- BEPF | 0-100 | Biased Evaluation of Politicized Facts - composite of 8 0-100 items (4 Republican-favourable, 4 Democrat-favourable factual claims); higher = more partisan-biased evaluation
+- Composite | 0-100 | Composite of Outcomes - the study's own pre-computed overall index of antidemocratic attitudes and partisan animosity, higher = worse
+
+CONDITIONS (14 interventions, each vs control):
+
+### Alternative Control
+[Alternative Control]
+AltCon_Intro
+Please take your time in reading the following article.
+Note, the "next button" will display shortly after you advance on to each page.
+
+AltCon_R1
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R2
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R3
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R4
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R5
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R6
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R7
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R8
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_Q_Inst Please answer the following questions about the government information you
+just learned.
+
+AltCon_Q1 How interesting was the information covered?
+o Not at all interesting  (1)
+o Slightly interesting  (2)
+o Moderately interesting  (3)
+o Very interesting  (4)
+o Extremely interesting  (5)
+
+AltCon_Q2 How useful would you say this information was?
+o Not at all useful  (1)
+o Slightly useful  (2)
+o Moderately useful  (3)
+o Very useful  (4)
+o Extremely useful  (5)
+
+AltCon_Q3 How would you describe the quality of the information presented?
+o Terrible  (1)
+o Poor  (2)
+o Average  (3)
+o Good  (4)
+o Excellent  (5)
+
+### Befriending Meditation
+[172G - Befriending Meditation]
+172G_Inst You will now listen to an 8-minute meditation exercise. See if you can find a silent
+and comfortable place to avoid being interrupted during the meditation and make sure you
+follow the auditory instructions as closely as possible.
+
+Please press play to start the meditation exercise.
+
+You will be able to proceed to the next page after the estimated listening time has elapsed.
+
+### Common National Identity
+[GL18 - Common Identity]
+GL18_Inst1
+Democracy has helped America flourish
+
+America has led the world in terms of technological innovation (e.g., Silicon Valley), and is the
+center for global invention (e.g., airplanes, computers, cellphones, etc.). We are leading the
+charge in terms of space exploration, advances in research and in academia. Much of the music
+that is listened to internationally is produced in the US. Similarly, our film industry is the largest,
+oldest, and most profitable film industry in the world.
+
+This is largely thanks to the fact that we have one of the oldest functioning democracies
+which created conditions for technological, social, and cultural flourishment.
+
+Throughout history, more than 160 separate countries used the US constitution as a model for
+developing their own constitutions.  Again, the system is not necessarily perfect, however, there
+are many things to appreciate and love about this country!
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst2
+We need democracy.
+Democracy is essential to a nation’s success, and yet exceedingly rare. There are many
+examples throughout history that demonstrate what goes wrong when using a non-democratic
+system. Monarchies and dictatorships limit or completely obstruct equality while also increasing
+conflict. Authoritarian regimes and tyrannical leaders like Hilter, Mussolini, Mao Zedong, and
+Stalin tore apart their respective countries, limiting or even completely destroying the rights and
+freedoms of the people.
+
+Even now, when comparing the American democracy system with other countries (e.g., China,
+Russia, etc.) we can see that, while it is not a perfect system, democracy is the only one that
+returns the power to the people.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst3
+Our democracy is at risk.
+
+Unfortunately, American democracy is currently under threat. This is largely due to a stark
+political divide which feeds violence and hatred across political parties. Importantly, this violence
+comes from the most extreme people on both sides (e.g., protests that are turning violent, the
+attack on the Capitol, etc.).
+
+If these issues are not addressed, escalating partisanship may lead to the development of
+authoritarian governments that restrict the rights of everyday people (e.g. public surveillance,
+limited freedom of press, vote tampering, suppression of freedom of speech, etc.).
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst4 Luckily, we aren't there yet! Research shows that the overwhelming majority of
+Americans still support democracy!
+
+Everyday people can contribute to a flourishing democracy:
+
+Even in the face of our country’s challenges and -
+
+Even with people with whom we disagree.
+
+We need to acknowledge and embrace our common identity:
+
+We are Americans
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst5
+We are tired of divisions slowing us down.
+
+Democrats and Republicans have much more in common with each other than people think.
+While we may see exaggerated stereotypes of the other side in the media, and on social media,
+the reality is that most Americans are not politically extreme and quite similar to each other.
+Indeed, while political extremists tend to be much more visible on social media, most Americans
+make up what is called the “exhausted majority.”
+
+These Americans are:
+
+tired of political polarization,   are flexible in their views, and   believe in finding common
+ground.
+
+They also feel like they are forgotten in the public discourse, because the media and social
+media amplifies extreme political views.
+
+Source: "More in Common" Hidden Tribes Report (2018)
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst6_Rep
+We have wrong ideas about the other side.
+Research tends to find that people have strong misperceptions about the opposing party.
+
+For example,
+0 10 20 30 40 50 60 70 80 90 100
+
+what percentage of Republicans make more
+than $250,000 per year? (1)
+
+GL18_Inst6_Dem
+We have wrong ideas about the other side.
+Research tends to find that people have strong misperceptions about the opposing party.
+
+For example,
+0 10 20 30 40 50 60 70 80 90 100
+
+what percentage of Democrats are
+Atheist/agnostic? (1)
+
+GL18_Inst7a_Dem You said that ${GL18_Inst6_Rep/ChoiceNumericEntryValue/1}% of
+Republicans make more than $250,000 per year. The average Democrat guesses that it is close
+to 43%.
+
+The correct answer is close to 4%!
+
+Source: D. J. Ahler & G. Sood (2018). The Journal of Politics.
+
+GL18_Inst7b_Dem You did not answer the question what percentage of Republicans make
+more than $250,000 per year. The average Democrat guesses that it is close to 43%.
+
+The correct answer is close to 4%!
+
+Source: D. J. Ahler & G. Sood (2018). The Journal of Politics.
+
+GL18_Inst7a_Rep You said that ${GL18_Inst6_Dem/ChoiceNumericEntryValue/1}% of
+Democrats are Atheist/Agnostic. The average Republican guesses that it is close to 35%.
+
+The correct answer is close to 9%!
+
+Source: D. J. Ahler & G. Sood (2018). The Journal of Politics.
+
+GL18_Inst7b_Rep You did not answer the question what percentage of Democrats are
+Atheist/Agnostic. The average Republican guesses that it is close to 35%.
+
+The correct answer is close to 9%!
+
+Source: D. J. Ahler & G. Sood (2018). The Journal of Politics.
+
+GL18_Inst8 How much do you think ${e://Field/Outparty_Person}s dislike
+${e://Field/Inparty_Person}s on a scale of 0 to 100?
+No dislike
+at all
+Extremely strong
+dislike
+
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+GL18_Inst9 Most Democrats and Republicans think the opposing party would give their own
+party a “dislike” rating of 69 out of 100 (meaning they think the other side really hates
+them).     In reality, Republicans and Democrats give the opposing party an average “dislike”
+rating of 46 (meaning the other side actually feels more neutral towards them)    In other words,
+Republicans and Democrats overestimate how much the opposing party dislikes them by
+about 23 points!
+
+Source: The general fault in our fault lines. Nature human behavior (2021).
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst10 How much do you think ${e://Field/Outparty_Person}s support practices and
+traditions that promote democracy (for example, respecting fair election results, respecting
+freedom of speech and freedom of press, and respecting the right to vote) on a scale of 1-100?
+No support
+at all
+Extremely strong
+support
+
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+GL18_Inst11_Rep The average Republican estimates that number to be approximately 46 out
+of 100 (meaning they think Democrats are not strong supporters of democracy)    In reality, the
+number is 91 (meaning that Democrats actually strongly support American democracy)    In
+other words, most Republicans underestimate how much Democrats support democracy-
+promoting practices by 44 points!
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst11_Dem The average Democrat estimates that number to be approximately 51 out of
+100 (meaning they think Republicans are not strong supporters of democracy).    In reality, the
+number is 89 (meaning that Republicans actually strongly support American democracy).
+In other words, most Democrats underestimate how much Republicans support
+democracy-promoting practices by 39 points!
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst12 How likely do you think ${e://Field/Outparty_Person}s would be to engage in
+violence in the event of a contested presidential election on a scale from 0-100?
+Not likely at all Extremely likely
+
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+GL18_Inst13a_Rep Most people estimate that 47% of ${e://Field/Outparty_Person}s would be
+at least somewhat likely to engage in violence.
+
+GL18_Inst13b_Rep In actuality that number is greatly overestimated, the real answer is around
+7%. In other words, almost no Democrats want to engage in violence!
+
+GL18_Inst13a_Dem Most people estimate that 45% of ${e://Field/Outparty_Person}s would be
+at least somewhat likely to engage in violence.
+
+GL18_Inst13b_Dem In actuality that number is greatly overestimated, the real answer is around
+5%. In other words, almost no Republicans want to engage in violence!
+
+GL18_Inst14_Rep This is very similar to what Democrats say about Republicans:
+
+On average, people overestimate how much the other party is willing to engage in
+violence by 489%!
+
+GL18_Inst14_Dem This is very similar to what Republicans say about Democrats:
+
+On average, people overestimate how much the other party is willing to engage in
+violence by 489%!
+
+GL18_Inst15
+The majority of us despise violence.   The vast majority of Americans all despise violence–even
+when it comes from our own people! This is why it’s critically important for people–and
+especially leaders–to have the courage to stand up against violence from their own
+side.     Additionally, many Democrat and Republican party leaders strongly condemn partisan
+violence -- even when this violence has come from inside their own parties.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst16_Rep We both dislike violence, even when it comes from our own people
+For example, in January of 2021, Donald Trump condemned the violent attacks on the Capital:
+"The demonstrators who infiltrated the Capitol have defiled the seat of American democracy. To
+those who engaged in the acts of violence and destruction, you do not represent our country.
+And to those who broke the law, you will pay."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst16_Dem We both dislike violence, even when it comes from our own people
+For example, in August of 2020, Joe Biden condemned the violent actions of the BLM
+protesters:  “Rioting is not protesting. Looting is not protesting. Setting fires is not protesting.
+None of this is protesting. It’s lawlessness, plain and simple, and those who do it should be
+prosecuted. It’s wrong in every way. It divides instead of unites.”
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst17 Democrats and Republicans have something in common: they both
+believe violence is un-American. And the vast majority of Democratic and Republican political
+leaders also condemn violence.
+
+GL18_Inst18 The overwhelming majority of Americans want to preserve and sustain
+Democracy and want to make the country better
+Both parties care about democracy. The vast majority of us care about the traditions and
+common practices that lead to a peaceful and effective government -- such as respecting
+election results, respecting freedom of speech and freedom of press, and respecting the right to
+vote.     Recent surveys find that almost all Americans -- both Republicans and Democrats --
+strongly support these practices.      It is only a small but vocal minority of people on the political
+extremes who do not support them. Again, most of us do not agree with them.     Another study
+found that Republicans and Democrats are equally likely to punish candidates that break norms
+such as not accepting election results, preventing voting, or limiting the speech of journalists.
+
+Source: Carey et. al (2018) Bright Line Watch.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+GL18_Inst19
+Yup. All of us.
+
+Again, political leaders on both sides have both expressed support for democratic norms.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[... stimulus truncated for prompt budget: 11,876 of 13,390 characters shown; the omitted remainder continues in the same style ...]
+
+### Correcting Democracy Misperceptions
+[VN9B - Intro]
+VN9B_Inst
+
+Studies have shown that DEMOCRATS and REPUBLICANS in America DON'T KNOW MUCH
+about each other.
+
+Let's test how much YOU know!
+
+[VN9B - Republican Intro]
+VN9B_Rep_Inst
+We will ask you to guess what MOST DEMOCRATS support in American politics.
+
+After each question, we will tell you the option that MOST DEMOCRATS actually chose in
+a nationwide survey. You will get feedback from REAL DATA.
+
+[VN9B - Republican Constitution]
+VN9B_Rep_Con Do MOST DEMOCRATS support significantly reinterpreting the Constitution in
+order to block REPUBLICAN policies?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Con_Inc
+
+VN9B_Rep_Con_Cor
+
+[VN9B - Republican Elected]
+VN9B_Rep_Ele Do MOST DEMOCRATS support laws that would make it easier for
+DEMOCRATS (and harder for REPUBLICANS) to get elected?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Ele_Inc
+
+VN9B_Rep_Cor
+
+[VN9B - Republican Journalists]
+VN9B_Rep_Jou Do MOST DEMOCRATS support prosecuting journalists who accuse
+DEMOCRATIC politicians of misconduct without revealing sources?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Jou_Inc
+
+VN9B_Rep_Jou_Cor
+
+[VN9B - Republican Judges]
+VN9B_Rep_Jud Do MOST DEMOCRATS support ignoring controversial court rulings by
+REPUBLICAN JUDGES?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Jud_Inc
+
+VN9B_Rep_Jud_Cor
+
+VN9B_Rep_Jud_Hal
+
+[VN9B - Republican Rallies]
+VN9B_Rep_Ral Do MOST DEMOCRATS support banning FAR-RIGHT group rallies in the
+state capital?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Ral_Inc
+
+VN9B_Rep_Ral_Cor
+
+VN9B_Rep_Hal
+
+[VN9B - Republican Results]
+VN9B_Rep_Res Do MOST DEMOCRATS support not accepting the results of elections if they
+lose?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Res_Inc
+
+VN9B_Rep_Res_Cor
+
+[VN9B - Republican Violence]
+VN9B_Rep_Vio Do MOST DEMOCRATS support using violence to block major REPUBLICAN
+laws?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Vio_Inc
+
+VN9B_Rep_Vio_Cor
+
+[VN9B - Republican Voting]
+VN9B_Rep_Vot Do MOST DEMOCRATS support reducing the number of voting stations in
+towns that support REPUBLICANS?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Rep_Vot_Inc
+
+VN9B_Rep_Vot_Cor
+
+[VN9B - Republican Comprehension]
+VN9B_Rep_ComChe This quiz is asking me about:
+o What I would support in American politics  (1)
+o What most Democrats would support in American politics  (2)
+o What most Republicans would support in American politics  (3)
+
+[VN9B - Democrat Intro]
+VN9B_Dem_Inst
+We will ask you to guess what MOST REPUBLICANS support in American politics.
+
+After each question, we will tell you the option that MOST REPUBLICANS actually chose
+in a nationwide survey. You will get feedback from REAL DATA.
+
+[VN9B - Democrat Constitution]
+VN9B_Dem_Con Would MOST REPUBLICANS support significantly reinterpreting the
+Constitution in order to block DEMOCRAT policies?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Con_Inc
+
+VN9B_Dem_Con_Cor
+
+[VN9B - Democrat Elected]
+VN9B_Dem_Ele Would MOST REPUBLICANS support laws that would make it easier for
+REPUBLICANS (and harder for DEMOCRATS) to get elected?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Ele_Inc
+
+VN9B_Dem_Ele_Cor
+
+[VN9B - Democrat Journalists]
+VN9B_Dem_Jou Would MOST REPUBLICANS support prosecuting journalists who accuse
+REPUBLICAN politicians of misconduct without revealing sources?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Jou_Inc
+
+VN9B_Dem_Jou_Cor
+
+[VN9B - Democrat Judges]
+VN9B_Dem_Jud Would MOST REPUBLICANS support ignoring controversial court rulings by
+DEMOCRAT JUDGES?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Jud_Inc
+
+VN9B_Dem_Jud_Cor
+
+VN9B_Dem_Jud_Hal
+
+[VN9B - Democrat Rallies]
+VN9B_Dem_Ral Would MOST REPUBLICANS support banning FAR-LEFT group rallies in the
+state capital?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Ral_Inc
+
+VN9B_Dem_Ral_Cor
+
+VN9B_Dem_Ral_Hal
+
+[VN9B - Democrat Results]
+VN9B_Dem_Res Would MOST REPUBLICANS support not accepting the results of elections if
+they lose?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Res_Inc
+
+VN9B_Dem_Res_Cor
+
+[VN9B - Democrat Violence]
+VN9B_Dem_Vio Would MOST REPUBLICANS support using violence to block major
+DEMOCRAT laws?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Vio_Inc
+
+VN9B_Dem_Vio_Cor
+
+[VN9B - Democrat Voting]
+VN9B_Dem_Vot Would MOST REPUBLICANS support reducing the number of voting stations
+in towns that support DEMOCRATS?
+o Never  (1)
+o Probably Not  (2)
+o Probably  (3)
+o Definitely  (4)
+
+VN9B_Dem_Vot_Inc
+
+VN9B_Dem_Vot_Cor
+
+[VN9B - Democrat Comprehension]
+VN9B_Dem_ComChe This quiz is asking me about:
+o What I would support in American politics  (1)
+o What most Democrats would support in American politics  (2)
+o What most Republicans would support in American politics  (3)
+
+### Correcting Opportunism Misperceptions
+[7539 - Misperception Suffering - Democrat]
+7539_Inst_Dem_1 In a previous survey of Republicans in September 2020, we asked them a
+variety of questions regarding their preferences. Recall that this was before the tests of the
+COVID-19 vaccines were completed and they were approved for the general public. It was also
+before the 2020 presidential election, which was held on November 3, 2020.
+
+On the following pages, we are going to ask you to predict their answers to these questions. For
+the following questions, please indicate how you think a TYPICAL REPUBLICAN SURVEY
+RESPONDENT WOULD ANSWER.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Dem_2 Remember, we asked this question of Republicans in a survey in September
+2020, before tests of the COVID-19 vaccine were completed and before the 2020 Presidential
+Election.
+
+The U.S. Presidential Election is on November 3, 2020. Estimates from scientists suggest that
+in order to ensure the vaccine is 100% safe and does not have later side effects, trials will need
+to continue until January 1, 2021. On the other hand, political analysts suggest that the
+announcement of a successful vaccine could go a long way in boosting Trump’s re-election
+odds. Scientists believe that there is a possible risk of releasing the vaccine before the trials
+complete, as there may be unanticipated side effects for at least some groups of Americans. At
+the earliest, side effects would be revealed at least two weeks after vaccine administration.
+
+Given the information above, would you prefer the vaccine is released on November 1, 2020 or
+January 1, 2021?
+
+Below, we'd like you to estimate how you think REPUBLICAN SURVEY RESPONDENTS
+answered in September 2020. The numbers must add to 100 percent.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+Preferred successful vaccine is announced on November 1, 2020 : _______  (1)
+Preferred successful vaccine is announced on January 1, 2021 : _______  (2)
+Total : ________
+
+7539_Inst_Dem_3 For the following question, please indicate how you think a TYPICAL
+REPUBLICAN SURVEY RESPONDENT answered in September 2020, before the 2020
+elections in November 2020.     As of September 2020, the COVID-19 case toll in the state of
+Washington stands at approximately 80,000. Most analysts agree that the number of total
+coronavirus cases will influence Democratic Governor Jay Inslee's chances of being re-elected
+in the November 3, 2020 election. Democratic Governor Jay Inslee will be running for re-
+election against Republican nominee Loren Culp.
+When Republicans took our survey in September 2020, which option do you think they were
+most likely to choose?
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+o 80,000 cases and 100% chance of Democratic Governor Jay Inslee being re-elected  (1)
+o 90,000 cases and 90% chance of Democratic Governor Jay Inslee being re-elected  (2)
+o 100,000 cases and 80% chance of Democratic Governor Jay Inslee being re-elected  (3)
+o 110,000 cases and 70% chance of Democratic Governor Jay Inslee being re-elected  (4)
+o 120,000 cases and 60% chance of Democratic Governor Jay Inslee being re-elected  (5)
+o 130,000 cases and 50% chance of Democratic Governor Jay Inslee being re-elected  (6)
+o 140,000 cases and 40% chance of Democratic Governor Jay Inslee being re-elected  (7)
+o 150,000 cases and 30% chance of Democratic Governor Jay Inslee being re-elected  (8)
+o 160,000 cases and 20% chance of Democratic Governor Jay Inslee being re-elected  (9)
+o 170,000 cases and 10% chance of Democratic Governor Jay Inslee being re-elected
+(10)
+o 180,000 cases and 0% chance of Democratic Governor Jay Inslee being re-elected  (11)
+
+7539_Inst_Dem_4 It turns out, partisans tend to over-estimate how willing members of the
+other party are to make trade-offs like those you just saw.
+
+In our survey in September 2020, we asked 208 Republicans to make the choices you just saw.
+We also asked 191 Democrats to predict their answers.
+
+For the vaccine question, while only 24% of Republicans preferred a rushed vaccine
+before the election, Democrats thought that over 66% of Republicans would have this
+preference.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Dem_5 For the question about trading off covid cases to stop a Democratic
+Governor's re-election, the average Republican's answer was 110,000 cases and 70% chance
+of the Democratic Governor's re-election. Democrats tended to think that the answer would be
+150,000 cases and 30% chance for the Democratic Governor's re-election. In fact, far more
+Republicans chose the minimum number of cases (even if it meant ensuring the
+Democratic Governor would be re-elected) than the maximum number of cases (which
+ensured the Democratic Governor would not be re-elected).
+In this study and many others, our research has found that partisans tend to over-
+estimate how willing members of the other group are to trade-off material harm in order
+to get the upper hand on our group.
+
+On the following two pages, we've copied some responses that Republicans wrote after we
+asked them these questions. Please take a few moments to read and consider them carefully.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Dem_6 Quotes from Republicans for why they wouldn't rush an unsafe vaccine
+before the election
+
+"Having a vaccine that works is more important than who gets elected, although I would much
+prefer a Republican over a Democrat."
+
+"People's lives are a lot more important than politics."
+
+"What I know is that I am sick of seeing both sides fight like they are children in a school yard.
+They are there for the good of the people."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Dem_7 Quotes from Republicans for why they wouldn't want extra COVID
+cases just to hurt a Democratic Governor's re-election chances
+
+"I wouldn't even take a chance on lowering their chance at winning if it meant more people
+getting sick."
+
+"Do I want COVID cases to go up just to get another person elected? Can't I just want the
+lowest number of cases possible?"
+
+"I identify as a Republican, but I wouldn't risk more people getting covid just so a Republican
+can win an election. If it means that a Democrat wins, so be it."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[7539 - Misperception Suffering - Republican]
+7539_Inst_Rep_1 In a previous survey of Democrats in September 2020, we asked them a
+variety of questions regarding their preferences. Recall that this was before the tests of the
+COVID-19 vaccines were completed and they were approved for the general public. It was also
+before the 2020 presidential election, which was held on November 3, 2020.
+
+On the following pages, we are going to ask you to predict their answers to these
+questions. For the following questions, please indicate how you think a TYPICAL DEMOCRAT
+SURVEY RESPONDENT WOULD ANSWER.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Rep_2 Remember, we asked this question of Democrats in a survey in September
+2020, before tests of the COVID-19 vaccine were completed and before the 2020 Presidential
+Election.
+
+The U.S. Presidential Election is on November 3, 2020. Would you prefer the announcement of
+a fully successful large scale trial for a COVID-19 vaccine on November 1, 2020 vs. December
+1, 2020? Assume that in both cases, the vaccine is safe and successful.
+
+Below, we'd like you to estimate how you think DEMOCRAT SURVEY RESPONDENTS
+answered in September 2020. The numbers must add to 100 percent.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+Preferred successful vaccine is announced on November 1, 2020 : _______  (1)
+Preferred successful vaccine is announced on January 1, 2021 : _______  (2)
+Total : ________
+
+7539_Inst_Rep_3 For the following question, please again indicate how you think a TYPICAL
+DEMOCRAT SURVEY RESPONDENT answered in September 2020, before the 2020
+Presidential Election in November 2020.
+As of September 2020, the COVID-19 death toll in the United States stands at approximately
+190,000. Most analysts agreed that the state of the economy and the number of total
+coronavirus deaths will influence Trump’s chances of being re-elected.
+When Democrat survey respondents took our survey in September 2020, which option do
+you think they were most likely to choose?
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+o 190,000 deaths and 100% chance of Trump re-election  (1)
+o 200,000 deaths and 90% chance of Trump re-election  (2)
+o 210,000 deaths and 80% chance of Trump re-election  (3)
+o 220,000 deaths and 70% chance of Trump re-election  (4)
+o 230,000 deaths and 60% chance of Trump re-election  (5)
+o 240,000 deaths and 50% chance of Trump re-election  (6)
+o 250,000 deaths and 40% chance of Trump re-election  (7)
+o 260,000 deaths and 30% chance of Trump re-election  (8)
+o 270,000 deaths and 20% chance of Trump re-election  (9)
+o 280,000 deaths and 10% chance of Trump re-election  (10)
+o 290,000 deaths and 0% chance of Trump re-election  (11)
+
+7539_Inst_Rep_4 It turns out, partisans tend to over-estimate how willing members of the
+other party are to make trade-offs like those you just saw.
+
+In our survey in September 2020, we asked 954 Democrats to make the choices you just saw.
+We also asked 474 Republicans to predict their answers.
+
+For the vaccine question, while 51% of Democrats preferred an earlier vaccine, even if it
+was right before the election, Republicans thought that only 38% of Democrats would
+have this preference.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Rep_5 For the question about trading off lives to stop Donald Trump's re-election,
+the average Democrat's answer was 240,000 deaths and 50% chance for Trump's re-election.
+Republicans tended to think that the answer would be 260,000 deaths and 30% chance for
+Trump's re-election. In fact, more Democrats chose the minimum number of deaths (even
+if it meant ensuring that Trump would be re-elected) than the maximum number of deaths
+(which ensured Trump wouldn't be re-elected).
+
+In this study and many others, our research has found that partisans tend to over-
+estimate how willing members of the other group are to trade-off material harm in order
+to get the upper hand on our group.
+
+On the following two pages, we've copied some responses that Democrats wrote after we
+asked them these questions. Please take a few moments to read and consider them carefully.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Rep_6 Quotes from Democrats for why they wouldn't delay a safe vaccine until
+after the election
+
+"If the vaccine is safe, it should be handed out to the public immediately.  It doesn't make any
+difference in my opinion who is President, this disease needs to be stopped, so that all
+Americans can get back to the way life always was."
+
+"The sooner the better for everyone. I hate that something like a vaccination is a political issue.
+I really just want to get back to the way things were prior to COVID, regardless of who wins the
+election."
+
+"Obviously I don't want Trump to take any sort of ownership over the vaccine being released...
+However I want the vaccine as soon as possible, so that's why I made my decision the way I
+did."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+7539_Inst_Rep_7 Quotes from Democrats for why they wouldn't want extra COVID deaths
+just to hurt Trump's re-election chances
+
+[... stimulus truncated for prompt budget: 11,934 of 12,756 characters shown; the omitted remainder continues in the same style ...]
+
+### Describing a Likable Outpartisan
+[BOXM - Outparty Friendship]
+BOXM_Prompt Although you are ${e://Field/Outparty_Friendship_ID}, you likely know people
+who are ${e://Field/Outparty_Person}s. Think about one such ${e://Field/Outparty_Person} that
+you like and respect a great deal. If you don’t like or respect any ${e://Field/Outparty_Person}s,
+please think about the ${e://Field/Outparty_Person} that you view most positively (least
+negatively). This person could be a friend, relative, neighbor, co-worker, or just someone that
+you know. Please explain why you feel this way about this person.       Please think about the
+answer carefully, and then write it in the space below in as much detail as you would like. To
+give you time to reflect on your answer, the "Continue" button will not appear for a few
+moments.     Your answer should be at least 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+BOXM_Q1 Which of the following best describes the person you just wrote about?
+o Friend  (1)
+o Family member  (2)
+o Coworker  (3)
+o Neighbor  (4)
+o Someone else  (5) __________________________________________________
+
+BOXM_Q2 How close are you to that person?
+o Extremely close  (1)
+o Very close  (2)
+o Somewhat close  (3)
+o Not too close  (4)
+o Not at all close  (5)
+
+### Moral Similarities and Differences
+[Q3EV - Moral Differences]
+Q3EV_Inst_1 Uncovering the psychology of our political divisions
+Have you ever had a disagreement with someone where you were absolutely sure you were
+right, but no matter how hard you tried to convince the other person they just wouldn't budge?
+These moments can be incredibly frustrating. How is it possible that two people can look at
+the same set of facts and reach different conclusions?
+We're going to share some insights from psychology to answer this question. Let's begin with a
+quick exercise... Take a listen to this audio clip.
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_2
+Off (1) On (2)
+Region #1 (7)
+Region #1 (8)
+
+Q3EV_Inst_3 About 50% of people hear the word "Laurel," and the other half hears the word
+"Yanny."
+
+Imagine you never encountered anyone who heard the other sound. You'd never realize there
+can be another way to hear it.
+
+Why does this happen? You can think of our brain as an interpreter. We are constantly moving
+throughout the world, encountering new information.
+
+Our brain works at lightning speed to make sense of this information. Nevertheless, we get the
+impression that our interpretation is completely accurate. It can then be very difficult for us to
+see things in a different way.
+
+This insight applies to how we interpret everything we experience, including important moral and
+political issues.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_4 The six "taste buds" of morality
+There's a useful metaphor to understand what's causing these differences in worldviews: the
+mind is like a tongue with six taste buds.
+We all have the same taste buds on our tongues (salty, sweet, sour, bitter, and savory), but
+we all have different taste preferences. Some of us have a strong sweet tooth; others prefer
+more salty foods.
+Each culture ends up generating its own cuisine with its own flavors and seasonings. And
+even within any given culture, people vary.     You will be able to proceed to the next page after
+the estimated reading time has elapsed.
+
+Q3EV_Inst_5 Moral Foundations Theory  A team of psychologists applied this metaphor to
+morality and developed a theory called Moral Foundations Theory to explain how we develop
+our moral worldviews.
+The idea is that we all share a set of innate and universal moral foundations, which serve as
+the building blocks of morality — just as our taste buds serve as the building blocks of our food
+preferences.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_6 Similarly to how we form our taste preferences, we form our moral
+worldview through a combination of many factors:     We all begin with the same moral
+foundations, which stem from our shared evolutionary heritage   Our worldview is then
+influenced by the cultures in which we are raised   Our specific upbringing influences how our
+worldview develops   Our own unique life experiences continue to inform our worldview
+We all end up with worldviews that are as unique as our fingerprints!
+While we can agree on a lot of things with other people, no two people will agree on absolutely
+everything.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_7 How does this play out in real life?
+Our worldview becomes a lens through which we interpret the world around us. When we
+encounter information that has to do with morality, our brain has an instant reaction based on
+our moral worldview (that's our brain moving at lightning speed to make sense of the situation).
+The problem is, once our brain imposes an interpretation of the situation, we can become
+absolutely convinced that that's the only way to see it. Based on our particular worldview, we
+might interpret the situation as "Yanny" but someone with a different worldview might see it as
+"Laurel."
+
+That's where Moral Foundations Theory comes in handy. It can help us decode other people's
+worldviews to understand what's driving their beliefs and find a common language. But what are
+the 6 moral foundations?
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_8a 1. Care  The Care foundation serves as the basis for caring for others and trying
+to prevent harm. This underlies the values of kindness and compassion.
+A person who relies heavily on the Care foundation would probably prioritize being gentle and
+kind.
+
+A person who doesn't rely on this foundation very much is more likely to value being tough and
+independent.
+
+Q3EV_Inst_8b 2. Fairness
+
+This foundation underlies the values of justice, equality, and reciprocity. It's also connected to
+the values of honesty and integrity.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_9a 3. Loyalty    The Loyalty foundation underlies the drive to be loyal to groups that
+we're a part of — for instance, our family, school, neighborhood, religious community, sports
+team, etc.
+This foundation also forms the basis of values like patriotism, being a team player, and self-
+sacrifice for the sake of the group.
+
+Q3EV_Inst_9b 4. Authority  The Authority foundation underlies the value of
+respecting traditions, laws, leaders, elders, and other forms of authority that you consider
+legitimate.
+
+If you value treating your parents or grandparents with respect, this stems from the Authority
+foundation.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_10a 5. Sanctity
+The Sanctity foundation underlies the notion that certain things are "pure" or sacred, and that
+they should be protected or treated with reverence.
+
+This can manifest in treating objects and beliefs as sacred. It can also underlie the notion of
+treating the human body like a temple that must not be desecrated.
+
+Q3EV_Inst_10b 6. Liberty  The Liberty foundation underlies our desire for autonomy — the
+freedom to make our own decisions. This serves as the basis for the ideal of individual freedom,
+as well as the desire to eliminate oppression.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_11a It turns out that the moral foundations also reveal a pattern that can help us
+understand our political divides.
+
+Q3EV_Inst_11b Research shows that Republicans and Democrats tend to build moral
+worldviews that rely primarily on different moral foundations. This pattern has been found across
+hundreds of thousands of people.
+
+The graph shows that:     Democrats tend to rely mostly on the Care, Fairness, and Liberty
+foundations.  Republicans also rely on the Care and Fairness foundations, but to a lesser
+extent. But they rely a lot on Liberty, as well as Loyalty, Authority, and Sanctity.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_12 These findings show that while we all draw on the six moral foundations, we tend
+to apply them in different ways and to different degrees depending on the issue at hand. This
+can help us explain why we often find ourselves deeply divided over politics. Oftentimes, people
+are forming strong opinions based on different moral foundations.
+In many ways, our visions of "the good society" are like that Yanny/Laurel audio clip. Two
+people can have equally sincere, yet deeply conflicting perspectives on how society should
+operate. And each can be thoroughly convinced that only their view is correct!
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_13 So the next time you find yourself in a disagreement with someone and you think
+to yourself, "How can they possibly believe this?," you can recognize that you might be having a
+Yanny/Laurel moment.
+
+Your conflicting beliefs likely reflect differences in your unique worldviews and how you each
+rely on the moral foundations. But you are both likely driven by the same motivation — to bring
+the world closer to what you sincerely believe is just and good.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_14 Decoding people's language
+We can begin to discover people's moral foundations and the values they care about by
+analyzing and decoding their words.
+
+Let's try this out for ourselves by listening carefully to two friends named Ayesha (a
+Republican) and Maria (a Democrat) discussing some hot-button issues.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+Q3EV_Inst_15 They begin with a discussion about abortion…
+Ayesha says: "From the moment of conception, every life is sacred. We need to impose
+stricter regulations on abortion clinics to help protect the unborn."   Maria responds: "I have to
+disagree. I believe that every woman should have the right to control what happens to her own
+body, no matter the circumstance."
+What foundation(s) is Ayesha relying on in her argument?
+[Select all that apply.]
+▢ Care  (1)
+▢ Fairness  (2)
+▢ Liberty  (3)
+▢ Loyalty  (4)
+▢ Authority  (5)
+▢ Sanctity  (6)
+
+Q3EV_Inst_16a Great Job!
+
+Q3EV_Inst_16b You're close!
+
+And They begin with a discussion about abortion…   Ayesha says: "From the moment of conception,
+every... != Care
+Or If
+If They begin with a discussion about abortion…   Ayesha says: "From the moment of conception,
+every... q://QID140/SelectedChoicesCount Is Equal to  4
+And They begin with a discussion about abortion…   Ayesha says: "From the moment of conception,
+every... != Authority
+Or If
+If They begin with a discussion about abortion…   Ayesha says: "From the moment of conception,
+every... q://QID140/SelectedChoicesCount Is Equal to  4
+And They begin with a discussion about abortion…   Ayesha says: "From the moment of conception,
+every... != Sanctity
+Or If
+If They begin with a discussion about abortion…   Ayesha says: "From the moment of conception,
+every... q://QID140/SelectedChoicesCount Is Greater Than or Equal to  5
+
+Q3EV_Inst_16c Not quite.
+
+Q3EV_Inst_16d Ayesha is relying on the Sanctity, Authority, and Care foundations.
+
+Ayesha's declaration that "every life" is "sacred" draws on the Sanctity foundation. Her desire to
+"impose stricter regulations" reflects the Authority foundation, and her desire to "protect the
+unborn" draws on the Care foundation.
+
+Q3EV_Inst_16e
+Let's take another look at Maria's argument:    Maria said: "I have to disagree. I believe
+that every woman should have the right to control what happens to her own body, no matter the
+circumstance."
+What foundation(s) is Maria relying on in her argument?      [Select all that apply.]
+▢ Care  (1)
+▢ Fairness  (2)
+▢ Liberty  (3)
+▢ Loyalty  (4)
+▢ Authority  (5)
+▢ Sanctity  (6)
+
+Q3EV_Inst_17a Great job!
+
+Q3EV_Inst_17b You're close!
+
+Q3EV_Inst_17c Not quite.
+
+Q3EV_Inst_17d Maria is relying primarily on the Liberty foundation. You can see this when she
+talks about women having "the right to control what happens to her own body."
+
+But now let's see what foundations they each use when they talk about their next topic: gun
+control.
+
+Q3EV_Inst_18a ● Maria begins: "We lose countless lives every year to gun violence. Those
+lives could be saved by enforcing stricter gun control laws."
+● Ayesha responds: "There is no doubt that gun violence is a tragedy. But at the same time,
+it's terrifying that there are already millions of guns in this country. As an American citizen, I
+should have the freedom to own a gun to protect myself and keep my family safe."
+
+Q3EV_Inst_18b What foundation(s) is Maria relying on in her argument?
+[Select all that apply.]
+▢ Care  (1)
+▢ Fairness  (2)
+▢ Liberty  (3)
+▢ Loyalty  (4)
+▢ Authority  (5)
+▢ Sanctity  (6)
+
+Q3EV_Inst_19a Great job!
+
+Q3EV_Inst_19b You're close!
+
+Q3EV_Inst_19c Not quite.
+
+[... stimulus truncated for prompt budget: 11,857 of 14,509 characters shown; the omitted remainder continues in the same style ...]
+
+### Outpartisans' Willingness to Learn
+[JQ1Z - Intro - Learning Goals]
+JQ1Z_Inst On the next page, you will see information about someone who is a
+${e://Field/Outparty_Person}. They were asked to consider having a conversation with someone
+from the opposing party, and write them a message. We also asked them to fill out a short
+questionnaire about the goals they would have in such a conversation. You will see information
+about this person's political beliefs, the goals they would have in this conversation, as well as
+the message they wrote.
+
+After you review this information and read their message, you will get a chance to
+respond to them (and we will actually send them your response!). As you read their
+message, think about how you would answer their question.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[JQ1Z - Treatment Rep R_2bo]
+JQ1Z_Rep1_Inst1a
+Below you will see information about someone who is a ${e://Field/Outparty_Person}. Please
+review this information carefully.
+
+JQ1Z_Rep1_Inst1b
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+JQ1Z_Rep1_Inst1c This person wrote the following when asked to write a message to someone
+with opposing political views:
+"I am a Democrat because I firmly believe in things like help for the less fortunate. I feel that
+we as a society should make sure every person has at least plenty of food. Some are unable to
+work, or can only find jobs making minimum wage. That income gap needs to be filled, and
+government programs are the place to do it. I am also very much in favor of the richer
+companies paying much higher taxes than they currently are. That we have people starving
+while rich corporations are able to find loopholes to not pay taxes is ridiculous in a country of our
+wealth."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JQ1Z_Rep1_Inst2a Please write a response to this individual:
+
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+Message:
+"I am a Democrat because I firmly believe in things like help for the less fortunate. I feel that we
+as a society should make sure every person has at least plenty of food. Some are unable to
+work, or can only find jobs making minimum wage. That income gap needs to be filled, and
+government programs are the place to do it. I am also very much in favor of the richer
+companies paying much higher taxes than they currently are. That we have people starving
+while rich corporations are able to find loopholes to not pay taxes is ridiculous in a country of our
+wealth."
+
+JQ1Z_Rep1_Inst2b In the text box below, please respond to this individual's message. As a
+reminder, your response will be sent to this person.
+
+Your answer should be at least 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+[JQ1Z - Treatment Rep R_3Di]
+JQ1Z_Rep2_Inst1a
+Below you will see information about someone who is a ${e://Field/Outparty_Person}. Please
+review this information carefully.
+
+JQ1Z_Rep2_Inst1b
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+JQ1Z_Rep2_Inst1c This person wrote the following when asked to write a message to someone
+with opposing political views:
+"As someone democrat leaning I do not feel basic care of a human such as socialized health
+care is such a radical thing. I think it's something we are all owed, including you, a Republican. I
+think the same could be said about knowledge via schools such as college, but I think that's a
+little bit further down the road. My main focus in politics is people, all people including you."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JQ1Z_Rep2_Inst2a Please write a response to this individual:
+
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+Message:
+"As someone democrat leaning I do not feel basic care of a human such as socialized health
+care is such a radical thing. I think it's something we are all owed, including you, a Republican. I
+think the same could be said about knowledge via schools such as college, but I think that's a
+little bit further down the road. My main focus in politics is people, all people including you."
+
+JQ1Z_Rep2_Inst2b In the text box below, please respond to this individual's message. As a
+reminder, your response will be sent to this person.
+
+Your answer should be at least 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+[JQ1Z - Treatment Rep R_3KZ]
+JQ1Z_Rep3_Inst1a
+Below you will see information about someone who is a ${e://Field/Outparty_Person}. Please
+review this information carefully.
+
+JQ1Z_Rep3_Inst1b
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+JQ1Z_Rep3_Inst1c This person wrote the following when asked to write a message to someone
+with opposing political views:
+"I identify as a democrat to make society fair amongst the people. I believe in equality and am
+strong for social justice. I want the country to thrive with diversity, justice, and truth. There is
+always a way and an answer to your problems, and freedom of speech allows the people to
+voice out their concerns that we as a community could fix together."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JQ1Z_Rep3_Inst2a Please write a response to this individual:
+
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+Message:
+"I identify as a democrat to make society fair amongst the people. I believe in equality and am
+strong for social justice. I want the country to thrive with diversity, justice, and truth. There is
+always a way and an answer to your problems, and freedom of speech allows the people to
+voice out their concerns that we as a community could fix together."
+
+JQ1Z_Rep3_Inst2b In the text box below, please respond to this individual's message. As a
+reminder, your response will be sent to this person.
+
+Your answer should be at least 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+[JQ1Z - Treatment Rep R_3oB]
+JQ1Z_Rep4_Inst1a
+Below you will see information about someone who is a ${e://Field/Outparty_Person}. Please
+review this information carefully.
+
+JQ1Z_Rep4_Inst1b
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+JQ1Z_Rep4_Inst1c This person wrote the following when asked to write a message to someone
+with opposing political views:
+"I see myself affiliated with the Democratic part because I oppose more of the ideas from the
+Republican party. I believe in things such as free health care, education, and government
+programs to help its citizens. I believe in science and its importance in making decision on our
+future, for example the study of climate change."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JQ1Z_Rep4_Inst2a Please write a response to this individual:
+
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+Message:
+"I see myself affiliated with the Democratic part because I oppose more of the ideas from the
+Republican party. I believe in things such as free health care, education, and government
+programs to help its citizens. I believe in science and its importance in making decision on our
+future, for example the study of climate change."
+
+JQ1Z_Rep4_Inst2b In the text box below, please respond to this individual's message. As a
+reminder, your response will be sent to this person.
+
+Your answer should be at least 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+[JQ1Z - Treatment Rep R_D2y]
+JQ1Z_Rep5_Inst1a
+Below you will see information about someone who is a ${e://Field/Outparty_Person}. Please
+review this information carefully.
+
+JQ1Z_Rep5_Inst1b
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+JQ1Z_Rep5_Inst1c This person wrote the following when asked to write a message to someone
+with opposing political views:
+"I identify as a democrat because I support this parties' social, environmental, and moral
+stances. One of the most important aspects of my party's platform is related to the environment.
+The democratic party supports taking action to combat climate change, which is becoming a
+critical issue. I also support many of the social initiatives that this party aligns with."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JQ1Z_Rep5_Inst2a Please write a response to this individual:
+
+Political party: Democrat
+
+Goals for a conversation with someone with opposing political views:
+
+Message:
+"I identify as a democrat because I support this parties' social, environmental, and moral
+stances. One of the most important aspects of my party's platform is related to the environment.
+The democratic party supports taking action to combat climate change, which is becoming a
+critical issue. I also support many of the social initiatives that this party aligns with."
+
+JQ1Z_Rep5_Inst2b In the text box below, please respond to this individual's message. As a
+reminder, your response will be sent to this person.
+
+Your answer should be at least 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+[JQ1Z - Treatment Dem R_0He]
+JQ1Z_Dem1_Inst1a
+Below you will see information about someone who is a ${e://Field/Outparty_Person}. Please
+review this information carefully.
+
+JQ1Z_Dem1_Inst1b
+Political party: Republican
+
+Goals for a conversation with someone with opposing political views:
+
+JQ1Z_Dem1_Inst1c This person wrote the following when asked to write a message to
+someone with opposing political views:
+
+"I am a Republican because they side with many of my important personal beliefs.  I think that
+both sides have some great stances on different issues, but for the issues that are most
+important to me, I think the Republican party resonates best with me personally.  I understand
+that different people have different beliefs, and these issues vary in importance.  This is how we
+are able to tackle the bigger problems."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JQ1Z_Dem1_Inst2a Please write a response to this individual:
+
+Political party: Republican
+
+Goals for a conversation with someone with opposing political views:
+
+[... stimulus truncated for prompt budget: 11,859 of 21,116 characters shown; the omitted remainder continues in the same style ...]
+
+### Positive Contact Video
+[KUU4 - Video]
+KUU4_Inst You might have heard about the echo chambers problem: that people tend to get
+news that confirms their point of view. Republicans get pro-Republican news, and Democrats
+get pro-Democrat news.
+
+You might have also heard some people say we should try to get out of our echo chambers. But
+it’s frustrating to do this if people on the other side aren’t doing the same.
+
+Well, we’re going to give you the chance to get someone on "the other side" (a
+${e://Field/Outparty_Person}, since you identify as a ${e://Field/Inparty_Person}) out of their
+echo chamber, in exchange for watching the video on the next page, which was selected by a
+group of people interested in having Americans exchange articles and videos.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+KUU4_Video Please watch the video below. You will be able to proceed to the next page once
+you have finished watching.
+
+Afterwards, we'll ask you 3 multiple choice questions on the video's content.
+
+If you get at least 2 of these questions correct, we'll then give you a choice of articles and
+videos that other ${e://Field/Inparty_Person}s have been interested in sharing with
+${e://Field/Outparty_Person}s. You can pick which one of these for us to share with a
+${e://Field/Outparty_Person} (who will be given an incentive to watch or read your selection
+carefully).
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+KUU4_Pairs How many pairs of people were featured in the video?
+o 2  (2)
+o 3  (3)
+o 4  (4)
+o More than 4  (5)
+
+KUU4_Issues What issue(s) was/were discussed?
+o Race  (1)
+o Transgender identity  (2)
+o Immigration  (3)
+o All of the above  (4)
+
+KUU4_Military How many people said they served in the military?
+o 0  (0)
+o 1  (1)
+o 2  (2)
+o More than 2  (3)
+
+[KUU4 - Results]
+KUU4_Results_Cor Congratulations! You got 2 or more questions correct.
+
+Which article would you like us to share with a randomly selected ${e://Field/Outparty_Person}?
+(This person will be given an incentive to read or watch the article or video you share with them.
+Data for all of the results will be made publicly available and you can contact us to view this data
+later if you wish.)
+
+You are not required to read any of these articles carefully. You can spend as much or little time
+looking at these options as you like.
+
+o "McConnell blames Trump for capitol riot" (Vox)  (1)
+o "In the stimulus bill, a policy revolution in aid for children" (NYTimes)  (2)
+o "They overcame mutual loathing and saved a town" (NYTimes)  (3)
+o "Worlds apart" (the video you just watched)  (4)
+
+KUU4_Results_Inc We're sorry, but you did not get 2 or 3 of the questions correct.
+
+(The correct answers were: 1) 3 pairs of people, 2) transgender identity was the issue
+discussed, and 3) 1 person said they served in the military.)
+
+KUU4_Partner For sharing the article, you will be partnered with another person. You will not
+interact with this individual again during the study. If you interact with another individual later in
+the study, it will be with a new person.
+
+### Pro-Democracy Bipartisan Elite Cues
+[ILPC - Utah Cues]
+ILPC_Inst Please watch the video below.
+
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+ILPC_ComChe What was the video about?
+o Political polarization  (1)
+o Kittens  (2)
+o Dogs  (3)
+o Dinosaurs  (4)
+
+### Pro-Democracy Inparty Elite Cues
+[MP2C - Inparty Elites]
+MP2C_Inst1 On the following page, you’ll be asked to read an article. Please read closely, as
+you’ll be asked several questions about the article afterwards.
+
+MP2C_Inst2_Rep
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+MP2C_Inst2_Dem  You will be able to proceed to the next page after the estimated reading time
+has elapsed.
+
+MP2C_ComChe1 According to the article, what percentage of ${e://Field/Inparty_Person}s think
+violence is a justifiable way to advance political goals?
+o Less than 5%  (1)
+o Less than 10%  (2)
+o Less than 15%  (3)
+o Less than 20%  (4)
+
+MP2C_ComChe2 According to the article, ${e://Field/Inparty_Elite} believes we need to come
+together as a country.
+o True  (1)
+o False  (0)
+
+### Reducing Outparty Electoral Threat
+[8Z5I - Threat Democrat]
+8Z5I_Inst1_Dem
+Please take a minute to carefully read the following information about American politics.
+
+8Z5I_Inst2_Dem
+The Democratic Party is clearly the dominant force in American politics. Recent victories at the
+federal level gave Democrats unified control of the federal government for the first time in 30
+years. And at the state level, the majority of Americans (almost 55%) live in states with
+Democratic governors.
+
+According to experts at the nonpartisan Pew Research Center, Millennial and Generation Z
+voters (those aged 37 and under) are much more Democratic in their party registration and
+more liberal in their policy preferences. Voters in this age group are more likely to desire a
+bigger role for government, believe that racism is a problem in the United States, use gender-
+neutral language, and link human activity to climate change.
+
+Harvard researcher John Della Volpe has similarly documented the progressivism and
+enthusiasm of these younger generations continuing to enter the electorate, and recently noted,
+“When you look back at the last 40 years of elections - so that includes when Baby Boomers
+were in their 20s, Generation X and Millennials - this generation of Zoomers has broken all the
+turnout records.”
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+8Z5I_Inst3_Dem Moreover, evidence shows that these younger generations appear to be
+driving renewed support for organized labor, long a powerful mobilizing force for the Democratic
+Party.  Recent nonpartisan analysis from Gallup found that, “approval of labor unions is at its
+highest point since 1965, with nearly four in five (77%) of adults ages 18 through 34 supporting
+them.”  A return of broader organized labor subsequently could dramatically expand the political
+reach of Democrats.    Given that this portion of the electorate will continue to grow as the baby
+boomers and the silent generation die out, there is reason to believe that the Democratic Party
+will have sustained electoral success in the future.    In short, the United States is a Democratic-
+leaning country and will likely continue to be for the foreseeable future.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+8Z5I_ComChe1_Dem Currently, the elected branches of the federal government are controlled
+by which political party?
+o Democrats  (1)
+o Republicans  (2)
+o Both parties have held equal control  (3)
+o Republicans control Congress, but Democrats control the White House.  (4)
+
+8Z5I_ComChe2_Dem What percentage of Americans live in states with Democratic governors?
+o 5%  (1)
+o 25%  (2)
+o 55%  (3)
+o 75%  (4)
+
+8Z5I_ComChe3_Dem Millennial and Generation Z voters in the United States (those aged 37
+and under) are much more likely to be registered as which political party?
+o Democrats  (1)
+o Republicans  (2)
+o Party registration in this age group is fairly evenly split between Democrats and
+Republicans.  (3)
+o Generation Z voters tend to be Democrats, but Millennials now tend to be Republicans.
+(4)
+
+[8Z5I - Threat Republican]
+8Z5I_Inst1_Rep Please take a minute to carefully read the following information about American
+politics.
+
+8Z5I_Inst2_Rep
+The Republican Party is clearly the dominant force in American politics. For the last 40 years,
+Republicans have consistently held control of Congress and the presidency more often than
+Democrats. As a result, Republican appointees hold six of the nine seats on the U.S. Supreme
+Court, 55% of seats in the U.S. Courts of Appeals, and the majority of District Court judgeships.
+
+According to experts at the nonpartisan Pew Research Center, Republican dominance is even
+stronger at the state level. Republicans control 30 state legislatures and most governor's
+mansions. Indeed, Republicans completely control 23 state governments, and even some deep
+blue states, such as Massachusetts, Maryland, and Vermont, have Republican governors.
+
+Data analyst David Byler has recently documented the “unmatched” Republican strength in
+state legislatures, noting, “After the 2010 midterm [elections], Republicans were no longer
+competitive in state capitols — they were dominant”. Not only has this Republican political
+success at the state level been built over many election cycles, but Byler has been clear in the
+expectation that this political control will continue into the foreseeable future.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+8Z5I_Inst3_Rep
+Moreover, recent evidence suggests a dramatic public shift in political party identification
+towards the Republican Party. Nonpartisan analysis from Gallup tracked a 14-point swing
+towards the Republican Party during 2021. This would indicate a profound public transition
+benefiting the GOP heading into a midterm election year.
+
+Finally, Republicans are likely to make gains in the House and the Senate as they head into a
+midterm election with a languishing Biden presidency, bogged down by the continuation of the
+pandemic, the bungling of the withdrawal from Afghanistan, and rampant inflation.
+
+In short, the United States is a Republican-leaning country and will likely continue to be for the
+foreseeable future.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+8Z5I_ComChe1_Rep Over the last 40 years, which political party has tended to control
+Congress and the presidency most?
+o Democrats  (1)
+o Republicans  (2)
+o Both parties have held equal control  (3)
+o Congress has been controlled more by Republicans, but the presidency has been
+controlled more by Democrats  (4)
+
+8Z5I_ComChe2_Rep How many state legislatures in the U.S. are controlled by the Republican
+Party?
+o 5  (1)
+o 12  (2)
+o 30  (3)
+o 45  (4)
+
+8Z5I_ComChe3_Rep Based on historical patterns and public opinion polls, what do experts
+predict for the 2022 midterm elections?
+o The Republicans will make gains in the House and the Senate.  (1)
+o The Democrats will make gains in the House and the Senate.  (2)
+o Partisan control of the House and Senate is unlikely to change much.  (3)
+o The Republicans will make gains in the House, but the Democrats will make gains in the
+Senate.  (4)
+
+### Sympathetic Personal Narratives
+[C855 - Civity Storytelling]
+C855_Inst1 Every day we hear stories about how politically polarized we are as a nation:
+Democrats versus Republicans, Republicans versus Democrats.
+
+Across the US, people of all political beliefs see this separation. And across the US, people of
+all political beliefs yearn for government that addresses everyone’s needs.
+
+Most people feel that strengthening our democracy is beyond them, but Civity offers a way to
+reach across partisan lines that isn’t about giving up who you are or what you believe in.
+
+You’re about to experience the stories of five people from across the U.S. who are different in
+various ways: a white woman from rural Nebraska; a Latina immigrant living in Pittsburgh;
+an older Southern white man; a young Black woman from Los Angeles; and a lifelong
+Silicon Valley Republican.
+
+But these labels are not all they are. Let them surprise you.     You will be able to proceed to the
+next page after the estimated reading time has elapsed.
+
+C855_Inst2 Please watch the video below.
+
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+C855_Inst3 In the following five videos, we asked participants:   What “story” people may miss
+about them  How they surprise people who may stereotype them  What they bring to their
+community .. and why they care about it  Why did we ask these questions?    Because people
+are complex, even though political partisanship feeds on each “side” having a single story about
+the other  Because even when people are different, there’s a lot of commonality between them
+Because the most effective foundation for working through partisan conflict is to just get to know
+people who are different from us
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+C855_Inst4 Please watch the video below.
+
+Meet Denise!
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+C855_Inst5 Please watch the video below.
+
+Meet Adriana!
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+C855_Inst6 Please watch the video below.
+
+Meet Al!
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+C855_Inst7 Please watch the video below.
+
+Meet Desiree!
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+C855_Inst8 Please watch the video below.
+
+Meet Duf!
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+C855_Inst9 Now that you’ve met Denise, Adriana, Al, Desiree, and Duf – imagine continuing
+these conversations…
+
+Imagine sharing your story and listening to more of theirs. …
+
+And, now that you have a feeling for who they are…
+
+Imagine putting the difference of partisan politics – what party they belong to or lean toward (if
+you are even into politics at all!) – on the table.
+
+Does that label capture all of who you are? Who they are?
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+C855_Inst10 Please watch the video below.
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+C855_Inst11 Please read the following questions and reflect on your experience.
+
+When you were listening to the stories from the folks in the videos, what stories did you connect
+with? What do you want to hear more about? And, what would you like to share in return?
+
+You will be able to proceed to the next page after 10 seconds of reflection have elapsed.
+
+### Utility of Outparty Empathy
+[46OS - Empathy Beliefs]
+46OS_Inst_1 Think about the last time you debated a ${e://Field/Outparty_Person} on an issue
+you care about. While you tried to convince them of your point of view, how did you express
+your position? Did you try to take the opposing person's perspective?
+
+46OS_Inst_2 Discussing issues with ${e://Field/Outparty_Person}s can be hard. Our gut
+reaction may be to just condemn them for their beliefs; write them off as biased, brainwashed
+or, even immoral.
+
+Actively trying to empathize with ${e://Field/Outparty_Person}s may seem not only tiring, but
+also impractical -- making you seem naive or weak. However, recent scientific work suggests
+that empathizing across differences can not only help us better understand people's
+perspectives, but also make us more convincing advocates of our own beliefs.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Inst_3 In one study, researchers asked participants to try to convince a person who
+disagreed with them on the topic of gun control. Researchers found that those motivated to
+empathize with the opposing person's perspective were seen as more persuasive and were
+better liked than those who weren't as motivated to empathize.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Inst_4 Relatedly, large-scale fieldwork in political science has shown that
+nonjudgmentally exchanging personal stories with those who we disagree with can be a
+very effective way of changing people's minds around contentious issues.
+
+The researchers trained door-to-door canvassers to talk about divisive issues, such as
+immigration policy in the U.S., by first listening to what voters had to say and then sharing their
+own thoughts and personal experiences. This method encouraged open one-to-one
+conversations and moved away from the more traditional tactic of just presenting voters with
+facts and statistics. It was also more productive: this canvassing approach was estimated to be
+102 times more effective than classic political persuasion strategies like TV and radio
+advertising, direct mail, or phone banking.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Inst_5 This empathic exchange of ideas can foster civil debates and inspire openness to
+new information - which are important aspects of a healthy democracy. As the research shows,
+this doesn't mean giving up on your own beliefs. After all, you don't need to agree with
+someone's opinion to understand it.
+Given these findings, empathizing with those who disagree with us may seem effortful, but it is
+a powerful way to build consensus and find common ground across divides.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Prompt Your task now is to spread the knowledge that empathy can be useful in political
+contexts. Please write a compelling message to a fellow ${e://Field/Inparty_Person} explaining
+why they should try to empathize with ${e://Field/Outparty_Person}s.
+
+Your answer should be greater than 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+NOTES: This is part 2 of 2: the arms below are a subset of the study's 26 arms, all measured against the same control. Predict them on the study's own scale, not relative to each other.
+
+Return exactly 126 rows: every condition x every outcome.
+Header: condition,outcome,ate

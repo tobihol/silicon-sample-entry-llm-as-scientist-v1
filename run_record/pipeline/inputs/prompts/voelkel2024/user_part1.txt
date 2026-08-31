@@ -1,0 +1,1767 @@
+
+
+Sample: 32,059 U.S. adults after preregistered exclusions (35,252 rows in the file), fielded 2022 by three online panel vendors (Bovitz, Dynata, Luth). DEMOCRACY / PARTISAN-ATTITUDES megastudy, not a climate one; the outcomes are attitudes toward the other party and toward democratic norms. Party leaners are kept but true independents and 'other party' identifiers were screened out at recruitment, so the sample is effectively two-party. The sample is old (mean age ~57) relative to a census quota panel. Each respondent was randomly assigned to one of 25 short interventions, an active/placebo control, or a no-treatment control that is oversampled ~5x. All outcomes are 0-100 sliders measured once, after treatment. Nearly every outcome item is piped with the respondent's own in-party and out-party, so the same column means 'Republicans' for a Republican and 'Democrats' for a Democrat.
+
+- PA | 0-100 | Partisan Animosity - composite of feeling thermometers toward out-party voters/politicians and a 0-50c dictator game, reverse-scored so HIGHER = MORE animosity
+- ADA | 0-100 | Support for Undemocratic Practices - mean of 4 0-100 agree items (reduce polling stations in out-party areas; governors ignore court rulings; prosecute journalists; do not accept election results)
+- SPV | 0-100 | Support for Partisan Violence - mean of 4 0-100 items on how OK/justified threats, online harassment and political violence by in-partisans are
+- SUC | 0-100 | Support for Undemocratic Candidates - mean of 4 0-100 vote-choice items: would you still vote for your own party's candidate if that candidate endorsed each undemocratic practice
+- OppBip | 0-100 | Opposition to Bipartisan Cooperation - 100 minus the mean of two 0-100 items on wanting the parties to work together and to compromise (reverse-scoring ALREADY applied in the file; verified exactly)
+- SocDistrust | 0-100 | Social Distrust - 100 minus the single 0-100 generalised-trust item ('most people can be trusted' vs 'you need to be very careful'); reverse-scoring already applied (verified exactly)
+- SocDis | 0-100 | Social Distance - 100 minus the mean of two 0-100 items on comfort with out-party close friends and neighbours; reverse-scoring already applied (verified exactly)
+- BEPF | 0-100 | Biased Evaluation of Politicized Facts - composite of 8 0-100 items (4 Republican-favourable, 4 Democrat-favourable factual claims); higher = more partisan-biased evaluation
+- Composite | 0-100 | Composite of Outcomes - the study's own pre-computed overall index of antidemocratic attitudes and partisan animosity, higher = worse
+
+CONDITIONS (14 interventions, each vs control):
+
+### Alternative Control
+[Alternative Control]
+AltCon_Intro
+Please take your time in reading the following article.
+Note, the "next button" will display shortly after you advance on to each page.
+
+AltCon_R1
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R2
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R3
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R4
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R5
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R6
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R7
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_R8
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+AltCon_Q_Inst Please answer the following questions about the government information you
+just learned.
+
+AltCon_Q1 How interesting was the information covered?
+o Not at all interesting  (1)
+o Slightly interesting  (2)
+o Moderately interesting  (3)
+o Very interesting  (4)
+o Extremely interesting  (5)
+
+AltCon_Q2 How useful would you say this information was?
+o Not at all useful  (1)
+o Slightly useful  (2)
+o Moderately useful  (3)
+o Very useful  (4)
+o Extremely useful  (5)
+
+AltCon_Q3 How would you describe the quality of the information presented?
+o Terrible  (1)
+o Poor  (2)
+o Average  (3)
+o Good  (4)
+o Excellent  (5)
+
+### Bipartisan Joint Trivia Quiz
+[XANC - Intro - Epistemic Rescue]
+XANC_Inst
+You have been paired with a real person who has already completed the trivia game that you
+are about to play. This person is your partner. You’ll be asked a series of challenging trivia
+questions, and for each question you’ll have the opportunity to consult with your partner by
+learning how they answered each question and how confident they were in that answer.
+
+Note: Skipping questions may result in parts of this survey not working correctly. Please
+do your best to answer every question.    You will be able to proceed to the next page after
+the estimated reading time has elapsed.
+
+XANC_Partner_Dem And now, it’s time to get to know your partner.
+They said if they could have any superpower they would have Ultra High Intelligence
+They said their favorite season is Winter  They said their favorite vacation spot is the Beach
+They said their favorite fruit is the Banana  They are a Strong Republican
+
+Please take a moment to familiarize yourself with these answers, as you will be quizzed on
+them on the next page.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+XANC_Partner_Rep And now, it’s time to get to know your partner.
+They said if they could have any superpower they would have Invisibility  They said their
+favorite season is Spring  They said their favorite vacation spot is the Beach  They said their
+favorite fruit are Mangoes  They are a Strong Democrat
+Please take a moment to familiarize yourself with these answers, as you will be quizzed on
+them on the next page.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[XANC - Partner Quiz - Democrat]
+XANC_Par_Dem_Inc One or more of your answers was incorrect, please try again.
+
+XANC_Par_Dem_Pow What is your partner’s ideal superpower?
+o Ultra-high intelligence  (1)
+o Flight  (2)
+o Super Strength  (3)
+o Invisibility  (4)
+
+XANC_Par_Dem_Par What is your partner’s political affiliation?
+o Republican  (1)
+o Democrat  (2)
+
+[XANC - Partner Quiz - Republican]
+XANC_Par_Rep_Inc One or more of your answers was incorrect, please try again.
+
+XANC_Par_Rep_Pow What is your partner’s ideal superpower?
+o Ultra-high intelligence  (1)
+o Flight  (2)
+o Super Strength  (3)
+o Invisibility  (4)
+
+XANC_Par_Rep_Par What is your partner’s political affiliation?
+o Republican  (1)
+o Democrat  (2)
+
+[XANC - Trivia Intro]
+XANC_Tri_Inst_1 Welcome to our Trivia Game!     You are about to play a trivia game
+consisting of 12 challenging questions with a partner. Your partner is a real person who has
+already answered the questions you’re about to answer.    Your goal is to get as many
+questions correct as possible.    For each question, you must first answer the question by
+yourself. After doing so, you’ll be given the opportunity to consult your partner by seeing their
+answer. You can then change your answer if you want based on the input from your partner.    If
+your final answer is correct, you earn 1 point. If your final answer is incorrect, you get 0
+points.    Please note that your answers in this game may be shared with future participants, just
+as your partner’s answers were shared with you.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+XANC_Tri_Inst_2 You will now begin the trivia game. Remember, there are 12 questions in
+total. For each question you will do the following:
+Submit an answer without your partner’s help      See your partner’s answer      Submit
+your final answer       Only your final answer for each question will be scored and count toward
+your point total.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[XANC - Trivia D1]
+XANC_Tri_D1 Question ${e://Field/xanc_q_count}.
+
+This former Daily Show correspondent now hosts a show on HBO.
+
+What’s your initial answer?
+
+o John Oliver  (1)
+o Samantha Bee  (2)
+o Jon Stewart  (3)
+o Rachel Maddow  (4)
+
+XANC_Tri_D1_Con How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D1_Par
+Question ${e://Field/xanc_q_count}.
+
+This former Daily Show correspondent now hosts a show on HBO.
+
+Click the button below to see the answer your partner gave to this question. You will also see
+how confident your partner was about that answer.
+
+After seeing your partner’s answer, you can change your answer or keep your original answer.
+Only answers in this phase will contribute to your point total.
+
+See partner's answer.
+
+o John Oliver  (1)
+o Samantha Bee  (2)
+o Jon Stewart  (3)
+o Rachel Maddow  (4)
+
+XANC_Tri_D1_Con_Par How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D1_Cor
+Your initial answer was: ${XANC_Tri_D1/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D1_Par/ChoiceGroup/SelectedChoices}
+The correct answer is: John Oliver
+
+Nice job!
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+XANC_Tri_D1_Inc
+
+Your initial answer was: ${XANC_Tri_D1/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D1_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: John Oliver
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+[XANC - Trivia D2]
+XANC_Tri_D2
+Question ${e://Field/xanc_q_count}.
+
+The film Moonlight concerned what?
+o A gay black man growing up in the south  (1)
+o A famous black man on a piano playing tour  (2)
+o The bombings of churches and deaths of young black girls in Alabama  (3)
+o Hurricane Katrina and the power outages in black neighborhoods  (4)
+
+XANC_Tri_D2_Con How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D2_Par Question ${e://Field/xanc_q_count}.
+
+The film Moonlight concerned what?
+
+Click the button below to see the answer your partner gave to this question. You will also see
+how confident your partner was about that answer.
+
+After seeing your partner’s answer, you can change your answer or keep your original answer.
+Only answers in this phase will contribute to your point total.
+
+See partner's answer.
+o A gay black man growing up in the south  (1)
+o A famous black man on a piano playing tour  (2)
+o The bombings of churches and deaths of young black girls in Alabama  (3)
+o Hurricane Katrina and the power outages in black neighborhoods  (4)
+
+XANC_Tri_D2_Con_Par How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D2_Cor Your initial answer was: ${XANC_Tri_D2/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D2_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: A gay black man growing up in the south.
+
+Nice work!
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+XANC_Tri_D2_Inc Your initial answer was: ${XANC_Tri_D2/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D2_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: A gay black man growing up in the south.
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+[XANC - Trivia D3]
+XANC_Tri_D3
+Question ${e://Field/xanc_q_count}.
+
+The Stonewall Riots are widely considered to be the most important event leading to what?
+o The French Revolution  (1)
+o The gay rights movement  (2)
+o The repeal of Prohibition  (3)
+o The Emancipation Proclamation  (4)
+
+XANC_Tri_D3_Con How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D3_Par
+Question ${e://Field/xanc_q_count}.
+
+The Stonewall Riots are widely considered to be the most important event leading to what?
+
+Click the button below to see the answer your partner gave to this question. You will also see
+how confident your partner was about that answer.
+
+After seeing your partner’s answer, you can change your answer or keep your original answer.
+Only answers in this phase will contribute to your point total.
+
+See partner's answer.
+
+o The French Revolution  (1)
+o The gay rights movement  (2)
+o The repeal of Prohibition  (3)
+o The Emancipation Proclamation  (4)
+
+XANC_Tri_D3_Con_Par How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D3_Cor
+Your initial answer was: ${XANC_Tri_D3/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D3_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: The gay rights movement
+
+Nice work!
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+XANC_Tri_D3_Inc
+Your initial answer was: ${XANC_Tri_D3/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D3_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: The gay rights movement
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+[XANC - Trivia D4]
+XANC_Tri_D4
+Question ${e://Field/xanc_q_count}.
+
+Which of these actresses is a prominent character on "The Office?"
+o Mindy Kaling  (1)
+o Amy Poehler  (2)
+o Alison Brie  (3)
+o Tina Fey  (4)
+
+XANC_Tri_D4_Con How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D4_Par
+Question ${e://Field/xanc_q_count}.
+
+Which of these actresses is a prominent character on "The Office?"
+
+Click the button below to see the answer your partner gave to this question. You will also see
+how confident your partner was about that answer.
+
+After seeing your partner’s answer, you can change your answer or keep your original answer.
+Only answers in this phase will contribute to your point total.
+
+See partner's answer.
+
+o Mindy Kaling  (1)
+o Amy Poehler  (2)
+o Alison Brie  (3)
+o Tina Fey  (4)
+
+XANC_Tri_D4_Par_Con How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D4_Cor
+Your initial answer was: ${XANC_Tri_D4/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D4_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: Mindy Kaling
+
+Nice work!
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+XANC_Tri_D4_Inc
+Your initial answer was: ${XANC_Tri_D4/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D4_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: Mindy Kaling
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+[XANC - Trivia D5]
+XANC_Tri_D5
+Question ${e://Field/xanc_q_count}.
+
+Which of these is not a popular brand of plant-based meat?
+o Beyond Meat  (1)
+o Boca  (2)
+o Impossible Foods  (3)
+o Down to Earth  (4)
+
+XANC_Tri_D5_Con How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D5_Par
+Question ${e://Field/xanc_q_count}.
+Which of these is not a popular brand of plant-based meat?
+
+Click the button below to see the answer your partner gave to this question. You will also see
+how confident your partner was about that answer.
+After seeing your partner’s answer, you can change your answer or keep your original answer.
+Only answers in this phase will contribute to your point total.
+
+See partner's answer.
+o Beyond Meat  (1)
+o Boca  (2)
+o Impossible Foods  (3)
+o Down to Earth  (4)
+
+XANC_Tri_D5_Par_Con How confident are you in your answer?
+0 10 20 30 40 50 60 70 80 90 100
+
+(1)
+
+XANC_Tri_D5_Cor
+Your initial answer was: ${XANC_Tri_D5/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D5_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: Down to Earth
+
+Nice work!
+
+Your score: ${gr://SC_7QUqMhhw6c8j5xs/Score} out of 12.
+
+XANC_Tri_D5_Inc
+Your initial answer was: ${XANC_Tri_D5/ChoiceGroup/SelectedChoices}
+
+Your partner's answer was: ${e://Field/XANC_partner_answer}
+
+Your final answer was: ${XANC_Tri_D5_Par/ChoiceGroup/SelectedChoices}
+
+The correct answer is: Down to Earth
+
+[... stimulus truncated for prompt budget: 11,973 of 23,151 characters shown; the omitted remainder continues in the same style ...]
+
+### Common Economic Interests
+[6256 - Economic Interests]
+6256_Inst Thank you for taking part in our study. On the next page you will be asked to watch a
+brief video (4.30 mins). After watching the video you will then be asked a question about what
+you have just seen.
+
+6256_Video Please watch the video below.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+6256_ComChe Please select the group you think was presented as contributing to the socio-
+political problems raised in the video you just watched.
+o Liberals  (1)
+o Conservatives  (2)
+o The super-rich  (3)
+o Social media  (4)
+o The middle class  (5)
+o The working class  (6)
+
+### Common Exhausted Majority Identity
+[0OCN - Media Trust]
+0OCN_Inst1 The upcoming activity includes audio narration to enhance your experience. On
+each page, click the play button that appears at the top of the screen to begin the narration (see
+example image below):
+
+0OCN_Inst2a
+
+0OCN_Inst2b
+Welcome
+
+Americans across the political spectrum are uncomfortable with the negative tone in our
+politics these days. They remember a time when Americans had real respect for each other, no
+matter what their politics were.
+
+Today, we’d like to share the feelings of some of those Americans with you, as well as some
+information about why this tone of mutual respect has been replaced by so much rage,
+disrespect, and even hatred in recent years. Most of the information we’ll share with you has
+been hidden from the American public. But this is information that every American should
+have. Our goal is not to tell you what you should believe. We are simply interested in what you
+think. Later, we will ask you to share your thoughts with us.
+
+To start, we'd like you to read two short statements that portray how many Americans have
+been feeling.
+
+By the way: In these statements, we won’t mention the specific political party a person
+supports. People have told us that this allows them to focus on what the person is saying,
+instead of being distracted by what “team” the person is supposedly on.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst3a
+
+0OCN_Inst3b
+Story 1 of 2
+Here is what one person said:     “Lately, it feels like our country is becoming so divided and
+angry. I feel like it’s important for me to keep up with the news. But then I don’t like how it makes
+me feel. It just feels like something has changed in how Americans talk to each other lately—
+and not for the better."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst4a
+
+0OCN_Inst4b
+Story 2 of 2
+
+Here is what another person said:
+"It seems like when I watch the news and scroll through social media now, Americans are all
+lumped into one bucket or another. You’re either a Democrat or a Republican, and the news
+just assumes that everyone on one side is supposed to hate everyone on the other side. At
+first, I kind of went along with it. But lately, I realized that I’ve been spending too much time mad
+at other Americans. I still disagree with [people who support the other party], but I don’t
+see them as my enemy anymore. I think it would be good for the country if we spent more
+time finding things we can agree on—things that we all know would help the country.”
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst5a
+
+0OCN_Inst5b Why Does the Country Feel So Divided? (Page 1 of 2)
+How common are stories like these? A recent survey by a non-partisan research group found
+that two-thirds of Americans are tired of political arguing. They just want people to start
+listening to each other and working together to solve the problems we all face as a country. The
+study calls these Americans the exhausted majority, which means most people are tired and
+wish we focused on the goals that we all share.
+
+But we wondered: How much of the hostility and disrespect in our politics these days is
+manufactured by the news and social media?     By the way: Everyone can read the facts
+we will present and make up their own minds about them. Throughout this activity, we'll
+include references to our sources.     Sources
+1. Hawkins, S., Yudkin, D., Juan-Torres, M., & Dixon, T. (2019). Hidden tribes: A study of
+America's polarized landscape.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst6a
+
+0OCN_Inst6b Why Does the Country Feel So Divided? (Page 2 of 2)     In recent years, the
+news business has shifted away from its mission of informing the public. It now places much
+more emphasis on news stories that make us angry at the people who disagree with us. They
+do this because they know that outrage grabs our attention much more than regular, “just-
+the-facts” news. Making people believe that their fellow citizens are a threat to the American
+way of life helps news and social media companies attract bigger audiences and sell more
+ads.                Sources
+1. Berry, J. M., & Sobieraj, S. (2013). The outrage industry: Political opinion media and the new
+incivility. Oxford University Press.
+2. Taibbi, M. (2019). Hate Inc.: Why today’s media makes us despise one another (1st ed.). OR
+Books.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst7a
+
+0OCN_Inst7b Frustrated Reporters are Revealing an Ugly Truth about the News
+Business    Recently, a growing number of news reporters have become uncomfortable with
+pressure from their bosses to produce divisive new stories. So uncomfortable that they’ve
+decided to come forward and tell the public the truth.
+
+One example comes from Matt Taibbi. He is a reporter who spent decades covering national
+politics for mainstream news outlets. In his book, Hate, Inc., Taibbi reveals how news media
+executives developed a business plan based on turning Americans against each other.
+They did this to keep people watching.
+
+In Taibbi's own words:
+
+Sources
+1. Taibbi, M. (2019). Hate Inc.: Why today’s media makes us despise one another (1st ed.). OR
+Books.
+Do your own research (additional sources):
+2. Berry, J. M., & Sobieraj, S. (2013). The outrage industry: Political opinion media and the new
+incivility. Oxford University Press.
+3. Ripley, A. (2021). High conflict: Why we get trapped and how we get out. Simon & Schuster,
+Incorporated.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst8a
+
+0OCN_Inst8b How the News Media Tries to Divide Us (Page 1 of 2)    How exactly did the
+news media come up with this “divide-and-conquer” strategy?
+
+By the late 2010s, virtually every commercial news organization had chosen a “side”—they
+produced content specifically for Republicans or specifically for Democrats. They already
+understood that people watch more news during national emergencies—like 9/11, for
+example.
+
+They figured out that if they portrayed the “other side” as a threat to the American way of
+life, they could make every single day feel like a new national emergency and keep millions of
+people glued to their coverage.
+
+Sources
+1. Taibbi, M. (2019). Hate Inc.: Why today’s media makes us despise one another (1st ed.). OR
+Books.
+Do your own research (additional sources):
+2. Berry, J. M., & Sobieraj, S. (2013). The outrage industry: Political opinion media and the new
+incivility. Oxford University Press.
+3. Ripley, A. (2021). High conflict: Why we get trapped and how we get out. Simon & Schuster,
+Incorporated.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst9a
+
+0OCN_Inst9b How the News Media Tries to Divide Us (Page 2 of 2)
+Reporters were even encouraged to turn entirely non-partisan news stories into “crises” and
+make it seem like the other party was entirely at fault.
+
+"The hyper-intense tone [of news stories] was a deliberate strategy," the journalist, Taibbi,
+went on to explain. Most of the anger Americans feel for supporters of the opposing political
+party comes largely from "people like me, pushing your buttons for cash."
+
+And the influx of cash was unprecedented.
+
+Sources
+1. Taibbi, M. (2019). Hate Inc.: Why today’s media makes us despise one another (1st ed.). OR
+Books.
+Do your own research (additional sources):
+2. Berry, J. M., & Sobieraj, S. (2013). The outrage industry: Political opinion media and the new
+incivility. Oxford University Press.
+3. Ripley, A. (2021). High conflict: Why we get trapped and how we get out. Simon & Schuster,
+Incorporated.
+
+0OCN_Inst9c Tell us your thoughts: What struck you most about the information we have
+shared with you so far? Please jot down one or two things in the box below.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+0OCN_Inst9d   You will be able to proceed to the next page after the estimated reading and
+writing time have elapsed.
+
+0OCN_Inst10a
+
+0OCN_Inst10b
+How Big are Our Differences, Really? (Page 1 of 2)
+
+Most Americans who support different political parties actually have much more in common
+and feel more positively toward each other than the news makes it seem.
+
+How do we know this? The same non-partisan research organization we mentioned earlier
+actually asked Americans how they felt. They found that Democrats and Republicans
+actually agree with each other much more than either group thinks.
+
+Here are just a couple of examples:
+
+They agree more on gun control laws—for instance, more Democrats are supportive of the
+right to keep and bear arms than Republicans have been led to believe. They also agree more
+on immigration—for instance, more Republicans support welcoming immigration policies than
+Democrats have been led to believe.
+
+Sources
+1. Yudkin, D., Hawkins, S., & Dixon, T. (2019). The perception gap: How false impressions are
+pulling Americans apart.
+2. Moore-Berg, S. L., Ankori-Karlinsky, L. O., Hameiri, B., & Bruneau, E. (2020). Exaggerated
+meta-perceptions predict intergroup hostility between American political partisans. Proceedings
+of the National Academy of Sciences, 117, 14864-14872.
+
+You will be able to proceed to the next page after the estimated reading and writing time have
+elapsed.
+
+0OCN_Inst11a
+
+0OCN_Inst11b
+How Big are Our Differences, Really?  (Page 2 of 2)
+
+Most Americans don’t realize how much they have in common because the news media
+consistently focuses on and exaggerates the voices of the most extreme partisans on each
+side.
+
+One consequence of this is that we come to think of those extreme voices as representing the
+average Democrat or Republican. Of course, this has led to skewed perceptions, on both
+sides, of what people who support the opposing party are really like.
+
+And many Americans are also frustrated to have their side represented in such extreme
+and often negative ways. For example, some fringe people on both sides may say or do
+outrageous or unacceptable things, but that doesn’t represent who most of us really are.
+
+Sources
+1. Yudkin, D., Hawkins, S., & Dixon, T. (2019). The perception gap: How false impressions are
+pulling Americans apart.
+2. Moore-Berg, S. L., Ankori-Karlinsky, L. O., Hameiri, B., & Bruneau, E. (2020). Exaggerated
+meta-perceptions predict intergroup hostility between American political partisans. Proceedings
+of the National Academy of Sciences, 117, 14864-14872.
+3. Taibbi, M. (2019). Hate Inc.: Why today’s media makes us despise one another (1st ed.). OR
+Books.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+0OCN_Inst12a
+In the Words of Real Americans
+We hope that you have found the information we shared to be interesting and worthwhile. To
+end our session, we want to hear the voices of real Americans like yourself. Please answer the
+following two questions in 1-2 sentences each:
+
+First, what was the most important thing you learned from the information we shared with you
+today?
+
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+0OCN_Inst12b
+Second, what are the main ways, if any, that the information you learned today has changed
+your perceptions of the average supporter of the other political party?
+
+[... stimulus truncated for prompt budget: 11,967 of 12,797 characters shown; the omitted remainder continues in the same style ...]
+
+### Correcting Division Misperceptions
+[7WIG - Misperception Film]
+7WIG_Video Please watch the video below.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+### Correcting Oppositional Misperceptions
+[CCT5 - Intro - Misperception_Competition]
+CCT5_Inst On the following page you will be asked to think about the behavior of political
+parties and answer questions about such behavior.
+
+[CCT5 - Scenario 2]
+CCT5_S2_Inst_A A state ${e://Field/Inparty_Party} party is considering a proposal to ban
+anonymous political donations. While the law would apply to both parties equally, state
+
+records indicate that the state’s ${e://Field/Outparty_Party} party receives more
+anonymous donations than does the ${e://Field/Inparty_Party} party.
+
+CCT5_S2_Dis How much do you believe a ${e://Field/Outparty_Person} will dislike this action?
+Neutral Extremely
+Dislike
+
+0 10 20 30 40 50 60 70 80 90 100
+
+1 (1)
+
+CCT5_S2_Opp How much do you believe a ${e://Field/Outparty_Person} opposes this action?
+Not
+Opposed
+Extremely
+Opposed
+
+0 10 20 30 40 50 60 70 80 90 100
+
+1 (1)
+
+CCT5_S2_Una How much do you believe a ${e://Field/Outparty_Person} thinks this action is
+politically unacceptable?
+Neither Acceptable
+nor Unacceptable
+Very
+Unacceptable
+
+0 10 20 30 40 50 60 70 80 90 100
+
+1 (1)
+
+CCT5_S2_Inst_B You will be able to proceed to the next page after the estimated reading time
+has elapsed.
+
+CCT5_S2_ComChe In the scenario you just read, which political party was taking action?
+o Democratic Party  (1)
+o Republican Party  (2)
+o Party A  (3)
+o Party B  (4)
+o Not Sure  (5)
+
+[CCT5 - Correction Scenario 2]
+CCT5_S2_Cor
+A state ${e://Field/Inparty_Party} party is considering a proposal to ban anonymous political
+donations. While the law would apply to both parties equally, state records indicate that the
+state’s ${e://Field/Outparty_Party} party receives more anonymous donations than does the
+${e://Field/Inparty_Party} party.
+On the scenario above you estimated ${e://Field/S2_MP_Dis}, ${e://Field/S2_MP_Opp},
+and ${e://Field/S2_MP_Una} when asked how much a ${e://Field/Outparty_Person} would
+dislike, oppose, and find politically unacceptable the behavior in the scenario, on a 0-100 point
+scale.
+
+However, when we conducted a survey including this scenario with a nationally representative
+sample, the actual responses of the average ${e://Field/Outparty_Person}, when reading the
+exact same scenario,
+were ${e://Field/S2_TR_Dis}, ${e://Field/S2_TR_Opp}, and ${e://Field/S2_TR_Una}.
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[CCT5 - Scenario 4]
+CCT5_S4_Inst_A A ${e://Field/Inparty_Person} controlled state legislature is considering
+a law that would require sitting governors to disclose their tax returns and all possible
+financial conflicts of interests. The law would go into effect immediately, and the current
+sitting governor is a ${e://Field/Outparty_Person}.
+
+Like_MP4 How much do you believe a ${e://Field/Outparty_Person} will dislike this action?
+Neutral Extremely
+Dislike
+
+0 10 20 30 40 50 60 70 80 90 100
+
+1 (1)
+
+CCT5_S4_Opp How much do you believe a ${e://Field/Outparty_Person} opposes this action?
+Not
+Opposed
+Extremely
+Opposed
+
+0 10 20 30 40 50 60 70 80 90 100
+
+1 (1)
+
+CCT5_S4_Una How much do you believe a ${e://Field/Outparty_Person} thinks this action is
+politically unacceptable?
+Neither Acceptable
+nor Unacceptable
+Very
+Unacceptable
+
+0 10 20 30 40 50 60 70 80 90 100
+
+1 (1)
+
+CCT5_S4_Inst_B You will be able to proceed to the next page after the estimated reading time
+has elapsed.
+
+CCT5_S4_ComChe In the scenario you just read, which political party was taking action?
+o Democratic Party  (1)
+o Republican Party  (2)
+o Party A  (3)
+o Party B  (4)
+o Not Sure  (5)
+
+[CCT5 - Correction Scenario 4]
+CCT5_S4_Cor
+A ${e://Field/Inparty_Person} controlled state legislature is considering a law that would require
+sitting governors to disclose their tax returns and all possible financial conflicts of interests. The
+law would go into effect immediately, and the current sitting governor is a
+${e://Field/Outparty_Person}.
+On the scenario above you estimated ${e://Field/S4_MP_Dis}, ${e://Field/S4_MP_Opp},
+and ${e://Field/S4_MP_Una} when asked how much a ${e://Field/Outparty_Person} would
+dislike, oppose, and find politically unacceptable the behavior in the scenario, on a 0-100 point
+scale.
+
+However, when we conducted a survey including this scenario with a nationally representative
+sample, the actual responses of the average ${e://Field/Outparty_Person}, when reading the
+exact same scenario,
+were ${e://Field/S4_TR_Dis}, ${e://Field/S4_TR_Opp}, and ${e://Field/S4_TR_Una}.
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+### Correcting Policy Misperceptions Chatbot
+[62VB - Chatbot Quiz]
+62VB_Inst Please take a short quiz through an online chatbot on the next page.
+
+62VB_Task
+
+You will be able to proceed to the next page once the estimated completion time has elapsed.
+
+### Counterfactual Partisan Selves
+[RER9 - Counterfactual Selves]
+RER9_Inst1 Abortion, gun control, and immigration are issues that often divide Democrats and
+Republicans. On the following pages, we will ask you about your views on these and other
+political issues.
+
+RER9_Inst2 How do you feel about each of the following issues on a scale from 0 to 100, where
+0 represents strongly against and 100 represents strongly for?
+
+RER9_Inst2_Abo
+Abortion
+Strongly against more
+access to abortion
+Strongly for more
+access to abortion
+
+0 10 20 30 40 50 60 70 80 90 100
+
+()
+
+RER9_Inst2_Gun Gun control
+Strongly against more
+gun control
+Strongly for more
+gun control
+
+0 10 20 30 40 50 60 70 80 90 100
+
+()
+
+RER9_Inst2_Imm Immigration
+Strongly against
+more immigration
+Strongly for
+more immigration
+
+0 10 20 30 40 50 60 70 80 90 100
+
+()
+
+RER9_Inst3 Everyone’s political beliefs are influenced by many factors, including social
+environments and personal experiences.
+
+Across fields of research, there is strong support for the idea that our beliefs are influenced by
+family environment, culture, and personal experience. Even though people often lack control
+over these factors, they shape the ways in which everyone thinks about and perceives the
+world. Your life circumstances could have been very different, and those differences would have
+changed your beliefs and ideas on many issues.
+
+When you answer each of the following questions, please think about your own political beliefs
+and how they would have been influenced by factors such as your upbringing, your peers, your
+community, the media to which you have been exposed, and the historical events you have
+lived through.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+RER9_Inst4a The starting points on the scales below represent the feelings you just indicated
+about abortion.
+
+RER9_Inst4b
+While answering the questions below, think about how your life could have gone differently and
+how your worldview would have been different.
+
+RER9_Inst4_C1 Imagine that you had been raised in the Christian fundamentalist tradition,
+where abortion is considered morally unacceptable. What do you think your attitude about
+abortion access would be in those circumstances?
+
+Strongly against more
+access to abortion
+Strongly for more
+access to abortion
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Abortion ()
+
+RER9_Inst4_C2 Imagine that you had a younger sister who had become pregnant because she
+was sexually assaulted by a stranger. What do you think your attitude about abortion access
+would be in those circumstances?
+
+Strongly against more
+access to abortion
+Strongly for more
+access to abortion
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Abortion ()
+
+RER9_Inst5a The starting points on the scales below represent the feelings you just indicated
+about gun control.
+
+RER9_Inst5b
+While answering the questions below, think about how your life could have gone differently and
+how your worldview would have been different.
+
+RER9_Inst5_C1 Imagine that you had been raised in a rural, military family who frequently went
+hunting and to the shooting range. What do you think your attitude about gun control would be
+in those circumstances?
+
+Strongly against more
+gun control
+Strongly for more
+gun control
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Gun control ()
+
+RER9_Inst5_C2 Imagine that you had survived a mass shooting at your high school where the
+shooter owned the firearm legally. What do you think your attitude about gun control would be
+in those circumstances?
+
+Strongly against more
+gun control
+Strongly for more
+gun control
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Gun control ()
+
+RER9_Inst6a The starting points on the scales below represent the feelings you just indicated
+about immigration.
+
+RER9_Inst6b
+While answering the questions below, think about how your life could have gone differently and
+how your worldview would have been different.
+
+RER9_Inst6_C1 Imagine that you had a brother who lost his landscaping company due to new
+immigrants moving into town. What do you think your attitude about immigration would be in
+those circumstances?
+
+Strongly against
+more immigration
+Strongly for
+more immigration
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Immigration ()
+
+RER9_Inst6_C2 Imagine that your favorite babysitter growing up was an immigrant who entered
+the country illegally. What do you think your attitude about immigration would be in those
+circumstances?
+
+Strongly against
+more immigration
+Strongly for
+more immigration
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Immigration ()
+
+RER9_Inst7a
+Below, you can see your combined self-reported political attitudes in the real world, as well as
+the attitudes you would expect to have in the alternative circumstances you were asked to
+imagine:
+
+RER9_Inst7b The gray dot represents your actual views on abortion, gun control, and
+immigration.
+
+The red dot represents what you think your views would be if you had been exposed to a
+conservative-leaning environment, and the blue dot represents what you think your views would
+be if you had been exposed to a liberal-leaning environment.
+
+The space between the gray dot and the colored dots indicates how much you think the
+alternative social environments would have influenced your attitudes. This suggests the views
+held with conviction can be a product of one's environment.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+RER9_Inst8 As you have indicated, your beliefs on these topics could easily have been different
+if your history had been different.
+
+You are not alone in this. Everyone's beliefs are subject to these same influences. A Democrat
+might be a Republican if they had faced more conservative-favoring circumstances, and a
+Republican might be Democrat if they had faced more liberal-favoring circumstances.
+
+Many of your political opponents are good people who have arrived at different beliefs because
+of the social environments in which they have lived.
+
+When thinking about your opponents, remember that their beliefs — just like yours — have
+been influenced by a variety of circumstances beyond their control.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+### Democratic Collapse Threat
+[BUNU - Part 1]
+BUNU_P1_Inst1 In this part of the survey, we’ll ask you to watch a short video and read some
+text. We may ask you more questions about what you watch and read later in the survey, so it’s
+important to watch and read carefully.
+
+Click the “next” button if you would like to proceed.
+
+BUNU_P1_Inst2 Please watch the video below.
+
+Your browser does not support this video.
+
+You will be able to proceed to the next page after the estimated watching time has elapsed.
+
+BUNU_P1_Inst3 Zimbabwe, Venezuela, Russia, and Turkey are just a few examples of
+countries where democracy has failed. What can you do to ensure that democracy lives on in
+the United States?
+
+BUNU_P1_Inst4a 1. Affirm the values that keep American democracy strong.
+Please check each box once you have finished reading.
+
+BUNU_P1_Inst4b Defend the right to vote. For example, polling stations should be easy to
+access and available to everyone in both Republican and Democratic areas.
+o ✓  (1)
+
+BUNU_P1_Inst4c Protect freedom of speech and the press. For example, journalists should be
+able to report about politicians from either party without fear of prosecution.
+o ✓  (1)
+
+BUNU_P1_Inst4d Respect the separation of powers. For example, politicians should respect
+court decisions, regardless of the party of the judge.
+o ✓  (1)
+
+BUNU_P1_Inst4e Candidates and voters should accept the results of elections—even if they
+lose.
+o ✓  (1)
+
+BUNU_P1_Inst5a 2. Seek compromise and understanding across party lines.
+Please check each box once you have finished reading.
+
+BUNU_P1_Inst5b Remember that the values that unite Americans are far stronger than those
+that divide them.
+o ✓  (1)
+
+BUNU_P1_Inst5c Seek to understand and engage in healthy debate with our fellow citizens—
+even those with whom we disagree.
+o ✓  (1)
+
+BUNU_P1_Inst6a 3. Reject partisan violence.
+
+Please check each box once you have finished reading.
+
+BUNU_P1_Inst6b Threatening or intimidating members of the other party is never justified in a
+democracy.
+o ✓  (1)
+
+BUNU_P1_Inst6c Violence is not an acceptable way to achieve political goals, even if the other
+party wins an election.
+o ✓  (1)
+
+[BUNU - Part 2A]
+BUNU_P2_Q1 How important to you is it that the United States remain a democracy?
+Not at all
+important
+Extremely
+important
+
+0 10 20 30 40 50 60 70 80 90 100
+
+(4)
+
+[BUNU - Part 2B]
+BUNU_P2_Q2 How much do you agree or disagree with the following statement?
+
+“Democracy is the best form of government.”
+Strongly
+disagree
+Strongly
+agree
+
+0 10 20 30 40 50 60 70 80 90 100
+
+(4)
+
+[BUNU - Part 3]
+BUNU_P3_Inst We’re going to list some events that could happen in our country, and ask
+whether you think they would be good or bad for democracy.
+
+[BUNU - ADA]
+BUNU_ADA_1 If ${e://Field/Inparty_Person}s reduced the number of polling stations in areas
+that support ${e://Field/Outparty_Person}s, would that be good or bad for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+BUNU_ADA_2 If ${e://Field/Inparty_Party} governors ignored unfavorable court rulings by
+${e://Field/Outparty_Person}-appointed judges, would that be good or bad for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+BUNU_ADA_3 If ${e://Field/Inparty_Party} governors prosecuted journalists who accused
+${e://Field/Inparty_Party} politicians of misconduct without revealing sources, would that be
+good or bad for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+BUNU_ADA_4 If ${e://Field/Inparty_Party} politicians refused to accept the results of elections
+they lost, would that be good or bad for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+[BUNU - SPV]
+BUNU_SPV_1 If a ${e://Field/Inparty_Person} sent threatening and intimidating messages to
+${e://Field/Outparty_Party} party leaders, would that be good or bad for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+BUNU_SPV_2 If an ordinary ${e://Field/Inparty_Person} in the public harassed an ordinary
+${e://Field/Outparty_Person} on the Internet, in a way that made the target feel frightened,
+would that be good or bad for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+BUNU_SPV_3 If ${e://Field/Inparty_Person}s used violence to advance their political goals,
+would that be good or bad for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+BUNU_SPV_4 If ${e://Field/Inparty_Person}s used violence if the
+${e://Field/Outparty_Party} party won more races in the next election, would that be good or bad
+for democracy?
+o Extremely good for democracy  (1)
+o Very good for democracy  (2)
+o Somewhat good for democracy  (3)
+o Neither good nor bad for democracy  (4)
+o Somewhat bad for democracy  (5)
+o Very bad for democracy  (6)
+o Extremely bad for democracy  (7)
+
+### Democratic System Justification
+[Q29Y - System Justification]
+Q29Y_Inst1 Welcome!   On the next page, you will read a brief article about the United
+States.   Please carefully read the article; you may be asked some questions about it later on in
+the survey.
+Thank you! You can start on the next page.
+
+Q29Y_Inst2 The Resilience of the American System
+There are many things that make the United States of America unique and special. But one of
+the biggest factors is that it and its people never abandon the principles that made it great.
+In many countries, many times through history, when a crisis happens – be it an economic
+recession or a pandemic or natural disaster – people turn on each other and lose faith in the
+system. Americans have proven robust to this. Through thick and thin, the core of what makes
+America thrive seems to persist. People might cast doubt or engage in lively debates here and
+there, but generally, across time, stay faithful to the principles of democracy and civility and
+respect.
+This can be challenging at times, especially with the media and social echo chambers, but time
+and time again, Americans have proven they stick to what makes them special: faith in the
+system and trust in each other.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+### Outpartisans’ Experiences of Harm
+[ARCD - Harmful Experiences]
+ARCD_Inst1 On the next few pages you will learn about why real people who lean towards the
+opposing political party hold their views.
+
+ARCD_Inst2 You might be surprised to know how many people's politics are driven by their
+personal experiences. We asked three ${e://Field/Outparty_Person}s why they lean
+${e://Field/Outparty_Party}--all of them have either suffered personally or seen their family
+suffer. These negative experiences have shaped their political views.
+
+On the next page please carefully read about the real-life experiences that shaped why  actual
+people lean ${e://Field/Outparty_Party}. Please note, to protect the identity of these individuals,
+we have not used their real names.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+ARCD_Inst3_Rep Tim leans Democratic because of his stance on guns. He says, "I am anti-
+gun because I had a friend who was shot and murdered by a gun. The person who killed him
+was able to get that gun without having a proper background check. Gun laws need to be
+changed."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+ARCD_Inst3_Dem Tim leans Republican because of his stance on guns. He says, "I am pro-
+gun because one of my family friends was murdered in a home invasion robbery. If she was
+legally allowed to have a gun to protect herself it may have been prevented. Guns are part of
+the Constitution."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+ARCD_Inst4_Rep Jane leans Democratic because of her stance on healthcare. She says,
+"Many people I know have received huge hospital bills they cannot pay. When my mom died
+after being in a coma for weeks, we got a bill for nearly a million dollars."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+ARCD_Inst4_Dem Jane leans Republican because of her stance on healthcare. She says,
+"When Obamacare was passed, I lost 50% of my income because my work could not afford to
+give their employees health insurance, so I was forced to work 2 extra jobs just to make up for
+what I have lost, as well as afford my college education."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+ARCD_Inst5_Rep Wayne leans Democratic because of his stance on COVID-19 policy. He
+says, "My uncle got covid-19, ended up in the hospital, we couldn't see him, we couldn't visit;
+and he DIED in the hospital alone. This is why I feel that people need to take this seriously,
+WEAR your dang mask, it's not about taking away your freedom, it's about saving your dang
+life."
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+ARCD_Inst5_Dem Wayne leans Republican because of his stance on COVID-19 policy. He
+says, "I had COVID and had the two vaccine shots. My step cousin had the vaccine and got
+hospitalized with heart inflammation. There are legit concerns about the vaccine. Forcing people
+to is a violation of their civil rights.“
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+ARCD_ComChe Which political party were the people you read about affiliated with?
+o The Republican Party  (1)
+o The Democratic Party  (2)
+o Not Sure  (3)
+
+ARCD_ComChe_Timing Timing
+
+### Party Overlap on Policies
+[XOVS - Party Overlap - Intro]
+XOVS_Intro In this survey you will be presented 8 questions about political issues where for
+each question you can choose between six possible answers.
+
+Once you have answered a question you will see for each of the answers how popular that
+answer was among thousands of participants across the nation.
+
+Next, you will see how much partisan overlap there was in answers between Republicans and
+Democrats. Partisan overlap indicates whether Republicans and Democrats think similarly
+about a topic.
+
+For instance, if all Democrats would choose one answer and all Republicans would choose a
+different answer, the partisan overlap would be 0%. However, if all Democrats would be evenly
+split among all answers, and the same would hold for the Republicans, there would be a 100%
+partisan overlap as Democrats and Republicans would think alike on this topic.
+
+At the end you will see how much partisan overlap there was on average over all eight
+questions.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[XOVS - Party Overlap - Statehood]
+XOVS_T1_1A
+
+XOVS_T1_1B Granting Statehood to Puerto Rico
+Puerto Ricans have been US citizens since 1917, however they do not enjoy the full rights of
+statehood.
+o Learn more  (1)
+
+XOVS_T1_1C In 1898, after the Spanish-American War, Puerto Rico became a U.S. territory as
+a part of the treaty resolving the conflict. In 1917, Congress passed the Jones Act which granted
+all Puerto Ricans born after April 25th, 1898, U.S. citizenship. Since the end of the Spanish-
+American war, Puerto Rico has operated under “territorial status” in relation to the United
+States. Puerto Rico does not have any electoral votes, nor any voting representation in
+Congress, although they have a single non-voting representative. During its time as a territory of
+the United States, multiple popular movements for independence and/or statehood have arisen
+and gained varied support from the Puerto Rican population overall. Starting in the second half
+of the 20th century, Puerto Rico started holding periodic referendums on the political status of
+the island. While most Puerto Ricans have historically supported a change in status, only in the
+most recent 2012 referendum did a majority support a change in status (54%), and only 61% of
+those in favor supported statehood. Some believe that Puerto Ricans, as U.S. citizens, deserve
+statehood for their home and view the island’s continued territorial status as hypocritical
+considering the anti-colonial past of the United States. Others point to the economic challenges
+of admitting a debt-stricken state with high poverty rates and the fact that a new state would
+upset the electorate as reasons against statehood.
+
+XOVS_T1_1D Which of these statements best reflects your opinion on granting
+statehood to Puerto Rico?
+o We should grant statehood to all of our territories (Guam, US Virgin Islands, Northern
+Mariana Islands and more).  (1)
+o Puerto Rico should be granted full statehood, including representation in the House and
+Senate, and given votes in the Electoral College.  (2)
+o Puerto Rico should be treated like DC (Electoral Votes, non-voting representative in the
+House, no senators).  (3)
+o The current status of Puerto Rico should be maintained.  (4)
+o Puerto Rico should become its own independent country.  (5)
+o None of the above  (6)
+
+XOVS_T1_1E Results
+
+Which of these statements best reflects your opinion on granting statehood to Puerto
+Rico?
+
+31%: We should grant statehood to all of our territories (Guam, US Virgin Islands, Northern
+Mariana Islands and more).
+31%: Puerto Rico should be granted full statehood, including representation in the House and
+Senate, and given votes in the Electoral College.
+09%: Puerto Rico should be treated like DC (Electoral Votes, non-voting representative in the
+House, no senators).
+13%: The current status of Puerto Rico should be maintained.
+12%: Puerto Rico should become its own independent country.
+05%: None of the above
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+XOVS_T1_2A
+
+XOVS_T1_2B Majorities in both parties are willing to grant Puerto Rico statehood, but there are
+significantly more Democrats who endorse this idea.
+
+The total overlap between the two parties on this topic is 62%.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[XOVS - Party Overlap - Birth Control]
+XOVS_T2_1A
+
+XOVS_T2_1B Over the Counter Birth Control     To combat teen pregnancy rates, lawmakers
+have proposed legislation to make regular birth control medications available over-the-counter.
+o Learn more  (1)
+
+XOVS_T2_1C The use of contraceptives dates back over 3000 years. In 1957, the FDA
+approved Enovid, the first widely used birth control medicine in the United States. While initially
+designed to aid menstrual pains, the drug was formally approved in 1960 for use as a
+contraceptive. Within its first year of circulation, over 400,000 insured women were prescribed
+Enovid as a birth control medication.
+
+Today, around 65% of women in the U.S. use birth control, and as a result, contraceptive use
+saves about $19 billion in medical costs every year. For those who are uninsured or have plans
+that don’t cover contraceptives, there has been an increased push to make birth control
+medication available over-the-counter. This legislation was scheduled to have a hearing
+regarding changing its legal status in 1993, but it was canceled due to objections within the
+FDA.
+
+Proponents of over-the-counter birth control claim that it would lower teen pregnancy rates in
+addition to providing contraceptive access to more women. Opponents of over-the-counter birth
+control argue that changing its status would discourage educational conversations between
+women and their doctors about good sexual health practices, worrying that women won’t be
+able to choose the right contraceptive without a medical professional, and argue that ensuring
+the correct use of birth control medication requires the help of a doctor.
+
+XOVS_T2_1D Which of these statements best reflects your opinion on over-the-counter
+birth control?
+o Birth control should remain a prescription drug only obtainable via a doctor’s visit.   (1)
+o Birth control should remain a prescription drug, but it should be possible to easily obtain
+a prescription online.  (2)
+o Birth control should remain a prescription drug, though programs should be funded to
+make the contraceptive available to medically underserved neighborhoods.   (3)
+o Birth control should become available over-the-counter at a limited cost for the user.  (4)
+o Birth control should become available over-the-counter at no cost for the user.  (5)
+o None of the above  (6)
+
+XOVS_T2_1E Results
+
+Which of these statements best reflects your opinion on over-the-counter birth control?
+
+21%: Birth control should remain a prescription drug only obtainable via a doctor’s visit.
+11%: Birth control should remain a prescription drug, but it should be possible to easily obtain a
+prescription online.
+12%: Birth control should remain a prescription drug, though programs should be funded to
+make the contraceptive available to medically underserved neighborhoods.
+30%: Birth control should become available over-the-counter at a limited cost for the user.
+21%: Birth control should become available over-the-counter at no cost for the user.
+04%: None of the above
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+XOVS_T2_2A
+
+XOVS_T2_2B Majorities of both Republicans and Democrats favor nuanced solutions to over-
+the-counter birth control, while about ⅓ of Democrats would like to make it free and over-the-
+counter, and ⅓ of Republicans would like it to be prescription-only.
+
+The total overlap between the two parties on this topic is 62%.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+[XOVS - Party Overlap - Voting]
+XOVS_T3_1A
+
+XOVS_T3_1B Voter Suppression vs Voter Fraud      In discussions over free and fair
+elections voter suppression and voter fraud are often on opposite sides of the debate.
+o Learn more  (1)
+
+XOVS_T3_1C Each US Citizen aged 18 years or older has the constitutional right to vote,
+although in some states people can lose that right temporarily or permanently. It has been
+estimated that in every 4-year cycle, the approximately 250 million eligible voters together could
+cast approximately 1.8 billion votes in their federal, state and local elections. At the same time,
+only approximately 450 million votes are actually cast, for an average turnout over all elections
+of about 25%. The highest turnout is in presidential elections when approximately 60% of all
+those eligible vote, followed by midterm elections and presidential primaries. Local elections and
+primaries regularly have turnouts that are below 20%.
+
+Research has shown that there are many barriers to voting. Registering to vote is more difficult
+for those who move often. Voter ID laws can be challenging for those who don’t already have
+acceptable IDs. Polling places may be far away impacting those without cars. Lines at polling
+places can be long, impacting those who cannot take time away from their job or from caring for
+family members. Early voting or absentee voting may not be available for some who cannot vote
+on election day itself.
+
+At the same time, each of these rules have been enacted supported by some efficiency or
+efficacy argument: voter IDs aim to ensure that people who show up to vote can be identified as
+being who they say they are. Polling places are consolidated when insufficient qualified poll
+workers, voting machines or budget for more places are available. Early voting adds significant
+cost to running an election. Absentee voting requires significantly more handling, signature
+checks and reliance on the US Postal system.
+
+There have been fierce partisan debates on how many votes were suppressed and how many
+fraudulent votes were cast. Some believe that voter suppression is rampant around the US and
+that millions of people do not vote because of the barriers presented to them. They believe that
+we should make voting easier to reduce voter suppression. Others believe that voter fraud is
+rampant around the US and that millions of illegal votes are cast and counted. They believe that
+we should create more voter regulations to reduce voter fraud.
+
+XOVS_T3_1D Which of these statements best reflects your opinion on voter suppression
+and voter fraud?
+o Preventing a single fraudulent vote is much more important than the loss of several legal
+votes.  (1)
+o Preventing a fraudulent vote is somewhat more important than losing a single legal vote.
+(2)
+o Preventing a fraudulent vote is equally important to avoiding the loss of a legal vote.  (3)
+o Avoiding the loss of a legal vote is somewhat more important than preventing a
+fraudulent vote.  (4)
+o Avoiding the loss of a single legal vote is worth much more than preventing several
+fraudulent votes.  (5)
+o None of the above  (6)
+
+XOVS_T3_1E Results
+
+Which of these statements best reflects your opinion on voter suppression and voter
+fraud?
+
+12%: Preventing a single fraudulent vote is much more important than the loss of several legal
+votes.
+07%: Preventing a fraudulent vote is somewhat more important than losing a single legal vote.
+53%: Preventing a fraudulent vote is equally important to avoiding the loss of a legal vote.
+11%: Avoiding the loss of a legal vote is somewhat more important than preventing a fraudulent
+
+vote.
+14%: Avoiding the loss of a single legal vote is worth much more than preventing several
+fraudulent votes.
+04%: None of the above
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+XOVS_T3_2A
+
+[... stimulus truncated for prompt budget: 11,853 of 30,871 characters shown; the omitted remainder continues in the same style ...]
+
+### Political Violence Inefficacy
+[JLQR - Violence Efficacy]
+JLQR_Inst1 Instructions: Many people read online stories to keep up with the news. But do
+they understand the articles they read? We are interested in how people understand media
+stories about science studies. For this study, please read the following BBC article and then
+answer a few questions to check your understanding.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JLQR_Inst2
+Nonviolent protests are twice as likely to succeed as armed conflicts – and those
+engaging a threshold of 3.5% of the population have never failed to bring about change.
+There are, of course, many ethical reasons to use nonviolent strategies. But compelling
+research by Erica Chenoweth, a political scientist at Harvard University, conﬁrms that civil
+disobedience is not only the moral choice; it is also the most powerful way of shaping world
+politics – by a long way.     Chenoweth performed an extensive review of the literature on civil
+resistance and social movements from 1900 to 2006 – a data set then corroborated with other
+experts in the ﬁeld. By the end of this process, they had collected data from 323 violent and
+nonviolent campaigns. And their results were striking.     Looking at hundreds of campaigns over
+the last century, Chenoweth found that nonviolent campaigns are twice as likely to achieve their
+goals as violent campaigns.      Strength in numbers    This was partly the result of strength in
+numbers. Chenoweth argues that nonviolent campaigns are more likely to succeed because
+they can recruit many more participants from a much broader demographic. Overall, the
+nonviolent campaigns attracted around four times as many participants (200,000) as the
+average violent campaign (50,000).
+“Numbers really matter for building power in ways that can really pose a serious challenge or
+threat to entrenched authorities or occupations,” Chenoweth says – and nonviolent protest
+seems to be the best way to get that widespread support. Chenoweth cites many reasons that
+nonviolent protests can garner such high levels of support. Perhaps most obviously, violent
+protests necessarily exclude people who abhor and fear bloodshed, whereas peaceful
+protesters maintain the moral high ground.    Chenoweth points out that nonviolent protests also
+have fewer physical barriers to participation. You do not need to be ﬁt and healthy to engage in
+a strike, whereas violent campaigns tend to lean on the support of physically ﬁt young men. And
+while many forms of nonviolent protests also carry serious risks – just think of China’s response
+in Tiananmen Square in 1989 – Chenoweth argues that nonviolent campaigns are generally
+easier to discuss openly, which means that news of their occurrence can reach a wider
+audience. Violent movements, on the other hand, require a supply of weapons, and tend to rely
+on more secretive underground operations that might struggle to reach the general population.
+By engaging broad support across the population, nonviolent campaigns are also more likely
+to win support among the police and the military – the very groups that the government should
+be leaning on to bring about order. During a peaceful street protest of millions of people, the
+members of the security forces may also be more likely to fear that their family members or
+friends are in the crowd – meaning that they fail to crack down on the movement.
+“There are more options for engaging in nonviolent resistance that don’t place people in as
+much physical danger, particularly as the numbers grow, compared to armed activity,”
+Chenoweth says. “And the techniques of nonviolent resistance are often more visible, so that it's
+easier for people to ﬁnd out how to participate directly, and how to coordinate their activities for
+maximum disruption.”     A magic number?
+In Chenoweth’s data set, it was only once the nonviolent protests had achieved that 3.5%
+threshold of active engagement that success seemed to be guaranteed – and raising even that
+level of support is no mean feat. In the US, it would involve 11 million citizens – more than the
+total population of New York City.
+
+| Once around 3.5% of the whole population has begun to participate actively, success appears
+to be inevitable.    The fact remains, however, that nonviolent campaigns are the only reliable
+way of maintaining that kind of engagement.
+Chenoweth’s initial study was ﬁrst published in 2011 and their ﬁndings have attracted a lot of
+attention since. “It’s hard to overstate how inﬂuential they have been to this body of research,”
+says Matthew Chandler, who researches civil resistance at the University of Notre Dame in
+Indiana. “It’s [now] an established truth within the ﬁeld that the nonviolent approaches are much
+more likely to succeed than violent ones.”
+David Robson is a senior journalist at BBC Future.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+JLQR_Inst3 Please answer these questions based on the BBC article you just read:
+
+JLQR_ComChe1 The campaigns that attracted around four times as many people were:
+o Nonviolent  (1)
+o Violent  (2)
+o Unknown  (3)
+
+JLQR_ComChe2 On average, which kind of campaign was twice as likely to be successful?
+o Nonviolent  (1)
+o Violent  (2)
+o Unknown  (3)
+
+JLQR_Inst4 Please indicate whether these statements are true or false based on the BBC
+article you just read:
+
+JLQR_ComChe3 Nonviolent campaigns (vs. violent campaigns) are more widely supported
+because:
+True (1) False (0)
+They are less dangerous.
+(JLQR_ComChe3_1)  o  o
+They do not require being
+physically fit and healthy.
+(JLQR_ComChe3_2)  o  o
+They are easier to discuss
+openly. (JLQR_ComChe3_3)  o  o
+They are less likely to be
+challenged by police and
+military personnel.
+(JLQR_ComChe3_4)
+o  o
+
+JLQR_Inst5 Please answer this question based on the BBC article you just read:
+
+JLQR_ComChe4 Imagine meeting a leader of a political movement who asks you about using
+nonviolent vs. violent tactics. Based on the BBC article that you read, what arguments could you
+offer in favor of nonviolent tactics?     Your answer should be at least 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+JLQR_Inst6_Time Please answer these questions based on the BBC article you just read:
+
+JLQR_ComChe5 Based on the article, how politically effective is the tactic of sending
+threatening messages to leaders?
+Not at all
+effective
+Moderately
+effective
+Extremely
+effective
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Please answer using the bar below. (1)
+
+JLQR_ComChe6 Based on the article, how politically effective is the tactic of harassing ordinary
+people on the Internet?
+Not at all
+effective
+Moderately
+effective
+Extremely
+effective
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Please answer using the bar below. (1)
+
+JLQR_ComChe7 Based on the article, how politically effective is the tactic of using violence if
+an opposing party wins more races in the next election?
+Not at all
+effective
+Moderately
+effective
+Extremely
+effective
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Please answer using the bar below. (1)
+
+JLQR_ComChe8 Based on the article, how effective is the tactic of using violence for any
+political aims?
+Not at all
+effective
+Moderately
+effective
+Extremely
+effective
+
+0 10 20 30 40 50 60 70 80 90 100
+
+Please answer using the bar below. (1)
+
+### Utility of Outparty Empathy
+[46OS - Empathy Beliefs]
+46OS_Inst_1 Think about the last time you debated a ${e://Field/Outparty_Person} on an issue
+you care about. While you tried to convince them of your point of view, how did you express
+your position? Did you try to take the opposing person's perspective?
+
+46OS_Inst_2 Discussing issues with ${e://Field/Outparty_Person}s can be hard. Our gut
+reaction may be to just condemn them for their beliefs; write them off as biased, brainwashed
+or, even immoral.
+
+Actively trying to empathize with ${e://Field/Outparty_Person}s may seem not only tiring, but
+also impractical -- making you seem naive or weak. However, recent scientific work suggests
+that empathizing across differences can not only help us better understand people's
+perspectives, but also make us more convincing advocates of our own beliefs.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Inst_3 In one study, researchers asked participants to try to convince a person who
+disagreed with them on the topic of gun control. Researchers found that those motivated to
+empathize with the opposing person's perspective were seen as more persuasive and were
+better liked than those who weren't as motivated to empathize.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Inst_4 Relatedly, large-scale fieldwork in political science has shown that
+nonjudgmentally exchanging personal stories with those who we disagree with can be a
+very effective way of changing people's minds around contentious issues.
+
+The researchers trained door-to-door canvassers to talk about divisive issues, such as
+immigration policy in the U.S., by first listening to what voters had to say and then sharing their
+own thoughts and personal experiences. This method encouraged open one-to-one
+conversations and moved away from the more traditional tactic of just presenting voters with
+facts and statistics. It was also more productive: this canvassing approach was estimated to be
+102 times more effective than classic political persuasion strategies like TV and radio
+advertising, direct mail, or phone banking.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Inst_5 This empathic exchange of ideas can foster civil debates and inspire openness to
+new information - which are important aspects of a healthy democracy. As the research shows,
+this doesn't mean giving up on your own beliefs. After all, you don't need to agree with
+someone's opinion to understand it.
+Given these findings, empathizing with those who disagree with us may seem effortful, but it is
+a powerful way to build consensus and find common ground across divides.
+
+You will be able to proceed to the next page after the estimated reading time has elapsed.
+
+46OS_Prompt Your task now is to spread the knowledge that empathy can be useful in political
+contexts. Please write a compelling message to a fellow ${e://Field/Inparty_Person} explaining
+why they should try to empathize with ${e://Field/Outparty_Person}s.
+
+Your answer should be greater than 150 characters.
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+
+NOTES: This is part 1 of 2: the arms below are a subset of the study's 26 arms, all measured against the same control. Predict them on the study's own scale, not relative to each other.
+
+Return exactly 126 rows: every condition x every outcome.
+Header: condition,outcome,ate

@@ -1,0 +1,140 @@
+{
+ "dataset": "_TEMPLATE",
+ "status": "template - copy, fill, verify on a small sample",
+ "file": "/workspace/datasets/voelkel2026/downloads/CCC - Data - Recoded.csv",
+ "reader": "csv",
+ "sample_description": "13,821 U.S. adults, census-quota opt-in online panel, 2024; each read one short climate message or one of three off-topic control texts; all outcomes 0-100 integer sliders measured pre and post.",
+ "condition_col": "ConditionR",
+ "arms": {
+  "Control": "Control",
+  "Binding Framing": "Binding Framing",
+  "Consensus Framing 1": "Consensus Framing 1",
+  "Consensus Framing 2": "Consensus Framing 2",
+  "Dire But Solvable Framing": "Dire But Solvable Framing",
+  "Free Market Framing": "Free Market Framing",
+  "Gains Framing": "Gains Framing",
+  "High Social Distance Framing": "High Social Distance Framing",
+  "Purity Framing": "Purity Framing",
+  "System Preservation Framing": "System Preservation Framing",
+  "Warmth Framing": "Warmth Framing"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "outcomes": {
+  "Belief_Post": {
+   "col": "Belief_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "belief that human activity causes climate change (3 items, item 3 reversed)"
+  },
+  "Concern_Post": {
+   "col": "Concern_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "climate concern (3 items) - VERBATIM the target's concern_1..3"
+  },
+  "Policies_Post": {
+   "col": "Policies_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "general climate policy support (3 items) - includes the target's policy_general verbatim"
+  },
+  "PoliciesSp_Post": {
+   "col": "PoliciesSp_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "specific climate policy support (4 items, item 3 reversed)"
+  },
+  "Intent_Post": {
+   "col": "Intent_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "political climate intentions (4 items)"
+  },
+  "IntentNp_Post": {
+   "col": "IntentNp_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "non-political climate behaviour intentions (6 items) - 3 verbatim target behavior_* items"
+  },
+  "Candidate_Post": {
+   "col": "Candidate_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "climate-candidate support (4 items, all reversed)"
+  },
+  "Companies_Post": {
+   "col": "Companies_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "attitudes to companies (3 items)"
+  },
+  "Donation": {
+   "col": "Donation",
+   "lo": 0,
+   "hi": 100,
+   "question": "allocation of 100 cents to climate orgs (0-100, strongly bimodal)"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "Gender",
+   "map": {
+    "1": "Male",
+    "2": "Female",
+    "3": "Other"
+   }
+  },
+  "age_band": {
+   "col": "Age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "party": {
+   "col": "Party_N",
+   "map": {
+    "1": "Democrat",
+    "2": "Democrat",
+    "3": "Independent",
+    "4": "Independent",
+    "5": "Independent",
+    "6": "Republican",
+    "7": "Republican",
+    "8": "Other"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "race": "present only in 'CCC - Data - Deidentified.csv'; there is NO respondent id, so the join is positional and UNVERIFIED - do not use until row alignment is demonstrated",
+  "education": "raw file has 5 levels; the target's Master's vs Doctorate split is not recoverable",
+  "income": "Income_B codes 1-11 have no label table anywhere on disk - unusable"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/voelkel2026_arms.json",
+ "message_texts_source": "/workspace/datasets/voelkel2026/downloads/CCC - Questionnaire - Qualtrics.pdf (all 13 arm texts; extract with pypdf in the `texts` stage). NOT the other questionnaire PDF, which lists names only.",
+ "provenance": {
+  "verified_by": "notes/DATA_experiments.md (recon session, header + README verified)",
+  "caveats": [
+   "no weights column",
+   "no respondent id",
+   "outcomes measured pre and post; use post-minus-control for a like-for-like ATE, and control-arm PRE distributions as unprimed baselines",
+   "reverse scoring already applied in the recoded file - do not reverse twice",
+   "treatment length varies 1-11 pages: dose is confounded with content",
+   "no trust-in-scientists outcome of any kind"
+  ],
+  "twin_note": "Its three control texts are the SAME three filler texts the target study uses (neckties / baseball / dances). Structural fact from the two instruments, not outcome data."
+ }
+}

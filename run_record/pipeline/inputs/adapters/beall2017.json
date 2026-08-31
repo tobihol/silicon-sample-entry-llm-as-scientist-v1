@@ -1,0 +1,183 @@
+{
+ "dataset": "beall2017",
+ "status": "VERIFIED - 2026-08-25 built by tools/build_beall.py (asserts: exactly one exposure indicator per row; rebuilt arm == v2 Topic x Position on all 2,453 rows; 9-item credibility == v2 Credibility to 1e-9; cell counts == README) and loaded host-side through ssb.task.load_dataset/true_ates with control_strata='topic': 2,453 rows, 12 arms with the README's cell counts (flu 206/190/225, marijuana 213/199/205, severe weather 197/200/220, climate change 192/202/204); credibility M = 5.709, SD = 1.417 (n = 2,452) as the README; the 12 cell means reproduce the README's (flu 5.96/6.17/5.57, marijuana 5.43/5.38/5.26, weather 5.71/5.98/5.98, climate 5.61/5.91/5.60); Q33 deliberately excluded (asked only in solution arms, control all-NaN)",
+ "file": "/workspace/run/inputs/derived/beall2017.csv",
+ "reader": "csv",
+ "sample_description": "2,453 U.S. adults from a Qualtrics online panel, quota-sampled to the U.S. adult population on gender, age and education (not a probability sample; no weights), fielded October-November 2015; respondents who failed two of three attention checks were removed before this file. Arm sizes are listed separately below. Each respondent was told they would read a short excerpt from an opinion article in USA Today, then read ONE excerpt of 70-150 words attributed to a fictitious 'Dr. Dave Wilson, a recognized international expert' (in public health, meteorology or earth science) about one of four topics: the flu, marijuana use, severe weather, or climate change. Every excerpt opens with the same kind of paragraph stating that recent research shows the problem is more dangerous and costly than believed and is raising everyone's insurance costs; in two of the three versions per topic a second paragraph follows in which he urges action and advocates a specific piece of legislation as a simple, inexpensive and effective response. Afterwards respondents rated the primary goal of the op-ed, whether he separated expert analysis from personal views, what motivated him, their impression of him on nine 8-point adjective pairs, and how controversial his research is. There were no pre-treatment attitude or trust measures.",
+ "condition_col": "arm",
+ "control_strata": "topic",
+ "arms": {
+  "Flu - information only": "Flu - information only",
+  "Flu - non-controversial solution": "Flu - non-controversial solution (hand-washing signs)",
+  "Flu - controversial solution": "Flu - controversial solution (mandatory annual flu shots)",
+  "Marijuana - information only": "Marijuana - information only",
+  "Marijuana - non-controversial solution": "Marijuana - non-controversial solution (warning labels)",
+  "Marijuana - controversial solution": "Marijuana - controversial solution (stricter medical-marijuana rules without legalization)",
+  "Severe weather - information only": "Severe weather - information only",
+  "Severe weather - non-controversial solution": "Severe weather - non-controversial solution (better early-warning systems)",
+  "Severe weather - controversial solution": "Severe weather - controversial solution (restrict building in high-risk areas)",
+  "Climate change - information only": "Climate change - information only",
+  "Climate change - non-controversial solution": "Climate change - non-controversial solution (tax rebates for EVs / solar)",
+  "Climate change - controversial solution": "Climate change - controversial solution (carbon tax on fossil fuels)"
+ },
+ "control_arms": [
+  "Flu - information only",
+  "Marijuana - information only",
+  "Severe weather - information only",
+  "Climate change - information only"
+ ],
+ "outcomes": {
+  "credibility": {
+   "col": "credibility",
+   "lo": 1,
+   "hi": 8,
+   "question": "'Please indicate your impression of Dr. Wilson by choosing the appropriate number between the pairs of adjectives below.' 8-point bipolar items, scored so that HIGHER = MORE FAVOURABLE; mean of all 9 pairs (intelligent, concerned about society, competent, expert, sensitive, trustworthy, cares about society, sincere, honest); McCroskey & Teven source credibility"
+  },
+  "credibility_competence": {
+   "col": "competence",
+   "lo": 1,
+   "hi": 8,
+   "question": "'Please indicate your impression of Dr. Wilson by choosing the appropriate number between the pairs of adjectives below.' 8-point bipolar items, scored so that HIGHER = MORE FAVOURABLE; COMPETENCE, mean of 3 pairs: not at all intelligent-extremely intelligent, not at all competent-extremely competent, not at all expert-extremely expert"
+  },
+  "credibility_goodwill": {
+   "col": "goodwill",
+   "lo": 1,
+   "hi": 8,
+   "question": "'Please indicate your impression of Dr. Wilson by choosing the appropriate number between the pairs of adjectives below.' 8-point bipolar items, scored so that HIGHER = MORE FAVOURABLE; GOODWILL, mean of 3 pairs: isn't concerned about society at all-is concerned about society a great deal, not at all sensitive-extremely sensitive, doesn't care about society at all-cares about society a great deal"
+  },
+  "credibility_trustworthiness": {
+   "col": "trustworthiness",
+   "lo": 1,
+   "hi": 8,
+   "question": "'Please indicate your impression of Dr. Wilson by choosing the appropriate number between the pairs of adjectives below.' 8-point bipolar items, scored so that HIGHER = MORE FAVOURABLE; TRUSTWORTHINESS, mean of 3 pairs: not at all trustworthy-extremely trustworthy, not at all sincere-extremely sincere, not at all honest-extremely honest"
+  },
+  "goal_impartial_information": {
+   "col": "Q15",
+   "lo": 1,
+   "hi": 7,
+   "question": "'The primary goal of Dr. Wilson's op-ed in USA Today was to provide impartial information about [topic]', 1 'Strongly disagree' - 7 'Strongly agree'"
+  },
+  "goal_persuade_action": {
+   "col": "Q16",
+   "lo": 1,
+   "hi": 7,
+   "question": "'The primary goal of Dr. Wilson's op-ed in USA Today was to persuade people to take action about [topic]', 1 'Strongly disagree' - 7 'Strongly agree'"
+  },
+  "separated_analysis_from_views": {
+   "col": "Q17",
+   "lo": 1,
+   "hi": 7,
+   "question": "'In his op-ed, Dr. Wilson clearly made an effort to separate his expert analysis of the scientific evidence from his personal views' (label truncated in the deposit after 'scientific'), 1 'Strongly disagree' - 7 'Strongly agree'"
+  },
+  "motive_scientific_evidence": {
+   "col": "Q18_12",
+   "lo": 1,
+   "hi": 7,
+   "question": "'Dr. Wilson's op-ed in USA Today was motivated by his evaluation of the scientific evidence on the issue of [topic]', 1 'Strongly disagree' - 7 'Strongly agree'"
+  },
+  "motive_personal_gain": {
+   "col": "Q18_13",
+   "lo": 1,
+   "hi": 7,
+   "question": "'Dr. Wilson's op-ed in USA Today was motivated by his desire for personal promotion and gain on the issue of [topic]', 1 'Strongly disagree' - 7 'Strongly agree'. HIGHER = MORE self-interested motive attributed (a message that works should move this DOWN or not at all)"
+  },
+  "motive_serve_public": {
+   "col": "Q18_14",
+   "lo": 1,
+   "hi": 7,
+   "question": "'Dr. Wilson's op-ed in USA Today was motivated by his desire to serve the public on the issue of [topic]', 1 'Strongly disagree' - 7 'Strongly agree'"
+  },
+  "motive_political_views": {
+   "col": "Q18_15",
+   "lo": 1,
+   "hi": 7,
+   "question": "'Dr. Wilson's op-ed in USA Today was motivated by his political views on the issue of [topic]', 1 'Strongly disagree' - 7 'Strongly agree'. HIGHER = MORE political motive attributed"
+  },
+  "research_controversial": {
+   "col": "Q20",
+   "lo": 1,
+   "hi": 5,
+   "question": "'Overall, how controversial do you believe Dr. Wilson's research in general is?' 1 'Not at all controversial' - 5 'Extremely controversial'. HIGHER = MORE controversial"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "gender",
+   "map": {
+    "Male": "Male",
+    "Female": "Female"
+   }
+  },
+  "age_band": {
+   "col": "age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "ideology": {
+   "col": "ideology",
+   "map": {
+    "Liberal": "Liberal",
+    "Moderate": "Moderate",
+    "Conservative": "Conservative"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "party": "party identification was not asked; the closest item is 5-point ideology Q44 (v2 file only, joined by row position and verified on the nine Q19 items), carried above as the non-target moderator `ideology` (Very/Somewhat liberal -> Liberal; Moderate; Somewhat/Very conservative -> Conservative)",
+  "education": "Q48 has 5 levels (less than HS / HS graduate / some college or tech / college graduate / post graduate); the target's graduate-degree split is not recoverable, so it is carried raw as `education_raw` and not mapped",
+  "income": "not asked",
+  "race": "Q49 Hispanic yes/no (carried as `hispanic`) and Q50_1-5 check-all-that-apply race boxes with 12 blanks and 50 multi-racial rows in v1; not carried, no clean single-level mapping"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts": {
+  "Flu - information only": "Dr. Dave Wilson, a recognized international expert in the field of public health, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that the flu is even more dangerous and costly than once believed. The flu contributes to pneumonia, bronchitis, fatigue, and even premature death. Moreover, since so many people are affected by the flu, it is increasing everyone's insurance costs.\"",
+  "Flu - non-controversial solution (hand-washing signs)": "Dr. Dave Wilson, a recognized international expert in the field of public health, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that the flu is even more dangerous and costly than once believed. The flu contributes to pneumonia, bronchitis, fatigue, and even premature death. Moreover, since so many people are affected by the flu, it is increasing everyone's insurance costs.\n\nThe flu threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the problem of the flu is to introduce legislation to post information signs about the link between hand washing and the flu in all restaurants and public buildings. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of the flu.\"",
+  "Flu - controversial solution (mandatory annual flu shots)": "Dr. Dave Wilson, a recognized international expert in the field of public health, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that the flu is even more dangerous and costly than once believed. The flu contributes to pneumonia, bronchitis, fatigue, and even premature death. Moreover, since so many people are affected by the flu, it is increasing everyone's insurance costs.\n\nThe flu threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the problem of the flu is to introduce legislation to require all Americans to get flu shots every year. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of the flu.\"",
+  "Marijuana - information only": "Dr. Dave Wilson, a recognized international expert in the field of public health, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that marijuana use is even more dangerous and costly than once believed. Marijuana use contributes to mental health problems, including depression and anxiety disorders, and it is addictive for many users. Moreover, because so many people are affected by marijuana use, it is increasing everyone’s insurance costs.\"",
+  "Marijuana - non-controversial solution (warning labels)": "Dr. Dave Wilson, a recognized international expert in the field of public health, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that marijuana use is even more dangerous and costly than once believed. Marijuana use contributes to mental health problems, including depression and anxiety disorders, and it is addictive for many users. Moreover, because so many people are affected by marijuana use, it is increasing everyone’s insurance costs.\n\nMarijuana use threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the problem of marijuana use is to introduce legislation to require warning labels placed on all commercially sold marijuana products. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of marijuana use.\"",
+  "Marijuana - controversial solution (stricter medical-marijuana rules without legalization)": "Dr. Dave Wilson, a recognized international expert in the field of public health, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that marijuana use is even more dangerous and costly than once believed. Marijuana use contributes to mental health problems, including depression and anxiety disorders, and it is addictive for many users. Moreover, because so many people are affected by marijuana use, it is increasing everyone’s insurance costs.\n\nMarijuana use threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the marijuana use problem is to introduce legislation to create stricter regulation on medical marijuana distribution and to prohibit city and state legalization of marijuana. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of marijuana use.\"",
+  "Severe weather - information only": "Dr. Dave Wilson, a recognized international expert in the field of meteorology, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveals that severe weather is more dangerous and costly than once believed. Severe weather (such as floods and hurricanes) contributes to injuries, deaths and property damage, and has increased markedly in recent years. Moreover, because so many people are affected by severe weather, it is increasing everyone’s insurance costs.\"",
+  "Severe weather - non-controversial solution (better early-warning systems)": "Dr. Dave Wilson, a recognized international expert in the field of meteorology, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveals that severe weather is more dangerous and costly than once believed. Severe weather (such as floods and hurricanes) contributes to injuries, deaths and property damage, and has increased markedly in recent years. Moreover, because so many people are affected by severe weather, it is increasing everyone’s insurance costs.\n\nSevere weather threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the problem of severe weather is to introduce legislation to implement better early warning systems in communities throughout the country. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of severe weather.\"",
+  "Severe weather - controversial solution (restrict building in high-risk areas)": "Dr. Dave Wilson, a recognized international expert in the field of meteorology, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveals that severe weather is more dangerous and costly than once believed. Severe weather (such as floods and hurricanes) contributes to injuries, deaths and property damage, and has increased markedly in recent years. Moreover, because so many people are affected by severe weather, it is increasing everyone’s insurance costs.\n\nSevere weather threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the severe weather problem is to introduce legislation to restrict building and development in areas known to be at high-risk for severe weather. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of severe weather.\"",
+  "Climate change - information only": "Dr. Dave Wilson, a recognized international expert in the field of meteorology, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that climate change is more dangerous and costly than once believed. Carbon dioxide contributes to damage to human health, food shortages, species loss, and economic impacts on the order of 5% of global GDP. Moreover, because so many people are affected by climate change, it is increasing everyone’s insurance costs.\"",
+  "Climate change - non-controversial solution (tax rebates for EVs / solar)": "Dr. Dave Wilson, a recognized international expert in the field of meteorology, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that climate change is more dangerous and costly than once believed. Carbon dioxide contributes to damage to human health, food shortages, species loss, and economic impacts on the order of 5% of global GDP. Moreover, because so many people are affected by climate change, it is increasing everyone’s insurance costs.\n\nClimate change threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the problem of climate change problem is to introduce legislation to provide tax rebates to people who purchase energy efficient vehicles or solar panels. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of climate change.\"",
+  "Climate change - controversial solution (carbon tax on fossil fuels)": "Dr. Dave Wilson, a recognized international expert in the field of earth science, recently published an op-ed in USA Today. In the article, he said:\n\n“Evidence from recent scientific studies reveal that climate change is more dangerous and costly than once believed. Carbon dioxide contributes to damage to human health, food shortages, species loss, and economic impacts on the order of 5% of global GDP. Moreover, because so many people are affected by climate change, it is increasing everyone’s insurance costs.\n\nClimate change threatens everyone and action should be urgently taken to reduce the risk. One effective approach for addressing the climate change problem is to introduce legislation to apply a carbon tax on all fossil fuels including coal, oil, and natural gas. My research, and research conducted by many other experts, suggests that this simple and inexpensive action is an effective way to protect Americans from the risks of climate change.\""
+ },
+ "message_texts_note": "Verbatim from the PLOS S1 Appendix 1A (downloads/pone.0187511.s001.docx), extracted by tools/build_beall.py (soft hyphens removed, paragraphs joined with a blank line); the same texts sit truncated in the v1 .sav variable labels of Q3-Q14. The four information-only texts are the control_texts.",
+ "provenance": {
+  "verified_by": "tools/build_beall.py (rebuild + hard asserts against v2 and the README) and a host-side ssb.task load on 2026-08-25; data/beall2017/README.md documents the vendoring agent's arm reconstruction, credibility check and the 2019 correction",
+  "readme_claims": [
+   "N = 2,453; 12 cells with counts flu 206/190/225, marijuana 213/199/205, severe weather 197/200/220, climate change 192/202/204",
+   "every row has exactly one non-missing column among Q3-Q14; column -> cell mapping reproduces the v2 Topic/Position with 0 disagreements",
+   "credibility = mean of Q19_1-9 with Q19_1/2/7/8 reversed as 9 - x; n = 2,452, M = 5.709, SD = 1.417, alpha = 0.913, identical to v2 Credibility",
+   "v1 and v2 row order identical (Q19 items match cell-for-cell); Q44 ideology exists only in v2"
+  ],
+  "study_choice": "single study (one paper, one deposit); the 4 topic x 3 position design is used whole. The within-topic INFORMATION-ONLY cell is the control for that topic's two advocacy cells (`control_strata` = topic), because the paper's estimand is the effect of appending an advocacy paragraph to an otherwise identical excerpt; a grand-mean control over four unrelated topics would confound topic with advocacy.",
+  "caveats": [
+   "post-only design: no pre-treatment credibility, trust or attitude measure; the only baseline is the same-topic information-only cell, and there is no no-message control",
+   "the outcome is the credibility of ONE fictitious scientist after ONE op-ed excerpt, not trust in scientists as a group; the target's 12-item trust composite is a different object",
+   "each treatment arm is scored against its own topic's information-only cell (control_strata); the eight ATEs therefore have four different control groups of n ~ 192-213",
+   "only the three climate-change cells (n = 598) are on a climate topic; the other nine concern flu, marijuana and severe weather",
+   "the four 'reversed' items and the composites are ALREADY oriented high = favourable in the derived file - do not reverse again",
+   "credibility and its three 3-item subscales are the same 9 items, so those four rows per arm are not independent tests",
+   "the deposit's S1 questionnaire lists 8 adjective pairs and notes that a 7-point scale was rendered with 8 radio buttons; the data have 9 items, all 1-8, and the composite follows the authors' v2 Credibility",
+   "Q33 (how controversial is the proposed solution) was asked only in the two solution arms and is excluded: no control value exists",
+   "Qualtrics quota panel, 2015, no weights; no party identification and no income; ideology is a 5-point self-placement from the v2 file joined by position",
+   "the article's Tables 2-5 were corrected in 2019 (re-cleaned data); the printed M = 5.77 is from the erroneous set, the data give 5.71 - this adapter follows the data, not the article text",
+   "CC BY 4.0: derived extract and verbatim texts are redistributable with attribution"
+  ]
+ },
+ "exclude_from_slope": "held-out comparison pair (2026-08-25): scored once by idea_01's frozen predictor for the idea_01-vs-idea_02 comparison; must never enter any idea_01 calibration fit"
+}

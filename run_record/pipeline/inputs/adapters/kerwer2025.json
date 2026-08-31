@@ -1,0 +1,165 @@
+{
+ "dataset": "kerwer2025",
+ "status": "VERIFIED - 2026-08-25 loaded host-side through ssb.task.load_dataset/true_ates (SSB_RUNROOT=idea_01/run, /workspace/datasets -> data/): 2,256 analysis rows, 18 arms with n 113-138 exactly as the README table; no outcome column all-NaN (credibility_1 has 10 missing); per-arm means of the 14-item METI_1 composite and of credibility_1 reproduce the README's 18-row table to 3 dp (e.g. arm 1: 5.786 / 6.076; arm 12: 5.383 / 5.750; arm 15: 5.366 / 5.480); gender decoded from quota_assignment gives 1,087 male / 1,169 female (51.8% female of the 2,256 completers; the authors' log's 52.7% is on all 2,451 starters, and its quota x dropout table sums to exactly 1,087 / 1,169); carve() builds a 136-cell task with no empty arm text",
+ "file": "/workspace/run/inputs/derived/kerwer2025.csv",
+ "reader": "csv",
+ "sample_description": "IMPORTANT - READ BEFORE PREDICTING. The stimulus texts of this study are not in the public data deposit; each arm below is therefore DESCRIBED from the study's own design codebook (format, number of reported effects, which statements were appended, approximate length) rather than reproduced. You are predicting from a description of the text, not from the text.\n\n2,256 German adults who completed the survey (of 2,451 who started), recruited from a general-population online access panel and quota-sampled on gender x age band (18-44 / 45+) x school-leaving track (Hauptschule / Realschule / Abitur), with a screener requiring at least moderate self-reported interest in psychological research; fielded 2022 by the Leibniz Institute for Psychology (ZPID). Not a probability sample. Arm sizes are listed separately below. Each respondent was randomised to ONE of 18 text formats and then read TWO German research summaries in that format, one after the other: first a summary of a meta-analysis on action video games and visual perception, then a summary of a meta-analysis on psychotherapy for depression. Immediately after each text they rated the researchers who wrote the reviewed meta-analysis on the 14-item Muenster Epistemic Trustworthiness Inventory (7-point bipolar adjective pairs), rated whether the results of the review are credible (1-8), and answered items on readability, understanding, feeling able to discuss the topic, topic relevance, epistemic emotions and four factual knowledge questions. Median completion time about 21 minutes.",
+ "condition_col": "arm_title",
+ "arms": {
+  "PLS - 4 effects - no statements": "PLS - 4 effects - no statements",
+  "PLS - 4 effects + practical-relevance statement": "PLS - 4 effects + practical-relevance statement",
+  "PLS - 4 effects + lay publication-bias statement (no information available)": "PLS - 4 effects + lay publication-bias statement (no information available)",
+  "PLS - 4 effects + lay publication-bias statement (bias likely)": "PLS - 4 effects + lay publication-bias statement (bias likely)",
+  "PLS - 4 effects + lay publication-bias statement (no information available) + practical-relevance statement": "PLS - 4 effects + lay publication-bias statement (no information available) + practical-relevance statement",
+  "PLS - 4 effects + lay publication-bias statement (bias likely) + practical-relevance statement": "PLS - 4 effects + lay publication-bias statement (bias likely) + practical-relevance statement",
+  "PLS - 1 effect - no statements": "PLS - 1 effect - no statements",
+  "PLS - 7 effects - no statements": "PLS - 7 effects - no statements",
+  "PLS - 1 effect + COI statement (no conflict reported)": "PLS - 1 effect + COI statement (no conflict reported)",
+  "PLS - 4 effects + COI statement (no conflict reported)": "PLS - 4 effects + COI statement (no conflict reported)",
+  "PLS - 7 effects + COI statement (no conflict reported)": "PLS - 7 effects + COI statement (no conflict reported)",
+  "PLS - 1 effect + COI statement (conflict reported)": "PLS - 1 effect + COI statement (conflict reported)",
+  "PLS - 4 effects + COI statement (conflict reported)": "PLS - 4 effects + COI statement (conflict reported)",
+  "PLS - 7 effects + COI statement (conflict reported)": "PLS - 7 effects + COI statement (conflict reported)",
+  "Scientific abstract - 1 effect": "Scientific abstract - 1 effect",
+  "Scientific abstract - 4 effects": "Scientific abstract - 4 effects",
+  "Scientific abstract - 7 effects": "Scientific abstract - 7 effects",
+  "Scientific abstract - 4 effects + scientific publication-bias statement (bias likely)": "Scientific abstract - 4 effects + scientific publication-bias statement (bias likely)"
+ },
+ "control_arms": [
+  "PLS - 4 effects - no statements"
+ ],
+ "outcomes": {
+  "trust_expertise_videogames": {
+   "col": "pls_METI_Exp_1",
+   "lo": 1,
+   "hi": 7,
+   "question": "'With reference to their insights, the scientists on whose review on [topic] I just read a summary seem to be ...' - 7-point bipolar semantic differentials (Muenster Epistemic Trustworthiness Inventory), higher = more trustworthy; EXPERTISE subscale, mean of 6 items: unintelligent-intelligent, unqualified-qualified, inexperienced-experienced, poorly educated-well educated, unprofessional-professional, incompetent-competent; asked after the first text (video games & perception)"
+  },
+  "trust_integrity_videogames": {
+   "col": "pls_METI_Int_1",
+   "lo": 1,
+   "hi": 7,
+   "question": "'With reference to their insights, the scientists on whose review on [topic] I just read a summary seem to be ...' - 7-point bipolar semantic differentials (Muenster Epistemic Trustworthiness Inventory), higher = more trustworthy; INTEGRITY subscale, mean of 4 items: unjust-just, unfair-fair, dishonest-honest, insincere-sincere; asked after the first text (video games & perception)"
+  },
+  "trust_benevolence_videogames": {
+   "col": "pls_METI_Ben_1",
+   "lo": 1,
+   "hi": 7,
+   "question": "'With reference to their insights, the scientists on whose review on [topic] I just read a summary seem to be ...' - 7-point bipolar semantic differentials (Muenster Epistemic Trustworthiness Inventory), higher = more trustworthy; BENEVOLENCE subscale, mean of 4 items: unethical-ethical, inconsiderate-considerate, irresponsible-responsible, immoral-moral; asked after the first text (video games & perception)"
+  },
+  "credibility_videogames": {
+   "col": "pls_credibility_1",
+   "lo": 1,
+   "hi": 8,
+   "question": "'The results of the presented review are credible.' (Die Ergebnisse der vorgestellten Uebersichtsarbeit sind vertrauenswuerdig.) 1 'fully disagree' - 8 'fully agree'; asked after the first text (video games & perception)"
+  },
+  "trust_expertise_psychotherapy": {
+   "col": "pls_METI_Exp_2",
+   "lo": 1,
+   "hi": 7,
+   "question": "'With reference to their insights, the scientists on whose review on [topic] I just read a summary seem to be ...' - 7-point bipolar semantic differentials (Muenster Epistemic Trustworthiness Inventory), higher = more trustworthy; EXPERTISE subscale, mean of 6 items: unintelligent-intelligent, unqualified-qualified, inexperienced-experienced, poorly educated-well educated, unprofessional-professional, incompetent-competent; asked after the second text (psychotherapy for depression)"
+  },
+  "trust_integrity_psychotherapy": {
+   "col": "pls_METI_Int_2",
+   "lo": 1,
+   "hi": 7,
+   "question": "'With reference to their insights, the scientists on whose review on [topic] I just read a summary seem to be ...' - 7-point bipolar semantic differentials (Muenster Epistemic Trustworthiness Inventory), higher = more trustworthy; INTEGRITY subscale, mean of 4 items: unjust-just, unfair-fair, dishonest-honest, insincere-sincere; asked after the second text (psychotherapy for depression)"
+  },
+  "trust_benevolence_psychotherapy": {
+   "col": "pls_METI_Ben_2",
+   "lo": 1,
+   "hi": 7,
+   "question": "'With reference to their insights, the scientists on whose review on [topic] I just read a summary seem to be ...' - 7-point bipolar semantic differentials (Muenster Epistemic Trustworthiness Inventory), higher = more trustworthy; BENEVOLENCE subscale, mean of 4 items: unethical-ethical, inconsiderate-considerate, irresponsible-responsible, immoral-moral; asked after the second text (psychotherapy for depression)"
+  },
+  "credibility_psychotherapy": {
+   "col": "pls_credibility_2",
+   "lo": 1,
+   "hi": 8,
+   "question": "'The results of the presented review are credible.' (Die Ergebnisse der vorgestellten Uebersichtsarbeit sind vertrauenswuerdig.) 1 'fully disagree' - 8 'fully agree'; asked after the second text (psychotherapy for depression)"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "quota_assignment",
+   "map": {
+    "1": "Male",
+    "2": "Male",
+    "3": "Male",
+    "7": "Male",
+    "8": "Male",
+    "9": "Male",
+    "4": "Female",
+    "5": "Female",
+    "6": "Female",
+    "10": "Female",
+    "11": "Female",
+    "12": "Female"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "age_band": "no age variable in the deposit; only a two-band age (18-44 = quota cells 7-12, 45+ = cells 1-6) is recoverable from quota_assignment, which does not map onto the target's four bands",
+  "education": "only a three-level German school-leaving track is recoverable from quota_assignment (Abitur = cells 1,4,7,11; Realschule = 2,5,8,10; Hauptschule = 3,6,9,12); no mapping onto the target's US degree levels",
+  "party": "not asked (German sample; no party, ideology or region variables)",
+  "income": "not asked",
+  "race": "not asked"
+ },
+ "filters": [
+  {
+   "col": "dispcode",
+   "isin": [
+    31,
+    32
+   ]
+  },
+  {
+   "col": "dropout",
+   "eq": false
+  }
+ ],
+ "weight_col": null,
+ "message_texts": {
+  "PLS - 4 effects - no statements": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 415 words), then a meta-analysis on psychotherapy for depression (about 523 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 4 effects + practical-relevance statement": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 469 words), then a meta-analysis on psychotherapy for depression (about 546 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; no statement about publication bias; and a statement about the practical relevance / real-world significance of the findings.",
+  "PLS - 4 effects + lay publication-bias statement (no information available)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 506 words), then a meta-analysis on psychotherapy for depression (about 585 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; a lay-friendly statement explaining what publication bias is and saying that the meta-analysis provides no information about it; and no statement about the practical relevance of the findings.",
+  "PLS - 4 effects + lay publication-bias statement (bias likely)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 501 words), then a meta-analysis on psychotherapy for depression (about 580 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; a lay-friendly statement explaining what publication bias is and saying that the meta-analysis reports that such a bias probably exists; and no statement about the practical relevance of the findings.",
+  "PLS - 4 effects + lay publication-bias statement (no information available) + practical-relevance statement": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 560 words), then a meta-analysis on psychotherapy for depression (about 633 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; a lay-friendly statement explaining what publication bias is and saying that the meta-analysis provides no information about it; and a statement about the practical relevance / real-world significance of the findings.",
+  "PLS - 4 effects + lay publication-bias statement (bias likely) + practical-relevance statement": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 555 words), then a meta-analysis on psychotherapy for depression (about 628 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; a lay-friendly statement explaining what publication bias is and saying that the meta-analysis reports that such a bias probably exists; and a statement about the practical relevance / real-world significance of the findings.",
+  "PLS - 1 effect - no statements": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 305 words), then a meta-analysis on psychotherapy for depression (about 327 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 1 effect from the meta-analysis (i.e. 1 finding with effect-size information). It contains no information about conflicts of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 7 effects - no statements": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 576 words), then a meta-analysis on psychotherapy for depression (about 667 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 7 effects from the meta-analysis (i.e. 7 findings with effect-size information). It contains no information about conflicts of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 1 effect + COI statement (no conflict reported)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 331 words), then a meta-analysis on psychotherapy for depression (about 353 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 1 effect from the meta-analysis (i.e. 1 finding with effect-size information). It contains a conflict-of-interest statement saying the authors reported NO conflict of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 4 effects + COI statement (no conflict reported)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 441 words), then a meta-analysis on psychotherapy for depression (about 524 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains a conflict-of-interest statement saying the authors reported NO conflict of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 7 effects + COI statement (no conflict reported)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 602 words), then a meta-analysis on psychotherapy for depression (about 693 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 7 effects from the meta-analysis (i.e. 7 findings with effect-size information). It contains a conflict-of-interest statement saying the authors reported NO conflict of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 1 effect + COI statement (conflict reported)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 337 words), then a meta-analysis on psychotherapy for depression (about 359 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 1 effect from the meta-analysis (i.e. 1 finding with effect-size information). It contains a conflict-of-interest statement saying the authors reported a conflict of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 4 effects + COI statement (conflict reported)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 447 words), then a meta-analysis on psychotherapy for depression (about 530 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains a conflict-of-interest statement saying the authors reported a conflict of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "PLS - 7 effects + COI statement (conflict reported)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 608 words), then a meta-analysis on psychotherapy for depression (about 699 words). Each is a PLAIN-LANGUAGE SUMMARY (allgemeinverstaendliche Zusammenfassung) of the meta-analysis, written by the study team for lay readers in everyday German, with technical terms explained. It reports 7 effects from the meta-analysis (i.e. 7 findings with effect-size information). It contains a conflict-of-interest statement saying the authors reported a conflict of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "Scientific abstract - 1 effect": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 220 words), then a meta-analysis on psychotherapy for depression (about 159 words). Each is the meta-analysis's SCIENTIFIC ABSTRACT (Kurzfassung) as it would appear in the journal, in technical language and much shorter than the plain-language versions. It reports 1 effect from the meta-analysis (i.e. 1 finding with effect-size information). It contains no information about conflicts of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "Scientific abstract - 4 effects": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 262 words), then a meta-analysis on psychotherapy for depression (about 219 words). Each is the meta-analysis's SCIENTIFIC ABSTRACT (Kurzfassung) as it would appear in the journal, in technical language and much shorter than the plain-language versions. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "Scientific abstract - 7 effects": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 338 words), then a meta-analysis on psychotherapy for depression (about 275 words). Each is the meta-analysis's SCIENTIFIC ABSTRACT (Kurzfassung) as it would appear in the journal, in technical language and much shorter than the plain-language versions. It reports 7 effects from the meta-analysis (i.e. 7 findings with effect-size information). It contains no information about conflicts of interest; no statement about publication bias; and no statement about the practical relevance of the findings.",
+  "Scientific abstract - 4 effects + scientific publication-bias statement (bias likely)": "[STIMULUS NOT IN THE DEPOSIT - THIS IS A DESCRIPTION, NOT THE TEXT.] Two German-language research summaries, read one after the other: first a meta-analysis on action video games and visual perception (about 273 words), then a meta-analysis on psychotherapy for depression (about 228 words). Each is the meta-analysis's SCIENTIFIC ABSTRACT (Kurzfassung) as it would appear in the journal, in technical language and much shorter than the plain-language versions. It reports 4 effects from the meta-analysis (i.e. 4 findings with effect-size information). It contains no information about conflicts of interest; a scientific (technical-register) statement, as in an abstract, that publication bias probably exists; and no statement about the practical relevance of the findings."
+ },
+ "message_texts_note": "The German stimuli (18 formats x 2 topics) are NOT in the PsychArchives deposit. Each entry is a DESCRIPTION assembled from the codebook's value labels for the five s_iv_* design factors (20221202_ESM_Codebook.csv), the codebook's Bedingung labels, and the per-arm word counts hard-coded in the authors' R output (20230921_ESM_R_Output.html). Flagged inside every text and in sample_description.",
+ "provenance": {
+  "verified_by": "this adapter was verified host-side on 2026-08-25 by loading through ssb.task (see status); data/kerwer2025/README.md documents the vendoring agent's independent checks (arm table, METI subscale composition, quota-cell decoding from the R log)",
+  "readme_claims": [
+   "N = 2,451 started, 2,256 completed (dispcode 31/32, dropout FALSE); 18 arms with analysis n 113-138",
+   "Bedingung maps one-to-one onto the five s_iv_* factor columns; incomplete factorial with arm 1 as the PLS core",
+   "METI subscales pls_METI_{Exp,Int,Ben}_k are the deposit's own composites of the 14 items (6/4/4), verified to 1e-9 by the vendoring agent",
+   "quota_assignment 1-12 decodes to gender x age band x school track via the mapvalues() call in the authors' R output"
+  ],
+  "control_choice": "Arm 1 (plain-language summary, 4 effects, no statements) is the reference cell of the incomplete factorial: 13 of the 17 other arms differ from it in exactly one design factor (arms 5, 6 add two statements; arms 15 and 17 differ in both format and effect count). The paper's H1 contrast (PLS vs abstract) is recoverable as the arm-16 cell versus control; H3 (COI statement) as arms 10 and 13 versus control.",
+  "caveats": [
+   "THE STIMULI ARE NOT IN THE DEPOSIT. The brief carries codebook-derived DESCRIPTIONS of each format, stated inside every arm text. Treat like kim2024: a weaker brief than tasks with verbatim texts",
+   "German general-population quota sample screened on interest in psychological research (>= 4 of 8), fielded 2022; not a US sample, not probability-based, no weights",
+   "the trust object is 'the researchers whose meta-analysis I just read a summary of', not scientists in general; stimuli are long (159-699 words) research summaries, not short persuasive messages",
+   "all outcomes are 1-7 / 1-8 Likert or semantic-differential composites, not 0-100 sliders; METI means sit near 5.6 of 7 (ceiling-ish)",
+   "the *_psychotherapy outcomes come from the SECOND text read by the same respondents in the same arm: same randomisation, but a different topic and possibly order effects; the videogames block is the clean between-subject read, the psychotherapy block is not an independent replication",
+   "the three METI subscales are disjoint parts of one 14-item battery (item-total r >= 0.85), so their cells are not independent tests",
+   "design factors are not fully crossed; contrasts other than arm-vs-arm-1 are not encoded here",
+   "no respondent-level demographics beyond the reconstructed quota cell; the gender decoding follows the authors' own mapvalues() labels (G m/w) in the R log and is not in the codebook",
+   "CC-BY-SA 4.0: keep any derived extract of this dataset separately licensed; do not merge into a CC0/CC-BY/MIT bundle"
+  ],
+  "derived_note": "2026-08-25: inputs/derived/kerwer2025.csv = the deposit CSV (sep ';', decimal ',') re-written with an `arm_title` column (Bedingung code -> title) so the arms map is the identity and no raw code can be confused with the numerals inside the titles (practice.py arm-name check). CC-BY-SA: disk-only, gitignored."
+ },
+ "exclude_from_slope": "held-out comparison pair (2026-08-25): scored once by idea_01's frozen predictor for the idea_01-vs-idea_02 comparison; must never enter any idea_01 calibration fit"
+}

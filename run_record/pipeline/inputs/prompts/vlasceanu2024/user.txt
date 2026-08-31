@@ -1,0 +1,692 @@
+
+
+Sample: 8,253 U.S. adults, the United States subsample of the 63-country Global Climate Intervention Tournament (n = 59,440 worldwide, online panels, 2022). Each respondent was randomly assigned to one of 11 short climate interventions or to a control condition, then answered belief and policy-support sliders and completed two real behavioural measures: sharing a climate message on social media, and the Work for Environmental Protection Task (up to 8 screens of tedious number-identification, each screen buying one tree). Interventions were brief single-session manipulations delivered in-survey.
+
+- Belief1 | 0-100 | How accurate do you think this statement is? - Human activities are causing climate change. (0 = not at all accurate, 100 = extremely accurate)
+- Belief2 | 0-100 | How accurate do you think this statement is? - Climate change poses a serious threat to humanity. (0 = not at all accurate, 100 = extremely accurate)
+- Belief3 | 0-100 | How accurate do you think this statement is? - Taking action to fight climate change is necessary to avoid a global catastrophe. (0 = not at all accurate, 100 = extremely accurate)
+- Belief4 | 0-100 | How accurate do you think this statement is? - Climate change is a global emergency. (0 = not at all accurate, 100 = extremely accurate)
+- Policy1 | 0-100 | I support... - raising carbon taxes on gas/fossil fuels/coal (0-100 slider)
+- Policy2 | 0-100 | I support... - significantly expanding infrastructure for public transportation (0-100 slider)
+- Policy3 | 0-100 | I support... - increasing the number of charging stations for electric vehicles (0-100 slider)
+- Policy4 | 0-100 | I support... - increasing the use of sustainable energy such as wind and solar energy (0-100 slider)
+- Policy5 | 0-100 | I support... - increasing taxes on airline companies to offset carbon emissions (0-100 slider)
+- Policy6 | 0-100 | I support... - protecting forested and land areas (0-100 slider)
+- Policy7 | 0-100 | I support... - investing more in green jobs and businesses (0-100 slider)
+- Policy8 | 0-100 | I support... - introducing laws to keep waterways and oceans clean (0-100 slider)
+- Policy9 | 0-100 | I support... - increasing taxes on carbon intense foods (for example meat, and dairy) (0-100 slider)
+- SHAREcc | 0-1 | BEHAVIOUR: 'Are you willing to share this information on your social media? If yes, please do it now, by copying and pasting the entire message.' 1 = yes, 0 = no (the 'I do not use social media' option was folded to missing)
+- WEPTcc | 0-8 | BEHAVIOUR: Work for Environmental Protection Task - number of tedious 60-number screens (out of 8) the respondent completed, each screen donating one tree to the Eden Reforestation Project
+
+CONDITIONS (11 interventions, each vs control):
+
+### BindingMoral
+We are Americans.
+
+This means we can rise to any challenge that faces our country. From scientists to experts in the military, there is near universal agreement that climate change is real.
+
+The time to act is now. Using clean energy will help to keep our air, water, and land pure. It is the American solution to the climate crisis.
+
+[IMAGE]
+
+### CollectAction
+What comes to mind when you think about climate change?
+
+[IMAGE]
+
+Do you sometimes feel that it is just beyond your capability make an to impact?
+
+Well you're not alone...
+
+---
+
+Research shows that people differ in their beliefs about whether they, other people, and the world can change:
+
+With some people tending to believe change is possible
+
+[IMAGE]
+
+And others viewing things as static and unchanging
+
+[IMAGE]
+
+---
+
+And our beliefs about the possibility of change determine if we act to make that change a reality.
+
+These beliefs affect our ability to learn challenging new skills
+
+[IMAGE]
+
+To restore bad relationships,
+
+[IMAGE]
+
+and even to solve conflict.
+
+[IMAGE]
+
+For example: Children with behavioral problems became 40% less aggressive after learning about the potential for personalities to change
+
+---
+
+But what about climate change?
+
+Is change possible there?
+
+[IMAGE]
+
+---
+
+Actually, yes!
+
+When it comes to climate change, there is a lot to hope for, and our actions can make a real difference.
+
+A recent report indicated that we are still in a window of opportunity!
+
+[IMAGE]
+
+Smith et al., 2019, Nature Communications
+
+---
+
+[IMAGE]
+
+But we have to act now, which requires us to come together and demand systematic change.
+
+---
+
+Systematic change has already solved past climate issues.
+
+The Montreal Protocol, signed in 1987, phased out use of ozone-depleting chemicals, which helped to heal the hole in the ozone layer.
+
+[IMAGE]
+
+---
+
+And protests to prevent climate change can have an impact:
+
+For example, Margaret Klein wanted to see her community take bigger steps to address climate change
+
+[IMAGE]
+
+So she joined an activist group in her town that held small demonstrations
+
+[IMAGE]
+
+The town responded by declaring a "climate emergency" and passing requirements shifting to renewable energy
+
+[IMAGE]
+
+---
+
+Since then, this has sparked a world-wide movement to pressure governments to declare climate emergencies.
+
+So far, over 2,000 national and local governments have declared climate emergencies and implemented policy changes, eliminating 2.5 billion tons of carbon emissions just from the UK alone.
+
+[IMAGE]
+
+---
+
+In Central America, years of activism by indigenous groups and civil society organizations have succeeded in pushing a number of governments to adopt The Five Forests Initiative
+
+The Five Forests Initiative will protect 10 million hectares of forests and degraded land inside those forests, which is key to curbing climate change as they sequester carbon dioxide that would otherwise heat up the planet.
+
+[IMAGE]
+
+---
+
+In Asia, activism is also having a big impact:
+
+Eunbin Kang co-founded the Youth Climate Emergency Action Group
+
+[IMAGE]
+
+Together, they took action to prevent Doosan Heavy Industries & Construction from building more coal plants across Asia
+
+[IMAGE]
+
+They were also instrumental in pressuring the Korean government to pass its Green New Deal, which would cut 12.29 million tons of greenhouse gases.
+
+[IMAGE]
+
+---
+
+Similarly, locals from across the American Midwest launched a campaign of protests and educational events in major cities to shift their region away from its reliance on fossil fuel transportation and towards electric vehicles
+
+Their campaign has pressured the governors of Illinois, Indiana, Michigan, Minnesota, and Wisconsin to build a new network for charging electric vehicles.
+
+[IMAGE]
+
+---
+
+So remember - change is possible!
+
+[IMAGE]
+
+All it takes is for us to believe in it, follow the examples of Margaret, Eunbin, indigenous communities, and of local Midwesterners, and work together to make that change real.
+
+### DynamicNorm
+People in the United States and around the world are changing: more and more people are concerned about climate change, and are now taking action across multiple fronts.
+
+---
+
+Since 2013, concerns about climate change have increased in most countries surveyed
+
+[IMAGE]
+
+---
+
+What kinds of actions are people taking right now?
+
+More than ever before, people are making changes to their lifestyles, supporting policies to address climate change, and are giving the issue more time and attention.
+
+---
+
+For example, more and more people from around the world are now:
+
+• cutting back on personal consumption, especially meat and dairy products
+
+• spending time, effort, and money on initiatives to mitigate climate change (for example, planting trees, offsetting carbon emissions)
+
+• switching to low carbon modes of transportation (for example, taking bicycles)
+
+---
+
+There’s also been a notable increase in support for climate change mitigation policy–some of the most popular policies include:
+• attempting to conserve forests and land
+
+• transitioning to solar, wind, and other renewable energy sources
+
+• creating/raising carbon taxes on fossil fuels, coal, gas, etc.
+
+### FutureSelfCont
+Our collective behavior in the next decades will determine the extent to which Earth’s temperature will change. If no changes are made, the average temperature can increase by up to 6.5°C (12°F) by the year 2100 (IPCC, 2022). This would be extremely dangerous as super hurricanes, gigantic wildfires, and extreme food and water shortages would become common place.
+
+Over the past century, the average temperature on Earth has increased by about 1°C (1.8°F). Human behaviors like energy production from fossil fuels, excessive meat consumption, and car driving increase the concentrations of greenhouse gases in Earth’s atmosphere. Over 90% of the increase in the world's temperature is caused by human activity.
+
+---
+
+Please put yourself in the year 2030 - eight years from now. Take a few moments to imagine your life in that future. Imagine how you will look, where you will be, and who you are with. In the year 2030, it will be clear whether keeping climate change under 2°C is still possible. It will be clear whether the necessary change occurred fast enough to match the speed of the changing climate. As the Earth’s atmosphere continues to heat up, the effects of climate change will be more apparent: the “highest observed temperature” records will keep being updated, heatwaves and the droughts will become more common, species will continue to become extinct.
+
+---
+
+Now please write yourself a “letter from the future”. This should be a letter you are writing in the year 2030, to your past self. As the person that you will be in 2030, what role would you think would be appropriate for you in respect to climate change? What would you want to tell yourself in the past? What would you like your past self to do?
+
+Please spend a bit of time on this task and try to write at least 100 words (5 sentences), or more, if possible.
+
+---
+
+Thank you for your responses, we will now ask you some questions about your climate change perceptions.
+
+### LetterFutureGen
+Please think of a child that is currently less than 5 years old. Perhaps it is your child, a grandchild, niece/nephew, or the child of a close friend. (You can also think about a theoretical child).
+
+---
+
+Now imagine that child is a 30 year old adult. It is approximately the year 2055, they have started a family of their own, and they are finding their own way in the world. Whether they recognize it or not, they live in a world that is powerfully shaped by the decisions we are all making now, in 2022.
+
+---
+
+One day, as this person is on a walk with their family, and they find a time capsule which includes a letter written today, in 2022. They open the letter and read it together.
+
+[IMAGE]
+
+This letter is a message from you. In it, you tell this family about all of the things you have done and want to do in the future to ensure that they will inherit a healthy, inhabitable planet. You tell them about your own personal efforts—however small or large—to confront the complex environmental problems of your time, from habitat loss to water pollution to climate change.
+
+In this letter you also tell this family in 2055 about how you want to be remembered by them and future generations as someone who did their best to ensure a safe, flourishing world.
+
+On the next page, please write this letter. Describe the personal legacy you want to build and the efforts you are taking to ensure a more stable planet for them.
+
+---
+
+Please write your letter below. You will be able to proceed after at least 3 minutes have passed.
+
+To remind you, this letter should describe the efforts you are taking to ensure a more stable planet for this family in 2050, and your personal legacy that you want to build.
+
+Please spend a bit of time on this task and try to write at least 100 words (5 sentences), or more, if possible.
+
+### NegativeEmotions
+Please rate how much of each of these emotions you typically feel.
+"When thinking about climate change, I am"
+- Hopeful
+- Anxious
+- Depressed
+- Scared
+- Indifferent
+- Angry
+- Helpless
+- Guilty
+
+---
+
+[IMAGE]
+
+Climate change is happening much more quickly, and will have a much greater impact, than climate scientists previously thought, according to the latest report by the Intergovernmental Panel on Climate Change (IPCC, 2022). If your anxiety about climate change is dominated by fears of starving polar bears, glaciers melting, and sea levels rising, you are barely scratching the surface of what terrors are possible, even within the lifetime of a young adult today. And yet the swelling seas — and the cities they will drown — have so dominated the picture of climate change/global warming that they have blinded us to other threats, many much closer at hand and much more catastrophic.
+
+---
+
+Indeed, climate change involves more frequent and intense extreme events like floods, droughts, and fires, that are already causing widespread losses and damages to nature and people.
+
+Approximately 3.3 to 3.6 billion people are highly vulnerable to climate change.
+
+[IMAGE]
+
+Without a massive change to how billions of humans conduct their lives, many parts of the Earth will likely become uninhabitable by the year 2100.
+
+---
+
+In 2015, scientists and policy makers internationally, agreed to limit future warming to 1.5 degrees Celsius (2.7 degrees Fahrenheit; in the Paris Agreement).
+
+Crossing the 1.5°C threshold risks unleashing severe climate change effects on people, wildlife and ecosystems.
+
+Before reading this, did you know what the 1.5°C climate threshold is?
+- Yes, I did know that
+- No, I did not know that
+
+---
+
+If life continues as it is (that is, with very little climate intervention), how many years do you think we have before we will cross the 1.5°C threshold? (please enter a number)
+
+---
+
+According to the Intergovernmental Panel on Climate Change (IPCC), we have already reached more than 1°C of warming.
+
+If greenhouse gas emissions continue to rise, we could exceed 1.5°C as early as 2026.
+
+That is only 4 years away.
+
+In fact, if emissions remain close to current levels, we will pass the 2°C threshold between 16 to 50 years from now.
+
+[IMAGE]
+
+Is that within your lifetime?
+
+It is within mine.
+
+---
+
+“It’s okay, internationally, governments are working to reduce our carbon emissions so that we do not pass the 1.5°C threshold.”
+
+If this is what you’re saying to yourself, you are wrong.
+
+If we continue with the current policies, we will likely hit more than 3.1-3.7 degrees of warming by 2100. Even if all pledges are enacted, we will still pass both the 1.5°C and 2.0°C thresholds by quite a bit!
+
+---
+
+So what are the consequences?
+
+Compared to 1.5°C of warming, 2°C of warming involves:
+
+- Extreme rainfall/hurricane events become 70% more likely
+
+- Droughts will be twice as frequent and twice as long
+
+- Twice as many people will not have reliable access to water
+
+- 420 million more people will be frequently exposed to extreme heat waves
+
+- 99% of coral reefs will die off worldwide
+
+These consequences are just a few examples of a long list (for more, click here).
+
+---
+
+The list of consequences is vast and complicated. However, one thing is sure…
+
+There is no escape
+
+Escape from human-caused climate change is no longer possible (IPCC, 2022). Climate change is now affecting every continent, every region, every ocean on Earth, and every facet of the weather.
+
+Time is running out.
+
+The window of opportunity to act to mitigate climate change is closing fast. We should take action now to avoid the worst consequences.
+
+[IMAGE]
+
+---
+
+Please rate how much of each of these emotions you now feel.
+"When thinking about climate change, I am now"
+- Hopeful
+- Anxious
+- Depressed
+- Scared
+- Indifferent
+- Angry
+- Helpless
+- Guilty
+
+### PluralIgnorance
+Researchers recently conducted the "People's Climate Vote", which is the World's largest survey of public opinion on climate change (“global warming”). 1.2 million people completed the survey from 50 different countries around the globe. The survey included people from the United States.
+
+Think for a moment about Americans and their views on climate change. How many Americans do you think would agree with the statement “Climate change is a global emergency”?
+- Enter Your Guess Here
+
+---
+
+You estimated ${q://QID268/ChoiceNumericEntryValue/1}% of Americans agree that "Climate change is a global emergency."
+
+In truth, the People's Climate Vote found that 65% of Americans agree that "Climate change is a global emergency."
+
+[IMAGE]
+
+### PsychDistance
+[IMAGE]
+
+Climate scientists are certain:
+
+There is no doubt that humans are the main driver of climate change. Human influence has warmed the atmosphere, ocean, and land.
+
+Climate change is already affecting every region across the world. It has resulted in more frequent and intense extreme weather events, causing widespread harm and damage to people, wildlife and ecosystems.
+
+Human systems are being pushed beyond their ability to cope and adapt.
+
+---
+
+[IMAGE]
+
+In June to July 2021, there was a record-breaking heat wave in North America. It impacted cities like Portland, Oregon, Seattle, Washington, and Vancouver.
+
+500 excess deaths and 180 wildfires were recorded in British Columbia alone.
+
+The temperature of 121.28 °F / 49.6 °C was recorded in the village of Lytton in British Columbia. This was record breaking for Canada. A wildlife nearly destroyed the entire village of Lytton.
+
+Scientists are certain that this heatwave was nearly impossible without climate change.
+
+---
+
+[IMAGE]
+
+In 2017 Hurricane Harvey struck Texas, followed by Hurricane Irma in Florida just over two weeks later.
+Hurricane Harvey and Irma impacted many U.S. states and killed 232 people. They caused around $175 billion (USD) in damage.
+
+Shortly after, Hurricane Maria struck and destroyed over a third of homes in Puerto Rico. Over 4,600 people are thought to have died because of this storm.
+
+Scientists are certain that climate change made these storms more deadly and destructive than they previously would have been.
+
+---
+
+In 2015 scientists and policy makers internationally agreed to limit global warming to 1.5°C / 2.7°F, in the Paris Agreement.
+
+Warming above 1.5°C / 2.7°F risks severe climate impacts to people, wildlife, and ecosystems.
+
+If we take little to no climate change action, how long do you think we have before we will reach 1.5°C / 2.7°F of warming? (Please enter a number)
+
+---
+
+According to climate experts we have already reached more than 1°C of warming.
+
+If greenhouse gas emissions continue to rise, we will exceed 1.5 °C / 2.7 °F in as little as 4 years time.
+
+---
+
+Below is a list of climate change impacts. Which of these do you think will impact where you live?
+
+Select all that apply.
+- no impact
+- issues for farming & crop production
+- inland flooding & related damages
+- water scarcity
+- increase in infectious diseases
+- extreme weather events
+- reduced animal and livestock health & productivity (e.g., heat stress, diseases, productivity & death)
+- reduced ocean and freshwater fish catch and lower fish-farm yields
+- coastal flooding & storm damage (e.g., due to cyclones, sea level rise, storm surges)
+- mental health issues
+- lack of food and nutrition
+- heat causing deaths, labor issues and harm from wildfires
+- damage to infrastructure (e.g., power, transport, communications, water and sewage systems)
+- damage to key economic sectors
+- people forced to leave their home or region (due to climate changes and extreme weather events)
+
+---
+
+[IMAGE]
+
+You said you think climate change will cause the following where you live:
+
+${q://QID426/ChoiceGroup/SelectedChoices}
+
+Climate scientists say that climate change has already impacted these factors in North America:
+
+Impacted food production with issues for farming and crop production.
+
+Impacted health and wellbeing:
+
+increased spread of infectious diseases
+
+harm and deaths from heat
+
+lack of food and nutrition
+
+mental health issues
+
+Damaged coastal areas with flooding and storms.
+
+Changed land, freshwater and ocean environments.
+
+Damaged infrastructure and the economy.
+
+---
+
+[IMAGE]
+
+Climate scientists are also confident that climate change will cause these issues in North America in the future:
+
+Human deaths and mental health issues (from higher temperature and weather / climate extremes).
+
+Harm to oceans, coastal and land environments.
+
+Lower water quality and availability for people and farming.
+
+More food insecurity (disruption to farming, hunting and fishing).
+
+Harm to people's well-being and livelihoods (e.g., sea level rise impacting coastal areas).
+
+---
+
+Please write in a few sentences: how those climate consequences will affect you, your friends and family, and your community.
+
+Try to imagine these things happening today so you can be specific and describe what it will be like.
+
+You will be able to advance the page after 1 minute has passed
+
+### SciConsens
+Did you know that 99% of expert climate scientists agree that the Earth is warming and climate change is happening, mainly because of human activity (for example, burning fossil fuels)?
+
+[IMAGE]
+
+Sources: Myers et al 2021 Environ. Res. Lett.,
+
+NASA: https://climate.nasa.gov/scientific-consensus/,
+
+Lynas et al 2021 Environ. Res. Lett.,
+
+Doran et al., 2009, EOS
+
+### SystemJust
+Life in the United States
+
+[IMAGE]
+
+Chicago, Illinois
+
+It is no coincidence that where you live has very broad effects on your life and wellbeing.
+
+In terms of material wellbeing, where you live affects the job and investment opportunities you have, the affordability of your housing, the taxes you pay, as well as the general state of the economy.
+
+Where you live also affects the accessibility and quality of your social services, such as healthcare, education, or the pension you live off after you retire.
+
+There are many other aspects of your life that might be affected depending on where you live.
+
+[IMAGE]
+
+Grand Canyon, Arizona
+
+---
+
+Nature and society
+
+[IMAGE]
+
+Telluride, Colorado
+
+Explorers, philosophers, religious leaders, and scientists have often been interested in the relationship between people and their environment.
+
+Today, researchers are increasingly interested in understanding how people have adapted to their environment, and how many aspects of their culture and way of life have developed because of the natural endowments of their country.
+
+[IMAGE: Pole, Seno, Slama, Slovensko, Bal Slamy]
+
+---
+
+Many forms of happiness
+
+[IMAGE]
+
+Nature is balance - what it takes with one hand, it gives back with the other. For example, traveling merchants have long observed the cultural and lifestyle differences between people living by the sea and those living in the mountains.
+
+Folk knowledge suggests that many societies and cultures have developed through adaptations to their local environmental conditions, which are reflected in their folklore, customs, and traditions.
+
+[IMAGE]
+
+Newport Beach, California
+
+---
+
+American life - your life
+
+[IMAGE]
+
+Various social and cultural aspects of your everyday life are also impacted by the country you live in.
+
+For example, the food you eat, the sports you enjoy, the customs you observe, how you spend your free time, or even how you imagine growing old, all are likely impacted by where you live.
+
+[IMAGE]
+
+---
+
+Change is life - but what life?
+
+[IMAGE]
+
+Aftermath of Hurricane Harvey, Houston, Texas, 2017
+
+Today, we can already see the consequences of climate change in the United States.
+
+For example, floods are becoming more and more frequent, putting a quarter of Americans at risk of losing their homes.
+
+Similarly, wildfires are becoming more frequent and more intense, threatening millions of Americans.
+
+[IMAGE]
+
+Forest Fires & The Golden Gate Bridge, San Francisco, 2020
+
+---
+
+Let’s keep the United States as it should be
+
+[IMAGE]
+
+Yosemite Valley, Nevada
+
+Being pro-environmental allows us to protect and preserve the American way of life.
+
+It is patriotic to conserve the country’s natural resources.
+
+It is important to protect and preserve our environment so that the United States remains the United States.
+
+[IMAGE]
+
+Redwood National Park, California
+
+### WorkTogetherNorm
+In what follows, you will be shown a flyer and then you will be asked to answer a series of questions.
+
+The flyer will be on the screen for 20 seconds, during which you are encouraged to read the information it displays. After 20 seconds you will be able to advance the page.
+
+---
+
+Imagine you are seeing this flyer in your neighborhood. Please read it carefully!
+
+You will be able to advance the page in 20 seconds.
+
+---
+
+[IMAGE]
+[the same screen content was repeated on 15 further pages]
+
+---
+
+If you are taking steps towards reducing your carbon footprint, to what extent would you feel like
+you are doing so together with other Americans?
+
+---
+
+To what extent do you feel like taking steps towards reducing your carbon footprint is something shared with other Americans?
+
+---
+
+To what extent do you feel like taking steps towards reducing your carbon footprint involves a sense of togetherness with other Americans?
+
+---
+
+How common do you think it is for Americans to take steps towards reducing their carbon footprint?
+
+---
+
+How often do you think Americans make an effort towards reducing their carbon footprint?
+
+---
+
+How many Americans do you think make an effort towards reducing their carbon footprint?
+
+---
+
+How much do you
+feel like other Americans think it is good to take steps towards reducing their carbon footprint?
+
+---
+
+How much do you
+feel like other Americans think you should take steps towards reducing your carbon footprint?
+
+---
+
+How strongly do you identify with your fellow Americans?
+
+---
+
+How important is being American to your identity?
+
+---
+
+How important is being similar to other Americans to you?
+
+---
+
+How interested are you in reducing your carbon emissions?
+
+---
+
+To what degree do you support policies aimed at reducing greenhouse gasses?
+
+---
+
+To what degree would you share climate change information on social media?
+
+---
+
+How interested are you in donating to tree planting organizations?
+
+CONTROL CONDITION (the comparison every effect is measured against):
+
+### Control (control)
+Please carefully read the following excerpt (you may be asked about it in the following pages).
+
+---
+
+As soon as the great black velvet pall outside my little window was shot with gray, I got up and went downstairs; every board upon the way, and every crack in every board calling after me, "Stop thief!" and "Get up, Mrs. Joe!" In the pantry, which was far more abundantly supplied than usual, owing to the season, I was very much alarmed by a hare hanging up by the heels, whom I rather thought I caught, when my back was half turned, winking. I had no time for verification, no time for selection, no time for anything, for I had no time to spare. I stole some bread, some rind of cheese, about half a jar of mincemeat (which I tied up in my pocket-handkerchief with my last night’s slice), some brandy from a stone bottle (which I decanted into a glass bottle I had secretly used for making that intoxicating fluid, Spanish-liquorice-water, up in my room: diluting the stone bottle from a jug in the kitchen cupboard), a meat bone with very little on it, and a beautiful round compact pork pie. I was nearly going away without the pie, but I was tempted to mount upon a shelf, to look what it was that was put away so carefully in a covered earthenware dish in a corner, and I found it was the pie, and I took it in the hope that it was not intended for early use, and would not be missed for some time.
+
+Return exactly 165 rows: every condition x every outcome.
+Header: condition,outcome,ate

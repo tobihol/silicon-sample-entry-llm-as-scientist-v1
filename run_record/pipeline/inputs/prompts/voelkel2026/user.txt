@@ -1,0 +1,616 @@
+
+
+Sample: 13,821 U.S. adults, census-quota opt-in online panel, 2024; each read one short climate message or one of three off-topic control texts; all outcomes 0-100 integer sliders measured pre and post.
+
+- Belief_Post | 0-100 | belief that human activity causes climate change (3 items, item 3 reversed)
+- Concern_Post | 0-100 | climate concern (3 items) - VERBATIM the target's concern_1..3
+- Policies_Post | 0-100 | general climate policy support (3 items) - includes the target's policy_general verbatim
+- PoliciesSp_Post | 0-100 | specific climate policy support (4 items, item 3 reversed)
+- Intent_Post | 0-100 | political climate intentions (4 items)
+- IntentNp_Post | 0-100 | non-political climate behaviour intentions (6 items) - 3 verbatim target behavior_* items
+- Candidate_Post | 0-100 | climate-candidate support (4 items, all reversed)
+- Companies_Post | 0-100 | attitudes to companies (3 items)
+- Donation | 0-100 | allocation of 100 cents to climate orgs (0-100, strongly bimodal)
+
+CONDITIONS (10 interventions, each vs control):
+
+### Binding Framing
+God. Family. Country. It’s pretty simple. The formula for a good, honest life has been the 
+same for a long time. We obey our creator, protect our families, and defend our country. We 
+need to remember this as we deal with the changes happening to our country. And there are 
+lots of things changing, like more and more attacks on our traditional values and the things that 
+made this country great. Climate change is happening too, but we can fight it without buying 
+into the whole radical climate change agenda and believing every single word that comes out of 
+a government scientist’s mouth. If anyone knows what’s going on, it’s the people working our 
+Nation’s farms and ranches who are seeing first-hand how more drought and heat are hurting 
+our traditional American way of life and our economy. Protecting the natural resources we 
+were blessed with in this country is a national security issue – not a pity party for nature. We’ve 
+got to be responsible caretakers of this great land, but without surrendering our values and our 
+economy. We must never forget those who sacrificed for this country. And we must never 
+forget to protect the natural resources our country was blessed with, so that we can keep our 
+economy strong and provide for our families in the greatest nation on earth. The way forward 
+is about loyalty to the heartland. It’s about respect for leaders who know what makes America 
+great. And it’s about taking personal responsibility for our country, not whining about it or 
+waiting for someone to do it for us. 
+Page 28 of 72 
+Binding_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### Consensus Framing 1
+Nearly all climate scientists — 97% — have concluded that human-caused 
+climate change is happening. Some politically-motivated groups use misleading tactics to try to 
+convince the public that there is a lot of disagreement among scientists. However, scientific 
+research has found that among climate scientists “there is virtually no disagreement that 
+humans are causing climate change”. One such politically motivated group claims to have 
+collected signatures from over 31,000 “scientists” (including over 9,000 who hold Ph.D.’s) on a 
+petition urging the U.S. government to reject any limits on greenhouse gas emissions because 
+“there is no convincing scientific evidence that human release of carbon dioxide, methane or 
+other greenhouse gases is causing or will, in the foreseeable future, cause catastrophic heating 
+of the Earth’s atmosphere and disruption of Earth’s climate.” They claim that these signatures 
+prove that there is no scientific consensus on human-caused climate change. This may sound 
+convincing at first. However, several independent investigations have concluded that the 
+“Petition Project” is extremely misleading. For instance, many of the signatures on the petition 
+are fake (for example, past signatories have included the long deceased Charles Darwin, 
+members of the Spice Girls, and fictional characters from Star Wars). Also, although 31,000 
+may seem like a large number, it actually represents less than 0.3% of all US science graduates 
+(a tiny fraction). Further, nearly all of the legitimate signers have no expertise in climate science 
+at all. In fact, less than 1% of those who signed the petition claim to have any background in 
+Climate or Atmospheric Science. Simply calling yourself a “scientist” does not make someone 
+an expert in climate science. By contrast, 97% of actual climate scientists agree that human-
+caused climate change is happening. 
+Consensus1_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page 29 of 72
+
+### Consensus Framing 2
+The Scientific Consensus on Global Warming Climate research shows that the temperature 
+of the Earth has been increasing every decade since the 1970s. It is also established that the 
+burning of fossil fuels releases heat-trapping greenhouse gases into the atmosphere. 
+Greenhouse gas emissions have been directly linked to global warming and climate change. A 
+recent survey of scientists has found that the greater their expertise in climate science, the 
+stronger their agreement on human-caused global warming. Among climate scientists who are 
+actively publishing research into climate, at least 98 out of 100 agree that global warming is a 
+direct consequence of the burning of fossil fuels by humans. Overwhelming agreement is also 
+found in published climate research. An analysis of 21 years of climate research found that 
+97.1% of relevant papers agree with the consensus. Papers rejecting the consensus are a 
+vanishingly small minority. Surveys of the climate science community and analysis of 
+published climate research both find the same result. Based on the evidence, at least 98% of 
+climate scientists have concluded that human-caused climate change is happening. Fossil fuel 
+and political groups try to cast doubt on climate science, in order to delay regulation of the fossil 
+fuel industry. They do this by manufacturing the appearance of an ongoing scientific debate. 
+The “fake debate” strategy was pioneered by the tobacco industry in the 1970s. They used 
+doctors and scientists to reassure the public that smoking didn’t cause health problems. These 
+spokespeople were either non-experts or among the small minority of scientists who dissented 
+from the scientific consensus that smoking is bad for you. However, in the public’s eye, this 
+conveyed the appearance of ongoing scientific debate. The “Tobacco Strategy” is being used 
+again, but this time to cast doubt on climate science. Less than 2% of climate scientists 
+disagree with the consensus position that humans are causing global warming. However, when 
+the media present the views of a dissenting scientist alongside a mainstream scientist, the 
+public comes away with the mistaken impression of a 50:50 debate. Ironically, the journalistic 
+standard of giving both sides equal weight has ended up distorting the state of climate science. 
+Consensus2_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### Dire But Solvable Framing
+The Effects of Climate Change Could Be Extreme It is now clear that climate change will 
+Page 30 of 72 
+have dire effects. The sea levels will rise, hurricanes will become stronger, droughts will wreak 
+havoc on food supplies, and there will be incredible heat waves. Although these will affect us all, 
+our most vulnerable people – children, the elderly, and the poor – are likely to suffer the most 
+since they are the least able to avoid all the harmful effects of climate change. This is unfair and 
+unjust. They contributed the least to the problem, yet will suffer the most. 
+Dire_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 31 of 72 
+However, we can prevent this unfairness and injustice! We can all work together to 
+combat climate change. The good and just forces in the world can conquer the evil threat that is 
+climate change. Together, we can help ensure that the most innocent among us do not suffer. 
+After all, bad things should only happen to bad people. 
+Dire_P2_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 32 of 72 
+Dire_P3a 
+Dire_P3b Sure, climate change is a big problem, but there are millions of solutions. Our 
+country’s great scientists are working every day to make sure that all of the good people of our 
+country will prosper and survive. Through innovation and technological advancement, and 
+through all of us contributing as well, we can conquer any problem we encounter. That includes 
+climate change. By believing in ourselves and believing that we are a righteous people, we can 
+defeat the threats climate change poses to us. And by doing so, we can protect the most 
+innocent and vulnerable among us who need all of us to step up on their behalf. 
+Dire_P3_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 33 of 72 
+Dire_P4a 
+Dire_P4b While the most reliable and accurate climate models predict that the effects of climate 
+change could be disastrous, those effects are NOT inevitable. They can be avoided. If we take 
+action now – investing in science and engineering, clean energy, alternative fuels, and cutting 
+back on needless and excessive emissions – we can defeat this formidable opponent. By 
+defeating climate change we can help to ensure the world is a fair and just place. 
+Dire_P4_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### Free Market Framing
+Next, you will read a summary perspective. 
+Free_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 34 of 72 
+The perspective is titled “Business Solutions for a Stronger American Economy and a 
+Stronger Climate.” 
+Free_P2_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 35 of 72 
+The perspective argues that increasing American business innovation, the free-market 
+economy, and jobs will help solve climate change. 
+Free_P3_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 36 of 72 
+Over the next pages, you will see some quotes from this perspective that summarize 
+the main points. 
+Free_P4_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 37 of 72 
+Please read each quote and then advance the page. 
+Free_P5_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 38 of 72 
+“When choosing a path that fixes the climate, we must also look to fix our economy at 
+the same time. We do not have a choice. If we don't respect our economy, we cannot solve 
+global climate change.” 
+Free_P6_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 39 of 72 
+“If America grows as a leader in environmentally friendly technologies, we can profit 
+from our superior technology in the world economy, plus create a surplus of private sector 
+jobs.” 
+Free_P7_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 40 of 72 
+“Other countries will want powerful, affordable, and environmentally friendly 
+technologies, and America has the world’s foremost engineers, managers, employee work ethic, 
+and overall technology.” 
+Free_P8_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 41 of 72 
+“The USA can export our environmental technologies at a very large profit to other 
+countries like we have exported other goods in the past.” 
+Free_P9_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 42 of 72 
+“To the critics, I say I am comfortable with saving the world and making profits for 
+America at the same time. It is what is best for America.” 
+Free_P10_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 43 of 72 
+This perspective also references the Intergovernmental Panel on Climate Change 
+(IPCC). The IPCC reported that if mankind does not intervene, there will be an approximate 
+increase of 3.2 degrees Fahrenheit in worldwide temperatures over the 21st century. 
+Additionally, they concluded that humans are responsible for most of the global change 
+patterns. 
+Free_P11_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### Gains Framing
+Overall, by mitigating climate change, we will maintain current ecosystems and 
+biodiversity, reduce the likelihood of experiencing extreme weather, reduce losses in ice and 
+snow cover, and prevent further sea level rises. Benefits include preventing the loss of animal 
+and plant life, reducing human mortality rates from extreme weather events, reducing the 
+spread of disease, maintaining food and water supplies, reducing migration and related violent 
+conflict, protecting infrastructure, community, cultural sites, and jobs. Ecosystems and 
+biodiversity With large reductions in carbon emissions, animal species and 
+ecosystems will be maintained, and some saved. By preserving the landscape and 
+preventing the loss of animal and plant life, jobs will be saved and food supplies maintained. By 
+preventing further temperature changes, plants and animals will maintain their seasonal cycles, 
+e.g., nesting, and remain in current geographical areas. This is likely to save many trees 
+species, reduce coral reef bleaching, save the lives of animals dependent on sea ice, and avoid 
+mass deaths from heatwaves. Preventing further changes caused by climate change in 
+the nature and extent of current ecosystems will maintain the amount of carbon that 
+ecosystems can store. By reducing climate changes, we will reduce wildfires, death of trees, 
+increases in insect populations, the drying up of peatland, and thaws in permafrost. Similarly in 
+coastal areas, preventing sea levels from rising further and the number and extent of heatwaves 
+will preserve mangroves, marshes, and seagrass areas. These areas currently naturally absorb 
+carbon and the storing of this carbon will mitigate further climate changes. Food systems and 
+security Mitigating climate change will reduce pressure on food production. By reducing 
+climate impacts, e.g., floods, droughts, we can protect food production. This will maintain the 
+availability of food and reduce disparities in availability of food between regions, preventing an 
+increase in poverty in many areas. Reducing climate change will also reduce malnutrition by 
+maintaining access to quality and a variety of food. Sea levels and water systems By 
+Page 44 of 72 
+mitigating climate change we can prevent predicted changes in the water cycle, water 
+quality, ice coverage, droughts and flood. Reducing climate change could help between 800 
+million to 4 billion people (depending on the extent of warming) to maintain water supplies. 
+Action on climate change will mean the avoidance of glacier mass loss, permafrost thaw and 
+decline in snow cover. This will also help to avoid increases in floods, and landslides, and 
+maintain water availability to prevent severe consequences for people, infrastructure, and the 
+economy in many regions. Mitigating climate change will reduce sea level rise and will 
+protect ecosystems, people, livelihoods, infrastructure, food security, cultural and 
+natural heritage. Increases in extreme sea level events, such as storm surges, that have been 
+historically rare, will be prevented. Low lying cities and settlements, and small islands, will be 
+protected. Health and well-being Mitigating climate change will decrease number of 
+deaths and the spread of diseases. The impact of diseases experienced will depend on the 
+extent of climate change, the public health systems, interventions put in place and the 
+maintenance of basic sanitation. More specifically, by restricting temperature increases and 
+reducing the potential number of heavy rainfall events, rates of water-borne and food-borne 
+diseases will be lowered in many regions. Potential related deaths prevented would relate to 
+malaria, heat, childhood undernutrition and diarrhoea. Reducing climate change is 
+expected to have a protective impact on well-being and mental health. Mental health 
+impacts will be reduced by mitigating extreme weather events, migration, famine, malnutrition, 
+problems with health and social care systems, economic and social losses and anxiety, and 
+distress associated with worry about climate change. Communities and migration By 
+reducing the number of likely extreme weather events, e.g., flooding, many people in 
+potentially vulnerable areas can remain in their homes. People will also be less likely to 
+have to move because of changes to livelihoods impacted by climate changes. This has positive 
+implications for maintaining social cohesion, communities, and culture. It will also prevent the 
+amount of people living in extreme poverty from increasing. Reducing climate change will 
+restrict the resulting likelihood of humanitarian crises which will avoid increases in violent 
+conflict, due to related forced migration and scarcity of resources. 
+Gains_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### High Social Distance Framing
+Does China Have a Fever? Global Climate Change May Lead to Health Crisis According 
+Page 45 of 72 
+to scientific experts, global climate change is poised to have profound effects on weather, 
+ecosystems, and health across the world. Particularly, in China, there are concerns about the 
+rising average temperatures, especially in the Southern regions. Such changes are anticipated 
+to lead to a boom in the population of insects such as mosquitoes and ticks. An increase in 
+these insect vectors translates to a heightened risk of diseases like Dengue Fever and 
+Japanese Encephalitis. Such predictions are especially alarming for residents of Southern 
+China, a region that is densely populated and has a robust agricultural community. Farmers, 
+who spend most of their time outdoors, are at an escalated risk of contracting infectious 
+diseases transmitted by mosquito and tick bites. 
+Dengue Fever, for instance, can be a severe illness with debilitating symptoms. Those 
+affected might require prolonged hospitalization, and recovery can be drawn-out, with many 
+patients needing extended periods of rest and recuperation. To manage the repercussions of 
+such diseases, health organizations are ramping up their research on effective prevention and 
+treatment measures. Expensive treatments often entail rigorous fluid management and 
+medication courses. To combat the looming threat of climate change-induced health issues, 
+climate researchers are delving into mitigation strategies. Scientists say the situation 
+underscores the immediate need to increase research funding, implement effective 
+governmental policies, and encourage individual action about climate change. They believe it is 
+imperative for the safety and well-being of the Chinese people that we address impending 
+health threats due to climate change. 
+Distance_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### Purity Framing
+Protecting the Purity of Our Land America is a land of pure beauty and pristine nature. 
+Millions of domestic and international tourists visit our nation each year to experience our 
+sacred wonders for themselves. From the mighty trees of Sequoia National Park to the 
+untouched natural sculptures of Arches National Park to the pristine waterfalls and mountains of 
+Yosemite, God has certainly blessed our land. We are the envy of the natural world. But, 
+we’re now at risk of losing it all. Our pristine nature and national parks – God’s gift to us – are 
+descending into a shell of what they once were. Look at the Great Smoky Mountains in the 
+picture below. On the left is what visitors used to see – a spectacular view. But, on the right is 
+what visitors see now because of the polluted air. It’s disgusting how much this natural wonder 
+Page 46 of 72 
+has been desecrated. 
+The Great Smoky Mountains National Park, rated the worst among National Parks for air 
+quality, seen here on a clear day and a polluted one. Or look at Old Faithful. The geyser that 
+has come to symbolize natural purity here on God’s green earth. As the climate warms in 
+Yellowstone, Old Faithful has become less reliable and it is now feared that it may dry up 
+forever. The desecration of this great symbol of America’s exceptional natural wonders is 
+sacrilegious. We must not allow this. America’s pristine nature and our sacred natural 
+monuments and symbols must be preserved. We must fight against what is tainting our lands 
+before it is too late. We must stop polluting the air. We must stop emitting unsustainable 
+amounts of carbon into the air. We are causing the earth to warm and the warming is spoiling 
+the purity of our national parks. If we don’t fight climate change’s effects on our nation’s greatest 
+wonders, it will be a blemish on our history. 
+Purity_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### System Preservation Framing
+Preservation_P1a 
+Life in the United States 
+Preservation_P1b 
+\ Chicago, Illinois 
+Preservation_P1c It is no coincidence that where you live has very broad effects on your life and 
+wellbeing. In terms of material wellbeing, where you live affects the job and investment 
+opportunities you have, the affordability of your housing, the taxes you pay, as well as the 
+general state of the economy. Where you live also affects the accessibility and quality of your 
+social services, such as healthcare, education, or the pension you live off after you retire. 
+There are many other aspects of your life that might be affected depending on where you live. 
+Page 47 of 72 
+Preservation_P1d 
+Grand Canyon, Arizona 
+Preservation_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 48 of 72 
+Preservation_P2a 
+Nature and society 
+Preservation_P2b 
+Telluride, Colorado 
+Preservation_P2c Explorers, philosophers, religious leaders, and scientists have often been 
+interested in the relationship between people and their environment. Today, researchers are 
+increasingly interested in understanding how people have adapted to their environment, and 
+how many aspects of their culture and way of life have developed because of the natural 
+endowments of their country. 
+Preservation_P2d 
+Preservation_P2_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 49 of 72 
+Preservation_P3a 
+Many forms of happiness 
+Preservation_P3b 
+Preservation_P3c Nature is balance – what it takes with one hand, it gives back with the other. 
+For example, traveling merchants have long observed the cultural and lifestyle differences 
+between people living by the sea and those living in the mountains. Folk knowledge suggests 
+that many societies and cultures have developed through adaptations to their local 
+environmental conditions, which are reflected in their folklore, customs, and traditions. 
+Preservation_P3d 
+Newport Beach, California 
+Preservation_P3_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 50 of 72 
+Preservation_P4a 
+American life – your life 
+Preservation_P4b 
+Preservation_P4c Various social and cultural aspects of your everyday life are also impacted by 
+the country you live in. For example, the food you eat, the sports you enjoy, the customs you 
+observe, how you spend your free time, or even how you imagine growing old, all are likely 
+impacted by where you live. 
+Preservation_P4d 
+Preservation_P4_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 51 of 72 
+Preservation_P5a 
+Change is life - but what life? 
+Preservation_P5b 
+Aftermath of Hurricane Harvey, Houston, Texas, 2017 
+Preservation_P5c Today, we can already see the consequences of climate change in the United 
+States. For example, floods are becoming more and more frequent, putting a quarter of 
+Americans at risk of losing their homes. Similarly, wildfires are becoming more frequent and 
+more intense, threatening millions of Americans. 
+Preservation_P5d 
+Forest Fires & The Golden Gate Bridge, San Francisco, 2020 
+Preservation_P5_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 52 of 72 
+Preservation_P6a 
+Let’s keep the United States as it should be 
+Preservation_P6b 
+Yosemite Valley, Nevada 
+Preservation_P6c Being pro-environmental allows us to protect and preserve the American way 
+of life. It is patriotic to conserve the country’s natural resources. It is important to protect and 
+preserve our environment so that the United States remains the United States. 
+Preservation_P6d 
+Redwood National Park, California 
+Preservation_P6_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+### Warmth Framing
+The views of the general public about climate change are often overlooked by 
+scientists and the media. Recent research has identified that regardless of people's views 
+on the existence of climate change, there are a range of views about the positive and 
+negative effects that will result from the actions taken to address climate change. We 
+would like to know your responses to some of these views about taking action on climate 
+change. On the following page, please read a view that reflects responses of some 
+participants in previous research, and think about the views expressed. 
+Page 53 of 72 
+Warmth_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4) 
+Page Break 
+Page 54 of 72 
+Warmth_P2a It can be confusing with all the science that comes out about climate change. 
+Some politicians say that reducing carbon emissions will stop the planet heating up, and most 
+scientists seem to think that. But then there’s other scientists who think that’s not true. It got me 
+thinking about what the world would be like if everyone pulled together to reduce carbon 
+emissions. It might stop climate change – who knows? But I think one thing it would do for sure 
+is affect who we are as people. People focus on the environmental effects of action on climate 
+change, but that's not how I see it. I think about how taking action would impact the community, 
+and on balance I think it would be good. Taking action to reduce energy pollution would help us 
+become more aware of how we live and how we impact on each other. I think it’d make us more 
+considerate in other ways – like looking out for each other, and caring for people in the 
+community. Who knows what it would do for the climate, but I think it’d make for a community 
+where people are less selfish and more considerate in the long-run, and that would be a good 
+pay-off. 
+Warmth_P2b In your own words, please summarize what this person thinks would be the main 
+outcomes of taking action on climate change. The person above thinks that: 
+________________________________________________________________ 
+________________________________________________________________ 
+________________________________________________________________ 
+________________________________________________________________ 
+________________________________________________________________ 
+Warmth_P2_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+CONTROL CONDITION (the comparison every effect is measured against):
+
+### Control (control)
+[one of three off-topic filler texts] History of Neckties
+The History of Neckties Neckties date back hundreds of years, coming into 
+existence as the direct result of a war. In 1660, in celebration of its hard-fought victory over the 
+Ottoman Empire, a regiment from Croatia (then part of the Habsburg Monarchy) visited Paris. 
+The soldiers were presented as heroes to Louis XIV, a monarch well known for his tendency 
+toward personal adornment. The officers of this regiment were wearing brightly colored 
+handkerchiefs fashioned of silk around their necks. These neck cloths - which probably 
+descended from the Roman fascalia worn by orators to warm the vocal chords - struck the fancy 
+of the king, and he soon made them an insignia of royalty as he created a regiment of Royal 
+Cravattes. Vanity reigns supreme. The word "cravat," is derived from the word "Croat." It 
+wasn't long before this new style crossed the channel to England. Soon, no gentleman would 
+have considered himself well-dressed without sporting some sort of cloth around his neck-the 
+more decorative, the better. At times, cravats were worn so high that a man could not move his 
+head without turning his whole body. There were even reports of cravats worn so thick that they 
+stopped sword thrusts. The various styles knew no bounds, as cravats of tasseled strings, plaid 
+scarves, tufts and bows of ribbon, lace and embroidered linen all had their staunch adherents. 
+How can we account for the continued popularity of neckties? For years, fashion historians and 
+sociologists predicted their demise - the one element of a man's attire with no obvious function. 
+Perhaps they are merely part of an inherited tradition. As long as world leaders continue to wear 
+ties, the youth of the world will follow suit and ties will remain a key component to any man's 
+professional wardrobe. Moreover, the adaptability of neckties to various styles and occasions 
+ensures their enduring relevance in the ever-evolving landscape of men's fashion. 
+ControlN_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+[one of three off-topic filler texts] Rules of Baseball
+The Rules of Baseball Baseball, a quintessential American pastime, is a sport 
+rooted in tradition and governed by a set of rules that define its unique charm. Understanding 
+these rules is essential to fully appreciate the game. At its core, baseball consists of two 
+teams, each aiming to score more runs than their opponent. The game unfolds over nine 
+innings, with each team taking turns at bat and in the field. The offensive team strives to hit the 
+ball thrown by the pitcher and advance around a series of bases, while the defensive team aims 
+Page 26 of 72 
+to record outs by catching the ball or tagging runners. Key rules in baseball include the three-
+strike rule, which requires a batter to either hit the ball or accumulate three strikes to be called 
+out, and the four-ball rule, granting a batter a free walk to first base if the pitcher throws four 
+balls outside the strike zone. Additionally, there are regulations governing fair and foul balls, 
+baserunning, fielding, and pitching techniques. Baseball's rules ensure fairness, strategy, and 
+thrilling moments, making it a captivating and beloved sport cherished by fans 
+worldwide. Moreover, baseball's rich history and cultural significance have led to the 
+development of various traditions and rituals that further enhance the game-day experience. 
+From the ceremonial first pitch to the seventh-inning stretch, fans eagerly participate in these 
+time-honored customs, adding to the atmosphere of camaraderie and excitement in stadiums 
+across the country. These traditions not only connect fans to the sport's past but also contribute 
+to the sense of community and shared identity among baseball enthusiasts. The ups and 
+downs of a baseball game mirror life’s challenges and triumphs, reminding us to stay resilient in 
+the face of adversity and to celebrate our successes with humility. Through its timeless appeal, 
+baseball continues to inspire generations, fostering a sense of unity and shared passion that 
+transcends boundaries. 
+ControlB_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+[one of three off-topic filler texts] Different Types of Dances
+Different Types of Dances Dance, a universal form of expression, encompasses 
+a diverse array of styles and traditions, each brimming with unique characteristics and cultural 
+significance. From the refined movements of classical ballet to the vivacious rhythms of Latin 
+dances and the dynamic energy of hip-hop, the world of dance offers a rich tapestry of 
+experiences for enthusiasts of all backgrounds. Classical ballet, with its graceful movements 
+and precise technique, epitomizes elegance and storytelling, with iconic productions like Swan 
+Lake and The Nutcracker captivating audiences worldwide. On the other hand, contemporary 
+dance thrives on innovation and fluidity, blending elements from various styles to create cutting-
+edge choreography that challenges conventional boundaries. Latin dances such as salsa, 
+tango, and samba exude the passionate spirit and infectious joy of Latin American cultures, 
+fostering connections and celebrations through movement and music. Meanwhile, hip-hop, 
+rooted in African-American and urban communities, pulsates with its high-energy performances 
+and expressive gestures, encompassing a wide range of styles from breaking to popping and 
+locking. Beyond these well-known genres, ballroom, jazz, tap, and folk dances each boast 
+Page 27 of 72 
+their own rich heritage and artistic nuances, while contemporary cultural dances continue to 
+evolve and reflect the ever-changing global landscape. In essence, the diverse world of dance 
+serves as a canvas for human expression, allowing dancers to convey emotions, tell stories, 
+and forge connections with audiences in deeply resonant ways. Through its universal 
+language, dance transcends cultural barriers, uniting people of different backgrounds and 
+fostering understanding and appreciation for our shared humanity. It stands as a testament to 
+the enduring power of creativity and connection in our world. Dance serves as a bridge between 
+generations, preserving heritage while also embracing innovation and evolution. Moreover, it 
+offers individuals a form of self-expression and liberation, allowing them to communicate 
+emotions and experiences beyond words. As such, dance has the potential to inspire, uplift, and 
+transform both individuals and communities. 
+ControlD_P1_Time Timing 
+First Click (1) 
+Last Click (2) 
+Page Submit (3) 
+Click Count (4)
+
+Return exactly 90 rows: every condition x every outcome.
+Header: condition,outcome,ate

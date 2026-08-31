@@ -1,0 +1,16 @@
+[project]
+name = "ssb"
+version = "0.1.0"
+description = "Silicon Sample Benchmark harness: spec, prediction card, backward synthesis, frozen-table scoring, training tasks, run gates."
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "scipy"]
+
+[project.scripts]
+ssb = "rlm.skill:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ssb"]

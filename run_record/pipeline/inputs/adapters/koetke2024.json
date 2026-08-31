@@ -1,0 +1,127 @@
+{
+ "dataset": "koetke2024",
+ "status": "VERIFIED by tools/build_koetke.py (rebuild + 9 red paths)",
+ "file": "/workspace/run/inputs/derived/koetke2024_study5.csv",
+ "reader": "csv",
+ "sample_description": "679 U.S. adults recruited from an online research panel, fielded after a December 2023 pre-registration; 49% women, 49% men, mean age 47 (range 18-81), 49% Democrat / 39% Republican / 11% other party. Every respondent read the same short blog-interview with a psychologist, 'Dr. Sandra Wilson', describing her own randomised experiment on taking a two-week break from social media; the four arms differ only in what she says in the interview's closing answer. Ratings of Dr. Wilson and of her research followed immediately.",
+ "condition_col": "IHCondition",
+ "arms": {
+  "Control": "Control",
+  "Limits of Methods": "Limits of Methods",
+  "Limits of Results": "Limits of Results",
+  "Personal Humility": "Personal Humility"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "outcomes": {
+  "trust_meti": {
+   "col": "trust_meti",
+   "lo": 1,
+   "hi": 7,
+   "question": "14 bipolar 7-point semantic differentials, 'Rate how you would describe Dr. Wilson on the following dimensions': competent-incompetent (reverse scored), unintelligent-intelligent, poorly educated-well educated, unprofessional-professional, inexperienced-experienced, unqualified-qualified, insincere-sincere, dishonest-honest, unjust-just, unfair-fair, immoral-moral, unethical-ethical, irresponsible-responsible, inconsiderate-considerate; averaged"
+  },
+  "trust_expertise": {
+   "col": "trust_expertise",
+   "lo": 1,
+   "hi": 7,
+   "question": "the first 6 of those 14 items (competence/expertise): competent-incompetent (reverse scored), unintelligent-intelligent, poorly educated-well educated, unprofessional-professional, inexperienced-experienced, unqualified-qualified; averaged"
+  },
+  "trust_integrity": {
+   "col": "trust_integrity",
+   "lo": 1,
+   "hi": 7,
+   "question": "4 of those 14 items (integrity): insincere-sincere, dishonest-honest, unjust-just, unfair-fair; averaged"
+  },
+  "trust_benevolence": {
+   "col": "trust_benevolence",
+   "lo": 1,
+   "hi": 7,
+   "question": "4 of those 14 items (benevolence): immoral-moral, unethical-ethical, irresponsible-responsible, inconsiderate-considerate; averaged"
+  },
+  "belief_research": {
+   "col": "belief_research",
+   "lo": 1,
+   "hi": 7,
+   "question": "4 items, 1 'Strongly disagree' - 7 'Strongly agree', averaged after reversing items 2 and 4: 'I believe taking a break from social media makes people happier and less stressed'; 'I believe that taking a break from social media will be ineffective at making people feel more connected to others' (reversed); 'The benefits of taking a break from social media have been thoroughly tested by Dr. Wilson'; 'There is not enough scientific evidence in support of taking a break from social media' (reversed)"
+  },
+  "perceived_humility": {
+   "col": "perceived_humility",
+   "lo": 1,
+   "hi": 5,
+   "question": "22 items, 1 'Strongly disagree' - 5 'Strongly agree', 11 reversed, averaged: how intellectually humble Dr. Wilson is - e.g. 'Dr. Wilson is willing to change her position on an important issue in the face of good reasons', 'Dr. Wilson believes that her ideas are usually better than other people's ideas' (reversed), 'Dr. Wilson welcomes different ways of thinking about important topics'"
+  },
+  "competence": {
+   "col": "competence",
+   "lo": 1,
+   "hi": 5,
+   "question": "'As viewed by society, how ... is Dr. Wilson?', 1 'Not at all' - 5 'Extremely': competent and capable, averaged"
+  },
+  "warmth": {
+   "col": "warmth",
+   "lo": 1,
+   "hi": 5,
+   "question": "'As viewed by society, how ... is Dr. Wilson?', 1 'Not at all' - 5 'Extremely': warm and friendly, averaged"
+  },
+  "followup_interest": {
+   "col": "followup_interest",
+   "lo": 0,
+   "hi": 1,
+   "question": "'After the survey, would you be interested in being sent information and tips for taking a break from social media?' - Yes / No / 'I don't use social media'. The outcome is the share answering Yes among all respondents (the third option is a real answer, not a missing code)"
+  }
+ },
+ "moderators": {
+  "party": {
+   "col": "party",
+   "map": {
+    "1": "Democrat",
+    "2": "Republican",
+    "3": "Other"
+   }
+  },
+  "age_band": {
+   "col": "Age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "gender": {
+   "col": "gender_norm",
+   "map": {
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "race": "asked as a multi-select free-coded string ('5,6', '1,3,6,7'); a single target-shaped category is not recoverable without choosing a priority rule",
+  "income": "not asked",
+  "education": "8 levels, not the target's 6 - graduate, post-graduate and professional degrees are three separate levels here"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/koetke2024_arms.json",
+ "exclude_from_slope": "coarse-scale task (7-point bipolar differentials, 5-point stereotype items, one binary item): finding 69 measured that the predictor OVERSHOOTS on a coarse Likert while undershooting on sliders, and trust-family and coarse-scale are confounded on the mounted data (OPEN 31). The operator's session-13 directive forbids fitting a trust-family multiplier.",
+ "provenance": {
+  "verified_by": "tools/build_koetke.py (9 red paths) + the study's own R script 'IHS Study 5 Code for OSF.R' as the codebook",
+  "caveats": [
+   "coarse scales throughout: 7-point bipolar METI, 7-point agreement, 5-point stereotype items, one binary behavioural item",
+   "the four trust outcomes are nested - expertise, integrity and benevolence are disjoint subsets of the 14 METI items whose mean is trust_meti - so their cells are not independent tests",
+   "perceived_humility is the paper's MANIPULATION CHECK, kept as an outcome and flagged: the pre-registration scores the table with and without it",
+   "the 4 trust cells alone carry no marginal signal (covariance-aware var_true -0.30); the signal in this task is cross-outcome and within-outcome, which is what the pre-registration scores",
+   "single vignette, single topic (a social-media-break study), single fictional scientist - not a message tournament",
+   "prompt is ~3k tokens against the target's 9,892 - inside finding 17's cap but below the target's band, like every small practice task"
+  ]
+ }
+}

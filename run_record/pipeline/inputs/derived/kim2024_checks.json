@@ -1,0 +1,32 @@
+{
+ "rows": 3007,
+ "arm_counts": {
+  "control": 1008,
+  "causal": 1005,
+  "consensus": 994
+ },
+ "randomiser_blocks": 8,
+ "exactly_one_indicator": {
+  "min": 1,
+  "max": 1
+ },
+ "manipulation_check_correct_share": {
+  "control": 0.966,
+  "consensus": 0.774,
+  "causal": 0.969
+ },
+ "n_nonmissing": {
+  "trust_climate_scientists": 3006,
+  "consensus_perceived": 2992,
+  "belief_human_cause": 3006,
+  "human_contribution": 3006,
+  "natural_contribution": 3006,
+  "evidence_human": 3006,
+  "evidence_natural": 3004,
+  "policy_fedgov_more": 3006,
+  "policy_green_new_deal": 3006,
+  "policy_paris": 3002,
+  "policy_priority": 3006
+ },
+ "pre_post_trust_r": 0.9000997472973501
+}

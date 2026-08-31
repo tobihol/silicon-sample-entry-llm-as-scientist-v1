@@ -1,0 +1,318 @@
+{
+ "_evidence": {
+  "file": "/workspace/datasets/goldwert2026/downloads/advocacy_data.csv",
+  "n_rows_in_file": 31324,
+  "computed_by": "child agent A, plain pandas on the full file, no model calls",
+  "columns_used": [
+   "donation",
+   "newsletter",
+   "newsletter1",
+   "newsletter2",
+   "petition",
+   "letter",
+   "video",
+   "donation_bin",
+   "condName",
+   "Finished"
+  ],
+  "conditioning": {
+   "full_file": "all 31,324 post-exclusion rows; per-column complete cases",
+   "finishers": "Finished == 1 (22,374 rows) - the conditioning set used by inputs/adapters/goldwert2026.json",
+   "control_arm": "condName == 'Control' (a neutral video)"
+  },
+  "why_two_base_rates_per_binary": "`newsletter`, `letter` and `donation_bin` are coded 0 (not NaN) for respondents who dropped out before the question; `newsletter1`, `newsletter2`, `petition`, `video`, `donation` carry real NaN. 28.6% of the file did not finish, so the complete-case and missing-as-zero rates differ a lot. base_rate_complete_case is the behavioural rate; base_rate_missing_as_zero is what the raw column gives you.",
+  "units": {
+   "donation": "US dollars, 0-10 (99.7% whole dollars) - same units as the target's donation_ams",
+   "binaries": "proportion, 0-1; x100 for pp"
+  },
+  "target_relevance": "the target study's donation_ams is '$0-$10 in whole-dollar choices ($1 increments; integers only)' and newsletter_signup is a single yes/no. goldwert2026's donation is the closest on-disk analogue (a $0-10 real donation) and newsletter1/newsletter2 are single 0/1 sign-ups. The CONTROL-ARM numbers are the unprimed-baseline anchors."
+ },
+ "full_file": {
+  "overall": {
+   "donation": {
+    "n": 23732,
+    "mean": 5.149586634080566,
+    "sd": 3.83696270021443,
+    "median": 5.0,
+    "share_exact_0": 0.25573065902578795,
+    "share_exact_5": 0.28501601213551325,
+    "share_exact_10": 0.28590089330861285,
+    "share_integer": 0.9970082588909489,
+    "dist_rounded_to_integer": {
+     "0": 0.2559413450193831,
+     "1": 0.016939153885049723,
+     "2": 0.02953817630203944,
+     "3": 0.01955166020562953,
+     "4": 0.01449519635934603,
+     "5": 0.2853952469239845,
+     "6": 0.026125063205798077,
+     "7": 0.027136355975054777,
+     "8": 0.026799258385302546,
+     "9": 0.011966964436204281,
+     "10": 0.286111579302208
+    }
+   },
+   "newsletter": {
+    "n_nonmissing": 31324,
+    "n_total": 31324,
+    "base_rate_complete_case": 0.24454092708466352,
+    "base_rate_missing_as_zero": 0.24454092708466352
+   },
+   "newsletter1": {
+    "n_nonmissing": 23423,
+    "n_total": 31324,
+    "base_rate_complete_case": 0.25410920889723776,
+    "base_rate_missing_as_zero": 0.19001404673732603
+   },
+   "newsletter2": {
+    "n_nonmissing": 23465,
+    "n_total": 31324,
+    "base_rate_complete_case": 0.2291497975708502,
+    "base_rate_missing_as_zero": 0.1716575150044694
+   },
+   "petition": {
+    "n_nonmissing": 23685,
+    "n_total": 31324,
+    "base_rate_complete_case": 0.2989655900358877,
+    "base_rate_missing_as_zero": 0.22605669773975226
+   },
+   "letter": {
+    "n_nonmissing": 31287,
+    "n_total": 31324,
+    "base_rate_complete_case": 0.4155080384824368,
+    "base_rate_missing_as_zero": 0.4150172391776274
+   },
+   "video": {
+    "n_nonmissing": 16458,
+    "n_total": 31324,
+    "base_rate_complete_case": 0.3861951634463483,
+    "base_rate_missing_as_zero": 0.20291150555484613
+   },
+   "donation_bin": {
+    "n_nonmissing": 31324,
+    "n_total": 31324,
+    "base_rate_complete_case": 0.5638807304303409,
+    "base_rate_missing_as_zero": 0.5638807304303409
+   },
+   "newsletter_any_among_reached": {
+    "n": 23423,
+    "base_rate": 0.32673013704478504
+   }
+  },
+  "control_arm": {
+   "donation": {
+    "n": 1212,
+    "mean": 4.773556105610561,
+    "sd": 3.7923991710379763,
+    "median": 5.0,
+    "share_exact_0": 0.29042904290429045,
+    "share_exact_5": 0.2962046204620462,
+    "share_exact_10": 0.23844884488448845,
+    "share_integer": 0.9975247524752475,
+    "dist_rounded_to_integer": {
+     "0": 0.29042904290429045,
+     "1": 0.01485148514851485,
+     "2": 0.028877887788778877,
+     "3": 0.015676567656765675,
+     "4": 0.0165016501650165,
+     "5": 0.2962046204620462,
+     "6": 0.02557755775577558,
+     "7": 0.03547854785478548,
+     "8": 0.020627062706270627,
+     "9": 0.017326732673267328,
+     "10": 0.23844884488448845
+    }
+   },
+   "newsletter": {
+    "n_nonmissing": 1739,
+    "n_total": 1739,
+    "base_rate_complete_case": 0.21564117308798159,
+    "base_rate_missing_as_zero": 0.21564117308798159
+   },
+   "newsletter1": {
+    "n_nonmissing": 1187,
+    "n_total": 1739,
+    "base_rate_complete_case": 0.2426284751474305,
+    "base_rate_missing_as_zero": 0.16561242093156986
+   },
+   "newsletter2": {
+    "n_nonmissing": 1187,
+    "n_total": 1739,
+    "base_rate_complete_case": 0.21819713563605728,
+    "base_rate_missing_as_zero": 0.14893617021276595
+   },
+   "petition": {
+    "n_nonmissing": 1210,
+    "n_total": 1739,
+    "base_rate_complete_case": 0.27603305785123966,
+    "base_rate_missing_as_zero": 0.19206440483036227
+   },
+   "letter": {
+    "n_nonmissing": 1736,
+    "n_total": 1739,
+    "base_rate_complete_case": 0.41359447004608296,
+    "base_rate_missing_as_zero": 0.41288096607245545
+   },
+   "video": {
+    "n_nonmissing": 851,
+    "n_total": 1739,
+    "base_rate_complete_case": 0.32667450058754405,
+    "base_rate_missing_as_zero": 0.15986198964922368
+   },
+   "donation_bin": {
+    "n_nonmissing": 1739,
+    "n_total": 1739,
+    "base_rate_complete_case": 0.4945370902817711,
+    "base_rate_missing_as_zero": 0.4945370902817711
+   },
+   "newsletter_any_among_reached": {
+    "n": 1187,
+    "base_rate": 0.3150800336983993
+   }
+  }
+ },
+ "finishers_only": {
+  "overall": {
+   "donation": {
+    "n": 22374,
+    "mean": 5.115732099758649,
+    "sd": 3.823121777314545,
+    "median": 5.0,
+    "share_exact_0": 0.256458389201752,
+    "share_exact_5": 0.2874765352641459,
+    "share_exact_10": 0.27996781979082863,
+    "share_integer": 0.9969160632877447,
+    "dist_rounded_to_integer": {
+     "0": 0.25668186287655315,
+     "1": 0.017118083489764905,
+     "2": 0.030168946098149636,
+     "3": 0.019799767587378208,
+     "4": 0.01457048359703227,
+     "5": 0.28783409314382763,
+     "6": 0.026861535711093232,
+     "7": 0.027934209350138555,
+     "8": 0.026816840976133013,
+     "9": 0.012022883704299634,
+     "10": 0.28019129346562976
+    }
+   },
+   "newsletter": {
+    "n_nonmissing": 22374,
+    "n_total": 22374,
+    "base_rate_complete_case": 0.32846160722266915,
+    "base_rate_missing_as_zero": 0.32846160722266915
+   },
+   "newsletter1": {
+    "n_nonmissing": 22323,
+    "n_total": 22374,
+    "base_rate_complete_case": 0.25628275769385833,
+    "base_rate_missing_as_zero": 0.2556985787074283
+   },
+   "newsletter2": {
+    "n_nonmissing": 22366,
+    "n_total": 22374,
+    "base_rate_complete_case": 0.23186980237861038,
+    "base_rate_missing_as_zero": 0.23178689550370965
+   },
+   "petition": {
+    "n_nonmissing": 22364,
+    "n_total": 22374,
+    "base_rate_complete_case": 0.3006617778572706,
+    "base_rate_missing_as_zero": 0.30052739787253063
+   },
+   "letter": {
+    "n_nonmissing": 22374,
+    "n_total": 22374,
+    "base_rate_complete_case": 0.5583713238580496,
+    "base_rate_missing_as_zero": 0.5583713238580496
+   },
+   "video": {
+    "n_nonmissing": 16298,
+    "n_total": 22374,
+    "base_rate_complete_case": 0.38667321143698613,
+    "base_rate_missing_as_zero": 0.28166621971931705
+   },
+   "donation_bin": {
+    "n_nonmissing": 22374,
+    "n_total": 22374,
+    "base_rate_complete_case": 0.743541610798248,
+    "base_rate_missing_as_zero": 0.743541610798248
+   },
+   "newsletter_any_among_reached": {
+    "n": 22323,
+    "base_rate": 0.32898803924203734
+   }
+  },
+  "control_arm": {
+   "donation": {
+    "n": 1116,
+    "mean": 4.7289874551971325,
+    "sd": 3.805958834638594,
+    "median": 5.0,
+    "share_exact_0": 0.29659498207885304,
+    "share_exact_5": 0.289426523297491,
+    "share_exact_10": 0.23655913978494625,
+    "share_integer": 0.9973118279569892,
+    "dist_rounded_to_integer": {
+     "0": 0.29659498207885304,
+     "1": 0.015232974910394265,
+     "2": 0.03046594982078853,
+     "3": 0.015232974910394265,
+     "4": 0.016129032258064516,
+     "5": 0.289426523297491,
+     "6": 0.026881720430107527,
+     "7": 0.036738351254480286,
+     "8": 0.01881720430107527,
+     "9": 0.017921146953405017,
+     "10": 0.23655913978494625
+    }
+   },
+   "newsletter": {
+    "n_nonmissing": 1116,
+    "n_total": 1116,
+    "base_rate_complete_case": 0.3207885304659498,
+    "base_rate_missing_as_zero": 0.3207885304659498
+   },
+   "newsletter1": {
+    "n_nonmissing": 1114,
+    "n_total": 1116,
+    "base_rate_complete_case": 0.24685816876122083,
+    "base_rate_missing_as_zero": 0.246415770609319
+   },
+   "newsletter2": {
+    "n_nonmissing": 1116,
+    "n_total": 1116,
+    "base_rate_complete_case": 0.22311827956989247,
+    "base_rate_missing_as_zero": 0.22311827956989247
+   },
+   "petition": {
+    "n_nonmissing": 1115,
+    "n_total": 1116,
+    "base_rate_complete_case": 0.2789237668161435,
+    "base_rate_missing_as_zero": 0.278673835125448
+   },
+   "letter": {
+    "n_nonmissing": 1116,
+    "n_total": 1116,
+    "base_rate_complete_case": 0.6164874551971327,
+    "base_rate_missing_as_zero": 0.6164874551971327
+   },
+   "video": {
+    "n_nonmissing": 844,
+    "n_total": 1116,
+    "base_rate_complete_case": 0.3293838862559242,
+    "base_rate_missing_as_zero": 0.24910394265232974
+   },
+   "donation_bin": {
+    "n_nonmissing": 1116,
+    "n_total": 1116,
+    "base_rate_complete_case": 0.703405017921147,
+    "base_rate_missing_as_zero": 0.703405017921147
+   },
+   "newsletter_any_among_reached": {
+    "n": 1114,
+    "base_rate": 0.32046678635547576
+   }
+  }
+ }
+}

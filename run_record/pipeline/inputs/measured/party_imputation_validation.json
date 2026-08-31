@@ -1,0 +1,2301 @@
+{
+ "built": "2026-08-15T14:21:25",
+ "seed": 20260815,
+ "split_seed": 20260901,
+ "ces": {
+  "path": "/workspace/datasets/ces/downloads/CCES24_Common_OUTPUT_vv_topost_final.csv",
+  "n_rows": 60000,
+  "n_complete_six_way": 54858,
+  "weight_col": "commonweight"
+ },
+ "A_B_split_half": {
+  "n_half1": 27429,
+  "n_half2": 27429,
+  "cells_half2": 1098,
+  "null_two_real_halves": {
+   "party__gender": {
+    "l1_pp": 1.9421,
+    "tv_pp": 0.9711,
+    "max_cell_pp": 0.3838,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 3.0,
+    "tv_pp": 1.5,
+    "max_cell_pp": 0.4407,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 3.5437,
+    "tv_pp": 1.7718,
+    "max_cell_pp": 0.8496,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 3.6518,
+    "tv_pp": 1.8259,
+    "max_cell_pp": 0.4019,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 3.5768,
+    "tv_pp": 1.7884,
+    "max_cell_pp": 0.769,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 8.9375,
+    "tv_pp": 4.4688,
+    "max_cell_pp": 0.4952,
+    "cells": 118
+   },
+   "party__race__age_band": {
+    "l1_pp": 6.8673,
+    "tv_pp": 3.4336,
+    "max_cell_pp": 0.39,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 9.2234,
+    "tv_pp": 4.6117,
+    "max_cell_pp": 0.751,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 5.1965,
+    "tv_pp": 2.5982,
+    "max_cell_pp": 0.4162,
+    "cells": 48
+   }
+  },
+  "A_plain_imputation": {
+   "party__gender": {
+    "l1_pp": 2.3974,
+    "tv_pp": 1.1987,
+    "max_cell_pp": 0.4753,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 3.2588,
+    "tv_pp": 1.6294,
+    "max_cell_pp": 0.5339,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 2.726,
+    "tv_pp": 1.363,
+    "max_cell_pp": 0.5659,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 3.7362,
+    "tv_pp": 1.8681,
+    "max_cell_pp": 0.4178,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 3.5647,
+    "tv_pp": 1.7823,
+    "max_cell_pp": 0.6368,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 7.4292,
+    "tv_pp": 3.7146,
+    "max_cell_pp": 0.4326,
+    "cells": 118
+   },
+   "party__race__age_band": {
+    "l1_pp": 5.9111,
+    "tv_pp": 2.9555,
+    "max_cell_pp": 0.3988,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 7.8541,
+    "tv_pp": 3.9271,
+    "max_cell_pp": 0.5702,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 4.8113,
+    "tv_pp": 2.4057,
+    "max_cell_pp": 0.5448,
+    "cells": 48
+   }
+  },
+  "B_after_two_way_raking": {
+   "party__gender": {
+    "l1_pp": 2.0577,
+    "tv_pp": 1.0288,
+    "max_cell_pp": 0.4366,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 2.5629,
+    "tv_pp": 1.2814,
+    "max_cell_pp": 0.4218,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 2.5388,
+    "tv_pp": 1.2694,
+    "max_cell_pp": 0.4668,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 2.7427,
+    "tv_pp": 1.3714,
+    "max_cell_pp": 0.3972,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 3.2285,
+    "tv_pp": 1.6142,
+    "max_cell_pp": 0.4014,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 7.4072,
+    "tv_pp": 3.7036,
+    "max_cell_pp": 0.4031,
+    "cells": 118
+   },
+   "party__race__age_band": {
+    "l1_pp": 5.5443,
+    "tv_pp": 2.7722,
+    "max_cell_pp": 0.2903,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 7.4559,
+    "tv_pp": 3.7279,
+    "max_cell_pp": 0.4938,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 4.6857,
+    "tv_pp": 2.3428,
+    "max_cell_pp": 0.4406,
+    "cells": 48
+   }
+  },
+  "oracle_A_self_donor": {
+   "party__gender": {
+    "l1_pp": 0.8968,
+    "tv_pp": 0.4484,
+    "max_cell_pp": 0.1978,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 0.9894,
+    "tv_pp": 0.4947,
+    "max_cell_pp": 0.1691,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 0.9873,
+    "tv_pp": 0.4937,
+    "max_cell_pp": 0.1692,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 1.137,
+    "tv_pp": 0.5685,
+    "max_cell_pp": 0.2524,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 1.2824,
+    "tv_pp": 0.6412,
+    "max_cell_pp": 0.1807,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 1.8516,
+    "tv_pp": 0.9258,
+    "max_cell_pp": 0.0998,
+    "cells": 117
+   },
+   "party__race__age_band": {
+    "l1_pp": 1.5971,
+    "tv_pp": 0.7985,
+    "max_cell_pp": 0.0849,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 2.2091,
+    "tv_pp": 1.1045,
+    "max_cell_pp": 0.0816,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 1.2627,
+    "tv_pp": 0.6314,
+    "max_cell_pp": 0.0957,
+    "cells": 48
+   }
+  },
+  "oracle_B_self_donor_raked": {
+   "party__gender": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 1.6131,
+    "tv_pp": 0.8065,
+    "max_cell_pp": 0.0602,
+    "cells": 117
+   },
+   "party__race__age_band": {
+    "l1_pp": 1.3864,
+    "tv_pp": 0.6932,
+    "max_cell_pp": 0.0751,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 2.1643,
+    "tv_pp": 1.0822,
+    "max_cell_pp": 0.1453,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 0.6356,
+    "tv_pp": 0.3178,
+    "max_cell_pp": 0.0606,
+    "cells": 48
+   }
+  },
+  "delta_A_minus_B_l1_pp": {
+   "party__gender": 0.3397,
+   "party__age_band": 0.6959,
+   "party__race": 0.1872,
+   "party__education": 0.9935,
+   "party__income": 0.3362,
+   "party__race__education": 0.022,
+   "party__race__age_band": 0.3668,
+   "party__education__income": 0.3982,
+   "party__gender__age_band": 0.1256
+  },
+  "delta_A_minus_B_max_cell_pp": {
+   "party__gender": 0.0387,
+   "party__age_band": 0.1121,
+   "party__race": 0.0991,
+   "party__education": 0.0206,
+   "party__income": 0.2354,
+   "party__race__education": 0.0295,
+   "party__race__age_band": 0.1085,
+   "party__education__income": 0.0764,
+   "party__gender__age_band": 0.1042
+  },
+  "donor_level_share_of_half2_weight": {
+   "age+gender+race+educ+income": 0.843383,
+   "age+gender+race+educ": 0.135235,
+   "age+race+educ": 0.013648,
+   "race+educ": 0.006811,
+   "race": 0.000923
+  },
+  "donor_level_share_of_half2_cells": {
+   "age+gender+race+educ": 0.442623,
+   "age+gender+race+educ+income": 0.32878,
+   "age+race+educ": 0.156648,
+   "race+educ": 0.057377,
+   "race": 0.014572
+  },
+  "A_plain_imputation_raw_scale": {
+   "party__gender": {
+    "l1_pp": 2.7235,
+    "tv_pp": 1.3617,
+    "max_cell_pp": 0.5108,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 3.5801,
+    "tv_pp": 1.79,
+    "max_cell_pp": 0.5657,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 2.5077,
+    "tv_pp": 1.2538,
+    "max_cell_pp": 0.5991,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 3.3232,
+    "tv_pp": 1.6616,
+    "max_cell_pp": 0.3705,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 3.9756,
+    "tv_pp": 1.9878,
+    "max_cell_pp": 0.6957,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 7.2063,
+    "tv_pp": 3.6031,
+    "max_cell_pp": 0.4001,
+    "cells": 119
+   },
+   "party__race__age_band": {
+    "l1_pp": 5.6707,
+    "tv_pp": 2.8353,
+    "max_cell_pp": 0.4428,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 7.8082,
+    "tv_pp": 3.9041,
+    "max_cell_pp": 0.6225,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 5.0019,
+    "tv_pp": 2.5009,
+    "max_cell_pp": 0.5563,
+    "cells": 48
+   }
+  },
+  "B_after_two_way_raking_raw_scale": {
+   "party__gender": {
+    "l1_pp": 2.0577,
+    "tv_pp": 1.0288,
+    "max_cell_pp": 0.4366,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 2.5629,
+    "tv_pp": 1.2814,
+    "max_cell_pp": 0.4218,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 2.5384,
+    "tv_pp": 1.2692,
+    "max_cell_pp": 0.4668,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 2.7444,
+    "tv_pp": 1.3722,
+    "max_cell_pp": 0.3967,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 3.2311,
+    "tv_pp": 1.6156,
+    "max_cell_pp": 0.4015,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 7.351,
+    "tv_pp": 3.6755,
+    "max_cell_pp": 0.3409,
+    "cells": 119
+   },
+   "party__race__age_band": {
+    "l1_pp": 5.6484,
+    "tv_pp": 2.8242,
+    "max_cell_pp": 0.2551,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 7.2327,
+    "tv_pp": 3.6163,
+    "max_cell_pp": 0.496,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 4.7713,
+    "tv_pp": 2.3857,
+    "max_cell_pp": 0.4353,
+    "cells": 48
+   }
+  },
+  "oracle_A_self_donor_raw_scale": {
+   "party__gender": {
+    "l1_pp": 1.469,
+    "tv_pp": 0.7345,
+    "max_cell_pp": 0.3391,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 1.6412,
+    "tv_pp": 0.8206,
+    "max_cell_pp": 0.2152,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 1.3647,
+    "tv_pp": 0.6823,
+    "max_cell_pp": 0.2192,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 1.5515,
+    "tv_pp": 0.7758,
+    "max_cell_pp": 0.3121,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 2.2084,
+    "tv_pp": 1.1042,
+    "max_cell_pp": 0.2743,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 2.184,
+    "tv_pp": 1.092,
+    "max_cell_pp": 0.1646,
+    "cells": 118
+   },
+   "party__race__age_band": {
+    "l1_pp": 2.0562,
+    "tv_pp": 1.0281,
+    "max_cell_pp": 0.1576,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 3.6286,
+    "tv_pp": 1.8143,
+    "max_cell_pp": 0.149,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 1.8364,
+    "tv_pp": 0.9182,
+    "max_cell_pp": 0.1431,
+    "cells": 48
+   }
+  },
+  "oracle_B_self_donor_raked_raw_scale": {
+   "party__gender": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 12
+   },
+   "party__age_band": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 16
+   },
+   "party__race": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 20
+   },
+   "party__education": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 24
+   },
+   "party__income": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 20
+   },
+   "party__race__education": {
+    "l1_pp": 1.6844,
+    "tv_pp": 0.8422,
+    "max_cell_pp": 0.0721,
+    "cells": 118
+   },
+   "party__race__age_band": {
+    "l1_pp": 1.6893,
+    "tv_pp": 0.8447,
+    "max_cell_pp": 0.1156,
+    "cells": 80
+   },
+   "party__education__income": {
+    "l1_pp": 3.1107,
+    "tv_pp": 1.5553,
+    "max_cell_pp": 0.18,
+    "cells": 120
+   },
+   "party__gender__age_band": {
+    "l1_pp": 0.7284,
+    "tv_pp": 0.3642,
+    "max_cell_pp": 0.0573,
+    "cells": 48
+   }
+  },
+  "delta_A_minus_B_l1_pp_raw_scale": {
+   "party__gender": 0.6658,
+   "party__age_band": 1.0172,
+   "party__race": -0.0307,
+   "party__education": 0.5788,
+   "party__income": 0.7445,
+   "party__race__education": -0.1447,
+   "party__race__age_band": 0.0223,
+   "party__education__income": 0.5755,
+   "party__gender__age_band": 0.2306
+  },
+  "delta_A_minus_B_max_cell_pp_raw_scale": {
+   "party__gender": 0.0742,
+   "party__age_band": 0.1439,
+   "party__race": 0.1323,
+   "party__education": -0.0262,
+   "party__income": 0.2942,
+   "party__race__education": 0.0592,
+   "party__race__age_band": 0.1877,
+   "party__education__income": 0.1265,
+   "party__gender__age_band": 0.121
+  },
+  "donor_level_share_of_half2_weight_raw_scale": {
+   "age+gender+race+educ+income": 0.746496,
+   "age+gender+race+educ": 0.202026,
+   "age+race+educ": 0.038861,
+   "race+educ": 0.009708,
+   "race": 0.002908
+  },
+  "donor_level_share_of_half2_cells_raw_scale": {
+   "age+gender+race+educ": 0.432605,
+   "age+race+educ": 0.247723,
+   "age+gender+race+educ+income": 0.204918,
+   "race+educ": 0.091075,
+   "race": 0.023679
+  }
+ },
+ "C_pool_vs_ces": {
+  "ces_sampling_noise_null_bootstrap": {
+   "party__gender": {
+    "total_l1_pp": {
+     "mean": 1.519,
+     "sd": 0.3577
+    },
+    "party_conditional_l1_pp": {
+     "mean": 1.2868,
+     "sd": 0.3318
+    },
+    "max_cell_pp": {
+     "mean": 0.4222,
+     "sd": 0.1051
+    }
+   },
+   "party__age_band": {
+    "total_l1_pp": {
+     "mean": 2.039,
+     "sd": 0.47
+    },
+    "party_conditional_l1_pp": {
+     "mean": 1.7977,
+     "sd": 0.3817
+    },
+    "max_cell_pp": {
+     "mean": 0.4043,
+     "sd": 0.1042
+    }
+   },
+   "party__race": {
+    "total_l1_pp": {
+     "mean": 2.1527,
+     "sd": 0.4011
+    },
+    "party_conditional_l1_pp": {
+     "mean": 1.8842,
+     "sd": 0.4535
+    },
+    "max_cell_pp": {
+     "mean": 0.4449,
+     "sd": 0.1528
+    }
+   },
+   "party__education": {
+    "total_l1_pp": {
+     "mean": 2.5541,
+     "sd": 0.3754
+    },
+    "party_conditional_l1_pp": {
+     "mean": 2.137,
+     "sd": 0.3134
+    },
+    "max_cell_pp": {
+     "mean": 0.3834,
+     "sd": 0.1021
+    }
+   },
+   "party__income": {
+    "total_l1_pp": {
+     "mean": 2.247,
+     "sd": 0.3176
+    },
+    "party_conditional_l1_pp": {
+     "mean": 1.9777,
+     "sd": 0.3913
+    },
+    "max_cell_pp": {
+     "mean": 0.3401,
+     "sd": 0.0895
+    }
+   },
+   "party__race__education": {
+    "total_l1_pp": {
+     "mean": 4.959,
+     "sd": 0.4508
+    },
+    "party_conditional_l1_pp": {
+     "mean": 4.1542,
+     "sd": 0.4234
+    },
+    "max_cell_pp": {
+     "mean": 0.3369,
+     "sd": 0.0923
+    }
+   },
+   "party__race__age_band": {
+    "total_l1_pp": {
+     "mean": 4.3058,
+     "sd": 0.4116
+    },
+    "party_conditional_l1_pp": {
+     "mean": 3.6179,
+     "sd": 0.4094
+    },
+    "max_cell_pp": {
+     "mean": 0.2848,
+     "sd": 0.0562
+    }
+   },
+   "party__education__income": {
+    "total_l1_pp": {
+     "mean": 5.3353,
+     "sd": 0.374
+    },
+    "party_conditional_l1_pp": {
+     "mean": 4.4984,
+     "sd": 0.3203
+    },
+    "max_cell_pp": {
+     "mean": 0.2581,
+     "sd": 0.034
+    }
+   },
+   "party__gender__age_band": {
+    "total_l1_pp": {
+     "mean": 3.1212,
+     "sd": 0.4364
+    },
+    "party_conditional_l1_pp": {
+     "mean": 2.6097,
+     "sd": 0.3702
+    },
+    "max_cell_pp": {
+     "mean": 0.3216,
+     "sd": 0.0566
+    }
+   }
+  },
+  "joint.csv": {
+   "surfaces": {
+    "party__gender": {
+     "l1_pp": 1.6346,
+     "tv_pp": 0.8173,
+     "max_cell_pp": 0.2922,
+     "cells": 12
+    },
+    "party__age_band": {
+     "l1_pp": 12.6899,
+     "tv_pp": 6.345,
+     "max_cell_pp": 2.137,
+     "cells": 16
+    },
+    "party__race": {
+     "l1_pp": 7.6895,
+     "tv_pp": 3.8448,
+     "max_cell_pp": 0.8604,
+     "cells": 20
+    },
+    "party__education": {
+     "l1_pp": 15.2088,
+     "tv_pp": 7.6044,
+     "max_cell_pp": 2.5899,
+     "cells": 24
+    },
+    "party__income": {
+     "l1_pp": 0.2746,
+     "tv_pp": 0.1373,
+     "max_cell_pp": 0.0481,
+     "cells": 20
+    },
+    "party__race__education": {
+     "l1_pp": 18.5612,
+     "tv_pp": 9.2806,
+     "max_cell_pp": 1.9491,
+     "cells": 118
+    },
+    "party__race__age_band": {
+     "l1_pp": 17.1767,
+     "tv_pp": 8.5883,
+     "max_cell_pp": 1.8584,
+     "cells": 80
+    },
+    "party__education__income": {
+     "l1_pp": 19.8014,
+     "tv_pp": 9.9007,
+     "max_cell_pp": 1.3926,
+     "cells": 120
+    },
+    "party__gender__age_band": {
+     "l1_pp": 12.8858,
+     "tv_pp": 6.4429,
+     "max_cell_pp": 1.1234,
+     "cells": 48
+    }
+   },
+   "decomposition": {
+    "party__gender": {
+     "total_l1_pp": 1.6346,
+     "frame_l1_pp": 1.6346,
+     "party_conditional_l1_pp": 0.0,
+     "dominant": "frame",
+     "max_cell_pp": 0.2922
+    },
+    "party__age_band": {
+     "total_l1_pp": 12.6899,
+     "frame_l1_pp": 12.3781,
+     "party_conditional_l1_pp": 1.35,
+     "dominant": "frame",
+     "max_cell_pp": 2.137
+    },
+    "party__race": {
+     "total_l1_pp": 7.6895,
+     "frame_l1_pp": 7.6262,
+     "party_conditional_l1_pp": 0.6258,
+     "dominant": "frame",
+     "max_cell_pp": 0.8604
+    },
+    "party__education": {
+     "total_l1_pp": 15.2088,
+     "frame_l1_pp": 15.2079,
+     "party_conditional_l1_pp": 0.6836,
+     "dominant": "frame",
+     "max_cell_pp": 2.5899
+    },
+    "party__income": {
+     "total_l1_pp": 0.2746,
+     "frame_l1_pp": 0.2257,
+     "party_conditional_l1_pp": 0.162,
+     "dominant": "frame",
+     "max_cell_pp": 0.0481
+    },
+    "party__race__education": {
+     "total_l1_pp": 18.5612,
+     "frame_l1_pp": 18.2366,
+     "party_conditional_l1_pp": 3.3518,
+     "dominant": "frame",
+     "max_cell_pp": 1.9491
+    },
+    "party__race__age_band": {
+     "total_l1_pp": 17.1767,
+     "frame_l1_pp": 17.1189,
+     "party_conditional_l1_pp": 2.3305,
+     "dominant": "frame",
+     "max_cell_pp": 1.8584
+    },
+    "party__education__income": {
+     "total_l1_pp": 19.8014,
+     "frame_l1_pp": 19.3564,
+     "party_conditional_l1_pp": 3.3651,
+     "dominant": "frame",
+     "max_cell_pp": 1.3926
+    },
+    "party__gender__age_band": {
+     "total_l1_pp": 12.8858,
+     "frame_l1_pp": 12.7475,
+     "party_conditional_l1_pp": 1.564,
+     "dominant": "frame",
+     "max_cell_pp": 1.1234
+    }
+   },
+   "demographic_only": {
+    "age_band": {
+     "l1_pp": 12.3781,
+     "tv_pp": 6.1891,
+     "max_cell_pp": 6.1536,
+     "cells": 4
+    },
+    "gender": {
+     "l1_pp": 1.6346,
+     "tv_pp": 0.8173,
+     "max_cell_pp": 0.8173,
+     "cells": 3
+    },
+    "race": {
+     "l1_pp": 7.6262,
+     "tv_pp": 3.8131,
+     "max_cell_pp": 2.2952,
+     "cells": 5
+    },
+    "education": {
+     "l1_pp": 15.2079,
+     "tv_pp": 7.604,
+     "max_cell_pp": 7.5912,
+     "cells": 6
+    },
+    "income": {
+     "l1_pp": 0.2257,
+     "tv_pp": 0.1129,
+     "max_cell_pp": 0.1023,
+     "cells": 5
+    },
+    "age_band__gender": {
+     "l1_pp": 12.7475,
+     "tv_pp": 6.3738,
+     "max_cell_pp": 3.4965,
+     "cells": 12
+    },
+    "age_band__race": {
+     "l1_pp": 17.1189,
+     "tv_pp": 8.5595,
+     "max_cell_pp": 4.5287,
+     "cells": 20
+    },
+    "age_band__education": {
+     "l1_pp": 19.3824,
+     "tv_pp": 9.6912,
+     "max_cell_pp": 4.5776,
+     "cells": 24
+    },
+    "age_band__income": {
+     "l1_pp": 18.8056,
+     "tv_pp": 9.4028,
+     "max_cell_pp": 2.9198,
+     "cells": 20
+    },
+    "gender__race": {
+     "l1_pp": 8.0731,
+     "tv_pp": 4.0365,
+     "max_cell_pp": 1.2296,
+     "cells": 15
+    },
+    "gender__education": {
+     "l1_pp": 15.6635,
+     "tv_pp": 7.8318,
+     "max_cell_pp": 4.3736,
+     "cells": 18
+    },
+    "gender__income": {
+     "l1_pp": 4.0666,
+     "tv_pp": 2.0333,
+     "max_cell_pp": 0.6703,
+     "cells": 15
+    },
+    "race__education": {
+     "l1_pp": 18.2366,
+     "tv_pp": 9.1183,
+     "max_cell_pp": 4.7976,
+     "cells": 30
+    },
+    "race__income": {
+     "l1_pp": 9.3037,
+     "tv_pp": 4.6519,
+     "max_cell_pp": 0.8474,
+     "cells": 25
+    },
+    "education__income": {
+     "l1_pp": 19.3564,
+     "tv_pp": 9.6782,
+     "max_cell_pp": 3.8071,
+     "cells": 30
+    }
+   },
+   "party_marginal": {
+    "l1_pp": 0.1381,
+    "tv_pp": 0.0691,
+    "max_cell_pp": 0.0625,
+    "cells": 4
+   },
+   "cells": 6866
+  },
+  "joint_marginal_exact.csv": {
+   "surfaces": {
+    "party__gender": {
+     "l1_pp": 1.725,
+     "tv_pp": 0.8625,
+     "max_cell_pp": 0.4387,
+     "cells": 12
+    },
+    "party__age_band": {
+     "l1_pp": 13.4568,
+     "tv_pp": 6.7284,
+     "max_cell_pp": 2.5051,
+     "cells": 16
+    },
+    "party__race": {
+     "l1_pp": 9.102,
+     "tv_pp": 4.551,
+     "max_cell_pp": 1.2772,
+     "cells": 20
+    },
+    "party__education": {
+     "l1_pp": 15.7056,
+     "tv_pp": 7.8528,
+     "max_cell_pp": 2.5914,
+     "cells": 24
+    },
+    "party__income": {
+     "l1_pp": 3.9302,
+     "tv_pp": 1.9651,
+     "max_cell_pp": 0.861,
+     "cells": 20
+    },
+    "party__race__education": {
+     "l1_pp": 19.0648,
+     "tv_pp": 9.5324,
+     "max_cell_pp": 1.9631,
+     "cells": 118
+    },
+    "party__race__age_band": {
+     "l1_pp": 18.2056,
+     "tv_pp": 9.1028,
+     "max_cell_pp": 2.1789,
+     "cells": 80
+    },
+    "party__education__income": {
+     "l1_pp": 20.1515,
+     "tv_pp": 10.0758,
+     "max_cell_pp": 1.6182,
+     "cells": 120
+    },
+    "party__gender__age_band": {
+     "l1_pp": 13.8406,
+     "tv_pp": 6.9203,
+     "max_cell_pp": 1.3486,
+     "cells": 48
+    }
+   },
+   "decomposition": {
+    "party__gender": {
+     "total_l1_pp": 1.725,
+     "frame_l1_pp": 1.6346,
+     "party_conditional_l1_pp": 1.001,
+     "dominant": "frame",
+     "max_cell_pp": 0.4387
+    },
+    "party__age_band": {
+     "total_l1_pp": 13.4568,
+     "frame_l1_pp": 13.4278,
+     "party_conditional_l1_pp": 1.8832,
+     "dominant": "frame",
+     "max_cell_pp": 2.5051
+    },
+    "party__race": {
+     "total_l1_pp": 9.102,
+     "frame_l1_pp": 8.5052,
+     "party_conditional_l1_pp": 2.283,
+     "dominant": "frame",
+     "max_cell_pp": 1.2772
+    },
+    "party__education": {
+     "total_l1_pp": 15.7056,
+     "frame_l1_pp": 15.4476,
+     "party_conditional_l1_pp": 1.8415,
+     "dominant": "frame",
+     "max_cell_pp": 2.5914
+    },
+    "party__income": {
+     "total_l1_pp": 3.9302,
+     "frame_l1_pp": 0.0,
+     "party_conditional_l1_pp": 3.9302,
+     "dominant": "party_conditional",
+     "max_cell_pp": 0.861
+    },
+    "party__race__education": {
+     "total_l1_pp": 19.0648,
+     "frame_l1_pp": 18.7655,
+     "party_conditional_l1_pp": 3.8977,
+     "dominant": "frame",
+     "max_cell_pp": 1.9631
+    },
+    "party__race__age_band": {
+     "total_l1_pp": 18.2056,
+     "frame_l1_pp": 18.0943,
+     "party_conditional_l1_pp": 3.1261,
+     "dominant": "frame",
+     "max_cell_pp": 2.1789
+    },
+    "party__education__income": {
+     "total_l1_pp": 20.1515,
+     "frame_l1_pp": 19.6995,
+     "party_conditional_l1_pp": 4.6295,
+     "dominant": "frame",
+     "max_cell_pp": 1.6182
+    },
+    "party__gender__age_band": {
+     "total_l1_pp": 13.8406,
+     "frame_l1_pp": 13.633,
+     "party_conditional_l1_pp": 2.2035,
+     "dominant": "frame",
+     "max_cell_pp": 1.3486
+    }
+   },
+   "demographic_only": {
+    "age_band": {
+     "l1_pp": 13.4278,
+     "tv_pp": 6.7139,
+     "max_cell_pp": 6.7139,
+     "cells": 4
+    },
+    "gender": {
+     "l1_pp": 1.6346,
+     "tv_pp": 0.8173,
+     "max_cell_pp": 0.8173,
+     "cells": 3
+    },
+    "race": {
+     "l1_pp": 8.5052,
+     "tv_pp": 4.2526,
+     "max_cell_pp": 2.6152,
+     "cells": 5
+    },
+    "education": {
+     "l1_pp": 15.4476,
+     "tv_pp": 7.7238,
+     "max_cell_pp": 7.6623,
+     "cells": 6
+    },
+    "income": {
+     "l1_pp": 0.0,
+     "tv_pp": 0.0,
+     "max_cell_pp": 0.0,
+     "cells": 5
+    },
+    "age_band__gender": {
+     "l1_pp": 13.633,
+     "tv_pp": 6.8165,
+     "max_cell_pp": 3.7597,
+     "cells": 12
+    },
+    "age_band__race": {
+     "l1_pp": 18.0943,
+     "tv_pp": 9.0472,
+     "max_cell_pp": 5.1191,
+     "cells": 20
+    },
+    "age_band__education": {
+     "l1_pp": 20.2621,
+     "tv_pp": 10.1311,
+     "max_cell_pp": 4.7308,
+     "cells": 24
+    },
+    "age_band__income": {
+     "l1_pp": 19.8787,
+     "tv_pp": 9.9394,
+     "max_cell_pp": 3.1241,
+     "cells": 20
+    },
+    "gender__race": {
+     "l1_pp": 9.1551,
+     "tv_pp": 4.5776,
+     "max_cell_pp": 1.6029,
+     "cells": 15
+    },
+    "gender__education": {
+     "l1_pp": 15.9314,
+     "tv_pp": 7.9657,
+     "max_cell_pp": 4.4082,
+     "cells": 18
+    },
+    "gender__income": {
+     "l1_pp": 4.2512,
+     "tv_pp": 2.1256,
+     "max_cell_pp": 0.6689,
+     "cells": 15
+    },
+    "race__education": {
+     "l1_pp": 18.7655,
+     "tv_pp": 9.3827,
+     "max_cell_pp": 4.988,
+     "cells": 30
+    },
+    "race__income": {
+     "l1_pp": 10.0852,
+     "tv_pp": 5.0426,
+     "max_cell_pp": 0.9558,
+     "cells": 25
+    },
+    "education__income": {
+     "l1_pp": 19.6995,
+     "tv_pp": 9.8497,
+     "max_cell_pp": 3.8441,
+     "cells": 30
+    }
+   },
+   "party_marginal": {
+    "l1_pp": 0.0,
+    "tv_pp": 0.0,
+    "max_cell_pp": 0.0,
+    "cells": 4
+   },
+   "cells": 6866
+  },
+  "plain_imputation_no_raking": {
+   "surfaces": {
+    "party__gender": {
+     "l1_pp": 3.395,
+     "tv_pp": 1.6975,
+     "max_cell_pp": 0.9142,
+     "cells": 12
+    },
+    "party__age_band": {
+     "l1_pp": 13.7492,
+     "tv_pp": 6.8746,
+     "max_cell_pp": 2.4494,
+     "cells": 16
+    },
+    "party__race": {
+     "l1_pp": 9.0178,
+     "tv_pp": 4.5089,
+     "max_cell_pp": 1.6201,
+     "cells": 20
+    },
+    "party__education": {
+     "l1_pp": 9.1215,
+     "tv_pp": 4.5608,
+     "max_cell_pp": 2.0131,
+     "cells": 24
+    },
+    "party__income": {
+     "l1_pp": 20.7324,
+     "tv_pp": 10.3662,
+     "max_cell_pp": 3.1445,
+     "cells": 20
+    },
+    "party__race__education": {
+     "l1_pp": 13.1141,
+     "tv_pp": 6.5571,
+     "max_cell_pp": 1.3668,
+     "cells": 118
+    },
+    "party__race__age_band": {
+     "l1_pp": 18.1576,
+     "tv_pp": 9.0788,
+     "max_cell_pp": 2.0798,
+     "cells": 80
+    },
+    "party__education__income": {
+     "l1_pp": 31.2394,
+     "tv_pp": 15.6197,
+     "max_cell_pp": 1.711,
+     "cells": 120
+    },
+    "party__gender__age_band": {
+     "l1_pp": 15.0757,
+     "tv_pp": 7.5378,
+     "max_cell_pp": 1.3038,
+     "cells": 48
+    }
+   },
+   "decomposition": {
+    "party__gender": {
+     "total_l1_pp": 3.395,
+     "frame_l1_pp": 2.067,
+     "party_conditional_l1_pp": 3.1557,
+     "dominant": "party_conditional",
+     "max_cell_pp": 0.9142
+    },
+    "party__age_band": {
+     "total_l1_pp": 13.7492,
+     "frame_l1_pp": 13.4278,
+     "party_conditional_l1_pp": 1.8799,
+     "dominant": "frame",
+     "max_cell_pp": 2.4494
+    },
+    "party__race": {
+     "total_l1_pp": 9.0178,
+     "frame_l1_pp": 8.5052,
+     "party_conditional_l1_pp": 3.1,
+     "dominant": "frame",
+     "max_cell_pp": 1.6201
+    },
+    "party__education": {
+     "total_l1_pp": 9.1215,
+     "frame_l1_pp": 8.8727,
+     "party_conditional_l1_pp": 1.6337,
+     "dominant": "frame",
+     "max_cell_pp": 2.0131
+    },
+    "party__income": {
+     "total_l1_pp": 20.7324,
+     "frame_l1_pp": 19.4828,
+     "party_conditional_l1_pp": 5.3064,
+     "dominant": "frame",
+     "max_cell_pp": 3.1445
+    },
+    "party__race__education": {
+     "total_l1_pp": 13.1141,
+     "frame_l1_pp": 12.3105,
+     "party_conditional_l1_pp": 2.6681,
+     "dominant": "frame",
+     "max_cell_pp": 1.3668
+    },
+    "party__race__age_band": {
+     "total_l1_pp": 18.1576,
+     "frame_l1_pp": 18.0943,
+     "party_conditional_l1_pp": 3.2738,
+     "dominant": "frame",
+     "max_cell_pp": 2.0798
+    },
+    "party__education__income": {
+     "total_l1_pp": 31.2394,
+     "frame_l1_pp": 31.0896,
+     "party_conditional_l1_pp": 4.9164,
+     "dominant": "frame",
+     "max_cell_pp": 1.711
+    },
+    "party__gender__age_band": {
+     "total_l1_pp": 15.0757,
+     "frame_l1_pp": 14.7381,
+     "party_conditional_l1_pp": 2.6886,
+     "dominant": "frame",
+     "max_cell_pp": 1.3038
+    }
+   },
+   "demographic_only": {
+    "age_band": {
+     "l1_pp": 13.4278,
+     "tv_pp": 6.7139,
+     "max_cell_pp": 6.7139,
+     "cells": 4
+    },
+    "gender": {
+     "l1_pp": 2.067,
+     "tv_pp": 1.0335,
+     "max_cell_pp": 1.0335,
+     "cells": 3
+    },
+    "race": {
+     "l1_pp": 8.5052,
+     "tv_pp": 4.2526,
+     "max_cell_pp": 2.6152,
+     "cells": 5
+    },
+    "education": {
+     "l1_pp": 8.8727,
+     "tv_pp": 4.4364,
+     "max_cell_pp": 4.0399,
+     "cells": 6
+    },
+    "income": {
+     "l1_pp": 19.4828,
+     "tv_pp": 9.7414,
+     "max_cell_pp": 7.3949,
+     "cells": 5
+    },
+    "age_band__gender": {
+     "l1_pp": 14.7381,
+     "tv_pp": 7.369,
+     "max_cell_pp": 3.7368,
+     "cells": 12
+    },
+    "age_band__race": {
+     "l1_pp": 18.0943,
+     "tv_pp": 9.0472,
+     "max_cell_pp": 5.1191,
+     "cells": 20
+    },
+    "age_band__education": {
+     "l1_pp": 18.5564,
+     "tv_pp": 9.2782,
+     "max_cell_pp": 2.4263,
+     "cells": 24
+    },
+    "age_band__income": {
+     "l1_pp": 27.2393,
+     "tv_pp": 13.6197,
+     "max_cell_pp": 2.6842,
+     "cells": 20
+    },
+    "gender__race": {
+     "l1_pp": 9.1867,
+     "tv_pp": 4.5933,
+     "max_cell_pp": 1.4638,
+     "cells": 15
+    },
+    "gender__education": {
+     "l1_pp": 10.715,
+     "tv_pp": 5.3575,
+     "max_cell_pp": 2.2812,
+     "cells": 18
+    },
+    "gender__income": {
+     "l1_pp": 20.1867,
+     "tv_pp": 10.0933,
+     "max_cell_pp": 3.5962,
+     "cells": 15
+    },
+    "race__education": {
+     "l1_pp": 12.3105,
+     "tv_pp": 6.1552,
+     "max_cell_pp": 2.739,
+     "cells": 30
+    },
+    "race__income": {
+     "l1_pp": 23.9574,
+     "tv_pp": 11.9787,
+     "max_cell_pp": 4.2527,
+     "cells": 25
+    },
+    "education__income": {
+     "l1_pp": 31.0896,
+     "tv_pp": 15.5448,
+     "max_cell_pp": 4.2173,
+     "cells": 30
+    }
+   },
+   "party_marginal": {
+    "l1_pp": 2.2636,
+    "tv_pp": 1.1318,
+    "max_cell_pp": 1.1318,
+    "cells": 4
+   },
+   "cells": 4535
+  }
+ },
+ "D_ces_vs_acs": {
+  "composition_L1": {
+   "age_band": {
+    "l1_pp": 13.4278,
+    "tv_pp": 6.7139,
+    "max_cell_pp": 6.7139,
+    "cells": 4
+   },
+   "gender": {
+    "l1_pp": 2.067,
+    "tv_pp": 1.0335,
+    "max_cell_pp": 1.0335,
+    "cells": 3
+   },
+   "race": {
+    "l1_pp": 8.5052,
+    "tv_pp": 4.2526,
+    "max_cell_pp": 2.6152,
+    "cells": 5
+   },
+   "education": {
+    "l1_pp": 8.8727,
+    "tv_pp": 4.4364,
+    "max_cell_pp": 4.0399,
+    "cells": 6
+   },
+   "income": {
+    "l1_pp": 19.4828,
+    "tv_pp": 9.7414,
+    "max_cell_pp": 7.3949,
+    "cells": 5
+   },
+   "age_band__gender": {
+    "l1_pp": 14.7381,
+    "tv_pp": 7.369,
+    "max_cell_pp": 3.7368,
+    "cells": 12
+   },
+   "age_band__race": {
+    "l1_pp": 18.0943,
+    "tv_pp": 9.0472,
+    "max_cell_pp": 5.1191,
+    "cells": 20
+   },
+   "age_band__education": {
+    "l1_pp": 18.5564,
+    "tv_pp": 9.2782,
+    "max_cell_pp": 2.4263,
+    "cells": 24
+   },
+   "age_band__income": {
+    "l1_pp": 27.2393,
+    "tv_pp": 13.6197,
+    "max_cell_pp": 2.6842,
+    "cells": 20
+   },
+   "gender__race": {
+    "l1_pp": 9.1867,
+    "tv_pp": 4.5933,
+    "max_cell_pp": 1.4638,
+    "cells": 15
+   },
+   "gender__education": {
+    "l1_pp": 10.715,
+    "tv_pp": 5.3575,
+    "max_cell_pp": 2.2812,
+    "cells": 18
+   },
+   "gender__income": {
+    "l1_pp": 20.1867,
+    "tv_pp": 10.0933,
+    "max_cell_pp": 3.5962,
+    "cells": 15
+   },
+   "race__education": {
+    "l1_pp": 12.3105,
+    "tv_pp": 6.1552,
+    "max_cell_pp": 2.739,
+    "cells": 30
+   },
+   "race__income": {
+    "l1_pp": 23.9574,
+    "tv_pp": 11.9787,
+    "max_cell_pp": 4.2527,
+    "cells": 25
+   },
+   "education__income": {
+    "l1_pp": 31.0896,
+    "tv_pp": 15.5448,
+    "max_cell_pp": 4.2173,
+    "cells": 30
+   }
+  },
+  "worst_cell_per_margin": {
+   "age_band": {
+    "cell": "60+",
+    "acs_pct": 28.998,
+    "ces_pct": 35.711,
+    "diff_pp": -6.714
+   },
+   "gender": {
+    "cell": "Female",
+    "acs_pct": 51.718,
+    "ces_pct": 50.684,
+    "diff_pp": 1.033
+   },
+   "race": {
+    "cell": "Hispanic / Latino",
+    "acs_pct": 16.296,
+    "ces_pct": 13.681,
+    "diff_pp": 2.615
+   },
+   "education": {
+    "cell": "Less than high school",
+    "acs_pct": 11.562,
+    "ces_pct": 7.522,
+    "diff_pp": 4.04
+   },
+   "income": {
+    "cell": "Less than $30,000",
+    "acs_pct": 17.349,
+    "ces_pct": 24.744,
+    "diff_pp": -7.395
+   },
+   "age_band__gender": {
+    "cell": [
+     "60+",
+     "Male"
+    ],
+    "acs_pct": 13.179,
+    "ces_pct": 16.915,
+    "diff_pp": -3.737
+   },
+   "age_band__race": {
+    "cell": [
+     "60+",
+     "White / Caucasian"
+    ],
+    "acs_pct": 21.757,
+    "ces_pct": 26.876,
+    "diff_pp": -5.119
+   },
+   "age_band__education": {
+    "cell": [
+     "60+",
+     "High school diploma / GED"
+    ],
+    "acs_pct": 8.734,
+    "ces_pct": 11.16,
+    "diff_pp": -2.426
+   },
+   "age_band__income": {
+    "cell": [
+     "60+",
+     "$56,000 to $99,999"
+    ],
+    "acs_pct": 7.334,
+    "ces_pct": 10.018,
+    "diff_pp": -2.684
+   },
+   "gender__race": {
+    "cell": [
+     "Male",
+     "Hispanic / Latino"
+    ],
+    "acs_pct": 8.087,
+    "ces_pct": 6.623,
+    "diff_pp": 1.464
+   },
+   "gender__education": {
+    "cell": [
+     "Male",
+     "Less than high school"
+    ],
+    "acs_pct": 5.897,
+    "ces_pct": 3.616,
+    "diff_pp": 2.281
+   },
+   "gender__income": {
+    "cell": [
+     "Female",
+     "Less than $30,000"
+    ],
+    "acs_pct": 10.166,
+    "ces_pct": 13.763,
+    "diff_pp": -3.596
+   },
+   "race__education": {
+    "cell": [
+     "Hispanic / Latino",
+     "Less than high school"
+    ],
+    "acs_pct": 4.561,
+    "ces_pct": 1.822,
+    "diff_pp": 2.739
+   },
+   "race__income": {
+    "cell": [
+     "White / Caucasian",
+     "Less than $30,000"
+    ],
+    "acs_pct": 9.606,
+    "ces_pct": 13.859,
+    "diff_pp": -4.253
+   },
+   "education__income": {
+    "cell": [
+     "High school diploma / GED",
+     "Less than $30,000"
+    ],
+    "acs_pct": 6.039,
+    "ces_pct": 10.257,
+    "diff_pp": -4.217
+   }
+  },
+  "citizen_frame": {
+   "composition_L1_acs_citizens_vs_ces": {
+    "age_band": {
+     "l1_pp": 13.0401,
+     "tv_pp": 6.52,
+     "max_cell_pp": 5.3635,
+     "cells": 4
+    },
+    "gender": {
+     "l1_pp": 2.412,
+     "tv_pp": 1.206,
+     "max_cell_pp": 1.206,
+     "cells": 3
+    },
+    "race": {
+     "l1_pp": 5.1394,
+     "tv_pp": 2.5697,
+     "max_cell_pp": 1.9917,
+     "cells": 5
+    },
+    "education": {
+     "l1_pp": 7.4671,
+     "tv_pp": 3.7336,
+     "max_cell_pp": 2.1094,
+     "cells": 6
+    },
+    "income": {
+     "l1_pp": 20.9199,
+     "tv_pp": 10.46,
+     "max_cell_pp": 7.7094,
+     "cells": 5
+    },
+    "age_band__gender": {
+     "l1_pp": 13.9958,
+     "tv_pp": 6.9979,
+     "max_cell_pp": 3.1053,
+     "cells": 12
+    },
+    "age_band__race": {
+     "l1_pp": 14.7206,
+     "tv_pp": 7.3603,
+     "max_cell_pp": 3.927,
+     "cells": 20
+    },
+    "age_band__education": {
+     "l1_pp": 16.2551,
+     "tv_pp": 8.1276,
+     "max_cell_pp": 1.9158,
+     "cells": 24
+    },
+    "age_band__income": {
+     "l1_pp": 27.0885,
+     "tv_pp": 13.5443,
+     "max_cell_pp": 2.7511,
+     "cells": 20
+    },
+    "gender__race": {
+     "l1_pp": 6.1845,
+     "tv_pp": 3.0922,
+     "max_cell_pp": 1.6,
+     "cells": 15
+    },
+    "gender__education": {
+     "l1_pp": 9.4417,
+     "tv_pp": 4.7209,
+     "max_cell_pp": 1.3629,
+     "cells": 18
+    },
+    "gender__income": {
+     "l1_pp": 21.5513,
+     "tv_pp": 10.7757,
+     "max_cell_pp": 3.7266,
+     "cells": 15
+    },
+    "race__education": {
+     "l1_pp": 10.9437,
+     "tv_pp": 5.4719,
+     "max_cell_pp": 1.833,
+     "cells": 30
+    },
+    "race__income": {
+     "l1_pp": 22.2867,
+     "tv_pp": 11.1433,
+     "max_cell_pp": 4.2295,
+     "cells": 25
+    },
+    "education__income": {
+     "l1_pp": 30.5127,
+     "tv_pp": 15.2564,
+     "max_cell_pp": 4.1249,
+     "cells": 30
+    }
+   },
+   "composition_L1_acs_all_vs_acs_citizens": {
+    "age_band": {
+     "l1_pp": 2.7702,
+     "tv_pp": 1.3851,
+     "max_cell_pp": 1.3683,
+     "cells": 4
+    },
+    "gender": {
+     "l1_pp": 0.345,
+     "tv_pp": 0.1725,
+     "max_cell_pp": 0.1725,
+     "cells": 2
+    },
+    "race": {
+     "l1_pp": 9.7767,
+     "tv_pp": 4.8883,
+     "max_cell_pp": 4.3769,
+     "cells": 5
+    },
+    "education": {
+     "l1_pp": 4.1011,
+     "tv_pp": 2.0505,
+     "max_cell_pp": 2.0013,
+     "cells": 6
+    },
+    "income": {
+     "l1_pp": 1.4371,
+     "tv_pp": 0.7186,
+     "max_cell_pp": 0.4041,
+     "cells": 5
+    },
+    "age_band__gender": {
+     "l1_pp": 2.8092,
+     "tv_pp": 1.4046,
+     "max_cell_pp": 0.7719,
+     "cells": 8
+    },
+    "age_band__race": {
+     "l1_pp": 9.7788,
+     "tv_pp": 4.8894,
+     "max_cell_pp": 1.651,
+     "cells": 20
+    },
+    "age_band__education": {
+     "l1_pp": 5.4143,
+     "tv_pp": 2.7071,
+     "max_cell_pp": 0.9229,
+     "cells": 24
+    },
+    "age_band__income": {
+     "l1_pp": 3.7258,
+     "tv_pp": 1.8629,
+     "max_cell_pp": 0.5121,
+     "cells": 20
+    },
+    "gender__race": {
+     "l1_pp": 9.7767,
+     "tv_pp": 4.8883,
+     "max_cell_pp": 2.2521,
+     "cells": 10
+    },
+    "gender__education": {
+     "l1_pp": 4.1486,
+     "tv_pp": 2.0743,
+     "max_cell_pp": 1.0262,
+     "cells": 12
+    },
+    "gender__income": {
+     "l1_pp": 1.5258,
+     "tv_pp": 0.7629,
+     "max_cell_pp": 0.2573,
+     "cells": 10
+    },
+    "race__education": {
+     "l1_pp": 9.7885,
+     "tv_pp": 4.8942,
+     "max_cell_pp": 2.0648,
+     "cells": 30
+    },
+    "race__income": {
+     "l1_pp": 9.7767,
+     "tv_pp": 4.8883,
+     "max_cell_pp": 1.2296,
+     "cells": 25
+    },
+    "education__income": {
+     "l1_pp": 4.2811,
+     "tv_pp": 2.1406,
+     "max_cell_pp": 0.6444,
+     "cells": 30
+    }
+   },
+   "noncitizen_share_of_acs_adults_pct": 8.052,
+   "most_non_citizen_regions": [
+    {
+     "race": [
+      {
+       "cell": "Asian / Asian American",
+       "noncitizen_pct_of_that_cell": 30.11,
+       "acs_pct_of_adults": 5.851
+      },
+      {
+       "cell": "Hispanic / Latino",
+       "noncitizen_pct_of_that_cell": 27.71,
+       "acs_pct_of_adults": 16.296
+      },
+      {
+       "cell": "Other",
+       "noncitizen_pct_of_that_cell": 5.66,
+       "acs_pct_of_adults": 2.793
+      },
+      {
+       "cell": "Black / African American",
+       "noncitizen_pct_of_that_cell": 4.62,
+       "acs_pct_of_adults": 11.751
+      }
+     ]
+    },
+    {
+     "education": [
+      {
+       "cell": "Less than high school",
+       "noncitizen_pct_of_that_cell": 23.97,
+       "acs_pct_of_adults": 11.562
+      },
+      {
+       "cell": "Doctorate degree / Ph.D.",
+       "noncitizen_pct_of_that_cell": 11.49,
+       "acs_pct_of_adults": 1.318
+      },
+      {
+       "cell": "Master's degree / Professional degree",
+       "noncitizen_pct_of_that_cell": 7.48,
+       "acs_pct_of_adults": 10.214
+      },
+      {
+       "cell": "High school diploma / GED",
+       "noncitizen_pct_of_that_cell": 7.03,
+       "acs_pct_of_adults": 27.305
+      }
+     ]
+    },
+    {
+     "race__education": [
+      {
+       "cell": [
+        "Hispanic / Latino",
+        "Less than high school"
+       ],
+       "noncitizen_pct_of_that_cell": 49.68,
+       "acs_pct_of_adults": 4.561
+      },
+      {
+       "cell": [
+        "Asian / Asian American",
+        "Doctorate degree / Ph.D."
+       ],
+       "noncitizen_pct_of_that_cell": 39.79,
+       "acs_pct_of_adults": 0.211
+      },
+      {
+       "cell": [
+        "Asian / Asian American",
+        "Master's degree / Professional degree"
+       ],
+       "noncitizen_pct_of_that_cell": 37.74,
+       "acs_pct_of_adults": 1.113
+      },
+      {
+       "cell": [
+        "Asian / Asian American",
+        "Less than high school"
+       ],
+       "noncitizen_pct_of_that_cell": 36.67,
+       "acs_pct_of_adults": 0.694
+      }
+     ]
+    }
+   ]
+  },
+  "cost_of_dropping_income_from_the_key": {
+   "cells": 147,
+   "acs_weight_covered_pct": 57.019,
+   "acs_weighted_mean_TV_pp": 6.088,
+   "unweighted_mean_TV_pp": 6.803,
+   "p90_TV_pp": 11.616
+  },
+  "donor_level_share_of_acs_weight": {
+   "age+gender+race+educ+income": 0.788784,
+   "age+gender+race+educ": 0.193861,
+   "age+race+educ": 0.008495,
+   "race+educ": 0.00886
+  },
+  "acs_weight_share_needing_fallback": 0.211216,
+  "acs_cells": 1199,
+  "largest_fallback_cells_by_acs_weight": [
+   {
+    "cell": {
+     "age_band": "30-44",
+     "gender": "Male",
+     "race": "Hispanic / Latino",
+     "education": "Less than high school",
+     "income": "$56,000 to $99,999"
+    },
+    "acs_pct_of_adults": 0.2152,
+    "ces_weighted_units_in_cell": 26.9,
+    "ces_n_in_cell": 5,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "60+",
+     "gender": "Female",
+     "race": "White / Caucasian",
+     "education": "High school diploma / GED",
+     "income": "$168,000 or more"
+    },
+    "acs_pct_of_adults": 0.2148,
+    "ces_weighted_units_in_cell": 28.9,
+    "ces_n_in_cell": 48,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "45-59",
+     "gender": "Male",
+     "race": "Hispanic / Latino",
+     "education": "Less than high school",
+     "income": "$56,000 to $99,999"
+    },
+    "acs_pct_of_adults": 0.2111,
+    "ces_weighted_units_in_cell": 11.95,
+    "ces_n_in_cell": 2,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "30-44",
+     "gender": "Female",
+     "race": "Hispanic / Latino",
+     "education": "Less than high school",
+     "income": "$30,000 to $55,999"
+    },
+    "acs_pct_of_adults": 0.2084,
+    "ces_weighted_units_in_cell": 23.02,
+    "ces_n_in_cell": 8,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "18-29",
+     "gender": "Male",
+     "race": "White / Caucasian",
+     "education": "High school diploma / GED",
+     "income": "$168,000 or more"
+    },
+    "acs_pct_of_adults": 0.2038,
+    "ces_weighted_units_in_cell": 27.91,
+    "ces_n_in_cell": 16,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "45-59",
+     "gender": "Female",
+     "race": "White / Caucasian",
+     "education": "High school diploma / GED",
+     "income": "$168,000 or more"
+    },
+    "acs_pct_of_adults": 0.1853,
+    "ces_weighted_units_in_cell": 23.32,
+    "ces_n_in_cell": 35,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "18-29",
+     "gender": "Male",
+     "race": "Hispanic / Latino",
+     "education": "Some college or Associate's degree",
+     "income": "$100,000 to $167,999"
+    },
+    "acs_pct_of_adults": 0.1817,
+    "ces_weighted_units_in_cell": 10.94,
+    "ces_n_in_cell": 20,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "18-29",
+     "gender": "Male",
+     "race": "Hispanic / Latino",
+     "education": "High school diploma / GED",
+     "income": "$100,000 to $167,999"
+    },
+    "acs_pct_of_adults": 0.1713,
+    "ces_weighted_units_in_cell": 28.2,
+    "ces_n_in_cell": 17,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "45-59",
+     "gender": "Female",
+     "race": "Hispanic / Latino",
+     "education": "Less than high school",
+     "income": "$30,000 to $55,999"
+    },
+    "acs_pct_of_adults": 0.1658,
+    "ces_weighted_units_in_cell": 28.29,
+    "ces_n_in_cell": 9,
+    "resolved_at": "age+gender+race+educ"
+   },
+   {
+    "cell": {
+     "age_band": "30-44",
+     "gender": "Male",
+     "race": "Hispanic / Latino",
+     "education": "High school diploma / GED",
+     "income": "$100,000 to $167,999"
+    },
+    "acs_pct_of_adults": 0.157,
+    "ces_weighted_units_in_cell": 22.52,
+    "ces_n_in_cell": 16,
+    "resolved_at": "age+gender+race+educ"
+   }
+  ],
+  "thinnest_ces_blocks": {
+   "race__education": {
+    "thinnest_block": [
+     "Asian / Asian American",
+     "Less than high school"
+    ],
+    "acs_pct": 0.694,
+    "ces_pct": 0.147,
+    "ces_over_acs": 0.212,
+    "ces_n": 19
+   },
+   "race__income": {
+    "thinnest_block": [
+     "Asian / Asian American",
+     "$168,000 or more"
+    ],
+    "acs_pct": 1.499,
+    "ces_pct": 0.713,
+    "ces_over_acs": 0.476,
+    "ces_n": 295
+   },
+   "education__income": {
+    "thinnest_block": [
+     "Less than high school",
+     "$100,000 to $167,999"
+    ],
+    "acs_pct": 1.424,
+    "ces_pct": 0.36,
+    "ces_over_acs": 0.253,
+    "ces_n": 76
+   },
+   "age_band__education": {
+    "thinnest_block": [
+     "30-44",
+     "Less than high school"
+    ],
+    "acs_pct": 2.599,
+    "ces_pct": 1.522,
+    "ces_over_acs": 0.585,
+    "ces_n": 520
+   },
+   "race__age_band": {
+    "thinnest_block": [
+     "Asian / Asian American",
+     "30-44"
+    ],
+    "acs_pct": 1.85,
+    "ces_pct": 1.072,
+    "ces_over_acs": 0.58,
+    "ces_n": 398
+   }
+  },
+  "acs_weight_in_cells_with_zero_ces_respondents": 0.010526
+ },
+ "coding_notes": {
+  "pid3_code_5_is_Not_sure_not_Independent": {
+   "codebook": "page_pid3: 1 Democrat, 2 Republican, 3 Independent, 4 Other, 5 Not sure",
+   "build_pool_maps": "5 -> Independent",
+   "rows": 2442,
+   "share_of_ces_weight_pct": 6.979,
+   "independent_share_pct_with_5": 34.237,
+   "independent_share_pct_without_5": 29.303
+  },
+  "faminc_new_97_prefer_not_to_say_dropped": {
+   "rows": 5119,
+   "share_of_ces_weight_pct": 9.231,
+   "plus_missing_rows": 23
+  },
+  "race_code_8_is_Middle_Eastern": {
+   "build_pool_maps": "8 -> Other (matches 5/6/7)",
+   "rows": 166
+  },
+  "educ_codes": "1 no HS, 2 HS grad, 3 some college, 4 2-year, 5 4-year, 6 postgrad; build_pool 3,4 -> Some college or Associate's degree, 6 split MA/PhD at 11.431% (ACS)",
+  "gender4_codes": "1 Man, 2 Woman, 3 Non-binary, 4 Other; build_pool 3,4 -> Other",
+  "faminc_new_band_edges_checked": "codes 1-3 <30k; 4-5 30-49,999; 6 = $50-59,999 split 60/40 at $56k (uniform-correct); 7-9 <100k; 10-11 100-149,999; 12 = $150-199,999 split 36/64 at $168k (uniform-correct); 13-16 >=168k"
+ },
+ "headlines": {
+  "A_pure_fallback_cost_L1_pp": {
+   "two_way": {
+    "party__gender": 0.8968,
+    "party__age_band": 0.9894,
+    "party__race": 0.9873,
+    "party__education": 1.137,
+    "party__income": 1.2824
+   },
+   "three_way": {
+    "party__race__education": 1.8516,
+    "party__race__age_band": 1.5971,
+    "party__education__income": 2.2091,
+    "party__gender__age_band": 1.2627
+   }
+  },
+  "A_cross_half_L1_pp": {
+   "two_way": {
+    "party__gender": 2.3974,
+    "party__age_band": 3.2588,
+    "party__race": 2.726,
+    "party__education": 3.7362,
+    "party__income": 3.5647
+   },
+   "three_way": {
+    "party__race__education": 7.4292,
+    "party__race__age_band": 5.9111,
+    "party__education__income": 7.8541,
+    "party__gender__age_band": 4.8113
+   }
+  },
+  "A_sampling_null_two_real_halves_L1_pp": {
+   "two_way": {
+    "party__gender": 1.9421,
+    "party__age_band": 3.0,
+    "party__race": 3.5437,
+    "party__education": 3.6518,
+    "party__income": 3.5768
+   },
+   "three_way": {
+    "party__race__education": 8.9375,
+    "party__race__age_band": 6.8673,
+    "party__education__income": 9.2234,
+    "party__gender__age_band": 5.1965
+   }
+  },
+  "B_after_raking_pure_L1_pp": {
+   "two_way": {
+    "party__gender": 0.0,
+    "party__age_band": 0.0,
+    "party__race": 0.0,
+    "party__education": 0.0,
+    "party__income": 0.0
+   },
+   "three_way": {
+    "party__race__education": 1.6131,
+    "party__race__age_band": 1.3864,
+    "party__education__income": 2.1643,
+    "party__gender__age_band": 0.6356
+   }
+  },
+  "B_after_raking_cross_half_L1_pp": {
+   "two_way": {
+    "party__gender": 2.0577,
+    "party__age_band": 2.5629,
+    "party__race": 2.5388,
+    "party__education": 2.7427,
+    "party__income": 3.2285
+   },
+   "three_way": {
+    "party__race__education": 7.4072,
+    "party__race__age_band": 5.5443,
+    "party__education__income": 7.4559,
+    "party__gender__age_band": 4.6857
+   }
+  },
+  "C_party_conditional_L1_pp": {
+   "joint.csv": {
+    "party__gender": 0.0,
+    "party__age_band": 1.35,
+    "party__race": 0.6258,
+    "party__education": 0.6836,
+    "party__income": 0.162,
+    "party__race__education": 3.3518,
+    "party__race__age_band": 2.3305,
+    "party__education__income": 3.3651,
+    "party__gender__age_band": 1.564
+   },
+   "joint_marginal_exact.csv": {
+    "party__gender": 1.001,
+    "party__age_band": 1.8832,
+    "party__race": 2.283,
+    "party__education": 1.8415,
+    "party__income": 3.9302,
+    "party__race__education": 3.8977,
+    "party__race__age_band": 3.1261,
+    "party__education__income": 4.6295,
+    "party__gender__age_band": 2.2035
+   },
+   "plain_imputation_no_raking": {
+    "party__gender": 3.1557,
+    "party__age_band": 1.8799,
+    "party__race": 3.1,
+    "party__education": 1.6337,
+    "party__income": 5.3064,
+    "party__race__education": 2.6681,
+    "party__race__age_band": 3.2738,
+    "party__education__income": 4.9164,
+    "party__gender__age_band": 2.6886
+   }
+  },
+  "C_frame_L1_pp": {
+   "joint.csv": {
+    "party__gender": 1.6346,
+    "party__age_band": 12.3781,
+    "party__race": 7.6262,
+    "party__education": 15.2079,
+    "party__income": 0.2257,
+    "party__race__education": 18.2366,
+    "party__race__age_band": 17.1189,
+    "party__education__income": 19.3564,
+    "party__gender__age_band": 12.7475
+   },
+   "joint_marginal_exact.csv": {
+    "party__gender": 1.6346,
+    "party__age_band": 13.4278,
+    "party__race": 8.5052,
+    "party__education": 15.4476,
+    "party__income": 0.0,
+    "party__race__education": 18.7655,
+    "party__race__age_band": 18.0943,
+    "party__education__income": 19.6995,
+    "party__gender__age_band": 13.633
+   },
+   "plain_imputation_no_raking": {
+    "party__gender": 2.067,
+    "party__age_band": 13.4278,
+    "party__race": 8.5052,
+    "party__education": 8.8727,
+    "party__income": 19.4828,
+    "party__race__education": 12.3105,
+    "party__race__age_band": 18.0943,
+    "party__education__income": 31.0896,
+    "party__gender__age_band": 14.7381
+   }
+  },
+  "C_ces_noise_floor_conditional_L1_pp": {
+   "party__gender": 1.2868,
+   "party__age_band": 1.7977,
+   "party__race": 1.8842,
+   "party__education": 2.137,
+   "party__income": 1.9777,
+   "party__race__education": 4.1542,
+   "party__race__age_band": 3.6179,
+   "party__education__income": 4.4984,
+   "party__gender__age_band": 2.6097
+  },
+  "C_dominant": {
+   "joint.csv": {
+    "party__gender": "frame",
+    "party__age_band": "frame",
+    "party__race": "frame",
+    "party__education": "frame",
+    "party__income": "frame",
+    "party__race__education": "frame",
+    "party__race__age_band": "frame",
+    "party__education__income": "frame",
+    "party__gender__age_band": "frame"
+   },
+   "joint_marginal_exact.csv": {
+    "party__gender": "frame",
+    "party__age_band": "frame",
+    "party__race": "frame",
+    "party__education": "frame",
+    "party__income": "party_conditional",
+    "party__race__education": "frame",
+    "party__race__age_band": "frame",
+    "party__education__income": "frame",
+    "party__gender__age_band": "frame"
+   },
+   "plain_imputation_no_raking": {
+    "party__gender": "party_conditional",
+    "party__age_band": "frame",
+    "party__race": "frame",
+    "party__education": "frame",
+    "party__income": "frame",
+    "party__race__education": "frame",
+    "party__race__age_band": "frame",
+    "party__education__income": "frame",
+    "party__gender__age_band": "frame"
+   }
+  },
+  "D_composition_L1_pp": {
+   "age_band": 13.4278,
+   "gender": 2.067,
+   "race": 8.5052,
+   "education": 8.8727,
+   "income": 19.4828
+  },
+  "D_fallback_share_of_acs_weight": 0.211216,
+  "D_cost_of_dropping_income_TV_pp": 6.088
+ }
+}

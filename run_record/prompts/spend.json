@@ -1,0 +1,51 @@
+{
+ "ceiling_tokens": 180000,
+ "billed_tokens": 123276,
+ "billed_usd": 0.6970970000000001,
+ "paid_calls": 4,
+ "cached_calls": 0,
+ "prior_billed_tokens": 0,
+ "calls": [
+  {
+   "sampling": {
+    "stage": "target_probe"
+   },
+   "key": "2a72fd7adba3",
+   "billed_tokens": 27747,
+   "usd": 0.1764,
+   "running_total": 27747
+  },
+  {
+   "sampling": {
+    "draw": 0,
+    "stage": "target"
+   },
+   "key": "22113d7a3c31",
+   "billed_tokens": 31843,
+   "usd": 0.278,
+   "running_total": 59590
+  },
+  {
+   "sampling": {
+    "draw": 1,
+    "stage": "target"
+   },
+   "key": "ed5faaa557e1",
+   "billed_tokens": 31843,
+   "usd": 0.1213,
+   "running_total": 91433
+  },
+  {
+   "sampling": {
+    "draw": 2,
+    "stage": "target"
+   },
+   "key": "b6552ec960c1",
+   "billed_tokens": 31843,
+   "usd": 0.1213,
+   "running_total": 123276
+  }
+ ],
+ "path": "/workspace/run/runs/20260815-target-01/stages/target/spend.json",
+ "stopped": null
+}

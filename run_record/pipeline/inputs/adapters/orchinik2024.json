@@ -1,0 +1,249 @@
+{
+ "dataset": "orchinik2024",
+ "status": "VERIFIED by tools/build_orchinik.py (rebuild + 5 red paths + power gate + known-answer selftest)",
+ "file": "/workspace/run/inputs/derived/orchinik2024_bovitz.csv",
+ "reader": "csv",
+ "sample_description": "2,545 U.S. adults from a quota-matched online panel (fielded 2022-2023), the analysis sample of a 3,111-respondent randomization after listwise deletion of attention-check failures and of respondents missing any consensus item. Every respondent first gave a block of pre-treatment 0-100 priors about climate change and about climate scientists, then read one passage (the arms below), then answered 25 post-treatment 0-100 slider judgements. Those 25 are five item families, each asked at five stated levels of scientific agreement (50, 75, 90, 97 and 99 out of 100 climate scientists): how likely climate change is, and whether a climate scientist on each side of the question is 'extremely biased' or 'capable'. The judgements are CONDITIONAL - the respondent is asked to suppose the stated level of agreement - and every respondent answers all 25.",
+ "condition_col": "arm",
+ "arms": {
+  "Control": "Control",
+  "History of science": "History of science",
+  "Institutions of science": "Institutions of science"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "outcomes": {
+  "belief_cc_cons50": {
+   "col": "P_cc_given_cons50",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The row asks: 'what do you think is the likelihood that human-caused climate change is occurring?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = stronger belief that climate change is happening. THIS CELL is the row 'Suppose that 50 out of 100 climate scientists expressed agreement'."
+  },
+  "belief_cc_cons75": {
+   "col": "P_cc_given_cons75",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The row asks: 'what do you think is the likelihood that human-caused climate change is occurring?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = stronger belief that climate change is happening. THIS CELL is the row 'Suppose that 75 out of 100 climate scientists expressed agreement'."
+  },
+  "belief_cc_cons90": {
+   "col": "P_cc_given_cons90",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The row asks: 'what do you think is the likelihood that human-caused climate change is occurring?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = stronger belief that climate change is happening. THIS CELL is the row 'Suppose that 90 out of 100 climate scientists expressed agreement'."
+  },
+  "belief_cc_cons97": {
+   "col": "P_cc_given_cons97",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The row asks: 'what do you think is the likelihood that human-caused climate change is occurring?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = stronger belief that climate change is happening. THIS CELL is the row 'Suppose that 97 out of 100 climate scientists expressed agreement'."
+  },
+  "belief_cc_cons99": {
+   "col": "P_cc_given_cons99",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The row asks: 'what do you think is the likelihood that human-caused climate change is occurring?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = stronger belief that climate change is happening. THIS CELL is the row 'Suppose that 99 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_pro_cons50": {
+   "col": "P_pro_bias_given_cons50",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change IS occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in mainstream climate scientists, i.e. LESS trust. THIS CELL is the row 'Suppose that 50 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_pro_cons75": {
+   "col": "P_pro_bias_given_cons75",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change IS occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in mainstream climate scientists, i.e. LESS trust. THIS CELL is the row 'Suppose that 75 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_pro_cons90": {
+   "col": "P_pro_bias_given_cons90",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change IS occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in mainstream climate scientists, i.e. LESS trust. THIS CELL is the row 'Suppose that 90 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_pro_cons97": {
+   "col": "P_pro_bias_given_cons97",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change IS occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in mainstream climate scientists, i.e. LESS trust. THIS CELL is the row 'Suppose that 97 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_pro_cons99": {
+   "col": "P_pro_bias_given_cons99",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change IS occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in mainstream climate scientists, i.e. LESS trust. THIS CELL is the row 'Suppose that 99 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_anti_cons50": {
+   "col": "P_anti_bias_given_cons50",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change is NOT occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in dissenting climate scientists. THIS CELL is the row 'Suppose that 50 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_anti_cons75": {
+   "col": "P_anti_bias_given_cons75",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change is NOT occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in dissenting climate scientists. THIS CELL is the row 'Suppose that 75 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_anti_cons90": {
+   "col": "P_anti_bias_given_cons90",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change is NOT occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in dissenting climate scientists. THIS CELL is the row 'Suppose that 90 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_anti_cons97": {
+   "col": "P_anti_bias_given_cons97",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change is NOT occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in dissenting climate scientists. THIS CELL is the row 'Suppose that 97 out of 100 climate scientists expressed agreement'."
+  },
+  "bias_anti_cons99": {
+   "col": "P_anti_bias_given_cons99",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"extremely biased\" if they always express the same opinion about whether human-caused climate change is occurring, regardless of what the evidence suggests. That means they would always agree or disagree, no matter what.' The row asks: 'How likely do you think it is that a random climate scientist who expresses that human-caused climate change is NOT occurring is extremely biased?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived bias in dissenting climate scientists. THIS CELL is the row 'Suppose that 99 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_pro_cons50": {
+   "col": "P_pro_skill_given_cons50",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change IS occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in mainstream climate scientists, i.e. MORE trust. THIS CELL is the row 'Suppose that 50 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_pro_cons75": {
+   "col": "P_pro_skill_given_cons75",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change IS occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in mainstream climate scientists, i.e. MORE trust. THIS CELL is the row 'Suppose that 75 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_pro_cons90": {
+   "col": "P_pro_skill_given_cons90",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change IS occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in mainstream climate scientists, i.e. MORE trust. THIS CELL is the row 'Suppose that 90 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_pro_cons97": {
+   "col": "P_pro_skill_given_cons97",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change IS occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in mainstream climate scientists, i.e. MORE trust. THIS CELL is the row 'Suppose that 97 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_pro_cons99": {
+   "col": "P_pro_skill_given_cons99",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change IS occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in mainstream climate scientists, i.e. MORE trust. THIS CELL is the row 'Suppose that 99 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_anti_cons50": {
+   "col": "P_anti_skill_given_cons50",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change is NOT occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in dissenting climate scientists. THIS CELL is the row 'Suppose that 50 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_anti_cons75": {
+   "col": "P_anti_skill_given_cons75",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change is NOT occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in dissenting climate scientists. THIS CELL is the row 'Suppose that 75 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_anti_cons90": {
+   "col": "P_anti_skill_given_cons90",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change is NOT occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in dissenting climate scientists. THIS CELL is the row 'Suppose that 90 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_anti_cons97": {
+   "col": "P_anti_skill_given_cons97",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change is NOT occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in dissenting climate scientists. THIS CELL is the row 'Suppose that 97 out of 100 climate scientists expressed agreement'."
+  },
+  "skill_anti_cons99": {
+   "col": "P_anti_skill_given_cons99",
+   "lo": 0,
+   "hi": 100,
+   "question": "Every respondent saw this matrix question after the passage: 'Suppose that 100 randomly-selected climate scientists were asked whether or not they agree that human-caused climate change is happening. For each of the levels of agreement below, ...' with one 0-100 slider row per level of agreement (50, 75, 90, 97 and 99 out of 100). The question defines the term first: 'Let's say that a scientist is \"capable\" and unbiased if they have the skills to correctly identify whether climate change is occurring from available evidence. In other words, they have arrived at their conclusion because of skill.' The row asks: 'How likely do you think it is that a random and unbiased climate scientist who expresses that human-caused climate change is NOT occurring is capable, meaning they arrived at this conclusion due to skill?' Slider 0 = extremely unlikely, 100 = extremely likely. HIGHER = MORE perceived skill in dissenting climate scientists. THIS CELL is the row 'Suppose that 99 out of 100 climate scientists expressed agreement'."
+  }
+ },
+ "moderators": {
+  "party": {
+   "col": "party_norm",
+   "map": {
+    "Democrat": "Democrat",
+    "Republican": "Republican",
+    "Independent": "Independent"
+   }
+  },
+  "age_band": {
+   "col": "age_clean",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "gender": {
+   "col": "gender_norm",
+   "map": {
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other"
+   }
+  },
+  "race": {
+   "col": "race_norm",
+   "map": {
+    "White / Caucasian": "White / Caucasian",
+    "Black / African American": "Black / African American",
+    "Hispanic / Latino": "Hispanic / Latino",
+    "Asian / Asian American": "Asian / Asian American",
+    "Other": "Other"
+   }
+  },
+  "education": {
+   "col": "education_norm",
+   "map": {
+    "Less than high school": "Less than high school",
+    "High school diploma / GED": "High school diploma / GED",
+    "Some college or Associate's degree": "Some college or Associate's degree",
+    "Bachelor's degree": "Bachelor's degree"
+   }
+  },
+  "income": {
+   "col": "income_norm",
+   "map": {
+    "Less than $30,000": "Less than $30,000",
+    "$56,000 to $99,999": "$56,000 to $99,999",
+    "$100,000 to $167,999": "$100,000 to $167,999"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "education:Master's / Doctorate": "the instrument's 'Graduate Degree' (n = 276) straddles the target's Master's/Professional and Doctorate levels and is left unmapped rather than guessed; 'Vocational Training' (n = 150) straddles high school and some college and is left unmapped for the same reason",
+  "income:middle bands": "the instrument's $20,000-$39,999, $40,000-$59,999 and $150,000+ bands each straddle a target cut point ($30k, $56k, $168k) and are left unmapped (goldwert2026 precedent)"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/orchinik2024_arms.json",
+ "exclude_from_slope": "TRUST family. The operator's session-13 directive forbids fitting a trust-family multiplier, and findings 69/83 leave family and scale format confounded. This task is the first trust-family task on a 0-100 SLIDER, so its beta is measured and reported as evidence about that confound - it is not fitted into the pipeline's pooled slope.",
+ "provenance": {
+  "verified_by": "tools/build_orchinik.py; the dataset README (verified 2026-08-17); the authors' bovitz_data_clean.R is the codebook and analysis_supplements.Rmd line 124 hard-codes 2545 / 847 / 837 / 861",
+  "caveats": [
+   "the WITHIN-OUTCOME ceiling on the 40 perception cells is 0.000 (covariance-aware, finding 79): with two arms at n ~ 850 the two passages cannot be told apart inside an outcome (worst arm-vs-arm |t| = 1.69), so the frozen table's pearson_r_within_outcomes row is at chance here BY CONSTRUCTION and is reported NOT INTERPRETED",
+   "the marginal ceiling is 0.534 over all 50 cells (0.546 on the 40 perception cells, 0.672 on the declared 10-cell collapsed secondary) - the lowest non-zero ceiling of any carved task, so every correlation must be read against it",
+   "the outcomes are CONDITIONAL judgements (given a supposed consensus level), not plain post-treatment ratings; the unconditional 0-100 scientist items in this study are pre-treatment only",
+   "the 25 outcomes are repeated measures on the same respondents and the five levels within a family are near-copies, so the 50 cells are nowhere near 50 independent tests; an interval computed by resampling CELLS understates the uncertainty and must be computed by resampling RESPONDENTS",
+   "the two arms are both pro-science passages that differ in WHICH warrant they give (longevity of the science vs institutional safeguards); they are not a spread of message strategies",
+   "post-treatment attrition is 18.0 / 19.1 / 16.6 % by arm (chi2 p = 0.30, not significant); Lee bounds on the as-randomized frame have a median trim of 0.4 % and a median width of 0.40 pp against a median |ATE| of 0.92 pp, so magnitudes are identified (finding 16's criterion)",
+   "on the two `bias_*` families a HIGHER score means LESS trust; the all-positive baseline is wrong there by construction (standing finding 4's shape)"
+  ]
+ }
+}

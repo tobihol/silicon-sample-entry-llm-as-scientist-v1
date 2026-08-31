@@ -1,0 +1,122 @@
+{
+ "dataset": "gligoric2025",
+ "status": "VERIFIED by tools/build_gligoric.py (rebuild + 7 red paths)",
+ "file": "/workspace/run/inputs/derived/gligoric2025_trust.csv",
+ "reader": "csv",
+ "sample_description": "6,690 U.S. self-identified conservatives (1-10 ideology self-placement, 6-10), recruited from an online river panel and quota-balanced on gender, May-June 2024. Each respondent read one short message about scientists (or a bare instruction in the control arm) and then rated 4 scientific occupations, drawn at random from a fixed list of 35, on two 7-point bipolar items. Liberals were routed past the messages and are excluded here.",
+ "condition_col": "Condition",
+ "arms": {
+  "Control": "Control",
+  "Norms": "Norms",
+  "ConservativeScientists": "ConservativeScientists",
+  "RespectableConservatives": "RespectableConservatives",
+  "ValueBased": "ValueBased",
+  "Co-Benefit": "Co-Benefit"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "outcomes": {
+  "trust_overall": {
+   "col": "trust_overall",
+   "lo": 1,
+   "hi": 7,
+   "question": "mean of two 7-point bipolar items - 'not credible : credible' and 'untrustworthy : trustworthy' - asked as 'Please rate how you view <occupation> using the following attributes', averaged over all 4 occupations the respondent rated"
+  },
+  "credibility": {
+   "col": "credibility",
+   "lo": 1,
+   "hi": 7,
+   "question": "the 'not credible : credible' item alone (7-point), averaged over all 4 occupations rated"
+  },
+  "trustworthiness": {
+   "col": "trustworthiness",
+   "lo": 1,
+   "hi": 7,
+   "question": "the 'untrustworthy : trustworthy' item alone (7-point), averaged over all 4 occupations rated"
+  },
+  "trust_climate_env": {
+   "col": "trust_climate_env",
+   "lo": 1,
+   "hi": 7,
+   "question": "mean of two 7-point bipolar items - 'not credible : credible' and 'untrustworthy : trustworthy' - asked as 'Please rate how you view <occupation> using the following attributes', averaged over whichever of the respondent's 4 rated occupations are climatologists, environmental scientists, ecologists, meteorologists, oceanographers, hydrologists, geologists"
+  },
+  "trust_life_medical": {
+   "col": "trust_life_medical",
+   "lo": 1,
+   "hi": 7,
+   "question": "mean of two 7-point bipolar items - 'not credible : credible' and 'untrustworthy : trustworthy' - asked as 'Please rate how you view <occupation> using the following attributes', averaged over whichever of the respondent's 4 rated occupations are medical researchers, epidemiologists, virologists, microbiologists, geneticists, biologists, biochemists, neuroscientists, marine biologists, botanists, zoologists, food scientists"
+  },
+  "trust_physical_eng": {
+   "col": "trust_physical_eng",
+   "lo": 1,
+   "hi": 7,
+   "question": "mean of two 7-point bipolar items - 'not credible : credible' and 'untrustworthy : trustworthy' - asked as 'Please rate how you view <occupation> using the following attributes', averaged over whichever of the respondent's 4 rated occupations are physicists, astrophysicists, astronomers, chemists, nuclear physicists, nuclear scientists, rocket scientists, paleontologists, archaeologists"
+  },
+  "trust_social": {
+   "col": "trust_social",
+   "lo": 1,
+   "hi": 7,
+   "question": "mean of two 7-point bipolar items - 'not credible : credible' and 'untrustworthy : trustworthy' - asked as 'Please rate how you view <occupation> using the following attributes', averaged over whichever of the respondent's 4 rated occupations are psychologists, sociologists, anthropologists"
+  },
+  "trust_quant_tech": {
+   "col": "trust_quant_tech",
+   "lo": 1,
+   "hi": 7,
+   "question": "mean of two 7-point bipolar items - 'not credible : credible' and 'untrustworthy : trustworthy' - asked as 'Please rate how you view <occupation> using the following attributes', averaged over whichever of the respondent's 4 rated occupations are mathematicians, statisticians, data scientists, computer scientists"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "Gender",
+   "map": {
+    "1": "Male",
+    "2": "Female",
+    "3": "Other"
+   }
+  },
+  "age_band": {
+   "col": "Age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  }
+ },
+ "moderators_unavailable": {
+  "race": "not asked",
+  "income": "not asked",
+  "party": "not asked; only a 1-10 ideology self-placement, and the randomised sample is 6-10 BY CONSTRUCTION, so no ideology contrast is estimable from randomised data at all",
+  "education": "6 levels but not the target's 6 - level 6 merges Master's/professional with doctorate and level 5 ('currently studying postgraduate') is ambiguous"
+ },
+ "filters": [
+  {
+   "col": "conservative",
+   "eq": 1
+  }
+ ],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/gligoric2025_arms.json",
+ "exclude_from_slope": "conservatives-only subgroup task whose ATE table has NEGATIVE signal variance (var_obs < mean SE^2): its magnitudes are not identified, so it cannot inform a fitted slope (findings 16, 36)",
+ "provenance": {
+  "verified_by": "notes/DATA_GLIGORIC.md (recon) + tools/build_gligoric.py (red paths)",
+  "caveats": [
+   "the randomised sample is US self-identified conservatives ONLY - this is a subgroup task, not a general-population one",
+   "each respondent rates 4 of 35 occupations at random, so cluster outcomes are thinner than the overall outcome by design",
+   "RespectableConservatives pipes two randomised names that the data file does not record: the arm is a 4-way mixture and the brief shows both alternatives",
+   "the published result is a NULL: all five arms equivalence-bounded below d = 0.1, and the 40-cell table's signal variance is negative",
+   "BelievabilityExper_1..3 are 100% missing in Control and cannot be an outcome",
+   "no respondent id, no weights; Age min is 16 (13 rows under 18)",
+   "prompt is ~1.5k tokens against the target's 9,892 - out of finding 17's size band on the LOW side"
+  ]
+ }
+}

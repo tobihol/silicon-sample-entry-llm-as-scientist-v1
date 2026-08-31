@@ -1,0 +1,456 @@
+{
+ "what": "gap transfer factor: slider offset per pp of rescaled 4-point offset, through the origin",
+ "sources": {
+  "likert4": "CCAM 2021-2024 (weight_wave), 4-point verbal items",
+  "slider": "voelkel2026 PRE, 0-100 sliders, all arms pre-treatment"
+ },
+ "constructs": {
+  "concern": "CCAM worry / voelkel2026 Concern_Pre",
+  "policy_general": "CCAM priority / voelkel2026 Policies_Pre_3",
+  "belief": "CCAM cause_recoded / voelkel2026 Belief_Pre"
+ },
+ "excluded": "level 'Other' (race-Other and party-Other are not the same group across sources)",
+ "pooled": {
+  "slope": 0.8076151342244913,
+  "r": 0.95273671086193,
+  "n_pairs": 36
+ },
+ "by_moderator": {
+  "age_band": {
+   "slope": 1.2406041874189495,
+   "r": 0.8826214708310831,
+   "n_pairs": 12
+  },
+  "gender": {
+   "slope": 0.8475953803546451,
+   "r": 0.9976160621000665,
+   "n_pairs": 6
+  },
+  "party": {
+   "slope": 0.7527019271975859,
+   "r": 0.9838302372560291,
+   "n_pairs": 9
+  },
+  "race": {
+   "slope": 1.0469870619231008,
+   "r": 0.9260691750731774,
+   "n_pairs": 9
+  }
+ },
+ "by_construct": {
+  "belief": {
+   "slope": 0.5831503788599531,
+   "r": 0.9719125870201102,
+   "n_pairs": 12
+  },
+  "concern": {
+   "slope": 0.9692806594981093,
+   "r": 0.9716581749576539,
+   "n_pairs": 12
+  },
+  "policy_general": {
+   "slope": 0.8599972975451436,
+   "r": 0.9685439680027185,
+   "n_pairs": 12
+  }
+ },
+ "party_and_race_only": {
+  "slope": 0.7848738494065596,
+  "r": 0.9700592374915971,
+  "n_pairs": 18
+ },
+ "gaps_at_least_3pp": {
+  "slope": 0.7986329296676442,
+  "r": 0.9616991570221696,
+  "n_pairs": 23
+ },
+ "adopted_GAP4": 0.8,
+ "level_bridge_not_measurable": {
+  "note": "the same three construct pairs disagree on LEVEL by -1.6 to +12.6 pp, so no 4-point level bridge is claimed; only gaps transfer",
+  "diff_slider_minus_likert4_pp": {
+   "concern": 0.98,
+   "policy_general": 12.6,
+   "belief": -1.6
+  }
+ },
+ "pairs": [
+  {
+   "moderator": "gender",
+   "construct": "concern",
+   "level": "Female",
+   "likert4_offset_pp": 3.800718663887075,
+   "slider_offset_pp": 3.014407417009757,
+   "n_ccam": 4140,
+   "n_voelkel2026": 7444
+  },
+  {
+   "moderator": "gender",
+   "construct": "concern",
+   "level": "Male",
+   "likert4_offset_pp": -4.073709394726578,
+   "slider_offset_pp": -3.5836693787563902,
+   "n_ccam": 4093,
+   "n_voelkel2026": 6231
+  },
+  {
+   "moderator": "gender",
+   "construct": "policy_general",
+   "level": "Female",
+   "likert4_offset_pp": 3.452730993966611,
+   "slider_offset_pp": 2.8988445478445755,
+   "n_ccam": 4130,
+   "n_voelkel2026": 7451
+  },
+  {
+   "moderator": "gender",
+   "construct": "policy_general",
+   "level": "Male",
+   "likert4_offset_pp": -3.7007271338522187,
+   "slider_offset_pp": -3.52670642623805,
+   "n_ccam": 4088,
+   "n_voelkel2026": 6236
+  },
+  {
+   "moderator": "gender",
+   "construct": "belief",
+   "level": "Female",
+   "likert4_offset_pp": 1.96511868693878,
+   "slider_offset_pp": 1.2451265938244944,
+   "n_ccam": 4052,
+   "n_voelkel2026": 7450
+  },
+  {
+   "moderator": "gender",
+   "construct": "belief",
+   "level": "Male",
+   "likert4_offset_pp": -2.106265463107974,
+   "slider_offset_pp": -1.658376610513912,
+   "n_ccam": 4018,
+   "n_voelkel2026": 6237
+  },
+  {
+   "moderator": "age_band",
+   "construct": "concern",
+   "level": "18-29",
+   "likert4_offset_pp": 3.929929425837898,
+   "slider_offset_pp": 6.872538831156206,
+   "n_ccam": 1069,
+   "n_voelkel2026": 2081
+  },
+  {
+   "moderator": "age_band",
+   "construct": "concern",
+   "level": "45-59",
+   "likert4_offset_pp": -2.2854280742358384,
+   "slider_offset_pp": -1.862412917806303,
+   "n_ccam": 2065,
+   "n_voelkel2026": 3529
+  },
+  {
+   "moderator": "age_band",
+   "construct": "concern",
+   "level": "60+",
+   "likert4_offset_pp": -2.9505667465479846,
+   "slider_offset_pp": -5.95750106223602,
+   "n_ccam": 3277,
+   "n_voelkel2026": 4463
+  },
+  {
+   "moderator": "age_band",
+   "construct": "concern",
+   "level": "30-44",
+   "likert4_offset_pp": 2.6535750445291626,
+   "slider_offset_pp": 3.426326803516403,
+   "n_ccam": 1822,
+   "n_voelkel2026": 3731
+  },
+  {
+   "moderator": "age_band",
+   "construct": "policy_general",
+   "level": "18-29",
+   "likert4_offset_pp": 4.3821354966120225,
+   "slider_offset_pp": 9.183378209153219,
+   "n_ccam": 1068,
+   "n_voelkel2026": 2082
+  },
+  {
+   "moderator": "age_band",
+   "construct": "policy_general",
+   "level": "45-59",
+   "likert4_offset_pp": -2.687507397361607,
+   "slider_offset_pp": -1.2919511474034522,
+   "n_ccam": 2062,
+   "n_voelkel2026": 3533
+  },
+  {
+   "moderator": "age_band",
+   "construct": "policy_general",
+   "level": "60+",
+   "likert4_offset_pp": -2.823621967951702,
+   "slider_offset_pp": -7.841949886183819,
+   "n_ccam": 3271,
+   "n_voelkel2026": 4466
+  },
+  {
+   "moderator": "age_band",
+   "construct": "policy_general",
+   "level": "30-44",
+   "likert4_offset_pp": 2.5506734191026226,
+   "slider_offset_pp": 3.232124587558289,
+   "n_ccam": 1817,
+   "n_voelkel2026": 3735
+  },
+  {
+   "moderator": "age_band",
+   "construct": "belief",
+   "level": "18-29",
+   "likert4_offset_pp": 5.45946170696989,
+   "slider_offset_pp": 6.601797549763404,
+   "n_ccam": 1055,
+   "n_voelkel2026": 2082
+  },
+  {
+   "moderator": "age_band",
+   "construct": "belief",
+   "level": "45-59",
+   "likert4_offset_pp": -3.2138951291892397,
+   "slider_offset_pp": -1.5026608575374496,
+   "n_ccam": 2016,
+   "n_voelkel2026": 3533
+  },
+  {
+   "moderator": "age_band",
+   "construct": "belief",
+   "level": "60+",
+   "likert4_offset_pp": -5.094783353440576,
+   "slider_offset_pp": -4.883876774080534,
+   "n_ccam": 3209,
+   "n_voelkel2026": 4467
+  },
+  {
+   "moderator": "age_band",
+   "construct": "belief",
+   "level": "30-44",
+   "likert4_offset_pp": 4.896666930042045,
+   "slider_offset_pp": 2.016080387619496,
+   "n_ccam": 1790,
+   "n_voelkel2026": 3734
+  },
+  {
+   "moderator": "race",
+   "construct": "concern",
+   "level": "Black / African American",
+   "likert4_offset_pp": 5.197233208766235,
+   "slider_offset_pp": 10.161990460300444,
+   "n_ccam": 783,
+   "n_voelkel2026": 1687
+  },
+  {
+   "moderator": "race",
+   "construct": "concern",
+   "level": "Hispanic / Latino",
+   "likert4_offset_pp": 6.6176445965603605,
+   "slider_offset_pp": 8.451326102192525,
+   "n_ccam": 1031,
+   "n_voelkel2026": 1239
+  },
+  {
+   "moderator": "race",
+   "construct": "concern",
+   "level": "Other",
+   "likert4_offset_pp": 12.42464013077943,
+   "slider_offset_pp": -0.06566535430903286,
+   "n_ccam": 634,
+   "n_voelkel2026": 283
+  },
+  {
+   "moderator": "race",
+   "construct": "concern",
+   "level": "White / Caucasian",
+   "likert4_offset_pp": -3.1162514047669916,
+   "slider_offset_pp": -4.703126391355234,
+   "n_ccam": 5785,
+   "n_voelkel2026": 9818
+  },
+  {
+   "moderator": "race",
+   "construct": "policy_general",
+   "level": "Black / African American",
+   "likert4_offset_pp": 11.09826075252996,
+   "slider_offset_pp": 11.477875132582469,
+   "n_ccam": 779,
+   "n_voelkel2026": 1687
+  },
+  {
+   "moderator": "race",
+   "construct": "policy_general",
+   "level": "Hispanic / Latino",
+   "likert4_offset_pp": 8.175172082585988,
+   "slider_offset_pp": 7.9521526129172315,
+   "n_ccam": 1029,
+   "n_voelkel2026": 1244
+  },
+  {
+   "moderator": "race",
+   "construct": "policy_general",
+   "level": "Other",
+   "likert4_offset_pp": 11.544934542941874,
+   "slider_offset_pp": 0.008769249095976761,
+   "n_ccam": 633,
+   "n_voelkel2026": 283
+  },
+  {
+   "moderator": "race",
+   "construct": "policy_general",
+   "level": "White / Caucasian",
+   "likert4_offset_pp": -4.5150205156936565,
+   "slider_offset_pp": -4.8593189980466605,
+   "n_ccam": 5777,
+   "n_voelkel2026": 9824
+  },
+  {
+   "moderator": "race",
+   "construct": "belief",
+   "level": "Black / African American",
+   "likert4_offset_pp": 1.603784749692494,
+   "slider_offset_pp": 2.579205668965841,
+   "n_ccam": 763,
+   "n_voelkel2026": 1688
+  },
+  {
+   "moderator": "race",
+   "construct": "belief",
+   "level": "Hispanic / Latino",
+   "likert4_offset_pp": 7.725073265652512,
+   "slider_offset_pp": 3.8611637552202325,
+   "n_ccam": 1014,
+   "n_voelkel2026": 1242
+  },
+  {
+   "moderator": "race",
+   "construct": "belief",
+   "level": "Other",
+   "likert4_offset_pp": 13.094654245208758,
+   "slider_offset_pp": 2.218808156419712,
+   "n_ccam": 622,
+   "n_voelkel2026": 283
+  },
+  {
+   "moderator": "race",
+   "construct": "belief",
+   "level": "White / Caucasian",
+   "likert4_offset_pp": -2.78275962585748,
+   "slider_offset_pp": -2.21320459919459,
+   "n_ccam": 5671,
+   "n_voelkel2026": 9825
+  },
+  {
+   "moderator": "party",
+   "construct": "concern",
+   "level": "Independent",
+   "likert4_offset_pp": -0.7978772923485025,
+   "slider_offset_pp": -1.0514453074125214,
+   "n_ccam": 879,
+   "n_voelkel2026": 4307
+  },
+  {
+   "moderator": "party",
+   "construct": "concern",
+   "level": "Republican",
+   "likert4_offset_pp": -21.126919116647187,
+   "slider_offset_pp": -18.88697894690955,
+   "n_ccam": 3125,
+   "n_voelkel2026": 4553
+  },
+  {
+   "moderator": "party",
+   "construct": "concern",
+   "level": "Democrat",
+   "likert4_offset_pp": 20.360030378094557,
+   "slider_offset_pp": 18.232915950713668,
+   "n_ccam": 3520,
+   "n_voelkel2026": 4702
+  },
+  {
+   "moderator": "party",
+   "construct": "concern",
+   "level": "Other",
+   "likert4_offset_pp": -3.2633311079800222,
+   "slider_offset_pp": -0.3475105250958208,
+   "n_ccam": 650,
+   "n_voelkel2026": 242
+  },
+  {
+   "moderator": "party",
+   "construct": "policy_general",
+   "level": "Independent",
+   "likert4_offset_pp": -0.604306868047864,
+   "slider_offset_pp": -0.5442190689837361,
+   "n_ccam": 879,
+   "n_voelkel2026": 4311
+  },
+  {
+   "moderator": "party",
+   "construct": "policy_general",
+   "level": "Republican",
+   "likert4_offset_pp": -25.093039284326434,
+   "slider_offset_pp": -20.04338612319132,
+   "n_ccam": 3122,
+   "n_voelkel2026": 4558
+  },
+  {
+   "moderator": "party",
+   "construct": "policy_general",
+   "level": "Democrat",
+   "likert4_offset_pp": 23.453784056806235,
+   "slider_offset_pp": 18.685939946420845,
+   "n_ccam": 3518,
+   "n_voelkel2026": 4705
+  },
+  {
+   "moderator": "party",
+   "construct": "policy_general",
+   "level": "Other",
+   "likert4_offset_pp": -0.7289492824839385,
+   "slider_offset_pp": 0.3300033219401257,
+   "n_ccam": 641,
+   "n_voelkel2026": 242
+  },
+  {
+   "moderator": "party",
+   "construct": "belief",
+   "level": "Independent",
+   "likert4_offset_pp": -0.8800753385293802,
+   "slider_offset_pp": 0.09703400005300011,
+   "n_ccam": 850,
+   "n_voelkel2026": 4312
+  },
+  {
+   "moderator": "party",
+   "construct": "belief",
+   "level": "Republican",
+   "likert4_offset_pp": -21.710047793914995,
+   "slider_offset_pp": -12.555225095178436,
+   "n_ccam": 3050,
+   "n_voelkel2026": 4557
+  },
+  {
+   "moderator": "party",
+   "construct": "belief",
+   "level": "Democrat",
+   "likert4_offset_pp": 20.654642323030032,
+   "slider_offset_pp": 11.042889719405764,
+   "n_ccam": 3481,
+   "n_voelkel2026": 4705
+  },
+  {
+   "moderator": "party",
+   "construct": "belief",
+   "level": "Other",
+   "likert4_offset_pp": -0.6398790775302103,
+   "slider_offset_pp": 2.013482810982339,
+   "n_ccam": 635,
+   "n_voelkel2026": 242
+  }
+ ]
+}

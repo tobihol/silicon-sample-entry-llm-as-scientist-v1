@@ -1,0 +1,57 @@
+{
+  "upload_type": "software",
+  "title": "Silicon Sample Benchmark — Tier 1 (individual simulation) submission (team team_31)",
+  "version": "1.0-t1",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Holtdirk, Tobias",
+      "affiliation": "LMU Munich, SODA Lab (Social Data Science and AI Lab)"
+    },
+    {
+      "name": "Ma, Bolei",
+      "affiliation": "LMU Munich"
+    }
+  ],
+  "description": "<p>Direct forecast of the megastudy's 16 x 13 treatment-effect table by a single stateless LLM completion (claude-opus-5, 3 draws, cell-wise median) given the verbatim intervention texts, item wordings and sample description; control levels and subgroup offsets anchored on public surveys; Tier-1 rows synthesised backwards from the predicted table. Calibration multiplier fitted on 13 held-out published experiments but deliberately not applied (policy 'none'). No human edited any prediction.</p>",
+  "keywords": [
+    "Silicon Sample Benchmark",
+    "silicon sampling",
+    "large language models",
+    "computational social science",
+    "survey methodology",
+    "public opinion",
+    "climate communication",
+    "treatment effect prediction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/",
+      "relation": "isPartOf",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://janpfander.github.io/llm_predictions_megastudy/amendment_preregistration.html",
+      "relation": "references",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/tobihol/silicon-sample-submission",
+      "relation": "isCompiledBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Team team_31. Disclosure class A.",
+  "contributors": [
+    {
+      "name": "Huang, Haiwen",
+      "type": "Other",
+      "affiliation": ""
+    }
+  ]
+}

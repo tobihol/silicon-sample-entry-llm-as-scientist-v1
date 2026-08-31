@@ -1,0 +1,512 @@
+You are predicting a preregistered megastudy on ~18,000 U.S. adults
+(census-based quotas on age, gender and race/ethnicity), run online. Each respondent reads ONE
+text and then answers the outcome battery. The control condition reads one of three neutral,
+off-topic filler texts (the history of neckties, the rules of baseball, types of dance).
+
+
+OUTCOMES (name | scale | question):
+- trust_multidimensional | 0.0-100.0 | PRIMARY OUTCOME. Mean of the four trust subscales (competence, integrity, benevolence, openness)
+- trust_post | 0.0-100.0 | How much do you trust climate scientists?
+- distrust_post | 0.0-100.0 | How much do you distrust climate scientists?
+- funding_perceptions | 0.0-100.0 | Reverse of funding_5: 100 − funding_5 (higher = perceives funding too low / supports more funding)
+- policy_role_mean | 0.0-100.0 | Mean of policy_role_1..4
+- inst_trust_mean | 0.0-100.0 | Mean of inst_trust_epa/nasa/noaa/universities/federal_gov
+- belief_post | 0.0-100.0 | How accurate do you think this statement is? "Human activities are causing climate change."
+- concern_mean | 0.0-100.0 | Mean of concern_1..3
+- policy_general | 0.0-100.0 | How much do you oppose or support: "The U.S. government should do more to reduce global warming"
+- policy_specific_mean | 0.0-100.0 | Mean of policy_specific_1..7
+- behavior_mean | 0.0-100.0 | Mean of behavior_meat/transport/solar/fly/talk/donate
+- donation_ams | 0.0-10.0 | Of the $10 bonus, how much would you like to donate to the American Meteorological Society (AMS)?
+- newsletter_signup | 0.0-1.0 | Recode of newsletter: Yes→1, No→0
+
+CONDITIONS (16 interventions, each vs control):
+
+### Corporate reliance
+Climate scientists develop models that forecast climate-related risks, such as sea-level rise, extreme weather events, and long-term temperature changes. These models are not only used in research. They are also increasingly used by the private sector, where decisions have large financial consequences.
+
+For example, insurance companies rely on climate scientists’ projections when calculating premiums and assessing risks. If climate projections incorrectly estimate future risks, insurance companies lose money. Because of this, insurers carefully evaluate data and only rely on sources they consider reliable and accurate. These companies assess climate scientists’ work with financial incentives in mind and avoid basing decisions on information they view as biased or ideological. If the predictions are incorrect, they pay for it – literally.
+
+Insurers aren’t the only ones listening to climate scientists. Other large corporations also integrate climate projections into their long-term planning. They use climate data to plan supply chains, choose new locations, and identify potential climate-related risks to their business. In fact, many private-sector companies now actively recruit climate scientists to work in-house to help guide strategic and financial decisions.
+
+These businesses maximize their profit while reducing financial risk. They rely on climate scientists because their models help them make robust, informed, and risk-sensitive decisions.
+
+ —page break—-
+
+Take a moment to reflect on what you’ve just read.
+
+Many companies that depend on forecasts to ensure profit (like insurers and global manufacturers) trust climate scientists to guide their decisions.
+
+Why might so many companies stake their livelihoods on climate science when planning for the future? Please pause and consider this question.
+
+### Social justice
+In the United States, the wealthiest 10% of the population are responsible for roughly 40% of the country’s total greenhouse gas emissions. Meanwhile, us—the other 90% of the population—bear most of the consequences of climate change.
+The climate crisis is a fight to hold the wealthest 10% accountable for their pollution. In this fight, scientists stand with us—the 90%.
+Climate scientists provide facts about the causes of climate change, and the efficacy of proposed solutions. They provide evidence that can be used to hold the biggest emitters accountable. The burden cannot fall on those already struggling to make ends meet. Real change must come from those who cause the most harm and have the power to make it right.
+
+The corporations and individuals most responsible for climate change understand this. That is why some try to cast doubt on science and turn people away from it, because acknowledging the truth would mean facing their responsibility.
+
+But by staying united with the climate scientists, we can win the fight for truth, justice and a stable climate.
+Source:
+​​Starr, J., Nicolson, C., Ash, M., Markowitz, E. M., & Moran, D. (2023). Income-based U.S. household carbon footprints (1990–2019) offer new insights on emissions inequality and climate finance. PLOS Climate, 2(8), e0000190. https://doi.org/10.1371/journal.pclm.0000190
+
+### Interview Prof. Maraun
+Prof. Douglas Maraun at the University of Graz in Austria is a climate scientist researching climate change. His research group focuses on extreme weather events such as heatwaves, heavy precipitation, droughts and storms. Here is what he says about his approach to research.
+
+“As a climate scientist, I spend a lot of time questioning and improving my own research. I know that every mistake or unexpected result helps me understand the climate system a little better. My goal and the goal of my scientific field is not to push for a certain message of global warming, but to keep improving our understanding of how changes in regional climate might unfold in the future to provide the best possible information for decision makers.
+
+Sometimes, new observations change what we thought we knew. For example, our climate models underestimated the observed summer warming trend in Europe. These and similar findings in other variables demonstrated that we did not correctly account for changes in air pollution. New climate research helped to improve our models such that our trend simulations have become more and more accurate over recent years. However, we still do not fully understand regional trends and require further research to draw firm conclusions.
+
+In climate science, no one works in isolation. Our models improve when we bring together expertise from diverse fields such as atmospheric physics, chemistry and ecology. For instance, together, climate scientists and ecologists could demonstrate that the strength of a summer drought does not only depend on meteorological variables such as rainfall and temperature, but also on how the growing vegetation consumes and evaporates soil moisture.
+
+Climate science is a collective effort to get closer to the truth, even if that means revising our ideas and results again and again.”
+
+### Funding
+Please indicate how much you agree or disagree with the following statements.
+
+
+ —page break—-
+
+
+
+How much do you agree or disagree with the following statements?
+
+(Four separate slider items, each 0 = Strongly disagree … 100 = Strongly agree.
+All wording verbatim from the survey, including "taxmoney".)
+
+- Everyone should be held to the same standards of honesty and fairness.
+
+- It is important that taxpayer-funded programs show exactly how the taxmoney is spent.
+
+- Corporations have too much influence on what gets researched.
+
+- Some people in powerful positions push certain ideas not because they’re true, but because they fit their political or financial interests.
+
+
+ —page break—-
+
+Thank you for sharing your thoughts.
+
+Many Americans care deeply about fairness, honesty, and transparency in public decision-making.
+
+Over the next few pages, we will ask you to answer questions about your beliefs and attitudes concerning climate scientists.
+
+ —page break—-
+
+“Climate scientists are paid to support certain climate policies.”
+
+0 = Strongly disagree … 100 = Strongly agree.
+
+—page break—-
+
+Climate scientists are paid by their employers, which include universities, government agencies, and private companies.
+
+The median salary of environmental scientists is $80,060, which is comparable to other academic researchers in public universities, but lower than faculty in the economics, business and law departments.
+
+Climate scientists who are chosen to work on US National Climate Assessment are not paid at all for their contributions. They volunteer their time.
+
+
+Sources:
+US Bureau of Labor Statistics: https://www.bls.gov/ooh/life-physical-and-social-science/environmental-scientists-and-specialists.htm
+
+National Public Radio (NPR): https://www.npr.org/2025/04/20/nx-s1-5369345/trump-administration-cancels-the-national-climate-assessment
+
+ —page break—-
+
+“The federal government allocates significant resources to climate change research.”
+
+0 = Strongly disagree … 100 = Strongly agree.
+
+—page break—-
+
+It’s true that government agencies fund climate research. But funding levels for climate research are relatively small compared to government spending on other research areas.
+For example, according to U.S. budget reports, the federal government spent $52.5 billion on biomedical research in 2024. By comparison, the U.S. spent $10.6 billion on climate and clean energy research and development. In addition, many programs labelled as ‘climate change research’ address other issues, such as agriculture, infrastructure, and disaster resilience. Only 3% of programs that received federal funding for ‘climate research’ were primarily focused on climate change.
+
+So while the government does fund climate change research, the amount it spends on this area is small compared to spending on other research areas.
+
+Sources:
+Federal Research and Development Budget: https://ncses.nsf.gov/pubs/nsf25329/
+Department of Energy Budget: https://www.govinfo.gov/content/pkg/BUDGET-2025-BUD/pdf/BUDGET-2025-BUD-9.pdf
+
+—page break—-
+
+“Climate scientists receive large amounts of private research funding.”
+
+0 = Strongly disagree … 100 = Strongly agree.
+
+—page break—-
+
+
+Scientific researchers also receive support from private sources such as philanthropic foundations, corporations, and individual donors. However, private funding for climate research is small relative to private support for other areas, such as medical and health research.
+Private organizations give approximately $7 billion to fund climate-related research in the U.S. every year. By contrast, private funding for biomedical and health science research amounted to over $160 billion in 2020.
+This suggests that even in the private sector, resources directed toward climate research are much smaller than those directed toward other areas, like biomedical and health science.
+Sources:
+U.S. Investments in Medical and Health Research: https://www.researchamerica.org/wp-content/uploads/2022/09/ResearchAmerica-Investment-Report.Final_.January-2022-1.pdf?
+Climate philanthropy landscape: https://rethinkpriorities.org/research-area/climate-philanthropy-landscape/
+
+ —page break—-
+
+Science isn’t a tool to justify a desired set of policies— it’s a tool that  helps communities, businesses, and leaders to make better decisions.
+
+Scientists’ primary role is to collect and analyze data and to test possible solutions.
+
+Policymakers, businesses, and communities decide which policy solutions, if any, to use to address scientist’s findings.
+
+### Oil industry misinformation
+Some people think that climate scientists cannot be trusted. You’d be forgiven for feeling that way, because the fossil fuel industry has bankrolled a multi-decade propaganda campaign specifically designed to stop action on climate change by undermining the public’s trust in climate science and scientists. Initially, in the 1970s and early 1980s, oil companies agreed with academic and federal scientists that burning fossil fuels would lead to climate change; some companies even employed their own climate scientists and conducted in-house climate science research. But as the public and politicians began to wake up to the climate crisis in the early 1990s, instead of alerting the public or taking action, the fossil fuel industry began to attack climate science and scientists. Trust the climate scientists, don’t let oil companies mislead you.
+Here are some more details:
+
+Oil companies knew.
+
+Over the past decade, historians and journalists have discovered internal memos from oil companies showing that the oil industry has known since the 1950s that their products could cause dangerous climate change. Oil companies employed and worked with some of the world’s top climate scientists. By 1959–more than 60 years ago–they knew that burning fossil fuels could lead to global warming “sufficient to melt the icecap and submerge New York.” During the 1970s and ‘80s, scientists at one oil giant predicted global warming with breathtaking accuracy and warned executives of “potentially catastrophic” climate effects.
+
+Oil companies lied.
+
+Starting in the late 1980s, oil companies spent the next two decades intentionally misleading the American public with a well-funded disinformation campaign intended to create doubt about climate science and generate mistrust in climate scientists.
+The result was a manufactured debate about climate change that undermined public understanding of the scientific consensus that climate change is real and human-caused. The fossil fuel industry’s internal memos made this propaganda strategy explicit: “Emphasize the uncertainty” in climate science and “Reposition global warming as theory (not fact).” Their goal was to confuse the public and policymakers in order to delay action and protect profits.
+
+As part of this attack on the scientific consensus, oil companies issued statements and advertisements falsely claiming that climate science was “unsettled.” They also funded a small but vocal group of contrarian scientists and fake experts to sustain the illusion that there was significant disagreement within the scientific community. From 1986 to 2015, five oil companies alone spent $3.6 billion on advertising. Money also went to lobbying politicians against climate change legislation - outspending environmental groups by 10-to-1.
+
+Oil companies harassed.
+
+Climate scientists themselves also became the victims of an orchestrated smear campaign. For example, when one world-renowned climate scientist, Dr. Benjamin Santer, coauthored a major report concluding that human-caused global warming was underway, he was publicly accused of fraud and corruption by an oil-industry front group. Despite these claims being false and baseless, Dr. Santer faced harassment and threatening emails.
+When another prominent climate scientist, Dr. Michael Mann, coauthored research demonstrating rapid global warming over the past century, he was harassed for years by bogus legal complaints filed by organizations funded by fossil fuel interests. Fossil fuel companies used these attacks to misportray climate scientists as untrustworthy and convince the public not to believe their work.
+
+When it comes to climate change, don’t trust the oil companies, trust the climate scientists.
+
+
+Sources:
+Brulle, R.J., Aronczyk, M. & Carmichael, J. (2020). Corporate promotion and climate change: an analysis of key variables affecting advertising spending by major oil corporations, 1986–2015. Climatic Change, 159, 87–101. https://doi.org/10.1007/s10584-019-02582-8
+Center for Climate Integrity. (n.d.). Climate Deception. https://climateintegrity.org/evidence/climate-deception
+Cook, J., Supran, G., Lewandowsky, S., Oreskes, N., & Maibach, E. (2019). America misled: How the fossil fuel industry deliberately misled Americans about climate change. George Mason University Center for Climate Change Communication. https://www.climatechangecommunication.org/america-misled/
+Oreskes, N., & Conway, E. M. (2011). Merchants of doubt: How a handful of scientists obscured the truth on issues from tobacco smoke to global warming. Bloomsbury Publishing USA.
+
+Supran, G., & Oreskes, N. (2017). Assessing ExxonMobil’s climate change communications (1977–2014). Environmental Research Letters, 12, 084019. https://doi.org/10.1088/1748-9326/aa815f
+Union of Concerned Scientists. (2017, October 12). How the fossil fuel industry harassed climate scientist Michael Mann. https://www.ucs.org/resources/how-fossil-fuel-industry-harassed-climate-scientist-michael-mann
+
+### Measurement & modeling (1)
+Climate scientists are researchers who study the Earth’s climate — the intricate web of interactions between the atmosphere, oceans, land surfaces, and living organisms that together regulate the planet’s temperature and weather patterns over time.
+
+Their main goal is to understand how these components influence each other and how they have changed throughout Earth’s history. To achieve this, climate scientists rely on a wide range of evidence. They analyze long-term temperature and precipitation records collected from weather stations around the globe, satellite data that monitor variations in sea surface temperatures and polar ice cover, and natural archives that preserve traces of past climates.
+
+To understand the climate of the distant past, some scientists drill deep into the Antarctic and Greenland ice sheets to extract ice cores — cylinders of compacted snow and ice that can record hundreds of thousands of years of environmental history. Each layer of ice corresponds to a specific year of snowfall, and these layers can be dated using several techniques, such as identifying volcanic ash deposits. Each eruption leaves a distinct chemical fingerprint that allows researchers to assign precise ages to different layers. Once dated, the ice cores are analyzed for the tiny air bubbles they contain, which hold ancient greenhouse gases like CO₂ and CH₄, while the isotopic signature of the surrounding ice reveals past temperatures.
+
+Climate scientists work in a variety of environments — from remote polar research stations and deep-sea expeditions to data laboratories and climate modeling centers. Their studies often focus on large-scale phenomena such as glaciations, droughts, monsoon cycles, or ocean-atmosphere interactions like El Niño and La Niña, which strongly affect weather patterns around the globe.
+
+In parallel with reconstructions of past climates, climate scientists continuously monitor the modern atmosphere through a global network of CO₂ observatories and satellites like NASA’s OCO-2. By analyzing how carbon dioxide absorbs sunlight at specific wavelengths, they can precisely measure its concentration in the air — a level of sensitivity comparable to detecting a single drop of ink in an Olympic-size swimming pool.
+
+By studying these processes, climate scientists are able to identify the mechanisms driving changes in the climate and predict their impact on ecosystems, sea levels, and human societies. Their findings inform international assessments, and guide global efforts to mitigate climatic threats, such as heatwaves, droughts, or flooding, and promote sustainable solutions.
+
+### Former skeptics
+Science Above Politics: Former Skeptics' Defense of Climate Science
+Jennifer Rukavina
+
+When Jennifer Rukavina became a television meteorologist, she noticed her colleagues were divided into two camps: believers and nonbelievers. Ms. Rukavina didn’t know at first which camp she fell into, but she certainly wasn’t “convinced” about climate change.
+
+In the early 2000s, when Ms. Rukavina began her career, Al Gore, the former vice president and climate change activist, had just released his film “An Inconvenient Truth.” The split among her colleagues, Ms. Rukavina said, was largely focused around the political “theater” surrounding the film, which experts often describe as a flash point in the deepening partisan divide on climate change.
+
+“I decided that I needed to educate myself, because the meteorologist is often viewed as the station scientist,” Ms. Rukavina said. In 2008, she attended her first Glen Gerberg Weather and Climate Summit — a meeting of weathercasters and climate scientists — in Colorado. After hearing from the scientists themselves, Ms. Rukavina said, she changed her mind.
+
+“I am a registered Republican, but I don’t let politics dictate what good science is to me,” she said. Every year since, Ms. Rukavina has briefed her viewers live from the conference. “It really doesn’t matter to me what my viewers think of climate change,” she said. “What matters to me most is being able to prepare them for the changes that lie ahead.”
+Bob Inglis
+
+Bob Inglis was a congressman from one of the most conservative districts in South Carolina, one of the reddest states of the nation. The National Rifle Association endorsed him, and so did the American Conservative Union. For his first six years in Congress, he believed that climate change was, in his own words, “a bunch of hooey.”
+
+Then, Inglis had a change of heart: “When I ran again in 2004, my son had just turned 18 and was voting for the first time. He said to me, ‘Dad, I'll vote for you, but you're gonna clean up your act on the environment.’ So, I listened to my family, got in the House Science Committee, got the opportunity to go to Antarctica, and saw the evidence in the ice core drillings—they show that the Earth's atmosphere has changed, and it's the burning of fossil fuels that has changed it, creating stronger storms and the risk of flooding from higher sea levels.”
+
+Inglis sees protecting Earth’s climate as a conservative priority: “A lot of us conservatives would like to avoid the issue [of climate change], because we assume it means drastic changes and a bigger government. It doesn't have to be that way. The conservative thing to do is to protect our families and nation against this threat. We can create a new energy future that has lots of jobs and lots of wealth creation, and that lights up the world with more energy, more mobility, [and] more freedom.”
+
+### High public trust
+Please provide your best estimate: What percentage of Americans trust climate scientists to provide full and accurate information on climate change?
+[Slider 0 to 100]
+
+--Page Break–
+
+Trust in climate scientists is strong. In a recent Pew Research Center national survey, 76% of Americans reported having at least some trust in climate scientists to provide full and accurate information about climate change. Only 23% of Americans said they had little or no trust in climate scientists.
+
+Though this may seem surprising in our polarized context, Americans share many values and beliefs.
+
+Sources: https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/
+
+
+https://www.pewresearch.org/science/2026/01/15/americans-confidence-in-scientists/
+
+### Measurement & modeling (2)
+Climate science examines long‑term weather patterns, the forces that shape them, and their impact on the environment. Climate scientists are primarily natural scientists with backgrounds in atmospheric physics, geochemistry, oceanography, or biology. Among the leading researchers in this field are the physicist James Skea, geoscientist Katherine Calvin, and geochemist William Schlesinger.
+
+When conducting their research, climate scientists often start by collecting vast amounts of data using meticulous instruments, such as stereoplotters or disdrometers. These instruments translate natural phenomena into numeric information that researchers can then analyze. For example, disdrometers can quantify the drop size, distribution, and velocity of atmospheric liquid particles, or hydrometeors (e.g., rain).
+
+After collecting these raw data, climate scientists analyze them using sophisticated algebraic operations. They develop statistical models and computational simulations based on mathematical equations. Among many other techniques, climate scientists may analyze their data with spatial interpolation, support vector machines, Bayesian hierarchical modelling, or spectral and wavelet analysis.
+
+This quantitative-scientific methodology ensures that climate science produces rigorous and reliable knowledge that is reproducible by other scientists, and based on empirical data rather than on subjective impressions. The resulting insights help us understand the Earth’s climate system and the processes that drive climatic shifts.
+
+### Peer-review
+Before scientists can make their discoveries public, they face one of the toughest tests in any profession: peer review. This means that independent experts, other researchers who are often direct competitors, carefully examine the research to see if it holds up.
+
+They check whether the evidence is solid, whether the reasoning makes sense, and whether the data support the conclusions. In most cases, the authors are required to make changes before the scientific article can be published.  Overall, the  feedback obtained through this process leads to improving the research. As part of this process, many studies are rejected and not published. That means that research is only accepted as part of the scientific record if it has passed the test of peer review.
+
+Peer review means scientists hold each other accountable. Peer-reviewed research findings, from rising global temperatures, to shifting weather patterns, and melting glaciers, are not just one researcher’s opinion. Every credible study on climate change has been reviewed by multiple independent experts in the field. When these experts from across the world consistently reach the same conclusions, that agreement tells us they consider the science solid.
+
+Peer review is considered the toughest test there is for science. When you consider climate research, trust the process.
+
+### Scientist community helpers
+Title: Working together for safer, stronger communities.
+
+Subtitle: Climate science helps people protect what matters most: our families, our nature, and the places we all call home.
+
+Climate scientists are neighbors, parents, and community members. They use tools like weather sensors, soil data, and fire-mapping technology to help our communities prepare for climate change and recover from extreme weather events.
+
+From local farms to coastal towns, scientists and residents work side by side, to keep families safe and livelihoods secure. Their work supports goals shared by everyone: keeping homes safe, land healthy, and future generations protected.
+
+
+— page break —
+
+Title: Neighbours helping neighbours
+
+Along the Gulf Coast, many climate scientists live in the towns they study. They volunteer in local shelters, send their kids to the same schools as their neighbors, and worry about the same storms.
+
+During Hurricane Harvey (2017), local scientists worked with emergency managers, meteorologists, and neighborhood volunteers to track rainfall and rising floodwaters.
+
+Their real-time flood-risk maps helped firefighters and community groups identify which neighborhoods to evacuate first, and where children, seniors, and hospitals were located.
+
+Climate scientists aren’t outsiders looking in – they are community members using their training to help keep families safe.
+
+— page break —
+
+Title: Scientists and local fire crews work together to keep communities safe
+
+Climate scientists work closely with firefighters and local emergency teams by providing wildfire spread models on the ground, season after season. These models predict how fast a fire may move and which communities are most at risk.
+
+For example, during the 2020 wildfire season in California and Oregon, scientists used fire spread forecasts to help local responders decide where to strengthen fire lines and when to call for early evacuations.
+
+These decisions helped protect schools, retirement homes, and small neighborhoods near forests. Working together with climate scientists helped save numerous lives.
+
+Most of the scientists involved live in these communities, raise families there, and care deeply about the people and places at risk.
+
+— page break —
+
+Climate scientists are part of our communities: they raise families where we do, face the same risks we face, and work to protect things we all care about.
+
+### Consensus
+Science advances through an ongoing process of testing, refinement, and discovery. In some areas, evidence is so strong that scientists reach near-universal agreement. In others, disagreement remains as researchers continue to collect data, exchange scientific arguments, and improve models. This process is not a weakness but a fundamental part of how science progresses.
+
+Now we would like you to make estimations about scientific agreement. Please indicate the percentage of scientists you think agree with each of the below statements.
+
+[Randomize with #3 always in the middle]
+
+1)“Human activities are the primary cause of global warming since the mid-20th century.” [0-100 slider]
+
+2)“Increasing carbon dioxide in the atmosphere warms the planet.” [0-100 slider]
+
+3)“The world will reach net-zero CO₂ emissions before 2085”.  [0-100 slider]
+
+Correct answers:
+
+ 99%
+
+100%
+
+66%
+
+Feedback: Given directly after each item
+
+1) Surveys of scientists show that 99% of climate scientists agree that human activities—especially burning coal, oil, and gas—are the main cause of recent global warming (Myers et al., 2021). This conclusion comes from many independent lines of evidence: satellite temperature records, ocean-heat measurements, retreating glaciers, and physical models of the atmosphere. The agreement exists because multiple methods point to the same result, not because of any single study.
+Source:
+Myers, K. F., Doran, P. T., Cook, J., Kotcher, J. E., & Myers, T. A. (2021). Consensus revisited: quantifying scientific agreement on climate change and climate expertise among Earth scientists 10 years later. Environmental Research Letters, 16(10), 104030.
+
+2) Nearly all climate scientists (essentially ~100%) agree that increasing carbon dioxide (CO₂) in the atmosphere causes the planet to warm (Intergovernmental Panel on Climate Change, 2021). This rests on well-tested physics: CO₂ absorbs and re-emits infrared (heat) radiation, reducing how much heat escapes to space. The effect has been confirmed in laboratory spectroscopy and in real-world observations. For example, satellites detect changes in Earth’s outgoing infrared spectrum consistent with increased greenhouse trapping, and surface instruments measure increased downward infrared radiation attributable to rising CO₂.
+Source:
+Intergovernmental Panel on Climate Change. (2021). AR6 WGI FAQs: Climate Change 2021—The Physical Science Basis.
+
+3) Climate scientists are less unanimous about when the world will reach net-zero CO₂ because it depends on future policy, technology adoption, and economic choices, not just physical laws. In a 2024 survey of 211 Intergovernmental Panel on Climate Change report authors, 66% believed the world would reach net-zero CO₂ before 2085 (Wynes et al., 2024). Estimates like these are updated as new evidence emerges, such as changes in emissions trends, new policies, and improvements in clean-energy technologies.
+Source:
+Wynes, S., Davis, S. J., Dickau, M., Ly, S., Maibach, E., Rogelj, J., ... & Matthews, H. D. (2024). Perceptions of carbon dioxide emission reductions and future warming among climate experts. Communications Earth & Environment, 5(1), 498
+Summary:
+Climate scientists overwhelmingly agree that the planet is warming, that CO₂ is the key driver of this warming, and that human activity is the primary cause of CO₂. Even if their specific projections of our climate sometimes differ, climate scientists still overwhelmingly agree on the core conclusion that cutting CO₂ emissions reduces future warming and related risks.
+
+### Portrait Prof. Cherry
+Todd’s Work Helping Communities Navigate Challenges
+
+In his free time, Todd Cherry enjoys watching football and exploring the Rockies near where he lives in Wyoming. Every year, he organizes a get-together of the Teton Group, a network of colleagues from different fields who work on issues such as ensuring access to water and improving land use across states.
+
+These interests mirror Todd’s professional focus. Across towns and rural communities, people constantly need to coordinate on important decisions—how to manage shared resources, how to respond to changing risks, and how to adopt technology that helps communities thrive (or reject ones that don’t). Todd spends his days understanding how people and institutions operate together to address those challenges, especially when the stakes are high and the outcomes affect everyone.
+
+This work is particularly relevant in regions like the Rocky Mountain West, where communities depend on water systems shaped by snowpack, runoff, and increasing climate variability. Todd is part of projects examining how people interact with ecological and hydrological systems in major headwater regions, helping decision-makers anticipate risks and tradeoffs. His work is used by policymakers and institutions who design programs aimed at public goods and sustainable resource use.
+
+What many don’t realize is that Todd is a scientist focused on climate issues. Like engineers, doctors, and community planners, climate scientists rely on rigorous evidence and interdisciplinary teamwork to make sure the policies people depend on are effective and workable.
+
+And while Todd’s story is just one example, there are many others like him: scientists quietly doing practical, community-focused work every day.
+
+### Model accuracy
+The following text is based on a real news article published in 2019 by Warren Cornwall in Science[1]
+
+Even 50-year-old climate models correctly predicted global warming
+
+You may have heard the criticism that climate scientists build computer models that can’t predict the future. But decades later, those predictions turned out to be strikingly accurate.
+
+Climate scientists first began using computers to predict global temperatures in the 1970s. The early models were simple compared to what today's supercomputers produce, but a recent extensive review of 17 known forecasts made between 1970 and 2001 found that most of them were remarkably accurate[2]. All of them got the direction of change right, and most of them got the amount of change right, within a small margin of error. (For the record, from  1970 to 2019, the global average surface temperature has risen by approximately 0.9 degrees Celsius.)
+
+Where Were the Models Off?
+
+A few models did predict warming that was slightly too high or too low—by up to 0.1 degrees per decade. These small errors were mostly due to incorrect predictions about human behavior, not a flaw in the fundamental physics of the models.
+
+Climate models require two main inputs: First, physics—how the Earth's atmosphere, oceans, and land behave; Second, human actions—how much pollution (greenhouse gases like CO2 but also cooling aerosols, like soot) humans will emit into the atmosphere over the decades.
+It turns out it’s incredibly difficult to predict our future pollution. For example, some models from the 1980s that initially looked "too warm" didn't factor in a steep, unexpected drop in planet-warming refrigerants, resulting from the success of the 1989 Montreal Protocol to repair the ozone layer. They also sometimes overestimated the release of other gases, such as methane.
+
+When researchers adjusted these older models to use the actual historical pollution levels (instead of the levels they originally guessed), the predictions from those models lined up almost perfectly with the temperatures we observe today.
+
+The Bottom Line
+
+Climate models are not perfect, and they can’t predict everything. But the half-century of modelling history provides strong evidence both that the fundamental science used by climate scientists is broadly correct, and that models built upon that science to  project future warming have been largely correct as well.
+
+### Interview Prof. Sebille
+The following is an excerpt from an interview with Professor Erik van Sebille, a climate scientist and oceanographer at Utrecht University, Netherlands. In the interview, he discusses his research and the values commonly shared within the climate science community:
+
+“Research shows how climate change is driving rapid and far-reaching changes in the ocean, from stronger marine heat waves and coral bleaching to rising seas and more destructive coastal flooding. These shifts are happening faster than models anticipated, threatening ecosystems, food security, and the coastal communities that depend on a stable and healthy ocean. Research also highlights that vulnerable and low-income populations bear the greatest risks, underscoring the urgent need for adaptation and mitigation efforts.”
+
+Professor Erik van Sebille further explains:
+
+“I find these results deeply concerning because I care about the ocean, the natural world, and the wellbeing of people and the places we all share. I became an oceanographer working on climate change because I want to help protect the ocean and the natural systems that support our communities, our health, and our future. My goal in sharing this research is to provide clear, honest evidence that helps everyone, regardless of background or belief, take part in shaping a safer, healthier, and more resilient world.”
+
+### Extreme weather predictions
+NOTE — this arm is STATE-ADAPTIVE: each participant sees only ONE version. Its wording
+depends on the participant's home state, so do NOT feed the whole block below verbatim.
+Assign a state, map it to a case, fill the placeholders, and present only that case's text.
+
+What a participant actually sees, in order:
+  1. the state question (II. STIMULUS, Intervention page 1);
+  2. one intro paragraph (Intervention page 2) — [STATE] = the selected state, [CASE] = that
+     state's risk label (the quoted phrase heading its case in section I below);
+  3. exactly ONE of the four case texts (Intervention page 3).
+
+State -> case mapping: the lists in section I assign every state + D.C. to Case 1, 2, or 3.
+Case 4 is used ONLY for participants who select "Prefer not to say"; they also get the generic
+intro (the IF branch on page 2, with no [STATE]/[CASE]).
+
+Not shown to participants (authoring scaffolding): section I below, and everything marked
+"[not displayed to participants]" (References, Risk categories).
+
+I. STIMULUS CASE ASSIGNMENT LOGIC
+Case 1 – “states with high or recurrent flood risk”
+Alabama, Arkansas, Delaware, Florida, Georgia, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maryland, Mississippi, Missouri, Nebraska, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, South Carolina, South Dakota, Tennessee, Texas, Virginia, West Virginia, Washington D.C.
+
+Case 2 – “states with high or increasing wildfire risk”
+Alaska, Arizona, California, Colorado, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming, Hawaii
+
+Case 3 – ”states with severe cold, snow, ice, or blizzards”
+Connecticut, Maine, Massachusetts, Michigan, Minnesota, New Hampshire, New Jersey, New York, Rhode Island, Vermont, Wisconsin
+
+Case 4 – Fallback for participants not reporting their home state
+
+II. STIMULUS
+Intervention page 1
+Which U.S. state do you currently live in?
+(You may choose not to answer. If so, please select “Prefer not to say.”)
+Alabama
+Alaska
+Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maine
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+Washington, D.C.
+Prefer not to say
+
+Intervention Page 2
+
+IF state=”Prefer not to say”:
+You are living in the United States, a country facing risks by more and more extreme weather events. Please read the text on the following page carefully. It describes a real project in the U.S., working particularly on reducing the risks from these hazards by helping communities prepare for extreme weather.
+
+ELSE:
+You reported that you are currently living in [STATE], one of several [CASE]. Please read the text on the following page carefully. It describes a real project in the U.S., working particularly on reducing the risks from these hazards by helping communities prepare for extreme weather.
+
+Intervention page 3
+
+Case 1
+Predicting Floods Before They Strike
+In many parts of the United States, floods have become a very real and nearby threat. Heavy rainfall that overwhelms drainage systems or causes rivers to rise can happen quickly and without obvious warning. Flash floods and river floods have caused damage to homes, road closures, power outages, and even loss of life. Events like the 2025 Central Texas floods showed that dangerous floods can strike almost anywhere. For many families, these events are no longer something that happens “somewhere else” – they happen close to home.
+To help communities prepare, climate scientists at the National Severe Storms Laboratory (NSSL), part of the National Oceanic and Atmospheric Administration (NOAA), work on improving how floods and flash floods are predicted and warned against. They study heavy rainfall and use radar and sensor data to estimate how much rain will fall and where flooding is likely to happen. This research supports forecasting tools such as the Multi-Radar Multi-Sensor system and the FLASH flash-flood model, which help forecasters issue earlier and more accurate flood warnings.
+For these tools, climate researchers combine data from radar, satellites, and rain gauges, to show how rain is spreading and how water may move across the ground. This gives National Weather Service forecasters better information to send flood watches and warnings, giving people, emergency services, and local officials more time to prepare before dangerous water arrives.
+Together, this work shows how climate scientists, working alongside forecasters, are improving flood forecasts and early-warning systems – helping protect communities by giving them earlier and more reliable warnings.
+
+
+Case 2
+Detecting Wildfires Before They Spread
+In many parts of the United States, wildfires have become a very real and nearby threat. Fire seasons that once lasted a few weeks now stretch across several months, and even regions that rarely burned before are now facing fast-moving blazes. Wildfires have erased homes, and even caused loss of life. Events like the January 2025 Southern California wildfires showed that, in addition to dangers posed by flames, smoke and ash can travel hundreds of miles, turning skies orange and threatening people’s health. For many families, wildfires are no longer something that happens “somewhere else” – they happen close to home.
+To help communities prepare, climate scientists from the U.S. Department of Homeland Security and NASA are developing new early-detection systems that can spot wildfires minutes after they begin. Using satellite images, heat sensors, and artificial-intelligence models, these systems detect the first signs of smoke or fire and alert local emergency managers right away. Their work has already helped firefighters in several western states reach ignition sites faster and prevent small blazes from becoming major disasters.
+Climate researchers are also improving forecasts that show where and when dangerous fire conditions are likely to develop. This gives park rangers, energy companies, and residents more time to clear vegetation, secure equipment, or plan evacuations before a fire starts.
+Together, this work shows how climate scientists, working alongside forecasters, are improving wildfire forecasts and early-warning systems – helping protect communities by giving them earlier and more reliable warnings.
+
+
+Case 3
+Forecasting Winter Storms Before They Strike
+In many parts of the United States, severe winter storms have become a very real and nearby threat. Heavy snowfall, freezing rain, and sudden cold snaps have caused power outages, road closures, and even loss of life. Events like the 2021 Texas freeze and the 2022 Buffalo blizzard showed that dangerous winter weather can strike almost anywhere. For many families, these storms are no longer something that happens “somewhere else” – they happen close to home.
+To help communities prepare, climate scientists at the National Weather Service and several U.S. universities are developing new forecasting systems that can predict blizzards and extreme cold days to weeks in advance. Using satellite data, radar observations, and high-resolution climate models, they identify patterns in the atmosphere that signal when and where dangerous storms are likely to form. Their work has already helped local authorities issue warnings earlier and protect residents and infrastructure before conditions worsen.
+Climate researchers are also working with city planners and emergency agencies to translate forecasts into concrete actions – salting roads, securing power lines, or warning schools and hospitals in time to prepare.
+Together, this work shows how climate scientists, working alongside forecasters, are improving winter storm forecasts and early-warning systems – helping to protect communities by giving them earlier and more reliable warnings.
+
+Case 4
+Improving Warnings for Extreme Weather Before It Strikes
+In many parts of the United States, extreme weather events have become a very real and nearby threat. Heavy rain, flash floods, wildfires, and winter storms can damage homes and roads, and sometimes even lead to loss of life. Recent outbreaks of extreme weather have shown that dangerous conditions can arise with little time to react. For many families, these events are no longer something that happens “somewhere else” – they happen close to home.
+To help communities prepare, climate scientists at NOAA’s Hazardous Weather Testbed conduct research to improve how severe and hazardous weather is detected, analyzed, and warned against. In this testbed, researchers and operational National Weather Service forecasters work side by side to evaluate new tools, data, and warning technologies in a setting that closely mimics real forecasting offices. They test experimental radar, satellite, and modeling products during both live weather events and archived cases to see how these innovations perform in practice.
+Climate researchers are refining systems that support faster, clearer, and more reliable warnings for extreme weather. By bringing together researchers, forecasters, and sometimes emergency managers, the Testbed helps ensure that new scientific advances are usable in real-world operations and truly meet the needs of those who protect the public.
+Together, this work shows how climate scientists, working alongside forecasters, are improving extreme weather forecasts and early-warning systems – helping protect communities by giving them earlier and more reliable warnings this season and in the years ahead.
+References [not displayed to participants]
+
+Case 1 is based on NSSL (n.d.). “NSSL Research: Flooding”. https://www.nssl.noaa.gov/research/flood/
+Case 2 is based on DHS Science & Technology Directorate (2025). “Technology to Reduce the Impacts of Wildfires”. https://www.gao.gov/products/gao-25-108161
+Case 3 is based on Novak, D.R. (2023). “Innovations in Winter Storm Forecasting and Decision Support”. American Meteorological Society. https://doi.org/10.1175/BAMS-D-22-0065.1
+Case 4 is based on Calhoun, K. M., Berry, K. L., Kingfield, D. M., Meyer, T., Krocak, M. J., Smith, T. M., Stumpf, G., & Gerard, A. (2021). “The Experimental Warning Program of NOAA’s Hazardous Weather Testbed.” Bulletin of the American Meteorological Society, 102(12), E2229-E2246. https://doi.org/10.1175/BAMS-D-21-0017.1
+
+Risk categories [not displayed to participants]
+
+Federal Emergency Management Agency (2025). FEMA National Risk Index Data v 1.20.0 [Dataset]. U.S. Department of Homeland Security. https://www.fema.gov/flood-maps/products-tools/national-risk-index
+Federal Emergency Management Agency (2025). National Flood Hazard Layer (NFHL) [GIS dataset]. U.S. Department of Homeland Security.  https://www.fema.gov/flood-maps/national-flood-hazard-layer
+U.S. Department of Agriculture, Forest Service (2025). Wildfire Risk to Communities [Dataset]. https://wildfirerisk.org
+
+NOTES: belief_post and trust_post are RE-ASKED post-treatment: the same two items were already answered by the same respondent before the text (belief_pre, trust_pre). newsletter_signup requires leaving the survey tab to subscribe. donation_ams gives away part of a real $10 bonus.
+
+Return exactly 208 rows: every condition x every outcome.
+Header: condition,outcome,ate

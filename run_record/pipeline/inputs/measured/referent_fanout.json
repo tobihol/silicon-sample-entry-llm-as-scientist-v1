@@ -1,0 +1,63 @@
+{
+ "quantity": "additive partisan fan-out in pp of scale range when the trust referent becomes climate-adjacent",
+ "leg_a_pew_w42": {
+  "referent": "medical -> environmental research scientists (5-item RQ4 battery, within person)",
+  "cut": "F_PARTYSUM_FINAL (Rep/Lean vs Dem/Lean)",
+  "fanout_pp": 11.831491941180666,
+  "se_pp": 1.0928090482038422,
+  "n_unweighted": 2030,
+  "source": "inputs/measured/pew_atp_trust.json (recomputable from ATP_W42.sav; verified against the raw file to 0.01 pp)"
+ },
+ "leg_b_tisp_us": {
+  "referent": "scientists -> scientists in your country who work on climate change (same 5-point item, within person)",
+  "cut": "DEM_POL_* 5-point self-placement, blocks 1-2 vs 4-5",
+  "by_scale": {
+   "DEM_POL_conservative": {
+    "fanout_pp": 10.396985488711788,
+    "se_pp": 1.160902912898784,
+    "generic_gap_pp": 9.72763184768688,
+    "climate_gap_pp": 20.107923722938075,
+    "multiplicative_stretch_here": 2.0670934136677377,
+    "n_unweighted": 1643
+   },
+   "DEM_POL_right": {
+    "fanout_pp": 8.060509621462574,
+    "se_pp": 1.289139929332759,
+    "generic_gap_pp": 7.957825512040145,
+    "climate_gap_pp": 15.988225353963514,
+    "multiplicative_stretch_here": 2.0091198694635137,
+    "n_unweighted": 1510
+   }
+  },
+  "overall_within_person_level_shift_pp": -3.9190302244559523,
+  "primary": "DEM_POL_conservative"
+ },
+ "leg_c_gligoric2025": {
+  "referent": "climatologists vs 30 non-climate scientist types (4 types randomly assigned per respondent, two 1-7 trust items each), control arm",
+  "cut": "Ideology 1-5 vs 6-10",
+  "fanout_pp": 11.297934069583006,
+  "se_pp": 3.4898601324046887,
+  "n_obs": 7684,
+  "n_respondents": 2248,
+  "ideology_balanced_level_pp": {
+   "climatologists": 62.284421826406565,
+   "other_sciences": 72.392019858816,
+   "difference": -10.107598032409435
+  },
+  "climatologists_rank": "largest ideology gap of all 35 types (16.2 pp; environmental scientists 16.1; median type ~4.6)",
+  "not_used_for_the_adopted_value": "SE 3.5 pp; pooling it moves the constant by 0.03 pp, below the resolution of anything downstream, so it is recorded as corroboration and every artefact stays on the two-leg value"
+ },
+ "pooled": {
+  "fanout_pp": 11.157541496783992,
+  "se_pp": 0.7957169877250972,
+  "method": "inverse-variance over legs A and B (the two precise ones)",
+  "three_leg_value_not_adopted": {
+   "fanout_pp": 11.164479502564093,
+   "se_pp": 0.7758062673953455,
+   "why": "leg C moves it by 0.01 pp"
+  },
+  "adopted_by": "tools/build_baselines.py (PEW_FANOUT)",
+  "stretch_on_pew_party_gap": 1.517751345558422,
+  "why_additive": "TISP's generic ideology gap is 9.7 pp against Pew's 21.6, so a multiplicative stretch fitted in one source (2.07) does not transfer to the other (1.55) while the additive numbers agree (10.4 vs 11.8)"
+ }
+}

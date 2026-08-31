@@ -1,0 +1,194 @@
+{
+ "dataset": "vlasceanu2024",
+ "status": "VERIFIED - xlsx sheet 'data4joe (1)' loads 59,440 rows -> 8,253 after Country=='Usa' (matches the OSF README's US n exactly); 12 arms (11 interventions + Control), arm n 534-734; 11x15 = 165 ATE cells, 0 NaN, range -8.6 to +10.5 pp (median |ATE| 3.9 pp); pandas reads the literal 'NA' strings as NaN, verified by dtype and min/max on every outcome column (Belief/Policy 0-100, SHAREcc {0,1}, WEPTcc 0-8 integer); Policy1..9 -> CC_policy_* mapping corroborated by the mean-rank pattern (3 tax items lowest, 2 protect-nature items highest); gender/age_band level strings equal to ssb.spec.load()['moderators'], NaN shares 0.8% and 0.4%; carve() builds brief/+sealed/; age_band moderator carve verified.",
+ "file": "/workspace/datasets/vlasceanu2024/downloads/data63.xlsx",
+ "reader": "xlsx",
+ "read_kwargs": {
+  "sheet_name": "data4joe (1)"
+ },
+ "sample_description": "8,253 U.S. adults, the United States subsample of the 63-country Global Climate Intervention Tournament (n = 59,440 worldwide, online panels, 2022). Each respondent was randomly assigned to one of 11 short climate interventions or to a control condition, then answered belief and policy-support sliders and completed two real behavioural measures: sharing a climate message on social media, and the Work for Environmental Protection Task (up to 8 screens of tedious number-identification, each screen buying one tree). Interventions were brief single-session manipulations delivered in-survey.",
+ "condition_col": "condName",
+ "arms": {
+  "BindingMoral": "BindingMoral",
+  "CollectAction": "CollectAction",
+  "Control": "Control",
+  "DynamicNorm": "DynamicNorm",
+  "FutureSelfCont": "FutureSelfCont",
+  "LetterFutureGen": "LetterFutureGen",
+  "NegativeEmotions": "NegativeEmotions",
+  "PluralIgnorance": "PluralIgnorance",
+  "PsychDistance": "PsychDistance",
+  "SciConsens": "SciConsens",
+  "SystemJust": "SystemJust",
+  "WorkTogetherNorm": "WorkTogetherNorm"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "filters": [
+  {
+   "col": "Country",
+   "eq": "Usa"
+  }
+ ],
+ "outcomes": {
+  "Belief1": {
+   "col": "Belief1",
+   "lo": 0,
+   "hi": 100,
+   "question": "How accurate do you think this statement is? - Human activities are causing climate change. (0 = not at all accurate, 100 = extremely accurate)",
+   "codebook_variable": "Belief.in.CC_1"
+  },
+  "Belief2": {
+   "col": "Belief2",
+   "lo": 0,
+   "hi": 100,
+   "question": "How accurate do you think this statement is? - Climate change poses a serious threat to humanity. (0 = not at all accurate, 100 = extremely accurate)",
+   "codebook_variable": "Belief.in.CC_2"
+  },
+  "Belief3": {
+   "col": "Belief3",
+   "lo": 0,
+   "hi": 100,
+   "question": "How accurate do you think this statement is? - Taking action to fight climate change is necessary to avoid a global catastrophe. (0 = not at all accurate, 100 = extremely accurate)",
+   "codebook_variable": "Belief.in.CC_4"
+  },
+  "Belief4": {
+   "col": "Belief4",
+   "lo": 0,
+   "hi": 100,
+   "question": "How accurate do you think this statement is? - Climate change is a global emergency. (0 = not at all accurate, 100 = extremely accurate)",
+   "codebook_variable": "Belief.in.CC_5"
+  },
+  "Policy1": {
+   "col": "Policy1",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - raising carbon taxes on gas/fossil fuels/coal (0-100 slider)",
+   "codebook_variable": "CC_policy_1"
+  },
+  "Policy2": {
+   "col": "Policy2",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - significantly expanding infrastructure for public transportation (0-100 slider)",
+   "codebook_variable": "CC_policy_2"
+  },
+  "Policy3": {
+   "col": "Policy3",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - increasing the number of charging stations for electric vehicles (0-100 slider)",
+   "codebook_variable": "CC_policy_3"
+  },
+  "Policy4": {
+   "col": "Policy4",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - increasing the use of sustainable energy such as wind and solar energy (0-100 slider)",
+   "codebook_variable": "CC_policy_5"
+  },
+  "Policy5": {
+   "col": "Policy5",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - increasing taxes on airline companies to offset carbon emissions (0-100 slider)",
+   "codebook_variable": "CC_policy_6"
+  },
+  "Policy6": {
+   "col": "Policy6",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - protecting forested and land areas (0-100 slider)",
+   "codebook_variable": "CC_policy_7"
+  },
+  "Policy7": {
+   "col": "Policy7",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - investing more in green jobs and businesses (0-100 slider)",
+   "codebook_variable": "CC_policy_8"
+  },
+  "Policy8": {
+   "col": "Policy8",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - introducing laws to keep waterways and oceans clean (0-100 slider)",
+   "codebook_variable": "CC_policy_9"
+  },
+  "Policy9": {
+   "col": "Policy9",
+   "lo": 0,
+   "hi": 100,
+   "question": "I support... - increasing taxes on carbon intense foods (for example meat, and dairy) (0-100 slider)",
+   "codebook_variable": "CC_policy_10"
+  },
+  "SHAREcc": {
+   "col": "SHAREcc",
+   "lo": 0,
+   "hi": 1,
+   "question": "BEHAVIOUR: 'Are you willing to share this information on your social media? If yes, please do it now, by copying and pasting the entire message.' 1 = yes, 0 = no (the 'I do not use social media' option was folded to missing)",
+   "codebook_variable": "Share"
+  },
+  "WEPTcc": {
+   "col": "WEPTcc",
+   "lo": 0,
+   "hi": 8,
+   "question": "BEHAVIOUR: Work for Environmental Protection Task - number of tedious 60-number screens (out of 8) the respondent completed, each screen donating one tree to the Eden Reforestation Project",
+   "codebook_variable": "WEPT1..WEPT8 confirm/complete pages"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "Gender",
+   "map": {
+    "1": "Male",
+    "2": "Female",
+    "4": "Other"
+   },
+   "note": "codebook Gender: [1] Male, [2] Female, [3] Prefer not to say, [4] Non-binary/third gender/other. Code 3 does not occur in the released file (already NA); code 4 (n=88 in the US subsample) is mapped to the target's `Other`"
+  },
+  "age_band": {
+   "col": "Age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ],
+   "note": "free numeric 18-95 in the US subsample; 0.4% missing"
+  }
+ },
+ "moderators_unavailable": {
+  "race": "there is NO race or ethnicity item anywhere in the 1,107-variable codebook. Not recoverable.",
+  "party": "there is NO party-identification item. `Politics2_1` (social ideology 0-100) and `Politics2_9` (economic ideology 0-100), 0 = extremely liberal, 100 = extremely conservative, are the only political variables. Cutting a continuous ideology score into Republican/Democrat/Independent would be inventing a coding, so party is left out.",
+  "education": "`Edu` = codebook `Education.2`, 'How many years of formal education have you completed?': [1] 0-6 yrs, [2] 7-12 yrs (up to high school), [3] 13-16 yrs (college/undergraduate/certificate), [4] >17 yrs, [5] prefer not to answer. EVERY raw level straddles two or more of the target's six levels (level 2 spans 'Less than high school' and 'High school diploma / GED'; level 3 spans 'Some college or Associate's degree' and 'Bachelor's degree'; level 4 spans 'Master's / Professional' and 'Doctorate'). No target level can be recovered, so education is left out entirely.",
+  "income": "`Income` bands: [1] <$10,000, [2] $10-14,999, [3] $15-24,999, [4] $25-49,999, [5] $50-99,999, [6] $100-149,999, [7] $150-199,999, [8] >=$200,000. Bands 4, 5 and 7 straddle the target's cut points ($30,000, $56,000, $168,000), and bands 4+5 hold 50% of the US subsample. Mapping only the clean bands would produce an income moderator with the two middle target levels EMPTY, so income is left out."
+ },
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/vlasceanu2024_arms.json",
+ "message_texts_source": "NONE ON DISK. See the _note key in the texts file.",
+ "provenance": {
+  "verified_by": "notes/DATA_GOLDWERT_VLASCEANU.md (this session: full sheet load, US filter, arm counts, item-to-codebook mapping check, carve)",
+  "readme_claims": "OSF_READme.txt: data63.xlsx is the cleaned paper analysis file; US n = 8,253 (matches exactly).",
+  "caveats": [
+   "NO MESSAGE TEXT EXISTS ON DISK. The predictor sees 11 bare condition names. This study can train levels, distributions and (weakly) ordering, but it CANNOT train message reading. Do not read a poor practice score here as a failure of the predictor's message comprehension.",
+   "Composites are NOT pre-computed in this file and the paper's own index definitions are not on disk, so this adapter deliberately scores the 13 individual items rather than a BeliefMean/PolicyMean that would be an unverified estimand. Item level is also the right shape for the target, whose belief_post is a single item and whose policy_specific_1..7 are single items.",
+   "The Belief1..4 -> Belief.in.CC_1/2/4/5 and Policy1..9 -> CC_policy_1/2/3/5/6/7/8/9/10 mappings are an inference from column order (the analysis file drops the item suffixes). The Policy mapping is corroborated by the US mean pattern: the three tax items map to Policy1 (52.9), Policy5 (58.7), Policy9 (46.9) - the three LOWEST-supported items - and the two protect-nature items map to Policy6 (79.7) and Policy8 (77.3) - the two HIGHEST. The Belief mapping cannot be corroborated this way (all four items sit at 69.6-71.4) and is UNVERIFIED beyond column order.",
+   "Preregistered exclusion rules are UNVERIFIED: the cleaning script (datapaper_cleaning.R) is not on disk. This adapter applies none beyond the country filter, on the stated assumption that data63.xlsx is already the cleaned analysis file.",
+   "SHAREcc is missing for 25.2% of the US subsample - the raw item's '[2] I do not use social media' option was folded to missing, and that fold is not treatment-independent in an obvious way. WEPTcc is complete but violently bimodal (20.5% at 0, 51.3% at 8).",
+   "Arm sizes in the US subsample are unequal (534-734) because FutureSelfCont and LetterFutureGen were fielded to fewer respondents worldwide as well (4,022-4,194 vs ~5,150).",
+   "No trust-in-scientists item of any kind, and no donation item.",
+   "This adapter reads the Zenodo analysis file. data_notimers.csv is a second, overlapping release with different n (59,508) and different variable names; do not mix the two."
+  ],
+  "target_relevance": "the strongest item-level overlap with the target of any training dataset. The target's belief_post ('How accurate do you think this statement is? Human activities are causing climate change.') is verbatim Belief1; seven of the target's policy_specific_1..7 are near-verbatim Policy items (fossil-fuel taxes, public transport, sustainable energy, protecting forested and land areas, carbon-intense food taxes, green jobs, clean waterways). Use for Tier-1 baseline levels and dispersion and for the demographic-baseline RMSE row, not for message ranking.",
+  "harness_note": "ssb.task.true_ates(df, ad, moderator='gender') raises ValueError: cannot convert float NaN to integer. Cause: gender code 4 -> 'Other' is only 88 of 8,253 US respondents (1.1%), i.e. 3-11 per arm, and the WorkTogetherNorm x Other cell has n=2 for Policy1..9 and SHAREcc; wm() returns NaN for n<=2 and int(an) cannot take it. The mapping is correct and deliberately KEPT (code 4 is genuinely the target's `Other` level). Fix on the harness side if a gender carve is wanted: use a nullable Int64 for n_treat/n_control in true_ates, or drop levels with a min cell < 3 before carving. The same limitation hits moderator='education' on the goldwert2026 adapter."
+ }
+}

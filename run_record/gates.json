@@ -1,0 +1,42 @@
+{
+ "G1_frozen_intact": {
+  "passed": true,
+  "detail": "APPEND_SYSTEM.md sha256 matches the value recorded at run start",
+  "at": "09:37:04"
+ },
+ "G2_practice_scored": {
+  "passed": true,
+  "detail": "inherited from 20260815-practice-01: 1101 pairs, 498 in slope (inherited from 20260815-target-01; no model call)",
+  "at": "09:37:04"
+ },
+ "G3_calibration_fitted": {
+  "passed": true,
+  "detail": "pooled slope 1.521 on 498 pairs, inherited from 20260815-practice-01 (inherited from 20260815-target-01; no model call)",
+  "at": "09:37:04"
+ },
+ "G4_card_complete": {
+  "passed": true,
+  "detail": "0 validation problems, 0 clipped cells, centring 1.61e-15",
+  "at": "09:37:04"
+ },
+ "G6_reconstruction": {
+  "passed": true,
+  "detail": "seed scan over 5 seeds: tier2mod 1.713-1.766 (tol 2.50), tier3 max 0.0049",
+  "at": "09:49:28"
+ },
+ "G7_dispersion": {
+  "passed": true,
+  "detail": "sd_ratio 0.989-1.009 over the seed scan",
+  "at": "09:49:28"
+ },
+ "G5_validator_pass": {
+  "passed": true,
+  "detail": "{\"1\": \"PASS WITH WARNINGS\", \"2\": \"PASS WITH WARNINGS\", \"3\": \"PASS WITH WARNINGS\"}",
+  "at": "09:49:31"
+ },
+ "G8_recorded": {
+  "passed": true,
+  "detail": "scoreboard row appended through the locked path",
+  "at": "09:49:31"
+ }
+}

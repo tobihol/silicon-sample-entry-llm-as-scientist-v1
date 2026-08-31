@@ -1,0 +1,96 @@
+{
+ "dataset": "altenmueller2024",
+ "status": "VERIFIED by tools/build_altenmueller.py (rebuild + red paths + published checks)",
+ "file": "/workspace/run/inputs/derived/altenmueller2024_study4b.csv",
+ "reader": "csv",
+ "sample_description": "741 U.S. adults on MTurk who passed a preregistered attention check (250 / 245 / 246 per arm), fielded 2022. Every respondent is asked to IMAGINE coming across a report by scientists from a research institute, and reads a four-sentence description of that institute; the arms differ only in the institute's discipline. They then rate the scientists who work there on 14 bipolar trust adjectives, say how much they would support an unspecified policy those researchers suggest, how interested they would be in the researchers' further findings, and how ideologically similar to themselves the scientists feel.",
+ "condition_col": "arm",
+ "arms": {
+  "Economic institute": "Economic institute",
+  "Sociological institute": "Sociological institute",
+  "Interdisciplinary institute": "Interdisciplinary institute"
+ },
+ "control_arms": [
+  "Economic institute"
+ ],
+ "outcomes": {
+  "trust_expertise": {
+   "col": "expertise",
+   "lo": 1,
+   "hi": 7,
+   "question": "6 bipolar 7-point semantic differentials completing 'In my view, scientists who work at this research institute are likely to be ...': incompetent-competent, unintelligent-intelligent, poorly educated-well educated, unprofessional-professional, inexperienced-experienced, unqualified-qualified; averaged (no item is reverse scored)"
+  },
+  "trust_morality": {
+   "col": "moralTrust",
+   "lo": 1,
+   "hi": 7,
+   "question": "the other 8 items of the same battery: dishonest-honest, insincere-sincere, unjust-just, unfair-fair, immoral-moral, unethical-ethical, irresponsible-responsible, inconsiderate-considerate; averaged"
+  },
+  "policy_support": {
+   "col": "support",
+   "lo": 1,
+   "hi": 7,
+   "question": "'Please imagine that researchers from this institute suggest a new policy. This policy results from their research and theorizing, suggesting that this policy would have positive consequences for society.' - 'How much do you think would you support such a policy?', 1 'Not at all' - 7 'Completely'. The policy itself is never specified"
+  },
+  "information_seeking": {
+   "col": "information_seeking",
+   "lo": 1,
+   "hi": 7,
+   "question": "'How much would you be interested in learning about further findings and suggestions from these researchers?', 1 'Not at all' - 7 'Completely'"
+  },
+  "perceived_similarity": {
+   "col": "similarity",
+   "lo": 1,
+   "hi": 7,
+   "question": "'In terms of my own political and ideological views, I feel similar to these scientists.', 1 'Not at all' - 7 'Completely'"
+  }
+ },
+ "moderators": {
+  "party_lean": {
+   "col": "party_lean",
+   "map": {
+    "Democrat": "Democrat",
+    "Independent": "Independent",
+    "Republican": "Republican"
+   }
+  },
+  "age_band": {
+   "col": "age_band",
+   "map": {
+    "18-29": "18-29",
+    "30-44": "30-44",
+    "45-59": "45-59",
+    "60+": "60+"
+   }
+  },
+  "gender": {
+   "col": "gender_norm",
+   "map": {
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "race": "not asked",
+  "income": "not asked",
+  "education": "not asked"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/altenmueller2024_arms.json",
+ "exclude_from_slope": "source-IDENTITY manipulation, not a message intervention, on a coarse 7-point bipolar scale, in the trust family. Findings 69 and 83 leave scale format and family confounded, and the operator's session-13 directive forbids fitting a trust-family multiplier.",
+ "provenance": {
+  "verified_by": "tools/build_altenmueller.py; recon in notes/DATA_ALTENMUELLER.md; the authors' analysis_study4b.Rmd is the codebook",
+  "caveats": [
+   "the WITHIN-OUTCOME ceiling of this task is 0.000 (covariance-aware, finding 79): two identity labels at n~245 each cannot be told apart, so the frozen table's pearson_r_within_outcomes row is at chance here by construction and is not interpreted",
+   "the third arm (interdisciplinary) is the authors' EXPLORATORY arm and is excluded from every preregistered analysis in the paper; it is carried here as declared secondary cells and is not part of the primary contrast",
+   "the two preregistered vignettes are word-for-word twins apart from the discipline words, so the lexical distance between them is near zero - which is the point of carving it",
+   "hypothetical framing: respondents imagine a report they never read; there is no actual message, no actual policy and no actual finding",
+   "MTurk 2022, not a census-quota panel",
+   "trust_expertise and trust_morality are disjoint halves of one 14-item battery, so their cells are not independent tests",
+   "the paper's own result is an INTERACTION with respondent conservatism; the marginal contrast this task scores is not the paper's headline"
+  ]
+ }
+}

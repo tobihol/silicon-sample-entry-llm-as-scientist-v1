@@ -1,0 +1,149 @@
+{
+ "dataset": "voelkel2026",
+ "status": "VERIFIED - full-file load of 'CCC - Data - Recoded.csv' (13,821 x 139) in this run: ConditionR arm sizes 1,057-1,069 + pooled Control 3,183; Gender is a STRING column (Female 7,455 / Male 6,237 / Other 129) not the 1/2/3 codes the draft assumed - fixed; Race IS present in the recoded file (codes 1-5, 1 verified as White against RaceEthnicity_White and 3 as Hispanic against RaceEthnicity_Hispanic) - added; Party_N 1-8 confirmed against PartyC8 labels (1 Strong Dem ... 7 Strong Rep, 8 Other); Age = 2024-YOB, 18..124 (a few implausible YOBs land in 60+); Education is a 3-level collapsed STRING and Income_B has no label table, so both stay unavailable.",
+ "file": "/workspace/datasets/voelkel2026/downloads/CCC - Data - Recoded.csv",
+ "reader": "csv",
+ "sample_description": "13,821 U.S. adults, census-quota opt-in online panel, 2024; each read one short climate message or one of three off-topic control texts; all outcomes 0-100 integer sliders measured pre and post.",
+ "condition_col": "ConditionR",
+ "arms": {
+  "Control": "Control",
+  "Binding Framing": "Binding Framing",
+  "Consensus Framing 1": "Consensus Framing 1",
+  "Consensus Framing 2": "Consensus Framing 2",
+  "Dire But Solvable Framing": "Dire But Solvable Framing",
+  "Free Market Framing": "Free Market Framing",
+  "Gains Framing": "Gains Framing",
+  "High Social Distance Framing": "High Social Distance Framing",
+  "Purity Framing": "Purity Framing",
+  "System Preservation Framing": "System Preservation Framing",
+  "Warmth Framing": "Warmth Framing"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "outcomes": {
+  "Belief_Post": {
+   "col": "Belief_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "belief that human activity causes climate change (3 items, item 3 reversed)"
+  },
+  "Concern_Post": {
+   "col": "Concern_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "climate concern (3 items) - VERBATIM the target's concern_1..3"
+  },
+  "Policies_Post": {
+   "col": "Policies_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "general climate policy support (3 items) - includes the target's policy_general verbatim"
+  },
+  "PoliciesSp_Post": {
+   "col": "PoliciesSp_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "specific climate policy support (4 items, item 3 reversed)"
+  },
+  "Intent_Post": {
+   "col": "Intent_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "political climate intentions (4 items)"
+  },
+  "IntentNp_Post": {
+   "col": "IntentNp_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "non-political climate behaviour intentions (6 items) - 3 verbatim target behavior_* items"
+  },
+  "Candidate_Post": {
+   "col": "Candidate_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "climate-candidate support (4 items, all reversed)"
+  },
+  "Companies_Post": {
+   "col": "Companies_Post",
+   "lo": 0,
+   "hi": 100,
+   "question": "attitudes to companies (3 items)"
+  },
+  "Donation": {
+   "col": "Donation",
+   "lo": 0,
+   "hi": 100,
+   "question": "allocation of 100 cents to climate orgs (0-100, strongly bimodal)"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "Gender",
+   "map": {
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other"
+   }
+  },
+  "age_band": {
+   "col": "Age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "party": {
+   "col": "Party_N",
+   "map": {
+    "1": "Democrat",
+    "2": "Democrat",
+    "3": "Independent",
+    "4": "Independent",
+    "5": "Independent",
+    "6": "Republican",
+    "7": "Republican",
+    "8": "Other"
+   }
+  },
+  "race": {
+   "col": "Race",
+   "map": {
+    "1": "White / Caucasian",
+    "2": "Black / African American",
+    "3": "Hispanic / Latino",
+    "4": "Asian / Asian American",
+    "5": "Other"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "education": "recoded file collapses to 3 strings (HS or less / Some college / Bachelor or Postgraduate); the deidentified file's raw 1-5 has no Master's-vs-Doctorate split. Not mappable onto the target's 6 levels.",
+  "income": "Income_B codes 1-11 have no label table anywhere on disk - unusable"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/voelkel2026_arms.json",
+ "message_texts_source": "/workspace/datasets/voelkel2026/downloads/CCC - Questionnaire - Qualtrics.pdf (all 13 arm texts; extract with pypdf in the `texts` stage). NOT the other questionnaire PDF, which lists names only.",
+ "provenance": {
+  "verified_by": "notes/DATA_experiments.md (recon) + a full-file verification pass in run 20260815 (see runs/<id>/REPORT.md and notes/DATA_VOELKEL2026_FORMAT.md)",
+  "caveats": [
+   "no weights column",
+   "no respondent id",
+   "outcomes measured pre and post; use post-minus-control for a like-for-like ATE, and control-arm PRE distributions as unprimed baselines",
+   "reverse scoring already applied in the recoded file - do not reverse twice",
+   "treatment length varies 1-11 pages: dose is confounded with content",
+   "no trust-in-scientists outcome of any kind"
+  ],
+  "twin_note": "Its three control texts are the SAME three filler texts the target study uses (neckties / baseball / dances). Structural fact from the two instruments, not outcome data."
+ }
+}

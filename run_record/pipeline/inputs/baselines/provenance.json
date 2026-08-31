@@ -1,0 +1,139 @@
+{
+ "built": "2026-08-15T14:45:02",
+ "what": "human-anchored control-condition levels and subgroup offsets for the card (stage 6 input). Replaces an all-zero subgroup table, i.e. the prediction 'no demographic structure at all'.",
+ "two_measured_corrections": {
+  "likert_to_slider_bridge_pp": -4.9,
+  "bridge_evidence": {
+   "design": "TISP US CLIM_POLSUPPORT (3-point) vs vlasceanu2024 US control-arm sliders, five near-verbatim policy items, both US adults",
+   "per_item": {
+    "CLIM_POLSUPPORT_fueltax": {
+     "tisp_rescaled": 53.9,
+     "slider": 49.9
+    },
+    "CLIM_POLSUPPORT_publictransport": {
+     "tisp_rescaled": 71.1,
+     "slider": 64.0
+    },
+    "CLIM_POLSUPPORT_sustenergy": {
+     "tisp_rescaled": 73.2,
+     "slider": 70.3
+    },
+    "CLIM_POLSUPPORT_protection": {
+     "tisp_rescaled": 82.4,
+     "slider": 77.6
+    },
+    "CLIM_POLSUPPORT_foodtax": {
+     "tisp_rescaled": 48.4,
+     "slider": 42.6
+    }
+   },
+   "finding": "a linearly rescaled coarse-Likert mean runs 2.9-7.1 pp HIGH against a 0-100 slider on the same construct in the same population, on all five items. Mean -4.9 pp, applied to every Likert-derived LEVEL. DATA_format.md called this the load-bearing step and left it UNVERIFIED; this is the first measurement of it in the mounted data."
+  },
+  "referent_shift_pp": -3.93,
+  "referent_evidence": "within-person in TISP US: CLIM_TRUST (climate scientists in your country) 3.681 vs TRUST_PEW (scientists) 3.838 on the same 1-5 scale = -3.93 pp rescaled. Applied to trust_multidimensional, whose TISP items ask about 'most scientists' while the target asks about 'most climate scientists'."
+ },
+ "gap_transfer_factor": {
+  "value_3point": 0.8,
+  "evidence_3point": "TISP 3-point policy support vs vlasceanu2024 slider, centred age-band gaps: ratios 0.93 / 0.76 / 0.63 / 0.92 (mean 0.81), ordering preserved. Applied to every offset imported from a coarse-scale source (GSS, CCAM, TISP); NOT applied to voelkel2026 or goldwert2026, which are already sliders/native units.",
+  "value_4point_GAP4": 0.8,
+  "evidence_4point": "MEASURED this run, tools/measure_gap_transfer.py -> inputs/measured/gap_transfer_4point.json. Three constructs (climate concern, policy priority, attribution belief) x four moderators, computed twice on the same US population: CCAM 2021-2024's 4-point verbal items and voelkel2026's 0-100 sliders. Slider offsets regressed on rescaled 4-point offsets through the origin: slope 0.808 (r 0.953, n=36 level x construct pairs); 0.785 on party+race alone; 0.799 restricted to gaps >= 3 pp. Per-moderator party 0.753 / gender 0.848 / race 1.047 / age 1.241 - that spread is the honest uncertainty. The borrowed 0.8 is now a measurement for the 4-point case, not an assumption.",
+  "level_bridge_for_4point": "NOT MEASURABLE on the mounted data: the same three construct pairs disagree on LEVEL by -1.6 / +1.0 / +12.6 pp because the items are near, not verbatim. No 4-point level bridge is claimed and no trust LEVEL is taken from Pew; levels stay on TISP's finer 5-point battery with the measured 3-point bridge."
+ },
+ "source_priority": [
+  "voelkel2026 PRE, all arms (pre-treatment, n=13,821) - same slider format, same panel type",
+  "goldwert2026 control arm - the only $0-10 donation and 0/1 signup",
+  "Pew ATP W100+W114 (party / race / gender / education x the four trust outcomes) - NEW this run",
+  "TISP US (trust battery, policy-role battery; age and income x trust)",
+  "GSS 2016-2024 (fallback shape where Pew has no matching cut)",
+  "CCAM 2021-2024 (education x climate, income x climate)",
+  "voelkel2026 Donation shape as a costly-act proxy",
+  "nearest-level reuse, always FLAGGED in the row's source string"
+ ],
+ "identity_guaranteed": "every (moderator, outcome) group is re-centred on the POOL's shares, so sum_l share_l * offset_l = 0 exactly (max residual 6.8e-16) and control_mean + sum(share*offset) == control_mean. Without this the Tier-2 moderator file would contradict the Tier-2 main file.",
+ "known_weaknesses": [
+  "distrust_post's level is the LAST declared prior on the card: no mounted dataset asks a direct distrust item about scientists, and TISP's negatively-worded candidates were rejected for acquiescence (r=0.68 among themselves, -0.045 with the trust battery, +0.22 with a positively-worded item). Range 28-38, complement of the measured trust level is 37.9",
+  "inst_trust_mean is composed rather than measured: its three federal science agencies are a bracketed unknown 16 pp wide (42.1-58.0) and the midpoint is a choice",
+  "Pew's item is a 4-point verbal confidence scale: 77-87% of Americans pick one of its two positive options, so almost all its variance is one 'great deal' vs 'fair amount' contrast. It anchors ORDERINGS and GAPS; it must never feed a level, a variance or any distribution row",
+  "the climate-referent fan-out now rests on two legs, but neither is perfect: Pew's uses the right cut (party) with a 2019 environmental-research-scientist referent, TISP's uses the right referent (climate scientists) with an ideology self-placement instead of party. They agree to 1.4 pp.",
+  "gender 'Other' x trust rests on 94 unweighted Pew responses pooled over two waves whose means differ by 10 pp (62.35 W100, 52.69 W114) - anchored, but thin",
+  "GSS consci is retained only as a fallback where Pew has no matching cut; it is an INSTITUTIONAL confidence item",
+  "Pew's education tops out at 'Postgraduate': the Master's vs Doctorate contrast has no anchor anywhere",
+  "TISP education has 4 coarse levels; the higher-education contrast is spread flat across BA/MA/PhD",
+  "policy_specific_mean's level comes from a non-quota US sample (item match beats sample match here); its SUBGROUP offsets still come from voelkel2026, where the sample matches",
+  "the referent LEVEL correction (-3.93 pp, TISP within person) is the card's largest unquantified risk: gligoric2025 puts climatologists 10.1 pp below the average of 30 other scientist types on an ideology-balanced basis, and if that is the right contrast trust_multidimensional's level is ~6 pp high"
+ ],
+ "builder": "tools/build_baselines.py (rerun it after any dataset change; ~8 s)",
+ "policy_specific_mean_correction": {
+  "was": 52.61,
+  "now": 62.78,
+  "why": "voelkel2026's four PoliciesSp items are a renewable mandate, a coal-plant ban, oil/gas permits and fossil subsidies, each with an explicit cost trade-off clause - none is one of the target's seven. The target's seven are near-verbatim vlasceanu2024 CC_policy 1/2/5/7/8/9/10 (checked item by item against benchmark/codebook.csv). US control arm mean 63.69, 62.78 post-stratified onto the pool's gender x age. Sample match is not item match.",
+  "cross_check_retained": "voelkel2026 PoliciesSp_Pre = 52.61"
+ },
+ "pew_anchor": {
+  "what": "OPEN item 2's direct anchor, added this run. Pew ATP W100 (Dec 2021) + W114 (Sept 2022), 4-point confidence item 'How much confidence, if any, do you have in ... Scientists to act in the best interests of the public?', weighted, pooled by Kish effective n. Replaces GSS `consci` on party, race, gender and education for the four trust outcomes. Full recon and every cell: notes/DATA_PEW.md, inputs/measured/pew_atp_trust.json.",
+  "why_not_W42": "its Dem-Rep gap is 8.4 pp against W100/W114's 22.7/21.6 (pre-COVID), and it has no Asian category",
+  "cuts_used": {
+   "party": "F_PARTY_FINAL, exact 4-level match to the target",
+   "race": "F_RACETHNMOD / RACETHNMOD_W100, exact 5-level match",
+   "gender": "F_GENDER, 3-level match incl. 'In some other way'",
+   "education": "F_EDUCCAT2 (W114 only), 5 of the target's 6 levels; Master's and Doctorate share one cell"
+  },
+  "cuts_refused": {
+   "age_band": "Pew's bands are 18-29/30-49/50-64/65+ and no raw age is distributed - TISP keeps age",
+   "income": "Pew top-codes at $100,000+, which spans two target bands - TISP/CCAM keep income"
+  },
+  "climate_referent_fanout": {
+   "value_pp": 11.16,
+   "se_pp": 0.8,
+   "factor": 1.518,
+   "measurement": "TWO independent legs, inverse-variance pooled (tools/measure_referent_fanout.py -> inputs/measured/referent_fanout.json). LEG A, right cut / wrong referent: Pew ATP W42 Form 1 rates medical AND environmental research scientists on the same 5-item battery within person (n=2,030 with party): env-med is +0.35 pp overall (SE 0.57) but -6.58 among Rep/Lean and +5.25 among Dem/Lean, an 11.83 pp fan-out (SE 1.09) that is positive on all eleven items; the parallel medical-vs-generic contrast, randomised between forms, shows NO partisan interaction. LEG B, right referent / weaker cut: TISP US asks the SAME respondents TRUST_PEW ('confidence in scientists to act in the best interests of the public') and CLIM_TRUST ('trust scientists in your country who work on climate change') on the SAME 5-point scale - the target's exact referent contrast, no chaining - and the within-person shift runs +1.0 pp among the least conservative to -8.6 pp among the most, a 10.40 pp fan-out (SE 1.16, n=1,643).",
+   "why_additive": "the ADDITIVE form transfers and the multiplicative one does not: TISP's generic ideology gap is 9.7 pp against Pew's 21.6 party gap, so a stretch fitted in TISP (2.07) is meaningless in Pew (1.55) while the two additive numbers agree (10.4 vs 11.8)",
+   "applied_as": "1 + 11.16/21.55 = 1.518, a proportional stretch of the PARTY contrast only, before the x0.80 gap factor",
+   "cross_check": "applied to W42's own generic gap (8.37 pp) the factor predicts 12.7 pp for the environmental battery, against 16.00 pp measured there - i.e. it is conservative",
+   "not_applied_to": "race (env-med spread by race is 3-4 pp), gender, education, or inst_trust_mean (not a climate referent)",
+   "resulting_party_contrast_pp": "Dem +13.3 / Ind +0.1 / Other -8.4 / Rep -13.7 on the slider scale (was +7.4 / +0.5 / +4.2 / -5.0 from GSS)",
+   "sensitivity": "tools/fanout_sensitivity.py builds the whole card both ways from the same predicted ATEs and synthesises both at the deposit size. Turning the fan-out OFF moves 272 of 5,967 Tier-2 moderator cells (RMSE 0.66 pp, max 4.68 pp) and changes two scored rows: the demographic parity gap on the three climate-trust outcomes (27.05 -> 17.82 pp) and demographic predictability R^2 on trust_multidimensional (0.361 -> 0.201). Both gates survive either way (G6 1.692 vs 1.693).",
+   "leg_c_corroboration": "gligoric2025, control arm: each respondent rates four of 35 randomly assigned scientist types on two 1-7 trust items. Climatologists have the LARGEST ideology gap of all 35 types (16.2 pp; environmental scientists 16.1; median type ~4.6) and the DiD against the 30 non-climate types is 11.30 pp (SE 3.49, cluster-robust). Not pooled into the adopted value (it would move it 0.01 pp). Its `PolIdentification` column is NOT a usable party cut (r=0.24 with ideology, flat trust gradient) - checked and rejected."
+  },
+  "level_crosscheck_not_used": "Pew's own weighted level is 67.0 (W100) / 66.8 (W114) on the rescaled lattice, before any bridge ; recomputed this build: w100 67.0, w114 66.8"
+ },
+ "inst_trust_composition": {
+  "what": "inst_trust_mean = [TISP TRUST_PEW rescaled + bridge] + GAP x (3*agency + education + federal)/5",
+  "measured_components": {
+   "education_vs_scientific_community_pp": -17.46,
+   "federal_executive_vs_scientific_community_pp": -33.11,
+   "source": "GSS 2016-2024, weighted, listwise on consci/coneduc/confed, n=10,311",
+   "corroboration": "Pew W114: elected officials 36.6 vs scientists 66.8 = -30.2 pp"
+  },
+  "bracketed_unknown": {
+   "what": "EPA / NASA / NOAA - science organisations that are also government",
+   "adopted": "midpoint of [federal government, scientific community]",
+   "values": {
+    "agencies_=_federal_government": 42.1,
+    "midpoint_adopted": 50.0,
+    "agencies_=_scientific_community": 58.0
+   }
+  },
+  "replaces": "a declared -5 pp 'federal-government drag' (level 57.0), which sat at the top of the bracket",
+  "caveats": [
+   "GSS 'education' is not 'universities and colleges'; 'executive branch of the federal government' is not 'the federal government' - nearest mounted wordings, flagged in the row's source",
+   "confed's PARTY gap swaps with the administration (+0.2 pp 2016-2020, +23.9 pp 2021-2024), so two fifths of this outcome's party structure is administration-dependent; the deposited offsets are an administration-average and are left on the Pew shape (GSS composite gap 15.0 vs Pew 17.3)"
+  ]
+ },
+ "coverage": {
+  "cells": 351,
+  "anchored": 351,
+  "share": 1.0,
+  "unanchored": [],
+  "centring_residual_max_pp": 9.54097911787244e-16,
+  "by_source_prefix": {
+   "voelkel2026": 98,
+   "CCAM": 81,
+   "Pew": 72,
+   "TISP": 44,
+   "goldwert2026": 38,
+   "mirror": 9,
+   "GSS": 9
+  }
+ }
+}

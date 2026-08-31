@@ -1,0 +1,43 @@
+{
+ "randomised_arm_counts": {
+  "V_CDXNone": 561,
+  "V_LegalXNone": 560,
+  "V_LegalXJoin": 560,
+  "V_LegalXEndorse": 560,
+  "V_CDXEndorse": 559,
+  "V_CDXJoin": 559
+ },
+ "n_finished_progress100": 3149,
+ "n_after_attention_check": 2875,
+ "n_analysed": 2856,
+ "published_after_ac": 2875,
+ "published_analysed": 2856,
+ "arm_counts_analysed": {
+  "Legal march - no scientist": 524,
+  "Legal march - scientist joins": 507,
+  "Legal march - scientist endorses": 495,
+  "Civil disobedience - scientist joins": 470,
+  "Civil disobedience - no scientist": 462,
+  "Civil disobedience - scientist endorses": 398
+ },
+ "total_exclusion_loss_by_form": {
+  "legal": 154,
+  "civil_disobedience": 349
+ },
+ "source_credibility_in_reference_arm": 0,
+ "n_nonmissing": {
+  "policy_support": 2856,
+  "activist_support": 2856,
+  "science_credibility": 2856,
+  "perceived_radicalness": 2856,
+  "donation": 2856
+ },
+ "vignette_chars": {
+  "Legal march - no scientist": 667,
+  "Legal march - scientist endorses": 1108,
+  "Legal march - scientist joins": 1143,
+  "Civil disobedience - no scientist": 691,
+  "Civil disobedience - scientist endorses": 1132,
+  "Civil disobedience - scientist joins": 1204
+ }
+}

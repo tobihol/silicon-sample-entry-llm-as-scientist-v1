@@ -1,0 +1,11 @@
+{
+ "calibration_slope": 1.0,
+ "fitted_slope": 1.5212356540716172,
+ "lambda_policy": "none",
+ "model": "claude-opus-5",
+ "note": "calibrated prediction of the target megastudy",
+ "practice_run": "20260815-practice-01",
+ "run_id": "20260815-target-01",
+ "stub": false,
+ "team_id": "sodalab"
+}

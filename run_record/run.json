@@ -1,0 +1,13 @@
+{
+ "run_id": "20260823-target-04-main",
+ "started": "2026-08-20T09:37:04",
+ "spec_sha256": "7caf9196ee4b337314f09d73767c18a38a6242dcf81ebc1e71c52aa0edb90f0a",
+ "frozen_sha256": "863daac719ecf96afffad94b972a70b0fe2e5c5198dc307caf84b9390437ccd8",
+ "arm": "main",
+ "pid": 2617,
+ "params": {
+  "source": "/workspace/run/runs/20260815-target-01",
+  "prereg": "runs/_target03/PREREG.md",
+  "change": "C1 belief_post control_sd 22.27->26.96; C2 non-party offsets x0.50; C3 gender=Other x trust -7.04->+14.46 (rule G-OTHER)"
+ }
+}

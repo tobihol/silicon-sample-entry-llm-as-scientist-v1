@@ -1,0 +1,320 @@
+{
+ "_what": "Deterministic grading keys for the stage-3a recognition probe (OPEN item 3). Fixed BEFORE any call is made; taken verbatim from each dataset's own README citation block in /workspace/datasets/<name>/README.md, never from the brief.",
+ "_two_lists_and_why": "Assembling the payloads exposed something the probe design had missed: SOME identifiers are forced by the task's own content and cannot be redacted without changing the task. voelkel2024's outcome battery IS the paper's title ('antidemocratic attitudes', 'partisan animosity'), so a predictor that echoes those words has told us nothing about recall. Two adapter sample_descriptions DID name their study gratuitously ('Strengthening Democracy Challenge', 'BB-PRIME') and were redacted in this session - a mechanical deletion of a proper noun, not a rewrite of a stimulus. `identity_keys` must therefore be ABSENT from every assembled payload (tools/practice.py asserts this and aborts if not); `content_keys` are expected to be present and are reported, never graded.",
+ "_grade": "RECOGNISED = an identity_key matched the completion, OR the model's own RESULTS_KNOWN field is YES. UNRECOGNISED = neither. content_keys matched are recorded separately. Both the regex verdict and the self-report are stored so a disagreement is visible rather than resolved.",
+ "tasks": {
+  "voelkel2026": {
+   "identity_keys": [
+    "voelkel",
+    "ashokkumar",
+    "malhotra",
+    "\\bwiller\\b",
+    "nature climate change",
+    "most[- ]cited climate messages",
+    "\\bCCC\\b"
+   ],
+   "content_keys": [],
+   "recall_window_note": "published 2026 - inside any plausible training window, and the closest of the five to the target's construct; the strongest recall risk"
+  },
+  "goldwert2026": {
+   "identity_keys": [
+    "goldwert",
+    "climate advocacy megastudy",
+    "pnas nexus",
+    "osf\\.io/wv7c3"
+   ],
+   "content_keys": [],
+   "recall_window_note": "published 2026 - inside the window"
+  },
+  "vlasceanu2024": {
+   "identity_keys": [
+    "vlasceanu",
+    "doell",
+    "bak-?coleman",
+    "science advances",
+    "adj5778",
+    "international climate psychology collaboration",
+    "\\bICPC\\b"
+   ],
+   "content_keys": [
+    "global intervention tournament",
+    "63 countries"
+   ],
+   "recall_window_note": "published 2024; a climate tournament but with no trust outcome - a middling recall control"
+  },
+  "bbprime2025": {
+   "identity_keys": [
+    "sinclair",
+    "cosme",
+    "lydic",
+    "reinero",
+    "carreras-?tartak",
+    "\\bfalk\\b",
+    "bb-?prime",
+    "2426768122",
+    "behavioral interventions motivate action",
+    "\\bPNAS\\b"
+   ],
+   "content_keys": [
+    "intervention tournament"
+   ],
+   "recall_window_note": "published 2025 - inside the window; 'BB-PRIME' was redacted from the adapter's sample_description in this session"
+  },
+  "voelkel2024": {
+   "identity_keys": [
+    "voelkel",
+    "stagnaro",
+    "mernyk",
+    "redekopp",
+    "\\bwiller\\b",
+    "adh4764",
+    "strengthening democracy challenge",
+    "\\bSDC\\b",
+    "\\bScience\\b.{0,20}386"
+   ],
+   "content_keys": [
+    "antidemocratic attitudes",
+    "partisan animosity",
+    "25 treatments"
+   ],
+   "recall_window_note": "published 2024, a DEMOCRACY megastudy - the cleanest recall control because nothing about it is climate-trust-adjacent (AGENTS.md / OPEN item 3). But its OUTCOME NAMES are the paper's title, so only identity_keys can be graded here"
+  },
+  "tappin2023": {
+   "identity_keys": [
+    "tappin",
+    "berinsky",
+    "\\brand\\b",
+    "nature human behaviour",
+    "countervailing (party )?leader",
+    "receptivity to persuasive",
+    "undiminished by"
+   ],
+   "content_keys": [],
+   "recall_window_note": "published 2023 - inside any plausible training window. Its 24 policy items are a widely used bank, so item recognition is likely and study recognition is the thing being graded."
+  },
+  "hackenburg2025": {
+   "identity_keys": [
+    "hackenburg",
+    "r[o0]ttger",
+    "\\bmargetts\\b",
+    "\\bbright\\b",
+    "scaling (language )?model",
+    "diminishing returns",
+    "arxiv",
+    "2406\\.14508",
+    "\\bpnas\\b"
+   ],
+   "content_keys": [],
+   "recall_window_note": "published 2025 (preprint 2024) - inside the window, and the design (24 LLMs x 3 prompts x 10 issues) is distinctive, so recognition is likely; the probe grades it and the scoreboard row records it"
+  },
+  "gligoric2025": {
+   "identity_keys": [
+    "gligori",
+    "van kleef",
+    "rutjens",
+    "nature human behaviour",
+    "n63mz",
+    "political ideology and trust in scientists"
+   ],
+   "content_keys": [
+    "trust in scientists",
+    "conservative scientists"
+   ],
+   "recall_window_note": "published 2025 (Registered Report) - inside the window, and the recall risk is HIGHER than for any other task here: this paper's null IS standing finding 5, so the harness's own prior about message-to-trust effects comes from the study being predicted. TASK_12 pre-registers the consequence: a RECOGNISED verdict quarantines the task instead of scoring it."
+  },
+  "koetke2024": {
+   "identity_keys": [
+    "koetke",
+    "schumann",
+    "\\byeomans\\b",
+    "nature human behaviour",
+    "d3xua",
+    "seeing scientists as intellectually humble",
+    "effect of seeing scientists as intellectually humble"
+   ],
+   "content_keys": [
+    "intellectual humility",
+    "muenster",
+    "\\bMETI\\b",
+    "trust in scientists"
+   ],
+   "recall_window_note": "published in Nature Human Behaviour in November 2024 - inside any plausible training window, and the second-highest recall risk on the board after gligoric2025: the trust-up / belief-down dissociation is the paper's headline and a model that recalls it would score the ranking rows by memory. TASK_13 pre-registers the consequence: a RECOGNISED verdict quarantines the task instead of scoring it (runs/_trusttask2/PREREG.md)."
+  },
+  "altenmueller2024": {
+   "identity_keys": [
+    "altenm",
+    "wingen",
+    "schulte",
+    "explaining polarized trust",
+    "political stereotype",
+    "science communication",
+    "rvj4q",
+    "10.1177/10755470231221770"
+   ],
+   "content_keys": [
+    "\\bMETI\\b",
+    "muenster",
+    "m(\u00fc|u)nster",
+    "epistemic trustworthiness",
+    "trust in scientists",
+    "sociologist",
+    "economist",
+    "stereotype"
+   ],
+   "recall_window_note": "published in Science Communication in January 2024 - inside any plausible training window. The paper's headline is a CROSSOVER INTERACTION with respondent ideology, not the marginal contrast this task scores, so a recalling model would gain less here than on koetke2024 - but the moralTrust-not-expertise dissociation IS the paper's Study 4b result and would be recalled with it. runs/_trusttask3/PREREG.md pre-registers the same quarantine rule: a RECOGNISED verdict makes the row NOT A SCORE."
+  },
+  "orchinik2024": {
+   "identity_keys": [
+    "orchinik",
+    "dubey",
+    "gershman",
+    "\\bbhui\\b",
+    "\\bpowell\\b",
+    "pnas nexus",
+    "consensus messaging shapes perceptions",
+    "learning from and about scientists",
+    "jynqh",
+    "bovitz"
+   ],
+   "content_keys": [
+    "consensus messaging",
+    "scientific consensus",
+    "extremely biased",
+    "tyndall",
+    "mauna loa",
+    "hansen",
+    "climate scientists"
+   ],
+   "recall_window_note": "published in PNAS Nexus in 2024 - inside any plausible training window. The paper's headline is the CONDITIONAL-BELIEF gradient (higher stated consensus -> more perceived bias, a herding inference), not the two passages' marginal ATEs, which the paper reports as small; a recalling model would gain less on the cells this task scores than on koetke2024 or gligoric2025. runs/_trusttask4/PREREG.md pre-registers the same quarantine rule: a RECOGNISED verdict, by regex or by the model's own RESULTS_KNOWN, makes that line's row NOT A SCORE."
+  },
+  "kim2024": {
+   "identity_keys": [
+    "\\bkim\\b.{0,40}\\bliu\\b",
+    "kim woo",
+    "jin woo kim",
+    "ruijun liu",
+    "persuading climate skeptics",
+    "causal evidence vs\\.? consensus messaging",
+    "abehsn",
+    "dvn/abehsn",
+    "kookmin"
+   ],
+   "content_keys": [
+    "consensus messaging",
+    "97% consensus",
+    "scientific consensus",
+    "gateway belief",
+    "mturk",
+    "climate scientists"
+   ],
+   "recall_window_note": "Harvard Dataverse 2024, paper widely circulated - inside any plausible training window. Its headline is that CAUSAL evidence beats CONSENSUS messaging on belief while neither moves policy, which is close to what this task scores, so a recalling model gains here. runs/_trusttask5/PREREG.md section 4 pre-registers the quarantine rule."
+  },
+  "dablander2025": {
+   "identity_keys": [
+    "dablander",
+    "sachisthal",
+    "out of the labs and into the streets",
+    "royal society open science",
+    "rsos241001",
+    "ktjh6"
+   ],
+   "content_keys": [
+    "civil disobedience",
+    "climate protest",
+    "scientist rebellion",
+    "scientist credibility",
+    "prolific",
+    "registered report",
+    "alex fraser",
+    "rochester university"
+   ],
+   "recall_window_note": "Registered Report published April 2025 - at the edge of a plausible training window. Its headline IS a null on scientist credibility, which is exactly what a recalling model reproduces for free (finding 77), so the quarantine rule matters more here than usual. `Alex Fraser` and `Rochester University` are IN THE STIMULUS and cannot be removed without changing the task, so per finding 22 they are content_keys - reported, never graded - and not identity keys."
+  },
+  "kerwer2025": {
+   "identity_keys": [
+    "\\bkerwer\\b",
+    "psycharchives\\.14209",
+    "20\\.500\\.12034/9672",
+    "plain language summar.{0,60}meta-analys",
+    "zeitschrift f.r psychologie",
+    "\\bzfp\\b",
+    "chasiotis",
+    "\\bjonas\\b.{0,40}\\bstoll\\b"
+   ],
+   "content_keys": [
+    "plain language summary",
+    "meta-analysis",
+    "METI",
+    "conflict of interest",
+    "publication bias",
+    "video game",
+    "psychotherapy",
+    "leibniz"
+   ],
+   "recall_window_note": "PsychArchives deposit 2024-03, ZfP 2025 article; German-language leibniz-institute study on plain-language summaries of meta-analyses. Plausibly inside a 2025-26 training window but low-profile; added 2026-08-25 as an idea_01-held-out study (never practiced, never in any calibration fit)."
+  },
+  "beall2017": {
+   "identity_keys": [
+    "\\bbeall\\b",
+    "pone\\.0187511",
+    "controversy matters",
+    "zenodo\\.495653",
+    "zenodo\\.1407096",
+    "\\bmyers\\b.{0,60}\\bkotcher\\b",
+    "kotcher.{0,60}vraga",
+    "maibach.{0,80}advocat"
+   ],
+   "content_keys": [
+    "credibility of a scientist",
+    "scientist who advocates",
+    "carbon tax",
+    "flu shot",
+    "marijuana",
+    "severe weather",
+    "op-ed",
+    "goodwill"
+   ],
+   "recall_window_note": "PLOS ONE 2017 with a 2019 correction; well-cited (Kotcher/Maibach group). Inside any plausible training window. Added 2026-08-25 as an idea_01-held-out study (never practiced, never in any calibration fit)."
+  },
+  "bokemper2022_e1": {
+   "identity_keys": [
+    "\\bbokemper\\b",
+    "\\bpone\\.0264782\\b",
+    "VUKNOQ",
+    "testing persuasive messaging to encourage covid-19 risk reduction"
+   ],
+   "content_keys": [
+    "social distancing",
+    "COVID-19",
+    "reframing bravery",
+    "linear cooperation",
+    "threshold cooperation",
+    "bird feeding",
+    "mask",
+    "Lucid",
+    "YouGov"
+   ],
+   "recall_window_note": "PLOS One 2022 (doi 10.1371/journal.pone.0264782), Bokemper/Huber/James/Gerber/Omer, Yale ISPS; data CC0 on Harvard Dataverse. Inside any 2025-26 training window and moderately citable, but the paper's cell-level ATE table is not in the text (only 4 scale coefficients for 2 messages). Added 2026-08-26 as the jointly-held-out head-to-head task (never practiced by idea_01, never in any calibration fit, excluded from idea_02 mounts)."
+  },
+  "bokemper2022_e2": {
+   "identity_keys": [
+    "\\bbokemper\\b",
+    "\\bpone\\.0264782\\b",
+    "VUKNOQ",
+    "testing persuasive messaging to encourage covid-19 risk reduction"
+   ],
+   "content_keys": [
+    "social distancing",
+    "COVID-19",
+    "reframing bravery",
+    "linear cooperation",
+    "threshold cooperation",
+    "bird feeding",
+    "mask",
+    "Lucid",
+    "YouGov"
+   ],
+   "recall_window_note": "PLOS One 2022 (doi 10.1371/journal.pone.0264782), Bokemper/Huber/James/Gerber/Omer, Yale ISPS; data CC0 on Harvard Dataverse. Inside any 2025-26 training window and moderately citable, but the paper's cell-level ATE table is not in the text (only 4 scale coefficients for 2 messages). Added 2026-08-26 as the jointly-held-out head-to-head task (never practiced by idea_01, never in any calibration fit, excluded from idea_02 mounts)."
+  }
+ }
+}

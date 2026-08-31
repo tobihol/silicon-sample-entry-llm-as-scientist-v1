@@ -1,0 +1,1721 @@
+
+
+Sample: 7,624 U.S. adults recruited on Prolific (>=95% approval, >=50 prior tasks), gender-balanced by design and deliberately skewed young (quota 40% 18-35, 40% 36-54, 20% 55-90), and SCREENED TO CLIMATE-CHANGE BELIEVERS at recruitment - so base rates are far more pro-climate and more Democratic (56% Democrat, 13% Republican) than a census-quota panel. A climate intervention tournament: 17 theory-driven interventions plus a no-intervention control (n = 850; interventions n = 370-428). Each respondent then rated 5 climate news headlines drawn from a pool of 26 New York Times articles, 3 petitions drawn from a pool of 10 adapted from Change.org, 12 everyday pro-environmental actions, 8 climate emotions, and several 1-5 attitude scales. All outcomes below are collapsed to ONE value per respondent (mean over the stimuli/items that person saw).
+
+- msg_share_broad | 0-100 | Broadcast sharing intention for climate news headlines, mean over the 5 headlines the respondent saw: 'I would share this message by posting on social media (on Facebook, Twitter/X, etc).' 0 = strongly disagree, 100 = strongly agree
+- msg_share_narrow | 0-100 | Narrowcast sharing intention for climate news headlines: 'I would share this message directly with someone I know (via email, direct message, etc).' 0-100
+- msg_rel_self | 0-100 | Perceived self-relevance of the climate news headlines: 'This message is relevant to me.' 0-100
+- msg_rel_social | 0-100 | Perceived social relevance of the climate news headlines: 'This message is relevant to people I know.' 0-100
+- petition_sign_intention | 0-100 | Petition signing intention, mean over the 3 petitions shown: 'I would sign this petition.' 0-100
+- petition_share_broad | 0-100 | Broadcast sharing intention for the petitions: 'I would share this petition by posting on social media.' 0-100
+- petition_share_narrow | 0-100 | Narrowcast sharing intention for the petitions: 'I would share this petition directly with someone I know.' 0-100
+- petition_sign | 0-1 | Actual petition signing: proportion of the 3 petitions the respondent chose to sign ('yes' vs no / not now / unsure). 0-1, so 1 pp = 1 percentage point of petitions signed
+- petition_link_clicks | 0-3 | Number of petition links (0-3) the respondent actually clicked through to
+- action_intention | 1-7 | Pro-environmental behaviour intentions, mean over 12 actions: 'In the future, do you intend to do this action more or less than you currently do?' 1 = a lot less, 7 = a lot more; harmful actions (driving, flying, beef/lamb) already reverse-scored
+- action_env_impact | 1-7 | Perceived environmental impact, mean over 12 actions: 'If many people did this action more/less often, how much would it help to reduce the negative effects of climate change?' 1 = no impact, 7 = very large impact
+- self_efficacy | 1-5 | Self-efficacy scale, mean of 4 items (two reverse-scored, already applied): individuals can make a difference / we cannot do anything* / there are actions I can take / it is a waste of time*. 1-5 agreement
+- concern_risk | 1-5 | Concern and perceived risk, mean of 4 items: concerned about climate change / important to take action / poses risks to me / poses risks to society. 1-5 agreement
+- emo_angry | 1-5 | 'When I think about climate change, I feel... Angry' 1 = strongly disagree, 5 = strongly agree
+- emo_anxious | 1-5 | 'When I think about climate change, I feel... Anxious' 1-5
+- emo_sad | 1-5 | 'When I think about climate change, I feel... Sad' 1-5
+- emo_hopeful | 1-5 | 'When I think about climate change, I feel... Hopeful' 1-5
+- emo_hopeless | 1-5 | 'When I think about climate change, I feel... Hopeless' 1-5
+- emo_determined | 1-5 | 'When I think about climate change, I feel... Determined' 1-5
+- emo_disengaged | 1-5 | 'When I think about climate change, I feel... Disengaged' 1-5
+- emo_uncertain | 1-5 | 'When I think about climate change, I feel... Uncertain' 1-5
+- distance_geographic | 1-5 | Geographic/self psychological distance from climate change, mean of 4 items (two reverse-scored, already applied); HIGHER = MORE DISTANT. 1-5
+- distance_social | 1-5 | Social psychological distance from climate change; HIGHER = MORE DISTANT. 1-5
+- distance_temporal | 1-7 | Temporal distance: 'When, if at all, do you think the United States will start feeling the effects of climate change?' 1 = we are already feeling the effects, 7 = never
+
+CONDITIONS (17 interventions, each vs control):
+
+### Action Planning (Collective)
+In this task, we invite you to imagine actions that are good for your community and the environment.
+
+---
+
+While there are many ways to do good for your community and the environment, world experts (e.g., the UN Environment Programme) recommend we engage in collective action to help bring about more sustainable systems. That is, engaging in community initiatives like:
+
+- Government support to improve buses, trains, and other public transportation
+
+- Government support in paying for electric cars
+
+- Building more safe and enjoyable bike lanes and sidewalks
+
+- Government support paying for clean energy like solar power
+
+- Supporting local farmers or businesses by giving them government help
+
+- Making new green spaces like gardens for everyone
+
+- Starting or changing programs to turn food scraps into soil (composting)
+
+- Starting or changing programs to stop businesses from wasting food or giving extra food to people who need it.
+
+Which one of the following collective activities to address climate change can you most see yourself doing more in the future?
+- Donating money to organizations or campaigns that aim to address climate change
+- Volunteering for organizations or campaigns that aim to address climate change
+- Raising conversations about climate change with friends or colleagues
+- Starting or signing petitions about climate change
+- Contacting your local or national representatives about climate change
+
+---
+
+You chose...
+
+${q://QID1318706882/ChoiceGroup/SelectedChoices}${q://QID1318706879/ChoiceGroup/SelectedChoices}
+
+Think of this as a personal goal. Let's imagine doing it.
+
+What would it look like to engage in this action?
+Please take a minute to clearly imagine the future in which you do this activity.
+[the same screen content was repeated on 2 further pages]
+
+---
+
+How would you do it?
+
+---
+
+When would you do it? How often?
+
+---
+
+Where would you be when doing it?
+
+---
+
+Does this involve other people? With whom would you do this? (If you would do it alone, just write "myself")
+
+---
+
+What is the best possible outcome of engaging in this activity, for you in particular?
+
+---
+
+What is the best possible outcome of engaging in this activity, for other people?
+
+---
+
+What is the best possible outcome of engaging in this activity, for the environment?
+
+---
+
+Imagine you're about to do this right now.
+
+What is the very first step to carrying out this action?
+
+The first steps include...
+
+---
+
+What are the rest of the steps for carrying out this action?
+
+---
+
+You chose...
+${q://QID1318706882/ChoiceGroup/SelectedChoices}${q://QID1318706879/ChoiceGroup/SelectedChoices}
+
+Let's consider this as an important personal goal.
+
+Almost all goals have obstacles. What obstacles could hinder you from taking this action, or make it harder for you to achieve the desired outcome?
+
+---
+
+The biggest obstacle to achieving this goal is...
+
+---
+
+What comes to mind for how you could prevent or overcome or work around this obstacle? Try to be as thoughtful, creative, positive, and resourceful as you can.
+
+Describe the ways you can prevent or overcome, work around, or work with this obstacle in the following format:
+
+If the obstacle above occurs, then I can...
+
+---
+
+Please take a minute to review your responses to this exercise. We encourage you to read this aloud to yourself:
+
+To do something good for myself, others, and the environment, I can see myself...
+
+${q://QID1318706882/ChoiceGroup/SelectedChoices}${q://QID1318706879/ChoiceGroup/SelectedChoices}
+
+Here's a breakdown of the process for carrying out this goal:
+
+- How: ${q://QID1318706859/ChoiceTextEntryValue}
+
+- When/how often: ${q://QID1318706860/ChoiceTextEntryValue}
+
+- Where: ${q://QID1318706861/ChoiceTextEntryValue}
+
+- With whom: ${q://QID1318706862/ChoiceTextEntryValue}
+
+The very first step to achieving this goal includes... ${q://QID1318706868/ChoiceTextEntryValue}
+
+The rest of process for carrying out his goal includes...
+
+${q://QID1318706869/ChoiceTextEntryValue}
+
+If I do this, the best possible outcomes include...
+
+For me: ${q://QID1318706864/ChoiceTextEntryValue}
+
+The best possible outcome for others is:
+${q://QID1318706865/ChoiceTextEntryValue}
+
+And the best possible outcome for the environment is:
+
+${q://QID1318706866/ChoiceTextEntryValue}
+
+One obstacle I might face is... ${q://QID1318706872/ChoiceTextEntryValue}
+
+But if this obstacle occurs, I can... ${q://QID1318706873/ChoiceTextEntryValue}
+
+### Action Planning (Individual)
+In this task, we invite you to imagine actions that are good for you and the environment.
+
+---
+
+While there are many ways to do good for yourself and the environment, world experts (e.g., the UN Environment Programme) recommend we change certain habits to make more sustainable choices.
+
+Which one of the following individual activities to address climate change can you most see yourself doing more in the future?
+- Riding a bicycle, walking, or using public transportation instead of driving
+- Taking trains instead of flying when possible
+- Eating more vegetarian and/or vegan meals
+- Eating less red meat (like beef or lamb)
+- Paying for green energy to power my home
+
+---
+
+You chose...
+
+${q://QID1318706882/ChoiceGroup/SelectedChoices}${q://QID1318706879/ChoiceGroup/SelectedChoices}
+
+Think of this as a personal goal. Let's imagine doing it.
+
+What would it look like to engage in this action?
+Please take a minute to clearly imagine the future in which you do this activity.
+[the same screen content was repeated on 2 further pages]
+
+---
+
+How would you do it?
+
+---
+
+When would you do it? How often?
+
+---
+
+Where would you be when doing it?
+
+---
+
+Does this involve other people? With whom would you do this? (If you would do it alone, just write "myself")
+
+---
+
+What is the best possible outcome of engaging in this activity, for you in particular?
+
+---
+
+What is the best possible outcome of engaging in this activity, for other people?
+
+---
+
+What is the best possible outcome of engaging in this activity, for the environment?
+
+---
+
+Imagine you're about to do this right now.
+
+What is the very first step to carrying out this action?
+
+The first steps include...
+
+---
+
+What are the rest of the steps for carrying out this action?
+
+---
+
+You chose...
+${q://QID1318706882/ChoiceGroup/SelectedChoices}${q://QID1318706879/ChoiceGroup/SelectedChoices}
+
+Let's consider this as an important personal goal.
+
+Almost all goals have obstacles. What obstacles could hinder you from taking this action, or make it harder for you to achieve the desired outcome?
+
+---
+
+The biggest obstacle to achieving this goal is...
+
+---
+
+What comes to mind for how you could prevent or overcome or work around this obstacle? Try to be as thoughtful, creative, positive, and resourceful as you can.
+
+Describe the ways you can prevent or overcome, work around, or work with this obstacle in the following format:
+
+If the obstacle above occurs, then I can...
+
+---
+
+Please take a minute to review your responses to this exercise. We encourage you to read this aloud to yourself:
+
+To do something good for myself, others, and the environment, I can see myself...
+
+${q://QID1318706882/ChoiceGroup/SelectedChoices}${q://QID1318706879/ChoiceGroup/SelectedChoices}
+
+Here's a breakdown of the process for carrying out this goal:
+
+- How: ${q://QID1318706859/ChoiceTextEntryValue}
+
+- When/how often: ${q://QID1318706860/ChoiceTextEntryValue}
+
+- Where: ${q://QID1318706861/ChoiceTextEntryValue}
+
+- With whom: ${q://QID1318706862/ChoiceTextEntryValue}
+
+The very first step to achieving this goal includes... ${q://QID1318706868/ChoiceTextEntryValue}
+
+The rest of process for carrying out his goal includes...
+
+${q://QID1318706869/ChoiceTextEntryValue}
+
+If I do this, the best possible outcomes include...
+
+For me: ${q://QID1318706864/ChoiceTextEntryValue}
+
+The best possible outcome for others is:
+${q://QID1318706865/ChoiceTextEntryValue}
+
+And the best possible outcome for the environment is:
+
+${q://QID1318706866/ChoiceTextEntryValue}
+
+One obstacle I might face is... ${q://QID1318706872/ChoiceTextEntryValue}
+
+But if this obstacle occurs, I can... ${q://QID1318706873/ChoiceTextEntryValue}
+
+### Carbon Footprint (General)
+[IMAGE]
+
+In this task, we'll give you some information about carbon footprints.
+
+Your carbon footprint is a measure of the greenhouse gas emissions associated with your lifestyle. Greenhouse gas emissions contribute to climate change (global warming). You can help fight climate change by reducing your carbon footprint.
+
+Most of your carbon footprint (about 75%) depends on how you travel, the food you eat, and the energy you use at home.
+
+Today, we'll give you some information about how different actions could reduce an average American's carbon footprint.
+
+---
+
+The Benefits of Driving Less and Using Electric or Fuel-Efficient Vehicles
+
+[IMAGE]
+
+An average American's gas-powered car produces about 10,141 pounds of carbon emissions every year.
+
+Reducing fuel consumption by 50% would reduce a person's carbon footprint by about 5,071 pounds in a year. That would save as much carbon as planting 105 trees.
+
+You can reduce your carbon footprint by driving less or switching to a fuel-efficient or electric car.
+
+---
+
+The Benefits of Reducing Air Travel
+
+[IMAGE]
+
+The average American generates 844 pounds of carbon emissions each year from domestic air travel alone.
+
+Reducing air travel by 50% would reduce a person's carbon footprint by about 422 pounds. That would save as much carbon as planting 18 trees.
+
+You can reduce your carbon footprint by traveling by train, flying to closer destinations, or choosing airlines that offset their carbon emissions.
+
+---
+
+The Benefits of Eating More Plants + Fewer Animal Products
+
+[IMAGE]
+
+Most Americans eat an omnivorous diet, eating a variety of animal and plant products. Eating fewer animal products and more plant products can reduce a person's carbon footprint. Dietary changes don't have to be all or nothing—even small changes matter.
+
+For an average American, replacing red meat (beef and lamb) with chicken would save about 1,062 pounds of carbon each year (22 trees).
+
+Making 50% of meals vegetarian would save about 573 pounds of carbon each year (12 trees).
+
+Switching to a vegetarian diet would save about 1,146 pounds of carbon each year (24 trees).
+
+Switching to a vegan diet would save about 2,006 pounds of carbon each year (41 trees).
+
+---
+
+The Benefits of Powering Your Home with Renewable Energy
+
+[IMAGE]
+
+For an average American household, the energy used to power and heat a home produces about 12,777 pounds of carbon emissions every year.
+
+Many energy providers let consumers choose to power their homes with renewable energy for a small monthly fee. If 50% of the energy to power a home came from renewable sources, its carbon footprint would be reduced by 6,389 pounds in a year. That would save as much carbon as planting 132 trees.
+
+People can also reduce the carbon footprint of their homes by improving insulation, upgrading to energy-efficient appliances, or installing a heat pump or solar panels.
+
+### Carbon Footprint (Personalized)
+[IMAGE]
+
+In this quiz, we'll give you some personalized feedback about your carbon footprint.
+
+Your carbon footprint is a measure of the greenhouse gas emissions associated with your lifestyle. Greenhouse gas emissions contribute to climate change (global warming). You can help fight climate change by reducing your carbon footprint.
+
+Most of your carbon footprint (about 75%) depends on how you travel, the food you eat, and the energy you use at home. Today, we'll give you some feedback about these three areas.
+
+---
+
+Next, please answer the following questions about your vehicle usage.
+
+If you drive more than one vehicle, think about the vehicle you drive most frequently.
+
+---
+
+Do you regularly drive a vehicle (at least once per month)?
+- Yes
+- No
+
+---
+
+Does your vehicle have automatic or manual ("stick shift") transmission?
+- Automatic
+- Manual
+
+---
+
+What source of energy does your car use?
+- Gas or diesel fuel
+- Electricity
+- A mix of electricity and fuel (hybrid)
+
+---
+
+How old is your vehicle?
+
+Select the range of years below based on the make of your car. For example, if you drive a 2018 Honda Accord, you would select the range 2016 - 2020.
+- Before 1990
+- 1990 - 2000
+- 2001 - 2005
+- 2006 - 2010
+- 2011 - 2015
+- 2016 - 2020
+- 2021 - 2024
+
+---
+
+Next, we'll ask you about the make and model of your vehicle.
+
+Note: Some users have experienced a bug where the dropdown menu does not disappear after selecting your car. If you experience this bug, please select your car, click the right arrow button to advance to the next page, and then follow the instructions on the next page.
+[the same screen content was repeated on 1 further pages]
+
+---
+
+If you do not know the make and model of your vehicle, or cannot find it on the list below, check this box. We will show you information about an average vehicle instead.
+- I can't find my vehicle in the list below
+[the same screen content was repeated on 1 further pages]
+
+---
+
+Select your car from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 1984 AM General DJ Po Vehicle 2WD
+- 1984 AM General FJ8c Post Office
+- 1984 American Motors Corporation Eagle 4WD
+- 1984 American Motors Corporation Eagle SX/4 4WD
+- 1984 Aston Martin Lagonda
+- 1984 Aston Martin Saloon/vantage/volante
+- [... 2128 further options in this pick list, truncated here; last option: '1989 Volvo 780']
+
+---
+
+Select your car from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 1990 Acura Integra
+- 1990 Acura Legend
+- 1990 Audi 100
+- 1990 Audi 200
+- 1990 Audi 80
+- 1990 Audi 90
+- [... 4044 further options in this pick list, truncated here; last option: '2000 Volvo V70 FWD']
+
+---
+
+Select your car from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 2001 Acura 3.2CL
+- 2001 Acura 3.2TL
+- 2001 Acura 3.5RL
+- 2001 Acura Integra
+- 2001 Acura MDX
+- 2001 Acura NSX
+- [... 2553 further options in this pick list, truncated here; last option: '2005 Volvo XC90 FWD']
+
+---
+
+Select your car from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 2006 Acura MDX 4WD
+- 2006 Acura RL
+- 2006 Acura RSX
+- 2006 Acura TL
+- 2006 Acura TSX
+- 2006 Aston Martin DB9 Coupe
+- [... 3146 further options in this pick list, truncated here; last option: '2010 Volvo XC90 FWD']
+
+---
+
+Select your car from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 2011 Acura MDX 4WD
+- 2011 Acura RDX 2WD
+- 2011 Acura RDX 4WD
+- 2011 Acura RL
+- 2011 Acura TL 2WD
+- 2011 Acura TL 4WD
+- [... 3870 further options in this pick list, truncated here; last option: '2015 Volvo XC70 FWD']
+
+---
+
+Select your car from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 2016 Acura ILX
+- 2016 Acura MDX 2WD
+- 2016 Acura MDX 4WD
+- 2016 Acura RDX 2WD
+- 2016 Acura RDX 4WD
+- 2016 Acura RLX
+- [... 4665 further options in this pick list, truncated here; last option: '2020 Volvo XC90 FWD']
+
+---
+
+Select your car from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 2021 Acura ILX
+- 2021 Acura NSX Hybrid
+- 2021 Acura RDX AWD
+- 2021 Acura RDX AWD A-SPEC
+- 2021 Acura RDX FWD
+- 2021 Acura RDX FWD A-SPEC
+- [... 3359 further options in this pick list, truncated here; last option: '2024 Volvo XC90 B6 AWD']
+
+---
+
+How old is your vehicle?
+
+Select the range of years below based on the make of your car. For example, if you drive a 2018 Honda Accord, you would select the range 2011 - 2024.
+- Before 2000
+- 2000 - 2010
+- 2011 - 2024
+
+---
+
+Select your vehicle from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 1984 Alfa Romeo GT V6 2.5
+- 1984 Alfa Romeo Spider Veloce 2000
+- 1984 American Motors Corporation Eagle 4WD
+- 1984 American Motors Corporation Eagle SX/4 4WD
+- 1984 Aston Martin Saloon/vantage/volante
+- 1984 Aston Martin Saloon/Vantage/Volante
+- [... 4028 further options in this pick list, truncated here; last option: '1999 Volvo V70 FWD']
+
+---
+
+Select your vehicle from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 2000 Acura Integra
+- 2000 Acura NSX
+- 2000 Aston Martin DB-7 Vantage Coupe
+- 2000 Aston Martin DB-7 Vantage Volante
+- 2000 Audi A4
+- 2000 Audi A4 Avant quattro
+- [... 2513 further options in this pick list, truncated here; last option: '2010 Volvo V50 FWD']
+
+---
+
+Select your vehicle from the list below.
+
+Click on the box, then type to search by vehicle make, model, or year.
+- 2011 Acura TL 4WD
+- 2011 Acura TSX
+- 2011 Aston Martin DB9
+- 2011 Aston Martin DBS
+- 2011 Aston Martin V12 Vantage
+- 2011 Aston Martin V8 Vantage
+- [... 1942 further options in this pick list, truncated here; last option: '2024 Volkswagen Jetta']
+
+---
+
+Note: Some users have experienced a bug where the dropdown menu does not disappear after selecting your car. If you still see the dropdown menu on this page, please refresh the page and then click the right arrow to continue. You may see a pop-up stating that your session was outdated and has been updated; click "okay" and then click the right arrow again to continue to the next page.
+
+You will not lose your progress in the survey if you refresh the page.
+
+---
+
+Think about a typical week. How many miles do you drive each day for work-related and personal activities?
+
+Enter your response in numbers without commas or other characters.
+Enter 0 instead of leaving cells blank.
+- Work-related (commuting, driving for work)
+- Personal (errands, leisure, etc.)
+[response options: Mon | Tues | Wed | Thurs | Fri | Sat | Sun]
+
+---
+
+Approximately how many miles do you drive on long-distance road trips each year?
+
+Enter your response in numbers without commas or other characters. Enter 0 if you don't take any road trips.
+
+---
+
+Please answer the following questions about your transportation habits.
+
+---
+
+In a typical year, how many airplane flights do you take?
+
+Count all flights separately, including connections and round trips (two flights). If you do not fly, you can put down "0" in each box.
+- Very short duration flights (under 2 hours, regional)
+- Short duration flights (2-4 hours, like crossing half of the U.S.)
+- Medium duration flights (4-7 hours, like crossing most of the U.S.)
+- Long duration flights (7-11 hours, like flying from central U.S. to Europe)
+- Very long duration flights (11-15 hours, like flying from central U.S. to Asia)
+- Extremely long duration flights (>15 hours, like flying from central U.S. to Australia)
+[response options: Number of Flights]
+
+---
+
+Which of the following best describes your diet?
+- Omnivore (eat a variety of animal and plant products)
+- Pollotarian (eat poultry and seafood, but no red meat)
+- Pescetarian (eat seafood but not meat)
+- Flexitarian (eat vegetarian about 70% of the time)
+- Vegetarian (eat dairy and eggs, but no meat or seafood)
+- Vegan (eat a plant-based diet without any animal products)
+
+---
+
+Next, we'll ask you a few questions to estimate your energy usage at home.
+
+In which state do you currently reside?
+- Alabama
+- Alaska
+- Arizona
+- Arkansas
+- California
+- Colorado
+- [... 46 further options in this pick list, truncated here; last option: 'Wyoming']
+
+---
+
+Which of the following energy sources do you use to power or heat your home and appliances?
+
+Think about which energy sources you pay for on monthly utility bills. Please check all that apply.
+- Electricity (e.g., lights, appliances, HVAC, water heaters)
+- Natural Gas (e.g., furnaces, water heaters, cooking on a gas stove)
+- Fuel Oil / Heating Oil (e.g., furnaces, water heaters)
+- Propane (e.g., furnaces, water heaters, cooking/grilling)
+
+---
+
+If you do not know the source of your home energy, please check the box below. We will provide you information about an average household instead.
+- I do not know the source of energy for my home
+
+---
+
+For each of the following energy sources that you selected, please estimate how much you spend in an average month (in U.S. dollars) to power or heat your home and appliances.
+
+---
+
+If you are not able to estimate cost for these energy sources, please check the box below.
+We will provide you information about an average household in your state instead.
+- I do not know the cost of energy for my home
+
+---
+
+Next, we'll give you some personalized feedback about your carbon footprint.
+
+We'll give you some information about your transportation, diet, and home energy.
+
+---
+
+The Benefits of Driving Less and Using Electric or Fuel-Efficient Vehicles
+
+[IMAGE]
+
+The fuel you use in your vehicle produces about ${e://Field/car_emissions} pounds of carbon emissions every year.
+
+If you reduced your fuel consumption by 50%, you would reduce your carbon footprint by ${e://Field/car_emissions_half} pounds in a year. That would save as much carbon as planting ${e://Field/car_trees} trees.
+
+You can reduce your carbon footprint by driving less or switching to a fuel-efficient or electric vehicle.
+
+---
+
+The Benefits of Driving Less and Using Electric or Fuel-Efficient Vehicles
+
+[IMAGE]
+
+You currently drive a hybrid vehicle, which uses a mix of electricity and fuel to improve fuel efficiency. The fuel you use in your vehicle produces up to ${e://Field/car_emissions} pounds of carbon emissions every year.
+
+If you reduced your fuel consumption by 50%, you could reduce your carbon footprint by ${e://Field/car_emissions_half} pounds in a year. That would save as much carbon as planting ${e://Field/car_trees} trees.
+
+You can reduce your carbon footprint by driving less or switching to a fully electric vehicle.
+
+---
+
+The Benefits of Driving Less and Using Electric or Fuel-Efficient Vehicles
+
+[IMAGE]
+
+You stated that you could not find your vehicle model in our list. For an average gas-powered car, your driving habits would produce about ${e://Field/car_emissions} pounds of carbon emissions each year.
+
+If you reduced your fuel consumption by 50%, you would reduce your carbon footprint by ${e://Field/car_emissions_half} pounds in a year. That would save as much carbon as planting ${e://Field/car_trees} trees.
+
+You can reduce your carbon footprint by driving less or switching to a fuel-efficient or electric vehicle.
+
+---
+
+The Benefits of Driving Less and Using Electric or Fuel-Efficient Vehicles
+
+[IMAGE]
+
+On average, a gas-powered car produces about 10,141 pounds of carbon emissions each year. By driving an electric vehicle instead, you save as much carbon as planting 209 trees.
+
+To further reduce your carbon footprint, you can use renewable energy to charge your vehicle. For a small monthly fee, many power companies will let you choose to power your home with renewable energy. You can also install solar panels at home to produce your own energy.
+
+---
+
+The Benefits of Driving Less and Using Electric or Fuel-Efficient Vehicles
+
+[IMAGE]
+
+[... stimulus truncated for prompt budget: 11,863 of 18,772 characters shown; the omitted remainder continues in the same style ...]
+
+### Imagination (Prevention-Other)
+On the following pages, you will complete a guided imagination exercise. You will envision a negative future that awaits us if we fail to take action against climate change.
+
+Try to visualize the scenario described with as much detail as possible. Think about what you might see, hear, smell, and feel in this scenario.
+
+---
+
+Imagine a city that has been transformed by climate change. The sun beats down relentlessly, and the air is thick with smog and orange haze that makes it hard to see. There is a haze above the pavement distorting the air.
+
+Close your eyes and visualize this city, then open your eyes and type in the box to describe what you saw.
+
+---
+
+Now, imagine a fictional person who lives in this future city. Close your eyes and picture this person walking down the sidewalk, imagining what they look like and what they are doing. When you’re done, type what you imagined in the box below.
+
+When you’re done, type what you imagined in the box below.
+
+---
+
+Imagine other people in the city, hurrying to get off the streets and away from the heat and smog. Cars idle in traffic, honking and spewing exhaust.
+
+Now imagine this scene with all your senses, imagining the sounds, smells, and sensations. For example, think about the sounds the people would hear, like cars honking, and the feeling of the hot sun and polluted air.
+
+Close your eyes and imagine the scene with these sounds and sensations.
+
+When you're done, type in the box to describe what you imagined.
+
+---
+
+Lastly, close your eyes and imagine the emotions that you think the people would feel in this scenario.
+
+When you're done, type in the box to describe what you imagined.
+
+---
+
+How vivid and detailed was the scenario that you imagined?
+
+---
+
+How much are you currently feeling positive emotions?
+
+---
+
+How much are you currently feeling negative emotions?
+
+---
+
+How weak or strong are the emotions you are currently feeling?
+
+---
+
+Approximately how many years into the future was the scenario that you imagined?
+
+### Imagination (Prevention-Self)
+On the following pages, you will complete a guided imagination exercise. You will envision a negative future that awaits us if we fail to take action against climate change.
+
+Try to visualize the scenario described with as much detail as possible. Think about what you might see, hear, smell, and feel in this scenario.
+
+---
+
+Imagine that you are walking through the streets of a city that has been transformed by climate change. The sun beats down relentlessly, and the air is thick with smog and orange haze that makes it hard to see. There is a haze above the pavement distorting the air.
+
+Close your eyes and visualize this city, then open your eyes and type in the box to describe what you saw.
+
+---
+
+Imagine that you are walking down the sidewalk in the city. Close your eyes and picture yourself in this scene, imagining what you are doing and what you see around you.
+
+When you’re done, type what you imagined in the box below.
+
+---
+
+Imagine other people around you, hurrying to get off the streets and away from the heat and smog. Cars idle in traffic, honking and spewing exhaust.
+
+Now imagine this scene with all your senses, imagining the sounds, smells, and sensations. For example, think about cars honking, and the feeling of the hot sun and polluted air.
+
+Close your eyes and imagine the scene with these sounds and sensations.
+
+When you're done, type in the box to describe what you imagined.
+
+---
+
+Lastly, close your eyes and imagine the emotions that you would feel in this scenario.
+
+When you're done, type in the box to describe what you feel.
+
+---
+
+How vivid and detailed was the scenario that you imagined?
+
+---
+
+How much are you currently feeling positive emotions?
+
+---
+
+How much are you currently feeling negative emotions?
+
+---
+
+How weak or strong are the emotions you are currently feeling?
+
+---
+
+Approximately how many years into the future was the scenario that you imagined?
+
+### Imagination (Promotion-Other)
+On the following pages, you will complete a guided imagination exercise. You will envision a positive future that awaits us if we take action against climate change.
+
+Try to visualize the scenario described with as much detail as possible. Think about what you might see, hear, smell, and feel in this scenario.
+
+---
+
+Imagine a futuristic city that has taken action to become sustainable. The streets and rooftops are full of greenery, and the skyscrapers are adorned with solar panels. The sidewalks are clean and shaded by trees.
+
+Close your eyes and visualize this city, then open your eyes and type in the box to describe what you saw.
+
+---
+
+Now, imagine a fictional person who lives in this future city. Close your eyes and picture this person walking through a park in the city, imagining what they look like and what they are doing. When you’re done, type what you imagined in the box below.
+
+When you’re done, type what you imagined in the box below.
+
+---
+
+Imagine other people enjoying the city. The streets are quiet, but lively—there are electric vehicles, pedestrians, and bikes.
+
+Now imagine this scene with all your senses, imagining the sounds, smells, and sensations. For example, think about the sounds the people would hear, like birds chirping and people laughing, and the feeling of a clean breeze.
+
+Close your eyes and imagine the scene with these sounds and sensations.
+
+When you're done, type in the box to describe what you imagined.
+
+---
+
+Lastly, close your eyes and imagine the emotions that you think the people would feel in this scenario.
+
+When you're done, type in the box to describe what you imagined.
+
+---
+
+How vivid and detailed was the scenario that you imagined?
+
+---
+
+How much are you currently feeling positive emotions?
+
+---
+
+How much are you currently feeling negative emotions?
+
+---
+
+How weak or strong are the emotions you are currently feeling?
+
+---
+
+Approximately how many years into the future was the scenario that you imagined?
+
+### Imagination (Promotion-Self)
+On the following pages, you will complete a guided imagination exercise. You will envision a positive future that awaits us if we take action against climate change.
+
+Try to visualize the scenario described with as much detail as possible. Think about what you might see, hear, smell, and feel in this scenario.
+
+---
+
+Imagine that you are walking through the streets of a futuristic city that has taken action to become sustainable. The streets and rooftops are full of greenery, and the skyscrapers are adorned with solar panels. The sidewalks are clean and shaded by trees.
+
+Close your eyes and visualize this city, then open your eyes and type in the box to describe what you saw.
+
+---
+
+Imagine that you are walking through a park in the city. Close your eyes and picture yourself in this scene, imagining what you are doing and what you see around you.
+
+When you’re done, type what you imagined in the box below.
+
+---
+
+Imagine other people around you enjoying the city. The streets are quiet, but lively—there are electric vehicles, pedestrians, and bikes.
+
+Now imagine this scene with all your senses, imagining the sounds, smells, and sensations. For example, think about the sounds you would hear, like birds chirping and people laughing, and the feeling of a clean breeze.
+
+Close your eyes and imagine the scene with these sounds and sensations.
+
+When you're done, type in the box to describe what you imagined.
+
+---
+
+Lastly, close your eyes and imagine the emotions that you would feel in this scenario.
+
+When you're done, type in the box to describe what you feel.
+
+---
+
+How vivid and detailed was the scenario that you imagined?
+
+---
+
+How much are you currently feeling positive emotions?
+
+---
+
+How much are you currently feeling negative emotions?
+
+---
+
+How weak or strong are the emotions you are currently feeling?
+
+---
+
+Approximately how many years into the future was the scenario that you imagined?
+
+### Impact Information (Quiz)
+Greenhouse gas emissions like carbon dioxide contribute to climate change (global warming). The average American is responsible for about 16 tons of greenhouse gas emissions each year!
+
+You can take action to help fight climate change and inspire others to take action, too.
+
+Some actions are more impactful than others. Here are two examples:
+
+- Buying 30% of your clothing secondhand would save 110 pounds of CO2 every year, as much as planting 2 trees.
+
+- Reducing your food waste by 70% would save 495 pounds of CO2 every year, as much as planting 10 trees.
+
+Next, you'll complete a quiz game where you try to guess the annual impact of some actions that we can take to mitigate climate change. You may be surprised by the answers! The following estimates are calculated for an average American.
+
+---
+
+[loop-and-merge block 'Impact Info - Quiz': the page template below was repeated once per item; each participant saw all 8 items below, in random order. The merge fields come from Payload.Options.LoopingOptions.Static, NOT from QuestionText.]
+
+---
+
+item 1 of 8 (full page):
+Examples:
+
+- Buying 30% of your clothing secondhand would save as much CO2 as planting 2 trees every year (110 pounds of CO2).
+
+- Reducing food waste by 70% would save as much CO2 as planting 10 trees every year (495 pounds of CO2).
+
+---------------------------------------------------------------------------------
+
+Question ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+Replacing all beef and lamb in your diet with poultry would save as much carbon as planting trees.
+
+Can you guess the number of trees? Type a number in the box below.
+
+On the next page, we'll reveal the true answer.
+
+Examples:
+
+- Buying 30% of your clothing secondhand would save as much CO2 as planting 2 trees every year (110 pounds of CO2).
+
+- Reducing food waste by 70% would save as much CO2 as planting 10 trees every year (495 pounds of CO2).
+
+---------------------------------------------------------------------------------
+
+Question ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+Your Guess: ${q://QID1318706759/ChoiceTextEntryValue} trees
+
+Correct Answer: 22 trees
+
+Replacing all beef and lamb in your diet with poultry would save as much carbon as planting 22 trees (1062 pounds of CO2).
+
+Was this statistic lower or higher than you expected?
+- Much lower
+- Somewhat lower
+- Slightly lower
+- As expected
+- Slightly higher
+- Somewhat higher
+- Much higher
+
+---
+
+item 2 of 8: Eating a vegetarian diet would save as much carbon as planting trees. / Correct Answer: 24 trees / Eating a vegetarian diet would save as much carbon as planting 24 trees (1146 pounds of CO2).
+
+---
+
+item 3 of 8: Eating a vegan diet would save as much carbon as planting trees. / Correct Answer: 41 trees / Eating a vegan diet would save as much carbon as planting 41 trees (2006 pounds of CO2).
+
+---
+
+item 4 of 8: Reducing vehicle fuel consumption by 50% (e.g., by driving less or switching to a fuel-efficient/hybrid vehicle) would save as much carbon as planting trees. / Correct Answer: 105 trees / Reducing vehicle fuel consumption by 50% (e.g., by driving less or switching to a fuel-efficient/hybrid vehicle) would save as much carbon as planting 105 trees (5071 pounds of CO2).
+
+---
+
+item 5 of 8: Skipping one trip that requires long-distance air travel (e.g., flying from central U.S. to Europe) would save as much carbon as planting trees. / Correct Answer: 26 trees / Skipping one trip that requires long-distance air travel (e.g., flying from central U.S. to Europe) would save as much carbon as planting 26 trees (1275 pounds of CO2).
+
+---
+
+item 6 of 8: Putting all recyclable waste in the recycling bin instead of the trash would save as much carbon as planting trees. / Correct Answer: 3 trees / Putting all recyclable waste in the recycling bin instead of the trash would save as much carbon as planting 3 trees (132 pounds of CO2).
+
+---
+
+item 7 of 8: Paying a monthly fee to your energy provider to get 50% of your energy at home from renewable sources would save as much carbon as planting trees. / Correct Answer: 132 trees / Paying a monthly fee to your energy provider to get 50% of your energy at home from renewable sources would save as much carbon as planting 132 trees (6389 pounds of CO2).
+
+---
+
+item 8 of 8: In the winter, setting the thermostat 4° F lower would save as much carbon as planting trees. / Correct Answer: 5 trees / In the winter, setting the thermostat 4° F lower would save as much carbon as planting 5 trees (238 pounds of CO2).
+
+### Impact Information (Text)
+Greenhouse gas emissions like carbon dioxide contribute to climate change (global warming). The average American is responsible for about 16 tons of greenhouse gas emissions each year!
+
+You can take action to help fight climate change and inspire others to take action, too.
+
+Some actions are more impactful than others. Here are two examples:
+
+- Buying 30% of your clothing secondhand would save 110 pounds of CO2 each year, as much as planting 2 trees.
+
+- Carpooling to work would save 573 pounds of CO2 each year, as much as planting 12 trees.
+
+On the next few pages, we will show you more information about the impact of some actions that we can take to mitigate climate change. The following estimates are calculated for an average American.
+
+---
+
+[loop-and-merge block 'Impact Info - Text': the page template below was repeated once per item; each participant saw all 8 items below, in random order. The merge fields come from Payload.Options.LoopingOptions.Static, NOT from QuestionText.]
+
+---
+
+item 1 of 8 (full page):
+Examples:
+
+- Buying 30% of your clothing secondhand would save as much CO2 as planting 2 trees every year (110 pounds of CO2).
+
+- Reducing food waste by 70% would save as much CO2 as planting 10 trees every year (495 pounds of CO2).
+
+---------------------------------------------------------------------------------
+
+Question ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+Replacing all beef and lamb in your diet with poultry would save as much carbon as planting 22 trees (1062 pounds of CO2).
+
+Was this statistic lower or higher than you expected?
+- Much lower
+- Somewhat lower
+- Slightly lower
+- As expected
+- Slightly higher
+- Somewhat higher
+- Much higher
+
+---
+
+item 2 of 8: Eating a vegetarian diet would save as much carbon as planting 24 trees (1146 pounds of CO2).
+
+---
+
+item 3 of 8: Eating a vegan diet would save as much carbon as planting 41 trees (2006 pounds of CO2).
+
+---
+
+item 4 of 8: Reducing vehicle fuel consumption by 50% (e.g., by driving less or switching to a fuel-efficient/hybrid vehicle) would save as much carbon as planting 105 trees (5071 pounds of CO2).
+
+---
+
+item 5 of 8: Skipping one trip that requires long-distance air travel (e.g., flying from central U.S. to Europe) would save as much carbon as planting 26 trees (1275 pounds of CO2).
+
+---
+
+item 6 of 8: Putting all recyclable waste in the recycling bin instead of the trash would save as much carbon as planting 3 trees (132 pounds of CO2).
+
+---
+
+item 7 of 8: Paying a monthly fee to your energy provider to get 50% of your energy at home from renewable sources would save as much carbon as planting 132 trees (6389 pounds of CO2).
+
+---
+
+item 8 of 8: In the winter, setting the thermostat 4° F lower would save as much carbon as planting 5 trees (238 pounds of CO2).
+
+### Letter to Future Gen
+Next, we would like for you to write a letter to a child or teenager you know well.
+
+Please type in the child's first name only in the text box below. Be sure to capitalize the first letter of their name. This is merely to help you address the letter to them.
+
+(Please do your best to think of child or teenager you know well. If you can't think of any child or teenager you know at all, imagine you had a child, insert a name, and write to that fictional child.)
+
+---
+
+Please answer the following questions. Select "Not Applicable" if you are imagining a fictional child.
+- How well do you know ${q://QID1319461906/ChoiceTextEntryValue}?
+- How emotionally close do you feel to ${q://QID1319461906/ChoiceTextEntryValue}?
+
+---
+
+Please indicate whether ${q://QID1319461906/ChoiceTextEntryValue} is related to you, and if so, how.
+- My kid
+- My grandkid
+- My niece/nephew
+- Other family relative
+- Not a family relative
+- Not applicable (i.e., ${q://QID1319461906/ChoiceTextEntryValue} is a fictional child/teen)
+
+---
+
+Next, please think about the kind of person ${q://QID1319461906/ChoiceTextEntryValue} is.
+
+What is one of the best qualities about them? Please write a sentence or two.
+
+---
+
+What sorts of passions and hobbies does ${q://QID1319461906/ChoiceTextEntryValue} have? Please write a sentence or two.
+
+---
+
+What do you think ${q://QID1319461906/ChoiceTextEntryValue} is likely to accomplish in their future? Please write a sentence or two.
+
+---
+
+Now imagine that ${q://QID1319461906/ChoiceTextEntryValue} is a 30-year-old adult. It is approximately the year 2050, they have started a family of their own, and they are finding their own way in the world.
+
+Whether they recognize it or not, they live in a world that is powerfully shaped by the decisions we are all making now, in 2024. One day, ${q://QID1319461906/ChoiceTextEntryValue} finds this letter that you wrote today.
+
+In it, you tell ${q://QID1319461906/ChoiceTextEntryValue} and ${q://QID1319461906/ChoiceTextEntryValue}'s family about all of the things you have done and want to do in the future to ensure that they will inherit a healthy, habitable planet.
+
+You tell ${q://QID1319461906/ChoiceTextEntryValue} about your own personal efforts—however small or large—to confront the complex environmental problems of your time, from habitat loss to water pollution to climate change. In this letter, you also tell ${q://QID1319461906/ChoiceTextEntryValue} and ${q://QID1319461906/ChoiceTextEntryValue}'s family in 2050 about how you want to be remembered by them and future generations as someone who did their best to ensure a safe, flourishing world.
+
+You are encouraged to write at least 5-6 sentences, but feel free to write a longer letter if it comes naturally.
+
+Note: Do not include any identifiable information such as last names, specific addresses (references to a certain state or city is fine if it comes up), or contact information in your letter. And please be sure to write this yourself, without any assistance from AI, ChatGPT, etc. The point is for you to write the letter yourself.
+
+Dear ${q://QID1319461906/ChoiceTextEntryValue},
+
+### Moral Values
+Next, you will reflect on your own moral values.
+
+Moral values are principles or standards that guide a person's behavior and choices based on what is considered right or wrong. Research in psychology has identified that there are several fundamental moral values that people hold.
+
+---
+
+Below are 6 fundamental moral values:
+[the 6 items below are written into the page by the question's JavaScript, not stored in QuestionText; each participant saw them in a random order]
+- Some people believe that care and compassion for others is an important moral value. They believe that preventing harm toward others and being caring/empathic toward people who have suffered is a crucial virtue.  [key: care and compassion]
+- Some people believe that equality is an important moral value. They believe that in a fair society, everyone should be treated equally in terms of rights, opportunities, and resources (e.g., wealth equality).  [key: equality of opportunity and outcomes]
+- Some people believe that proportionality is an important moral value. They believe that in a fair society, what people put in is what they get should get out. They believe that responsibility and accountability are important, and that rewards and punishment should be in proportion to people's contributions.  [key: proportionality and merit]
+- Some people believe that loyalty to one's group is an important moral value. They believe that first and foremost, people should be loyal to their family, their community, and their country.  [key: loyalty to one's group]
+- Some people believe that respect for authority and tradition is an important moral value. They believe that traditions, respect for elders/authority figures, and a strong leader serves a valuable function in keeping society orderly.  [key: respect for authority and tradition]
+- Some people believe that purity and sanctity is an important moral value. They believe that what matters most is physical and moral cleanliness, and the preservation of what is sacred or holy. They often value spiritual, social, and sexual purity (e.g., chastity).  [key: purity and sanctity]
+
+---
+
+We recognize that several of these moral values may be important to you, but if you had to pick one that is most important to you, which one would you select?
+[the 6 response options are set by JavaScript from the shuffled list shown on the previous screen; Choices holds only 'Choice 1'..'Choice N' placeholders]
+
+---
+
+You chose ${e://Field/SelectedKeyIdea}.
+
+How much, if at all, do you identify with this moral value?
+
+---
+
+To what degree, if at all, do you think your moral value of ${e://Field/SelectedKeyIdea} is related to the impacts of climate change and/or efforts to combat it?
+
+---
+
+Next, please take a moment to consider how your moral value of ${e://Field/SelectedKeyIdea} could be related to the impacts of climate change and/or efforts to combat it.
+
+Please write a few sentences to explain your thoughts: How does your moral value of "${e://Field/SelectedKeyIdea}" shape the way you think about and address climate change?
+
+---
+
+Great job! Next you'll get to read a little bit more about how ${e://Field/SelectedKeyIdea} is related to the impacts of climate change and efforts to combat it. Please read carefully.
+
+---
+
+How is care and compassion a key aspect of climate change?
+
+[IMAGE]
+
+The Earth is rapidly getting hotter due to human activities that produce greenhouse gases, like carbon dioxide, which act like a blanket and trap the sun's heat. With rapidly rising global temperatures the Earth's natural systems will become imbalanced, threatening the well-being of the planet and billions of people.
+
+Care and compassion for others is directly related to addressing climate change.
+
+The impacts of climate change will most severely harm vulnerable people like low- and middle-income families, children, the elderly, and those in low income countries.
+
+Children are especially vulnerable to climate change. Increased air pollution and heat waves can make asthma and other breathing problems worse. Changing weather and droughts lead to food and water shortages, affecting children's health. Elderly people are also at higher risk during extreme heat events, which can cause heat strokes and other health problems.
+
+Show care and compassion and protect vulnerable groups. Reduce your carbon footprint by flying and driving less (and/or using an electric car or public transportation), and shifting your diet to minimize red-meat. Support sustainable policies and renewable energy, like wind and solar, by voting and telling your representatives you care. Volunteer for and donate to organizations that address climate change. These actions show that you care about protecting people now and in the future.
+
+Be the person you want to be and live by your values. Uphold your moral value of care and compassion and approach solutions to climate change in effective and meaningful ways, helping solve this global crisis.
+
+---
+
+How is equality a key aspect of climate change?
+
+[IMAGE]
+
+The Earth is rapidly getting hotter due to human activities that produce greenhouse gases, like carbon dioxide, which act like a blanket and trap the sun's heat. With rapidly rising global temperatures the Earth's natural systems will become imbalanced, threatening the well-being of the planet and billions of people.
+
+Equality – ensuring equal opportunities and outcomes for all – is directly related to addressing climate change.
+
+Wealthier nations and high-emission industries have contributed the most to greenhouse gas emissions, benefitting economically but harming the environment. Poorer nations and communities, who have contributed the least to climate change, suffer the most from its impacts, experiencing extreme weather, food and water shortages, and health problems. This is unfair because those who did the least to cause the problem suffer the most. This only makes existing inequalities worse.
+
+Addressing climate change through equality means making sure everyone, no matter their background or socio-economic status, has equal chances to adapt and succeed. This involves investing in strong infrastructure for underserved communities, providing access to clean energy, and ensuring fair distribution of resources and support for climate adaptation. By taking these actions, you can create a fairer world where the benefits and burdens of climate action are shared more equally.
+
+Show how equality matters to you. Reduce your carbon footprint by flying and driving less (and/or using an electric car or public transportation), and shifting your diet to minimize red-meat. Support sustainable policies and renewable energy, like wind and solar, by voting and telling your representatives you care. Volunteer for and donate to organizations that address climate change. These actions show that you care about promoting a just and inclusive society, where everyone has the opportunity to thrive despite the challenges of a changing climate.
+
+Be the person you want to be and live by your values. Uphold your moral value of equality and approach solutions to climate change in effective and meaningful ways, helping solve this global crisis.
+
+---
+
+How is proportionality a key aspect of climate change?
+
+[IMAGE]
+
+The Earth is rapidly getting hotter due to human activities that produce greenhouse gases, like carbon dioxide, which act like a blanket and trap the sun's heat. With rapidly rising global temperatures the Earth's natural systems will become imbalanced, threatening the well-being of the planet and billions of people.
+
+Proportionality – the idea that what people put in is what they should get out – is directly related to addressing climate change. This idea is important when thinking about climate change because it emphasizes responsibility and accountability.
+
+Wealthier nations and high-emission industries have contributed the most to greenhouse gas emissions, gaining economic benefits while harming the environment. Poorer nations and communities, who have contributed the least to climate change, suffer the most from its impacts, like extreme weather, food and water shortages, and health problems. This is unfair because those who did the least to cause the problem suffer the most.
+
+Addressing climate change through proportionality means holding companies and countries that pollute the most accountable, ensuring they lead in solving the problem. This includes making policies that require polluters to cut their emissions, fund sustainable development, and help vulnerable communities adapt. By doing this, you make sure those who benefitted the most from industrialization also take responsibility for the consequences.
+
+Show how proportionality matters to you. Reduce your carbon footprint by flying and driving less (and/or using an electric car or public transportation), and shifting your diet to minimize red-meat. Support sustainable policies and renewable energy, like wind and solar, by voting and telling your representatives you care. Volunteer for and donate to organizations that address climate change. These actions show that you care about promoting a fair and just society, where the rewards and burdens of climate action are shared fairly.
+
+Be the person you want to be and live by your values. Uphold your moral value of proportionality and approach solutions to climate change in effective and meaningful ways, helping solve this global crisis.
+
+---
+
+How is loyalty to one's group a key aspect of climate change?
+
+[IMAGE]
+
+The Earth is rapidly getting hotter due to human activities that produce greenhouse gases, like carbon dioxide, which act like a blanket and trap the sun's heat. With rapidly rising global temperatures the Earth's natural systems will become imbalanced, threatening the well-being of the planet and billions of people.
+
+Loyalty to one’s group – prioritizing the well-being of your family, community, and country – is directly related to climate change.
+
+Being loyal means protecting the health, security, and prosperity of your loved ones and fellow Americans. Climate change threatens these values with more natural disasters, health risks from pollution, and economic problems.
+
+By fighting climate change, you protect the environment and fulfill your duty to keep our families and communities safe. Loyalty to our country means making sure America stays strong and prosperous despite climate challenges. This means supporting policies for clean energy, reducing emissions, and building sustainable infrastructure. This helps ensure a stable and healthy future for all Americans.
+
+Show how loyalty to your family, community, and country matters to you. Reduce your carbon footprint by flying and driving less (and/or using an electric car or public transportation), and shifting your diet to minimize red-meat. Support sustainable policies and renewable energy, like wind and solar, by voting and telling your representatives you care. Volunteer for and donate to organizations that address climate change. These actions show your commitment to our families and fellow citizens, ensuring everyone can thrive in a safe and sustainable environment.
+
+Be the person you want to be and live by your values. Uphold your moral value of loyalty and approach solutions to climate change in effective and meaningful ways, helping solve this global crisis.
+
+---
+
+How is respect for authority and tradition a key aspect of climate change?
+
+[IMAGE]
+
+The Earth is rapidly getting hotter due to human activities that produce greenhouse gases, like carbon dioxide, which act like a blanket and trap the sun's heat. With rapidly rising global temperatures the Earth's natural systems will become imbalanced, threatening the well-being of the planet and billions of people.
+
+Respect for authority and tradition is directly related to addressing climate change.
+
+[... stimulus truncated for prompt budget: 11,858 of 16,206 characters shown; the omitted remainder continues in the same style ...]
+
+### News Comments (Self-Rel)
+In the following task, we are interested in understanding how different people react to online news, and in what ways information is shared among people.
+
+You will review a set of 5 actual news headlines taken from the internet.
+
+We would like you to read the news headlines, write short comments, and give ratings. This writing task will help you reflect upon the headlines in different ways.
+
+There are no right or wrong answers and your answers will not be linked to you. Please answer as honestly as possible.
+
+---
+
+In order to help you reflect on these messages in different ways, we’d like you to write short comments to accompany each message, as if you were sharing on social media.
+
+Specifically, we will ask you to write comments for each message with this specific goal in mind:
+
+Write a short comment to describe why this message matters to you personally.
+
+---
+
+[loop-and-merge block 'News Comments - Self': the page template below was repeated once per item; each participant saw a random 5 of the 26 items below, in random order. The merge fields come from Payload.Options.LoopingOptions.Static, NOT from QuestionText.]
+
+---
+
+item 1 of 26 (full page):
+Article ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+5 Takeaways From The Times's ClimateTECH Conference
+
+At the gathering of technology and business leaders in San Francisco, discussion ranged from big data to lab-grown meat to a new candidacy for governor.
+
+Write a short comment to describe why this message matters to you personally.
+
+Article ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+5 Takeaways From The Times's ClimateTECH Conference
+
+At the gathering of technology and business leaders in San Francisco, discussion ranged from big data to lab-grown meat to a new candidacy for governor.
+
+Your comment:
+${q://QID365/ChoiceTextEntryValue}
+
+To what extent do you agree or disagree with the following statements?
+- I would share this article by posting on social media (on Facebook, Twitter/X, etc.)
+- I would share this message directly with someone I know (via email, direct message, etc.)
+- This message is relevant to me
+- This message is relevant to people I know
+- This article makes me feel hopeful, optimistic, or inspired
+- This article makes me feel fearful, worried, or anxious
+- I would read this article
+
+---
+
+[items 2-26 of this loop are the remaining 25 of the same 26 New York Times headline/snippet pairs listed verbatim under '_rated_stimuli.news_headlines' in this file; only the headline and snippet change from page to page. Each participant saw a random 5.]
+
+### News Comments (Social-Rel)
+In the following task, we are interested in understanding how different people react to online news, and in what ways information is shared among people.
+
+You will review a set of 5 actual news headlines taken from the internet.
+
+We would like you to read the news headlines, write short comments, and give ratings. This writing task will help you reflect upon the headlines in different ways.
+
+There are no right or wrong answers and your answers will not be linked to you. Please answer as honestly as possible.
+
+---
+
+In order to help you reflect on these messages in different ways, we’d like you to write short comments to accompany each message, as if you were sharing on social media.
+
+Specifically, we will ask you to write comments for each message with this specific goal in mind:
+
+Write a short comment to describe why this message matters to people you know.
+
+---
+
+[loop-and-merge block 'News Comments - Social': the page template below was repeated once per item; each participant saw a random 5 of the 26 items below, in random order. The merge fields come from Payload.Options.LoopingOptions.Static, NOT from QuestionText.]
+
+---
+
+item 1 of 26 (full page):
+Article ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+5 Takeaways From The Times's ClimateTECH Conference
+
+At the gathering of technology and business leaders in San Francisco, discussion ranged from big data to lab-grown meat to a new candidacy for governor.
+
+Write a short comment to describe why this message matters to people you know.
+
+Article ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+5 Takeaways From The Times's ClimateTECH Conference
+
+At the gathering of technology and business leaders in San Francisco, discussion ranged from big data to lab-grown meat to a new candidacy for governor.
+
+Your comment:
+${q://QID367/ChoiceTextEntryValue}
+
+To what extent do you agree or disagree with the following statements?
+- I would share this article by posting on social media (on Facebook, Twitter/X, etc.)
+- I would share this message directly with someone I know (via email, direct message, etc.)
+- This message is relevant to me
+- This message is relevant to people I know
+- This article makes me feel hopeful, optimistic, or inspired
+- This article makes me feel fearful, worried, or anxious
+- I would read this article
+
+---
+
+[items 2-26 of this loop are the remaining 25 of the same 26 New York Times headline/snippet pairs listed verbatim under '_rated_stimuli.news_headlines' in this file; only the headline and snippet change from page to page. Each participant saw a random 5.]
+
+### Personal Benefits
+[IMAGE]
+
+There are many actions people can take to address climate change.
+
+These actions benefit the environment AND they can also benefit YOU and the people you care about.
+
+---
+
+In the following activity, you’ll be shown 10 actions and brainstorm the personal benefits that YOU might experience by taking these actions.
+
+For each action, imagine that you start doing this action regularly.
+
+How might YOU benefit immediately, in the moment when doing the action and by doing the action regularly over the next 6 months?
+
+Think about how you might feel, how your life might improve, what you might gain from doing this action, etc.
+
+---
+
+[IMAGE: image]
+
+For each action, your job is to brainstorm as many unique, personal benefits as you can. To help you do that:
+
+- Focus on YOU—there may be many possible benefits, but focus on how you would benefit personally.
+
+- Be creative—focus on the benefits to you across different aspects of your life—your health, well-being, relationships, finances, etc.
+
+- Be specific—break down broad benefits (e.g. being healthy) into multiple, specific benefits (e.g. more exercise by walking, healthier heart, lower stress).
+
+If you think you would experience the same benefits for multiple actions, it's fine to repeat them.
+
+If you already do an action regularly, please describe the benefits you currently experience.
+
+---
+
+[loop-and-merge block 'Personal Benefits - Task': the page template below was repeated once per item; each participant saw all 10 items below, in random order. The merge fields come from Payload.Options.LoopingOptions.Static, NOT from QuestionText.]
+
+---
+
+item 1 of 10 (full page):
+Action ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+Please answer the following question about the action listed below.
+
+Eating less beef or lamb
+
+How might taking this action benefit YOU immediately, in the moment when doing the action and by doing the action regularly over the next 6 months?
+
+Please brainstorm as many unique personal benefits as you can.
+
+Please write a single benefit in each text box. To add another benefit, click the "add another benefit" button.
+
+If you already do an action regularly, describe the benefits you currently experience.
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+[response options: Benefit]
+
+---
+
+item 2 of 10: Eating more vegetarian and/or vegan meals
+
+---
+
+item 3 of 10: Driving a vehicle that uses gas or diesel fuel less frequently (e.g. by walking, bicycling, taking public transit, carpooling, or switching to a hybrid or electric vehicle)
+
+---
+
+item 4 of 10: Flying by airplane less frequently (e.g., by taking the train, choosing closer destinations, or traveling less)
+
+---
+
+item 5 of 10: Contacting your local or national representatives to ask them to address climate change
+
+---
+
+item 6 of 10: Signing petitions for local or national policies that address climate change
+
+---
+
+item 7 of 10: Volunteering for organizations or political candidates that aim to address climate change
+
+---
+
+item 8 of 10: Donating money to organizations or political candidates that aim to address climate change
+
+---
+
+item 9 of 10: Paying for renewable energy to power your home
+
+---
+
+item 10 of 10: Talking to friends, family, or colleagues about climate change
+
+### Social Norms (Quiz)
+In the following section, you will read some statements about attitudes related to climate change. All of the statistics in these statements are from recent national polls of American adults ages 18+.
+
+We will ask you to try to guess the missing statistic for each statement before we reveal the correct answer.
+
+Please read each statement and respond to the associated questions.
+
+---
+
+[loop-and-merge block 'Social Norms - Quiz': the page template below was repeated once per item; each participant saw a random 16 of the 24 items below, in random order. The merge fields come from Payload.Options.LoopingOptions.Static, NOT from QuestionText.]
+
+---
+
+item 1 of 24 (full page):
+Question ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+% of Americans support the U.S. taking steps to become carbon-neutral by 2050.
+
+Try to estimate the missing statistic. On the next page, we'll reveal the true answer.
+
+Question ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+Your Guess: ${q://QID1318706769/ChoiceNumericEntryValue/1}%
+
+Correct Answer: 69% of Americans support the U.S. taking steps to become carbon-neutral by 2050.
+
+Was this statistic lower or higher than you expected?
+- Much lower
+- Somewhat lower
+- Slightly lower
+- As expected
+- Slightly higher
+- Somewhat higher
+- Much higher
+
+---
+
+item 2 of 24: % of Americans agree that the U.S. should prioritize developing renewable energy sources, like wind and solar. / Correct Answer: 69% of Americans agree that the U.S. should prioritize developing renewable energy sources, like wind and solar.
+
+---
+
+item 3 of 24: % of Americans say that the U.S. should completely phase out fossil fuels, like oil, coal, and natural gas. / Correct Answer: 31% of Americans say that the U.S. should completely phase out fossil fuels, like oil, coal, and natural gas.
+
+---
+
+item 4 of 24: % of Americans say that their state elected officials are not doing enough to address climate change. / Correct Answer: 58% of Americans say that their state elected officials are not doing enough to address climate change.
+
+---
+
+item 5 of 24: % of Americans think that they are not doing enough as an individual to reduce the effects of climate change. / Correct Answer: 43% of Americans think that they are not doing enough as an individual to reduce the effects of climate change.
+
+---
+
+item 6 of 24: % of Americans believe climate change is a major threat to the country's well-being. / Correct Answer: 54% of Americans believe climate change is a major threat to the country's well-being.
+
+---
+
+item 7 of 24: % of Americans say that addressing climate change should be an important or top priority for the president and Congress. / Correct Answer: 71% of Americans say that addressing climate change should be an important or top priority for the president and Congress.
+
+---
+
+item 8 of 24: % of Americans say that climate change is already affecting their local community. / Correct Answer: 61% of Americans say that climate change is already affecting their local community.
+
+---
+
+item 9 of 24: % of Americans agree that the U.S. should participate in international efforts to address climate change. / Correct Answer: 75% of Americans agree that the U.S. should participate in international efforts to address climate change.
+
+---
+
+item 10 of 24: % of Americans say that they are trying to eat less red meat, either for health or environmental reasons. / Correct Answer: 63% of Americans say that they are trying to eat less red meat, either for health or environmental reasons.
+
+---
+
+item 11 of 24: % of Americans say that if they had more information about the environmental impact of different products or foods, they would choose more environmentally-friendly options. / Correct Answer: 49% of Americans say that if they had more information about the environmental impact of different products or foods, they would choose more environmentally-friendly options.
+
+---
+
+item 12 of 24: % of Americans say that if their family or friends ate more plant-based foods instead of meat, they would likely do the same. / Correct Answer: 50% of Americans say that if their family or friends ate more plant-based foods instead of meat, they would likely do the same.
+
+---
+
+item 13 of 24: % of Americans say that they would be willing to eat less red meat to address climate change. / Correct Answer: 34% of Americans say that they would be willing to eat less red meat to address climate change.
+
+---
+
+item 14 of 24: % of Americans say that they would be willing to consume less dairy to address climate change. / Correct Answer: 43% of Americans say that they would be willing to consume less dairy to address climate change.
+
+---
+
+item 15 of 24: % of Americans say that they would be willing to eat more fruits and vegetables to address climate change. / Correct Answer: 95% of Americans say that they would be willing to eat more fruits and vegetables to address climate change.
+
+---
+
+item 16 of 24: % of Americans say that they would be willing to eat more plant-based meat alternatives to address climate change. / Correct Answer: 53% of Americans say that they would be willing to eat more plant-based meat alternatives to address climate change.
+
+---
+
+item 17 of 24: % of Americans agree that if everyone ate a more plant-based diet, it would help reduce the effects of climate change. / Correct Answer: 56% of Americans agree that if everyone ate a more plant-based diet, it would help reduce the effects of climate change.
+
+---
+
+item 18 of 24: % of Americans say that they are willing to pay more for sustainable products vs. less-sustainable competitors. / Correct Answer: 66% of Americans say that they are willing to pay more for sustainable products vs. less-sustainable competitors.
+
+---
+
+item 19 of 24: % of Americans are concerned about the environmental impact of the products they buy. / Correct Answer: 75% of Americans are concerned about the environmental impact of the products they buy.
+
+---
+
+item 20 of 24: % of Americans say that recent climate events (like wildfires, pollution, floods, and droughts) have made them more likely to purchase environmentally-friendly products. / Correct Answer: 70% of Americans say that recent climate events (like wildfires, pollution, floods, and droughts) have made them more likely to purchase environmentally-friendly products.
+
+---
+
+item 21 of 24: % of Americans say they are willing to invest in new home appliances that increase energy efficiency and reduce waste. / Correct Answer: 83% of Americans say they are willing to invest in new home appliances that increase energy efficiency and reduce waste.
+
+---
+
+item 22 of 24: % of Americans say they would be willing to pay more for environmentally-friendly packaging instead of single-use plastics. / Correct Answer: 66% of Americans say they would be willing to pay more for environmentally-friendly packaging instead of single-use plastics.
+
+---
+
+item 23 of 24: % of Americans believe there is no solid evidence that Earth's temperature is getting warmer over time. / Correct Answer: 14% of Americans believe there is no solid evidence that Earth's temperature is getting warmer over time.
+
+---
+
+item 24 of 24: % of Americans believe that climate change is occurring, but is mostly or entirely due to natural patterns rather than human activity. / Correct Answer: 26% of Americans believe that climate change is occurring, but is mostly or entirely due to natural patterns rather than human activity.
+
+### Social Norms (Text)
+In the following section, you will read some statements about attitudes related to climate change. All of the statistics in these statements are from recent national polls of American adults ages 18+.
+
+Please read each statement and respond to the associated questions.
+
+---
+
+[loop-and-merge block 'Social Norms - Text': the page template below was repeated once per item; each participant saw a random 16 of the 24 items below, in random order. The merge fields come from Payload.Options.LoopingOptions.Static, NOT from QuestionText.]
+
+---
+
+item 1 of 24 (full page):
+Question ${lm://CurrentLoopNumber} of ${lm://TotalLoops}
+
+69% of Americans support the U.S. taking steps to become carbon-neutral by 2050.
+
+Was this statistic lower or higher than you expected?
+- Much lower
+- Somewhat lower
+- Slightly lower
+- As expected
+- Slightly higher
+- Somewhat higher
+- Much higher
+
+---
+
+item 2 of 24: 69% of Americans agree that the U.S. should prioritize developing renewable energy sources, like wind and solar.
+
+---
+
+item 3 of 24: 31% of Americans say that the U.S. should completely phase out fossil fuels, like oil, coal, and natural gas.
+
+---
+
+item 4 of 24: 58% of Americans say that their state elected officials are not doing enough to address climate change.
+
+---
+
+item 5 of 24: 43% of Americans think that they are not doing enough as an individual to reduce the effects of climate change.
+
+---
+
+item 6 of 24: 54% of Americans believe climate change is a major threat to the country's well-being.
+
+---
+
+item 7 of 24: 71% of Americans say that addressing climate change should be an important or top priority for the president and Congress in 2023.
+
+---
+
+item 8 of 24: 61% of Americans say that climate change is already affecting their local community.
+
+---
+
+item 9 of 24: 75% of Americans agree that the U.S. should participate in international efforts to address climate change.
+
+---
+
+item 10 of 24: 63% of Americans say that they are trying to eat less red meat, either for health or environmental reasons.
+
+---
+
+item 11 of 24: 49% of Americans say that if they had more information about the environmental impact of different products or foods, they would choose more environmentally-friendly options.
+
+---
+
+item 12 of 24: 50% of Americans say that if their family or friends ate more plant-based foods instead of meat, they would likely do the same.
+
+---
+
+item 13 of 24: 34% of Americans say that they would be willing to eat less red meat to address climate change.
+
+---
+
+item 14 of 24: 43% of Americans say that they would be willing to consume less dairy to address climate change.
+
+---
+
+item 15 of 24: 95% of Americans say that they would be willing to eat more fruits and vegetables to address climate change.
+
+---
+
+item 16 of 24: 53% of Americans say that they would be willing to eat more plant-based meat alternatives to address climate change.
+
+---
+
+item 17 of 24: 56% of Americans agree that if everyone ate a more plant-based diet, it would help reduce the effects of climate change.
+
+---
+
+item 18 of 24: 66% of Americans say that they are willing to pay more for sustainable products vs. less-sustainable competitors.
+
+---
+
+item 19 of 24: 75% of Americans are concerned about the environmental impact of the products they buy.
+
+---
+
+item 20 of 24: 70% of Americans say that recent climate events (like wildfires, pollution, floods, and droughts) have made them more likely to purchase environmentally-friendly products.
+
+---
+
+item 21 of 24: 83% of Americans say they are willing to invest in new home appliances that increase energy efficiency and reduce waste.
+
+---
+
+item 22 of 24: 66% of Americans say they would be willing to pay more for environmentally-friendly packaging instead of single-use plastics.
+
+---
+
+item 23 of 24: 14% of Americans believe there is no solid evidence that Earth's temperature is getting warmer over time.
+
+---
+
+item 24 of 24: 26% of Americans believe that climate change is occurring, but is mostly or entirely due to natural patterns rather than human activity.
+
+Return exactly 408 rows: every condition x every outcome.
+Header: condition,outcome,ate

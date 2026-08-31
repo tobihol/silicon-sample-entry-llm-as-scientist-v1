@@ -1,0 +1,147 @@
+{
+ "dataset": "kim2024",
+ "status": "VERIFIED by tools/build_kim.py (rebuild + red paths + published checks)",
+ "file": "/workspace/run/inputs/derived/kim2024.csv",
+ "reader": "csv",
+ "sample_description": "IMPORTANT - READ BEFORE PREDICTING. The verbatim message texts of this study are not available: they are not in the public data deposit, and this brief therefore describes each arm rather than reproducing it. Every description above is either verbatim from the instrument's own manipulation-check item (which the respondents themselves answered) or from the paper's title and abstract. You are being asked to predict effects from a DESCRIPTION of a message, not from the message. Nothing else about the task changes.\n\n3,007 U.S. adults recruited on Amazon Mechanical Turk, fielded 2021 by the University of Pennsylvania. Arm sizes are listed separately below. A convenience sample, not a census-quota panel: relative to the U.S. adult population MTurk skews younger, more educated, more online and somewhat more Democratic. Respondents answered a pre-treatment block (including their trust in climate scientists and their attribution of warming), then read one short text, then answered the post-treatment block below.",
+ "condition_col": "arm",
+ "arms": {
+  "Control (unrelated text)": "Control (unrelated text)",
+  "Scientific consensus": "Scientific consensus",
+  "Causal evidence": "Causal evidence"
+ },
+ "control_arms": [
+  "Control (unrelated text)"
+ ],
+ "outcomes": {
+  "trust_climate_scientists": {
+   "col": "trust_climate_scientists",
+   "lo": 1,
+   "hi": 4,
+   "reverse": true,
+   "question": "'How much, if at all, [do] you trust climate scientists to give full and accurate information about global climate change?' 1 'A lot' / 2 'Some' / 3 'Not too much' / 4 'None at all'. Scored so that HIGHER = MORE TRUST."
+  },
+  "consensus_perceived": {
+   "col": "consensus_perceived",
+   "lo": 0,
+   "hi": 100,
+   "question": "'To the best of your knowledge, what percentage of climate scientists have concluded that human-caused global warming is happening?' 0-100 slider."
+  },
+  "belief_human_cause": {
+   "col": "belief_human_cause",
+   "lo": 1,
+   "hi": 3,
+   "reverse": true,
+   "question": "'...the world's temperature may have been going up slowly over the past 100 years. Do you think this is happening?' - cause attribution: 1 'Mostly by human activity' / 2 'About equally' / 3 'Mostly by natural causes'. HIGHER = MORE HUMAN-CAUSED."
+  },
+  "human_contribution": {
+   "col": "human_contribution",
+   "lo": 1,
+   "hi": 4,
+   "reverse": true,
+   "question": "'How much do you think human activity, such as the burning of fossil fuels, contributes to global climate change?' 1 'A great deal' - 4 'Not at all'. HIGHER = MORE."
+  },
+  "natural_contribution": {
+   "col": "natural_contribution",
+   "lo": 1,
+   "hi": 4,
+   "reverse": true,
+   "question": "'How much do you think natural patterns in the Earth's environment contribute to global climate change?' 1 'A great deal' - 4 'Not at all'. HIGHER = MORE. Note the direction: a message that raises human attribution may LOWER this one."
+  },
+  "evidence_human": {
+   "col": "evidence_human",
+   "lo": 1,
+   "hi": 4,
+   "reverse": true,
+   "question": "'How much evidence is there to support the idea that human activity ... contributes to global climate change?' 1 'A great deal' - 4 'Not at all'. HIGHER = MORE EVIDENCE."
+  },
+  "evidence_natural": {
+   "col": "evidence_natural",
+   "lo": 1,
+   "hi": 4,
+   "reverse": true,
+   "question": "'How much evidence is there to support the idea that natural patterns ... contribute to global climate change?' 1 'A great deal' - 4 'Not at all'. HIGHER = MORE EVIDENCE."
+  },
+  "policy_fedgov_more": {
+   "col": "policy_fedgov_more",
+   "lo": 1,
+   "hi": 5,
+   "reverse": true,
+   "question": "'Do you think the federal government should be doing more about rising temperatures?' 1 'Should be doing much more' - 5 'Should be doing much less'. HIGHER = MORE ACTION."
+  },
+  "policy_green_new_deal": {
+   "col": "policy_green_new_deal",
+   "lo": 6,
+   "hi": 12,
+   "reverse": true,
+   "question": "'Do you support or oppose the Green New Deal?' 7-point, raw Qualtrics codes 6 'Strongly support' - 12 'Strongly oppose'. HIGHER = MORE SUPPORT."
+  },
+  "policy_paris": {
+   "col": "policy_paris",
+   "lo": 4,
+   "hi": 10,
+   "reverse": true,
+   "question": "'Do you support or oppose the executive action ... to have the United States recommit to the Paris Agreement?' 7-point, raw codes 4 'Strongly support' - 10 'Strongly oppose'. HIGHER = MORE SUPPORT."
+  },
+  "policy_priority": {
+   "col": "policy_priority",
+   "lo": 1,
+   "hi": 4,
+   "reverse": true,
+   "question": "'...should dealing with global climate change be a top priority?' 1 'A top priority' - 4 'It should not be done'. HIGHER = HIGHER PRIORITY."
+  }
+ },
+ "moderators": {
+  "party_lean": {
+   "col": "party_lean",
+   "map": {
+    "Democrat": "Democrat",
+    "Independent": "Independent",
+    "Republican": "Republican"
+   }
+  },
+  "gender": {
+   "col": "gender",
+   "map": {
+    "Male": "Male",
+    "Female": "Female"
+   }
+  },
+  "education": {
+   "col": "education",
+   "map": {
+    "No degree": "No degree",
+    "Some college": "Some college",
+    "BA+": "BA+"
+   }
+  },
+  "age_band": {
+   "col": "age_band",
+   "map": {
+    "18-29": "18-29",
+    "30-44": "30-44",
+    "45-59": "45-59",
+    "60+": "60+"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "race": "not asked",
+  "income": "not asked"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/kim2024_arms.json",
+ "exclude_from_slope": "the verbatim stimuli are not in the deposit, so the predictor is given a DESCRIPTION of each message rather than the message (see provenance.caveats); and this is a trust-family task on a coarse 4-point item, which the operator's session-13 directive and standing findings 69/83 both keep out of any pooled multiplier.",
+ "provenance": {
+  "verified_by": "tools/build_kim.py; the authors' `RP Replication.R` is the codebook",
+  "caveats": [
+   "THE VERBATIM MESSAGE TEXTS ARE NOT IN THE DEPOSIT. The brief carries the respondents' own manipulation-check descriptions (verbatim from the instrument) plus the paper's title/abstract characterisation. This is a weaker brief than every other task here and it is stated inside the brief itself.",
+   "MTurk convenience sample, 2021; no race and no income variables, so those two moderators cannot be checked on this task at all",
+   "the trust outcome is a single 4-point item, not a slider - the target's trust_multidimensional is a 12-item four-subscale composite on 0-100 sliders",
+   "the arm is derived from eight Qualtrics block randomisers, not a stored column",
+   "`consensus_perceived` is the manipulation's own target and its consensus-arm effect is close to a manipulation check, not a persuasion effect",
+   "two outcomes (natural_contribution, evidence_natural) are scored so that HIGHER means more attribution to NATURAL causes: a message that works should move them DOWN or not at all"
+  ]
+ }
+}

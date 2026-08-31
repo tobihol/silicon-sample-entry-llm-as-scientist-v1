@@ -1,0 +1,61 @@
+{
+ "dataset": "bokemper2022_e1",
+ "status": "VERIFIED - 2026-08-26 built host-side from the CC0 Dataverse deposit (doi:10.7910/DVN/VUKNOQ, Experiment1.dta): 3,184 respondents, 10 treatment arms (n 241-248) + baseline-informational reference (n 735); scales rebuilt exactly per ReplicationCode.do; unadjusted diff-in-means ATEs match the paper's covariate-adjusted coefficients within 0.6 pp (Other-Linear on beliefs .040 vs .038 raw, Reframing Bravery on others .058 vs .058)",
+ "file": "/workspace/run/inputs/derived/bokemper2022_e1.csv",
+ "reader": "csv",
+ "sample_description": "3,184 U.S. adults from a Lucid convenience sample (quota-matched on age, gender, ethnicity and region to census margins, but not a probability sample), fielded MAY 2020, during the first wave of the COVID-19 pandemic and before politicization of distancing had fully hardened. Each respondent was randomised to read ONE message about COVID-19 social distancing (or the baseline public-health information alone) and then immediately answered the outcome battery. All outcomes are means of 0-1 items (sliders/agreement), reported here on their 0-1 range. Effects are measured against the BASELINE INFORMATIONAL group, which itself read standard public-health distancing guidance - so every arm's ATE is the marginal persuasive value ADDED BEYOND plain guidance, not vs a no-information control. Expect small effects.",
+ "condition_col": "arm_title",
+ "arms": {
+  "Baseline Informational (reference)": "Baseline Informational (reference)",
+  "Protect Yourself - Individual Action": "Protect Yourself - Individual Action",
+  "Protect Yourself - Threshold Cooperation": "Protect Yourself - Threshold Cooperation",
+  "Protect Yourself - Linear Cooperation": "Protect Yourself - Linear Cooperation",
+  "Protect Others - Individual Action": "Protect Others - Individual Action",
+  "Protect Others - Threshold Cooperation": "Protect Others - Threshold Cooperation",
+  "Protect Others - Linear Cooperation": "Protect Others - Linear Cooperation",
+  "Reframing Bravery": "Reframing Bravery",
+  "Reframing Bravery + Pollution": "Reframing Bravery + Pollution",
+  "Return to Normal": "Return to Normal",
+  "Adapt to New Normal": "Adapt to New Normal"
+ },
+ "control_arms": [
+  "Baseline Informational (reference)"
+ ],
+ "outcomes": {
+  "e1_normsbeliefs": {"col": "e1_normsbeliefs", "lo": 0, "hi": 1, "question": "BELIEFS scale, mean of 3 agreement items (0-1): social distancing is important because it stops me getting sick; because it stops others getting sick; I would feel guilty if I did not practice social distancing."},
+  "e1_distancing": {"col": "e1_distancing", "lo": 0, "hi": 1, "question": "DISTANCING intentions scale, mean of 6 items (0-1): likelihood of wearing a mask, likely to practice social distancing, and reverse-coded willingness to get elective medical care, visit a friend's house, visit family's house, attend a small party."},
+  "e1_food": {"col": "e1_food", "lo": 0, "hi": 1, "question": "FOOD behaviour scale, mean of 3 items (0-1): reverse-coded willingness to eat out and to go to a coffee shop, and preferring indoor dining vs alternatives (binary)."},
+  "e1_others": {"col": "e1_others", "lo": 0, "hi": 1, "question": "OTHERS scale, mean of 6 items (0-1): likely to persuade others to distance, likely to report a business violating rules, non-compliers are selfish, and reverse-coded ratings of non-compliers as trustworthy / likeable / competent."}
+ },
+ "moderators": {
+  "gender": {"col": "gender", "map": {"Male": "Male", "Female": "Female"}},
+  "party": {"col": "party", "map": {"Democrat": "Democrat", "Independent": "Independent", "Republican": "Republican"}},
+  "age_band": {"col": "age_band", "map": {"18-34": "18-34", "35-54": "35-54", "55+": "55+"}}
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts": {
+  "Baseline Informational (reference)": "To end the COVID-19 pandemic, public health officials believe we should practice social distancing. Social distancing means that you should: Avoid gatherings of any size outside your household, such as a friend's house, parks, restaurants, shops, or any other place. Work from home when possible. Stay at least 6 feet away from others if you need to go out in public, for example to shop for food or medicine. Also consider covering your mouth and nose with a cloth face covering when around others, including when you have to go out in public. Avoid using any kind of public transportation, ridesharing, or taxis, if possible.",
+  "Protect Yourself - Individual Action": "[The baseline informational text, followed by:] Stopping COVID-19 is important because it reduces the risk that you could get sick and die. COVID-19 kills people of all ages. Even for those who are young and healthy, there is a risk of death or long-term disability. Many other people are already social distancing. Remember, when you practice social distancing you reduce the risk that you get sick. Your choices affect you.",
+  "Protect Yourself - Threshold Cooperation": "[The baseline informational text, followed by:] Stopping COVID-19 is important because it reduces the risk that you could get sick and die. COVID-19 kills people of all ages. Even for those who are young and healthy, there is a risk of death or long-term disability. Many other people are already social distancing. Remember, if enough people practice social distancing then we can reduce the risk that you get sick. While you can't do it alone, we can protect ourselves if enough of us work together.",
+  "Protect Yourself - Linear Cooperation": "[The baseline informational text, followed by:] Stopping COVID-19 is important because it reduces the risk that you could get sick and die. COVID-19 kills people of all ages. Even for those who are young and healthy, there is a risk of death or long-term disability. Many other people are already social distancing. Remember, every person who practices social distancing reduces the risk that you get sick. While you can't do it alone, we can all protect ourselves by working together.",
+  "Protect Others - Individual Action": "[The baseline informational text, followed by:] Stopping COVID-19 is important because it reduces the risk that members of your family and community could get sick and die. COVID-19 kills people of all ages. Even for those who are young and healthy, there is a risk of death or long-term disability. Many other people are already social distancing. Remember, when you practice social distancing you reduce the risk that people you care about get sick. Your choices affect those around you.",
+  "Protect Others - Threshold Cooperation": "[The baseline informational text, followed by:] Stopping COVID-19 is important because it reduces the risk that members of your family and community could get sick and die. COVID-19 kills people of all ages. Even for those who are young and healthy, there is a risk of death or long-term disability. Many other people are already social distancing. Remember, if enough people practice social distancing then we can reduce the risk that people you care about get sick. While you can't do it alone, we can protect our loved ones if enough of us work together.",
+  "Protect Others - Linear Cooperation": "[The baseline informational text, followed by:] Stopping COVID-19 is important because it reduces the risk that members of your family and community could get sick and die. COVID-19 kills people of all ages. Even for those who are young and healthy, there is a risk of death or long-term disability. Many other people are already social distancing. Remember, every person who practices social distancing reduces the risk that people you care about get sick. While you can't do it alone, we can all protect everyone by working together.",
+  "Reframing Bravery": "Soldiers, fire fighters, EMTs, and doctors are putting their lives on the line to serve others during the COVID-19 pandemic. That's bravery. But people who don't practice social distancing because they don't think they will get sick or aren't worried aren't brave, they are reckless. By not social distancing, you are risking the health of your family, friends, and community. There is nothing attractive and independent-minded about ignoring public health guidance to practice social distancing. Not social distancing means you risk the health of others. To show strength practice social distancing so you don't get sick and take resources from other people who need them more, or risk spreading the disease to those who are at risk. Social distancing may be inconvenient, but it works.",
+  "Reframing Bravery + Pollution": "Soldiers, fire fighters, EMTs, and doctors are putting their lives on the line to serve others during the COVID-19 pandemic. That's bravery. But people who don't practice social distancing because they don't think they will get sick or aren't worried aren't brave, they are reckless. By not social distancing, you are risking the health of your family, friends, and community by polluting the community with the risk of infection. There is nothing attractive and independent-minded about ignoring public health guidance to practice social distancing. Not social distancing means you risk the health of others. To show strength practice social distancing so you don't get sick and take resources from other people who need them more, or risk spreading the disease to those who are at risk. Social distancing may be inconvenient, but it works.",
+  "Return to Normal": "[The 'Protect Others - Linear Cooperation' message, with one added closing sentence:] Social distancing now means we can more quickly return to our normal way of life.",
+  "Adapt to New Normal": "[The 'Protect Others - Linear Cooperation' message, with one added closing sentence:] Social distancing now means we are adapting to the 'new normal' necessary because of COVID-19."
+ },
+ "provenance": {
+  "source": "Harvard Dataverse doi:10.7910/DVN/VUKNOQ (CC0 1.0); paper doi:10.1371/journal.pone.0264782 (Bokemper, Huber, James, Gerber, Omer 2022, PLOS One). Stimuli transcribed verbatim from the paper's Table 1.",
+  "scales": "rebuilt exactly per ReplicationCode.do (simple item means, no imputation needed in E1)",
+  "caveats": [
+   "May-2020 pandemic context: attitudes toward distancing were changing week to week",
+   "reference group read the baseline public-health text, not nothing - ATEs are incremental persuasive effects and are SMALL (the paper finds only Reframing Bravery and Other-regarding Linear Cooperation distinguishable from baseline)",
+   "Lucid convenience sample; n~245/arm means per-cell SEs around 2 pp of range - the truth itself is noisy at the cell level",
+   "moderator party derived from lucid_party7 (1-3 Dem, 4 Ind, 5-7 Rep); age bands 18-34/35-54/55+ from continuous age"
+  ]
+ },
+ "exclude_from_slope": "jointly-held-out head-to-head task (2026-08-26): scored once by idea_01's frozen predictor for the idea_01-vs-idea_02 comparison; must never enter any idea_01 calibration fit"
+}

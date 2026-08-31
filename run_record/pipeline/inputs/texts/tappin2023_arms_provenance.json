@@ -1,0 +1,532 @@
+{
+ "Allow religious denial of service (in favor)": {
+  "si_issue_heading": "Allow religious denial of service",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Allow businesses to deny service to a customer if the request conflicts with the owner's religious beliefs",
+  "pdf_pages": [
+   4
+  ],
+  "n_words": 151
+ },
+ "Allow religious denial of service (against)": {
+  "si_issue_heading": "Allow religious denial of service",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Allow businesses to deny service to a customer if the request conflicts with the owner's religious beliefs",
+  "pdf_pages": [
+   4
+  ],
+  "n_words": 124
+ },
+ "Subsidized healthcare for immigrants (in favor)": {
+  "si_issue_heading": "Subsidized healthcare for immigrants",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Provide illegal immigrants with access to government-subsidized healthcare",
+  "pdf_pages": [
+   5
+  ],
+  "n_words": 99
+ },
+ "Subsidized healthcare for immigrants (against)": {
+  "si_issue_heading": "Subsidized healthcare for immigrants",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Provide illegal immigrants with access to government-subsidized healthcare",
+  "pdf_pages": [
+   5
+  ],
+  "n_words": 103
+ },
+ "Abolish electoral college (in favor)": {
+  "si_issue_heading": "Abolish electoral college",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Abolish the electoral college",
+  "pdf_pages": [
+   5
+  ],
+  "n_words": 130
+ },
+ "Abolish electoral college (against)": {
+  "si_issue_heading": "Abolish electoral college",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Abolish the electoral college",
+  "pdf_pages": [
+   5
+  ],
+  "n_words": 136
+ },
+ "Allow death penalty (in favor)": {
+  "si_issue_heading": "Allow death penalty",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Allow the use of the death penalty",
+  "pdf_pages": [
+   6
+  ],
+  "n_words": 164
+ },
+ "Allow death penalty (against)": {
+  "si_issue_heading": "Allow death penalty",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Allow the use of the death penalty",
+  "pdf_pages": [
+   6
+  ],
+  "n_words": 150
+ },
+ "Require women on boards (in favor)": {
+  "si_issue_heading": "Require women on boards",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Make it a requirement for businesses to have women on their board of directors",
+  "pdf_pages": [
+   6
+  ],
+  "n_words": 123
+ },
+ "Require women on boards (against)": {
+  "si_issue_heading": "Require women on boards",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Make it a requirement for businesses to have women on their board of directors",
+  "pdf_pages": [
+   6
+  ],
+  "n_words": 133
+ },
+ "Amnesty for illegal immigrants (in favor)": {
+  "si_issue_heading": "Amnesty for illegal immigrants",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Give working illegal immigrants temporary amnesty",
+  "pdf_pages": [
+   7
+  ],
+  "n_words": 111
+ },
+ "Amnesty for illegal immigrants (against)": {
+  "si_issue_heading": "Amnesty for illegal immigrants",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Give working illegal immigrants temporary amnesty",
+  "pdf_pages": [
+   7
+  ],
+  "n_words": 138
+ },
+ "Limit donations to candidates (in favor)": {
+  "si_issue_heading": "Limit donations to candidates",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Limit the amount of money a candidate can receive from a donor",
+  "pdf_pages": [
+   7
+  ],
+  "n_words": 142
+ },
+ "Limit donations to candidates (against)": {
+  "si_issue_heading": "Limit donations to candidates",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Limit the amount of money a candidate can receive from a donor",
+  "pdf_pages": [
+   7
+  ],
+  "n_words": 120
+ },
+ "More restrictions at U.S. border (in favor)": {
+  "si_issue_heading": "More restrictions at U.S. border",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Increase restrictions on current U.S. border security policy",
+  "pdf_pages": [
+   8
+  ],
+  "n_words": 157
+ },
+ "More restrictions at U.S. border (against)": {
+  "si_issue_heading": "More restrictions at U.S. border",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Increase restrictions on current U.S. border security policy",
+  "pdf_pages": [
+   8
+  ],
+  "n_words": 145
+ },
+ "Require work for Medicaid (in favor)": {
+  "si_issue_heading": "Require work for Medicaid",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Make it a requirement that people work in order to receive Medicaid",
+  "pdf_pages": [
+   9
+  ],
+  "n_words": 150
+ },
+ "Require work for Medicaid (against)": {
+  "si_issue_heading": "Require work for Medicaid",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Make it a requirement that people work in order to receive Medicaid",
+  "pdf_pages": [
+   9
+  ],
+  "n_words": 168
+ },
+ "Allow assisted suicide (in favor)": {
+  "si_issue_heading": "Allow assisted suicide",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Allow terminally ill patients to end their lives via assisted suicide",
+  "pdf_pages": [
+   9
+  ],
+  "n_words": 144
+ },
+ "Allow assisted suicide (against)": {
+  "si_issue_heading": "Allow assisted suicide",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Allow terminally ill patients to end their lives via assisted suicide",
+  "pdf_pages": [
+   9
+  ],
+  "n_words": 141
+ },
+ "Illegal to burn U.S. flag (in favor)": {
+  "si_issue_heading": "Illegal to burn U.S. flag",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Make it illegal to burn the American flag",
+  "pdf_pages": [
+   10
+  ],
+  "n_words": 153
+ },
+ "Illegal to burn U.S. flag (against)": {
+  "si_issue_heading": "Illegal to burn U.S. flag",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Make it illegal to burn the American flag",
+  "pdf_pages": [
+   10
+  ],
+  "n_words": 136
+ },
+ "Deny criminals the vote (in favor)": {
+  "si_issue_heading": "Deny criminals the vote",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Deny convicted criminals the right to vote",
+  "pdf_pages": [
+   10
+  ],
+  "n_words": 152
+ },
+ "Deny criminals the vote (against)": {
+  "si_issue_heading": "Deny criminals the vote",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Deny convicted criminals the right to vote",
+  "pdf_pages": [
+   10
+  ],
+  "n_words": 168
+ },
+ "Ban juvenile solitary confinement (in favor)": {
+  "si_issue_heading": "Ban juvenile solitary confinement",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Ban the use of solitary confinement for juveniles in prison",
+  "pdf_pages": [
+   11
+  ],
+  "n_words": 167
+ },
+ "Ban juvenile solitary confinement (against)": {
+  "si_issue_heading": "Ban juvenile solitary confinement",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Ban the use of solitary confinement for juveniles in prison",
+  "pdf_pages": [
+   11
+  ],
+  "n_words": 142
+ },
+ "Minimum sentences for drugs (in favor)": {
+  "si_issue_heading": "Minimum sentences for drugs",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Allow mandatory minimum prison sentences for people charged with drug possession",
+  "pdf_pages": [
+   11
+  ],
+  "n_words": 156
+ },
+ "Minimum sentences for drugs (against)": {
+  "si_issue_heading": "Minimum sentences for drugs",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Allow mandatory minimum prison sentences for people charged with drug possession",
+  "pdf_pages": [
+   11
+  ],
+  "n_words": 148
+ },
+ "Allow enhanced interrogation (in favor)": {
+  "si_issue_heading": "Allow enhanced interrogation",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Allow the military to use enhanced interrogation techniques, such as waterboarding, to gain information from suspected terrorists",
+  "pdf_pages": [
+   12
+  ],
+  "n_words": 150
+ },
+ "Allow enhanced interrogation (against)": {
+  "si_issue_heading": "Allow enhanced interrogation",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Allow the military to use enhanced interrogation techniques, such as waterboarding, to gain information from suspected terrorists",
+  "pdf_pages": [
+   12
+  ],
+  "n_words": 152
+ },
+ "Allow affirmative action (in favor)": {
+  "si_issue_heading": "Allow affirmative action",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Allow the use of affirmative action programs",
+  "pdf_pages": [
+   13
+  ],
+  "n_words": 176
+ },
+ "Allow affirmative action (against)": {
+  "si_issue_heading": "Allow affirmative action",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Allow the use of affirmative action programs",
+  "pdf_pages": [
+   13
+  ],
+  "n_words": 172
+ },
+ "Increase capital gains tax (in favor)": {
+  "si_issue_heading": "Increase capital gains tax",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Increase the government tax rate on profits earned from the sale of stocks, bonds, and real estate",
+  "pdf_pages": [
+   14
+  ],
+  "n_words": 164
+ },
+ "Increase capital gains tax (against)": {
+  "si_issue_heading": "Increase capital gains tax",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Increase the government tax rate on profits earned from the sale of stocks, bonds, and real estate",
+  "pdf_pages": [
+   14
+  ],
+  "n_words": 150
+ },
+ "Military aid to Saudia Arabia (in favor)": {
+  "si_issue_heading": "Military aid to Saudia Arabia",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Provide U.S. military aid to Saudi Arabia during its conflict with Yemen",
+  "pdf_pages": [
+   14
+  ],
+  "n_words": 130
+ },
+ "Military aid to Saudia Arabia (against)": {
+  "si_issue_heading": "Military aid to Saudia Arabia",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Provide U.S. military aid to Saudi Arabia during its conflict with Yemen",
+  "pdf_pages": [
+   14
+  ],
+  "n_words": 161
+ },
+ "Decrease power of labor unions (in favor)": {
+  "si_issue_heading": "Decrease power of labor unions",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Decrease the power of labor unions to help the economy",
+  "pdf_pages": [
+   15
+  ],
+  "n_words": 146
+ },
+ "Decrease power of labor unions (against)": {
+  "si_issue_heading": "Decrease power of labor unions",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Decrease the power of labor unions to help the economy",
+  "pdf_pages": [
+   15
+  ],
+  "n_words": 137
+ },
+ "Decrease foreign aid (in favor)": {
+  "si_issue_heading": "Decrease foreign aid",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Decrease U.S. foreign aid spending",
+  "pdf_pages": [
+   16
+  ],
+  "n_words": 174
+ },
+ "Decrease foreign aid (against)": {
+  "si_issue_heading": "Decrease foreign aid",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Decrease U.S. foreign aid spending",
+  "pdf_pages": [
+   16
+  ],
+  "n_words": 162
+ },
+ "Privatization of veterans' healthcare (in favor)": {
+  "si_issue_heading": "Privatization of veterans' healthcare",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Increase privatization of veterans' healthcare",
+  "pdf_pages": [
+   17
+  ],
+  "n_words": 173
+ },
+ "Privatization of veterans' healthcare (against)": {
+  "si_issue_heading": "Privatization of veterans' healthcare",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Increase privatization of veterans' healthcare",
+  "pdf_pages": [
+   17
+  ],
+  "n_words": 147
+ },
+ "Increase tariffs on Chinese imports (in favor)": {
+  "si_issue_heading": "Increase tariffs on Chinese imports",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Increase U.S. tariffs on imported products from China",
+  "pdf_pages": [
+   18
+  ],
+  "n_words": 173
+ },
+ "Increase tariffs on Chinese imports (against)": {
+  "si_issue_heading": "Increase tariffs on Chinese imports",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Increase U.S. tariffs on imported products from China",
+  "pdf_pages": [
+   18
+  ],
+  "n_words": 152
+ },
+ "Decrease estate tax (in favor)": {
+  "si_issue_heading": "Decrease estate tax",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Decrease the current estate tax rate",
+  "pdf_pages": [
+   19
+  ],
+  "n_words": 200
+ },
+ "Decrease estate tax (against)": {
+  "si_issue_heading": "Decrease estate tax",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Decrease the current estate tax rate",
+  "pdf_pages": [
+   19
+  ],
+  "n_words": 173
+ },
+ "Private pensions for public workers (in favor)": {
+  "si_issue_heading": "Private pensions for public workers",
+  "si_column": "Message Treatment In Favor",
+  "si_issue_text": "Transition pension plans for federal, state, and local government workers into privately managed accounts",
+  "pdf_pages": [
+   20
+  ],
+  "n_words": 124
+ },
+ "Private pensions for public workers (against)": {
+  "si_issue_heading": "Private pensions for public workers",
+  "si_column": "Message Treatment Against",
+  "si_issue_text": "Transition pension plans for federal, state, and local government workers into privately managed accounts",
+  "pdf_pages": [
+   20
+  ],
+  "n_words": 154
+ },
+ "leader_positions": {
+  "Allow religious denial of service": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Subsidized healthcare for immigrants": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "Abolish electoral college": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Allow death penalty": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Require women on boards": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "Amnesty for illegal immigrants": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "Limit donations to candidates": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "More restrictions at U.S. border": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Require work for Medicaid": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Allow assisted suicide": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Illegal to burn U.S. flag": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Deny criminals the vote": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Ban juvenile solitary confinement": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "Minimum sentences for drugs": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "Allow enhanced interrogation": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Allow affirmative action": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "Increase capital gains tax": {
+   "biden": "Agrees",
+   "trump": "Disagrees"
+  },
+  "Military aid to Saudia Arabia": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Decrease power of labor unions": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Decrease foreign aid": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Privatization of veterans' healthcare": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Increase tariffs on Chinese imports": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Decrease estate tax": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  },
+  "Private pensions for public workers": {
+   "biden": "Disagrees",
+   "trump": "Agrees"
+  }
+ }
+}

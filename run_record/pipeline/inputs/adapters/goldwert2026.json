@@ -1,0 +1,227 @@
+{
+ "dataset": "goldwert2026",
+ "status": "VERIFIED - re-verified 2026-08-15 after the OPEN-11 attrition mitigation: full-file load (31,324 rows, no completion filter; 25,025 rows carry at least one observed outcome); 18 arms (17 interventions + Control); 17x12 = 204 ATE cells, 0 NaN; sealed/attrition_bounds.csv carved alongside. Codings unchanged from the previous VERIFIED state (donation/newsletter/petition/letter checked against Advocacy_Cleaning_main.ipynb; all moderator level strings equal to ssb.spec.load()['moderators']).",
+ "file": "/workspace/datasets/goldwert2026/downloads/advocacy_data.csv",
+ "reader": "csv",
+ "sample_description": "25,025 U.S. adults (Connect/Prime panel, 2023-24) who reached the outcome block, out of 31,324 post-exclusion randomised respondents (22,374 of them finished the whole survey). Each was randomly assigned to one of 17 climate-advocacy interventions or a neutral control video. Interventions are long and heterogeneous in modality: reading tasks, Twitter-feed and magazine-article stimuli, writing tasks, and videos (3-12 minutes; median condition duration 150-390 s). Outcomes are measured immediately after, in a randomised DV order, and mix 0-100 sliders, real 0/1 behaviours (petition signature, newsletter sign-up, letter written), and a real $0-10 donation.",
+ "condition_col": "condName",
+ "arms": {
+  "ActivistPerspective": "ActivistPerspective",
+  "BindingMorals": "BindingMorals",
+  "BipartisanEliteCues": "BipartisanEliteCues",
+  "ClimatePolicyLiteracy": "ClimatePolicyLiteracy",
+  "CoBenefits": "CoBenefits",
+  "CollEfficacyEmoBenefit": "CollEfficacyEmoBenefit",
+  "Control": "Control",
+  "DynamicAngerNorm": "DynamicAngerNorm",
+  "EcologicalDisruptions": "EcologicalDisruptions",
+  "GlobalHealthThreat": "GlobalHealthThreat",
+  "GuiltCollResponsibility": "GuiltCollResponsibility",
+  "HopeAngerNarratives": "HopeAngerNarratives",
+  "IndStructuralChange": "IndStructuralChange",
+  "LetterFuture": "LetterFuture",
+  "MispCorrectionRisks": "MispCorrectionRisks",
+  "ShiftFocusIndColl": "ShiftFocusIndColl",
+  "SystemJustification": "SystemJustification",
+  "ThreatInjustEfficacy": "ThreatInjustEfficacy"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "filters": [],
+ "outcomes": {
+  "belief_1": {
+   "col": "belief_1",
+   "lo": 0,
+   "hi": 100,
+   "question": "belief in climate change (0-100 slider; BeliefandPolicySupport block; item wording NOT in the codebook)"
+  },
+  "policy_1": {
+   "col": "policy_1",
+   "lo": 0,
+   "hi": 100,
+   "question": "climate policy support (0-100 slider; BeliefandPolicySupport block; item wording NOT in the codebook)"
+  },
+  "pol_campaign": {
+   "col": "pol_campaign",
+   "lo": 0,
+   "hi": 100,
+   "question": "stated commitment to support a climate-focused political campaign (0-100 slider)"
+  },
+  "pol_candidate": {
+   "col": "pol_candidate",
+   "lo": 0,
+   "hi": 100,
+   "question": "stated commitment to vote for a climate-focused candidate (0-100 slider; asked only of respondents eligible to vote)"
+  },
+  "march": {
+   "col": "march",
+   "lo": 0,
+   "hi": 100,
+   "question": "stated commitment to attend a climate march (0-100 slider)"
+  },
+  "conversation": {
+   "col": "conversation",
+   "lo": 0,
+   "hi": 100,
+   "question": "stated commitment to have a conversation about climate change (0-100 slider)"
+  },
+  "petition": {
+   "col": "petition",
+   "lo": 0,
+   "hi": 1,
+   "question": "BEHAVIOUR: signed a real climate petition (0/1)"
+  },
+  "newsletter1": {
+   "col": "newsletter1",
+   "lo": 0,
+   "hi": 1,
+   "question": "BEHAVIOUR: signed up for climate organisation newsletter #1 (0/1) - closest analogue of the target's newsletter_signup"
+  },
+  "newsletter2": {
+   "col": "newsletter2",
+   "lo": 0,
+   "hi": 1,
+   "question": "BEHAVIOUR: signed up for climate organisation newsletter #2 (0/1)"
+  },
+  "newsletter": {
+   "col": "newsletter",
+   "lo": 0,
+   "hi": 1,
+   "question": "BEHAVIOUR: signed up for at least one of the two newsletters (0/1, = newsletter1 OR newsletter2) [de-zero-filled: 0 for people who never reached the block, so masked to NaN unless a real-NaN DV column is present]",
+   "observed_if_any": [
+    "belief_1",
+    "policy_1",
+    "pol_campaign",
+    "march",
+    "conversation",
+    "petition",
+    "newsletter1",
+    "newsletter2",
+    "donation"
+   ]
+  },
+  "letter": {
+   "col": "letter",
+   "lo": 0,
+   "hi": 1,
+   "question": "BEHAVIOUR: wrote a letter to an elected representative (0/1, completion coded by GPT and manually checked) [de-zero-filled: 0 for people who never reached the block, so masked to NaN unless a real-NaN DV column is present]",
+   "observed_if_any": [
+    "belief_1",
+    "policy_1",
+    "pol_campaign",
+    "march",
+    "conversation",
+    "petition",
+    "newsletter1",
+    "newsletter2",
+    "donation"
+   ]
+  },
+  "donation": {
+   "col": "donation",
+   "lo": 0,
+   "hi": 10,
+   "question": "BEHAVIOUR: dollars of a $10 bonus donated to an environmental organisation ($0-10; 99.7% whole dollars) - same units as the target's donation_ams"
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "Gender",
+   "map": {
+    "Male": "Male",
+    "Female": "Female"
+   },
+   "note": "survey item; only Male/Female occur in the released file (codebook codes 3 prefer-not and 4 non-binary/other are absent), so the target's `Other` level is not represented"
+  },
+  "age_band": {
+   "col": "Age",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "party": {
+   "col": "Party",
+   "map": {
+    "Democrat": "Democrat",
+    "Republican": "Republican"
+   },
+   "note": "the survey item has only Democrat/Republican/Other - there is NO Independent option, and 29% of respondents chose `Other`, which must therefore be a mixture of true independents and true others. `Other` is deliberately LEFT UNMAPPED (-> NaN) rather than passed through as the target's `Other`, which is a ~3% residual category"
+  },
+  "education": {
+   "col": "Education",
+   "map": {
+    "No formal education": "Less than high school",
+    "Less than a high school diploma": "Less than high school",
+    "High school graduate - high school diploma or the equivalent (for example: GED)": "High school diploma / GED",
+    "Some college, but no degree": "Some college or Associate's degree",
+    "Associate degree (for example: AA, AS)": "Some college or Associate's degree",
+    "Bachelor's degree (for example: BA, AB, BS)": "Bachelor's degree",
+    "Master's degree (for example: MA, MS, MEng, MEd, MSW, MBA)": "Master's degree / Professional degree",
+    "Professional degree (for example: MD, DDS, DVM, LLB, JD)": "Master's degree / Professional degree",
+    "Doctorate degree (for example: PhD, EdD)": "Doctorate degree / Ph.D."
+   },
+   "note": "panel-provider column, populated for only 41.5% of finishers (the Connect sub-panel); maps exactly onto all six target levels. `Prefer not to say` left unmapped"
+  },
+  "income": {
+   "col": "Household Income",
+   "map": {
+    "Less than $10,000": "Less than $30,000",
+    "$10,000-$19,999": "Less than $30,000",
+    "$20,000-$29,999": "Less than $30,000",
+    "$30,000-$39,999": "$30,000 to $55,999",
+    "$40,000-$49,999": "$30,000 to $55,999",
+    "$60,000-$69,999": "$56,000 to $99,999",
+    "$70,000-$79,999": "$56,000 to $99,999",
+    "$80,000-$89,999": "$56,000 to $99,999",
+    "$90,000-$99,999": "$56,000 to $99,999",
+    "$100,000-$124,999": "$100,000 to $167,999",
+    "$125,000-$149,999": "$100,000 to $167,999",
+    "$175,000-$199,999": "$168,000 or more",
+    "$200,000-$224,999": "$168,000 or more",
+    "$225,000-$249,999": "$168,000 or more",
+    "$250,000 or more": "$168,000 or more"
+   },
+   "note": "panel-provider column, 41.5% of finishers. Two of the 18 provider bands STRADDLE a target cut point and are deliberately left unmapped rather than guessed: `$50,000-$59,999` crosses $56,000 and `$150,000-$174,999` crosses $168,000. That drops ~13% of the covered subsample, so the income distribution here is dented at those two points"
+  }
+ },
+ "moderators_unavailable": {
+  "race": "the only race column is the panel provider's `Race` (41.5% of finishers). It has no Hispanic/Latino level - Hispanic identity lives in a SEPARATE `Hispanic` column - so the target's 5-level race variable cannot be built from any single column, and building it from `Race` alone would silently classify Hispanic respondents as White/Other. Left out; a two-column recode is not expressible in this adapter format.",
+  "party_independent": "see moderators.party note - the target's Independent level does not exist in this study.",
+  "income_two_bands": "see moderators.income note - $50,000-$59,999 and $150,000-$174,999 are unmapped."
+ },
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/goldwert2026_arms.json",
+ "message_texts_source": "/workspace/datasets/goldwert2026/downloads/intervention_docx/*.docx (18 files = 17 interventions + Neutral_Control_Condition), extracted from word/document.xml. 7 arms depend on video content that is not on disk and are marked as such in the texts file.",
+ "provenance": {
+  "verified_by": "notes/DATA_GOLDWERT_VLASCEANU.md (this session: full-file load, arm counts, coding checks, carve)",
+  "readme_claims": "readme.txt + Advocacy_Cleaning_main.ipynb: exclusions (test ResponseIds, blank/duplicate aid, AttentionCheck_purp != 4) already applied to advocacy_data.csv; ~1,733-1,745 per arm; belief_1/policy_1 16.5%-35% missing by arm.",
+  "caveats": [
+   "DIFFERENTIAL ATTRITION IS THE HEADLINE PROBLEM, and it is now bounded rather than filtered away. Only 22,374 of 31,324 (71.4%) finished and 25,025 (79.9%) reached the outcome block; both vary by arm (completion 61.2%-79.5%, observation 67.5%-86.7%), and the long writing/video arms lose the most people. Any conditioning on having answered is POST-TREATMENT. Lee (2009) trimming bounds are carved alongside the truth; they are ~10.6 pp wide against a median |ATE| of 2.5 pp and identify the sign of only 32.8% of cells. Rank order is the transferable signal; magnitudes are not.",
+   "`newsletter`, `letter` and `donation_bin` are coded 0 (not NaN) for people who never reached the question, while `petition`, `newsletter1`, `newsletter2`, `donation` carry real NaN. This adapter fixes that with `observed_if_any` (mask to NaN unless a real-NaN DV column is present) instead of the old `Finished == 1` filter; an unfixed unfiltered ATE on `newsletter`/`letter` would be a pure attrition artefact.",
+   "belief_1 and policy_1 are NOT in the codebook; only their block name (`BeliefandPolicySupport`) is known. Exact item wording is UNVERIFIED.",
+   "Dose is wildly unequal: readable stimulus length ranges from 283 chars (control) to 11,825 chars (IndStructuralChange). Content and dose are confounded.",
+   "Modality differs from the target: videos and writing tasks vs the target's short read-a-message design. Use for ordering, not magnitudes (the source README says the same).",
+   "No trust-in-scientists item of any kind.",
+   "`Country Of Residence` is populated for only 10,568 of 31,324 rows (it is a panel-provider column), so it CANNOT be used as a filter; the study is US-only by design.",
+   "The authors' own estimates are mixed-effects with FDR correction; this adapter computes raw differences in means.",
+   "Outcomes DROPPED on purpose: `video` (asked only of social-media users, 72.8% of finishers), `flyless` (59.5%), `lessbeef` (89.2%), `bank` (conditional on bankscore, 81.8%), `donation_bin` (redundant with donation and NaN-coded-as-0), and the four 0-1 composites (`public_awareness`, `political_advocacy`, `financial_advocacy`, `lifestyle_changes`), which average items with different missingness.",
+   "Moderator carves are still effectively finisher-only: Gender/Age/Party are asked at the END of the survey and are present for only ~20% of the 2,651 reached-but-unfinished respondents, so they drop out of any moderator grouping. The marginal ATE therefore uses a slightly larger sample than the moderator ATEs - deliberate, and recorded here."
+  ],
+  "target_relevance": "the ONLY training dataset carrying both of the target's non-slider outcomes in the target's own units: `donation` is $0-10 and `newsletter1`/`newsletter2` are 0/1 sign-ups. See inputs/measured/goldwert2026_format.json.",
+  "harness_note": "ssb.task.true_ates(df, ad, moderator='education') raises ValueError: cannot convert float NaN to integer, because the `Less than high school` level has 0-5 respondents in some arms and wm() returns NaN for n<=2, which the int(an) cast cannot take. This is a harness limitation, not an adapter error (marginal ATEs and the gender/age_band/party/income moderator carves all work). Left unmodified per instruction. Workaround if an education carve is needed: cast with a nullable Int64 in true_ates, or temporarily drop the two thinnest education levels from the map."
+ },
+ "attrition_bounds": true,
+ "attrition_note": "OPEN item 11 mitigation, chosen and measured 2026-08-15. The `Finished == 1` filter is REMOVED and replaced by per-outcome de-zero-filling (`observed_if_any`), because the filter was solving the zero-fill inconsistency by throwing away data AND tightening the post-treatment conditioning. Measured on the full randomised file: the analysis sample rises 22,374 -> 25,025; the mean Lee-bound trim fraction falls 0.110 -> 0.094; the mean bound width falls 12.54 -> 10.57 pp and the share of cells whose SIGN the bounds identify rises 0.270 -> 0.328. ATEs move by 0.55 pp on average (max 4.70) and correlate 0.977 with the filtered ones, so the ORDERING is unchanged. Per-arm observation rates run 0.675 (LetterFuture) to 0.867 (HopeAngerNarratives) against control 0.750; completion rates run 0.612 to 0.795 against control 0.642. `carve` writes sealed/attrition_bounds.csv. The bounds are ~10.6 pp wide against a median |ATE| of ~2.5 pp: this task's MAGNITUDES ARE NOT IDENTIFIED by the data, so it must not be pooled into the calibration slope on equal terms - it is a separate calibration family.",
+ "calibration_family": "goldwert2026_attrition_bounded"
+}

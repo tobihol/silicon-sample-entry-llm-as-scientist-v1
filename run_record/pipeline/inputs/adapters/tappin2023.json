@@ -1,0 +1,144 @@
+{
+ "dataset": "tappin2023",
+ "status": "VERIFIED - built by tools/build_tappin.py from data_RM.rds (126,264 x 46) via Rscript; 25,181 non-missing outcome rows from 5,071 completes, matching the README exactly. The 48-arm derivation (arm = item x direction of the message, direction = opposite of the respondent's OWN party leader's stance) carries two falsifiable red-path checks that the builder refuses to write without: likertAgree_recoded is reproduced at 1.000 from the in-party leader's stance and at 0.169 with the leaders swapped, and the direction-signed ATE is +4.88 pp with 40/48 arms moving in the argued direction (-4.88 and 8/48 if the direction is flipped).",
+ "file": "/workspace/run/inputs/derived/tappin2023_cells.csv",
+ "reader": "csv",
+ "sample_description": "5,071 U.S. adult partisans (including leaners; no pure independents), quota-matched to census margins on an opt-in online panel, 2021. Each respondent rated 5 of 24 U.S. policy issues on a 7-point agreement scale. Within each issue a persuasive ~150-word message was randomised on or off, crossed with a party-leader cue; each respondent was always shown the message that argues AGAINST their own party leader's position on that issue, so an arm's readers are all of one party. Arm sizes below are issue-level cells, and every arm is compared with the control respondents who rated the SAME policy statement in the same party group.",
+ "condition_col": "condition_arm",
+ "control_strata": "cell",
+ "arms": {
+  "Abolish electoral college (against)": "Abolish electoral college (against)",
+  "Abolish electoral college (in favor)": "Abolish electoral college (in favor)",
+  "Allow affirmative action (against)": "Allow affirmative action (against)",
+  "Allow affirmative action (in favor)": "Allow affirmative action (in favor)",
+  "Allow assisted suicide (against)": "Allow assisted suicide (against)",
+  "Allow assisted suicide (in favor)": "Allow assisted suicide (in favor)",
+  "Allow death penalty (against)": "Allow death penalty (against)",
+  "Allow death penalty (in favor)": "Allow death penalty (in favor)",
+  "Allow enhanced interrogation (against)": "Allow enhanced interrogation (against)",
+  "Allow enhanced interrogation (in favor)": "Allow enhanced interrogation (in favor)",
+  "Allow religious denial of service (against)": "Allow religious denial of service (against)",
+  "Allow religious denial of service (in favor)": "Allow religious denial of service (in favor)",
+  "Amnesty for illegal immigrants (against)": "Amnesty for illegal immigrants (against)",
+  "Amnesty for illegal immigrants (in favor)": "Amnesty for illegal immigrants (in favor)",
+  "Ban juvenile solitary confinement (against)": "Ban juvenile solitary confinement (against)",
+  "Ban juvenile solitary confinement (in favor)": "Ban juvenile solitary confinement (in favor)",
+  "Control": "Control",
+  "Decrease estate tax (against)": "Decrease estate tax (against)",
+  "Decrease estate tax (in favor)": "Decrease estate tax (in favor)",
+  "Decrease foreign aid (against)": "Decrease foreign aid (against)",
+  "Decrease foreign aid (in favor)": "Decrease foreign aid (in favor)",
+  "Decrease power of labor unions (against)": "Decrease power of labor unions (against)",
+  "Decrease power of labor unions (in favor)": "Decrease power of labor unions (in favor)",
+  "Deny criminals the vote (against)": "Deny criminals the vote (against)",
+  "Deny criminals the vote (in favor)": "Deny criminals the vote (in favor)",
+  "Illegal to burn U.S. flag (against)": "Illegal to burn U.S. flag (against)",
+  "Illegal to burn U.S. flag (in favor)": "Illegal to burn U.S. flag (in favor)",
+  "Increase capital gains tax (against)": "Increase capital gains tax (against)",
+  "Increase capital gains tax (in favor)": "Increase capital gains tax (in favor)",
+  "Increase tariffs on Chinese imports (against)": "Increase tariffs on Chinese imports (against)",
+  "Increase tariffs on Chinese imports (in favor)": "Increase tariffs on Chinese imports (in favor)",
+  "Limit donations to candidates (against)": "Limit donations to candidates (against)",
+  "Limit donations to candidates (in favor)": "Limit donations to candidates (in favor)",
+  "Military aid to Saudia Arabia (against)": "Military aid to Saudia Arabia (against)",
+  "Military aid to Saudia Arabia (in favor)": "Military aid to Saudia Arabia (in favor)",
+  "Minimum sentences for drugs (against)": "Minimum sentences for drugs (against)",
+  "Minimum sentences for drugs (in favor)": "Minimum sentences for drugs (in favor)",
+  "More restrictions at U.S. border (against)": "More restrictions at U.S. border (against)",
+  "More restrictions at U.S. border (in favor)": "More restrictions at U.S. border (in favor)",
+  "Private pensions for public workers (against)": "Private pensions for public workers (against)",
+  "Private pensions for public workers (in favor)": "Private pensions for public workers (in favor)",
+  "Privatization of veterans' healthcare (against)": "Privatization of veterans' healthcare (against)",
+  "Privatization of veterans' healthcare (in favor)": "Privatization of veterans' healthcare (in favor)",
+  "Require women on boards (against)": "Require women on boards (against)",
+  "Require women on boards (in favor)": "Require women on boards (in favor)",
+  "Require work for Medicaid (against)": "Require work for Medicaid (against)",
+  "Require work for Medicaid (in favor)": "Require work for Medicaid (in favor)",
+  "Subsidized healthcare for immigrants (against)": "Subsidized healthcare for immigrants (against)",
+  "Subsidized healthcare for immigrants (in favor)": "Subsidized healthcare for immigrants (in favor)"
+ },
+ "control_arms": [
+  "Control"
+ ],
+ "outcomes": {
+  "agree_nocue": {
+   "col": "agree_nocue",
+   "lo": 1,
+   "hi": 7,
+   "question": "Agreement with the policy statement quoted in this arm's own description, on a 7-point scale (1 = strongly disagree, 2 = disagree, 3 = somewhat disagree, 4 = neither agree nor disagree, 5 = somewhat agree, 6 = agree, 7 = strongly agree), among respondents who saw NO party-leader cue. Its control group read no message and saw no cue. A message arguing in favour of the statement moves this up; a message arguing against it moves this down."
+  },
+  "agree_leader_cue": {
+   "col": "agree_leader_cue",
+   "lo": 1,
+   "hi": 7,
+   "question": "The same 7-point agreement item, among respondents who ALSO saw a cue stating their own party's leader's position on the issue - which is always the position the message argues AGAINST. Its control group saw that same leader cue but read no message, so this is the message's effect on top of a countervailing cue from the reader's own party leader."
+  }
+ },
+ "moderators": {
+  "gender": {
+   "col": "gender",
+   "map": {
+    "Male": "Male",
+    "Female": "Female",
+    "Other": "Other"
+   }
+  },
+  "age_band": {
+   "col": "age_survey",
+   "bins": [
+    17,
+    29,
+    44,
+    59,
+    200
+   ],
+   "labels": [
+    "18-29",
+    "30-44",
+    "45-59",
+    "60+"
+   ]
+  },
+  "education": {
+   "col": "education",
+   "map": {
+    "Less than high school": "Less than high school",
+    "High school graduate": "High school graduate",
+    "Some college": "Some college",
+    "2-year degree": "2-year degree",
+    "4-year degree": "4-year degree",
+    "Postgraduate": "Postgraduate"
+   }
+  },
+  "race": {
+   "col": "race",
+   "map": {
+    "White / Caucasian": "White / Caucasian",
+    "Black / African American": "Black / African American",
+    "American Indian or Alaska Native": "Other",
+    "Asian / Asian American": "Asian / Asian American",
+    "Native Hawaiian or Pacific Islander": "Other",
+    "Other": "Other"
+   }
+  }
+ },
+ "moderators_unavailable": {
+  "party": "party7 is present and clean (6 levels, no pure independents), but it is CONFOUNDED WITH THE ARM BY DESIGN: which of an issue's two messages a respondent saw is determined by their party, so every arm's readers are of one party and a condition x party interaction is not estimable within an arm. Recorded, not used.",
+  "income": "not collected in this study"
+ },
+ "filters": [],
+ "weight_col": null,
+ "message_texts_file": "/workspace/run/inputs/texts/tappin2023_brief_arms.json",
+ "message_texts_source": "Supplementary Table 1 of /workspace/datasets/tappin2023/downloads/supplementary_information.pdf - the ONLY place the 48 verbatim texts exist; extracted by column position with pypdf into inputs/texts/tappin2023_arms.json (48/48 exact substrings of their own raw page text), then composed with each arm's policy statement and reader party by tools/build_tappin.py.",
+ "provenance": {
+  "verified_by": "notes/DATA_TAPPIN.md (this session); tools/build_tappin.py re-runs every check",
+  "caveats": [
+   "no explicit 48-level message id in the data; the arm is derived (see status) and red-path tested",
+   "an arm's readers are all of one party, by design - party moderation is not estimable within an arm",
+   "each respondent contributes up to 5 issue rows; ATE standard errors here treat rows as independent, which is the same convention the other adapters use, and the control is stratum-matched so the between-issue variance is differenced out",
+   "outcome is a 7-point Likert item, not a slider: pp are pp of the 1-7 range. Do not import a LEVEL from it (finding 10, and the ten-issue check in notes/DATA_HACKENBURG.md)",
+   "the second outcome's control arm is the cue-only cell, not the pure control"
+  ]
+ },
+ "exclude_from_slope": "7-point Likert outcome, not a slider: pp are pp of a coarse 6-interval range and the ten-issue tappin-vs-hackenburg comparison finds no constant level bridge (mean -0.5 pp, range -17.6 to +11.9) and a GAP that runs ~1.5x LARGER on the slider - the opposite sign to finding 14's 0.808. A magnitude fitted here cannot be trusted for a slider target."
+}
